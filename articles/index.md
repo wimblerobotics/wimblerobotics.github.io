@@ -15,7 +15,7 @@ Each article:
 Contributions are part of the design of this site, not an afterthought.
 The expected workflow is simple: copy the article template into your preferred editor, fill it in carefully, and submit a pull request.
 
-If you want the full workflow, a short example, and writing guidance, start with [Contributing](contributing.md).
+If you want the full workflow, a short example, and writing guidance, start with [Contributing](contributing.md). If you want the template directly, go to [Article Template](article-template.md).
 
 ---
 
@@ -37,7 +37,7 @@ Start with [Nav2 Architecture and Tuning Guide](navigation/nav2-architecture-and
 
 Cameras, depth sensors, point clouds, LIDAR pipelines, and the perception products that other subsystems can actually use.
 
-Start with [Vision, Depth, and LIDAR Pipelines for ROS 2 Robots](perception/vision-depth-and-lidar-pipelines.md).
+Start with [Vision, Depth, and LIDAR Pipelines for ROS 2 Robots](perception/vision-depth-and-lidar-pipelines.md), then [Camera Calibration for ROS 2](perception/camera-calibration-for-ros2.md), [Depth Cameras for Navigation and Mapping](perception/depth-cameras-for-navigation-and-mapping.md), and [Object Detection Pipelines in ROS 2](perception/object-detection-pipelines-in-ros2.md).
 
 ### [Hardware](hardware/ros2-hardware-integration-patterns.md)
 

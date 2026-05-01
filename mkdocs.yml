@@ -47,6 +47,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Contributing: contributing.md
+  - Article Template: article-template.md
   - Foundations:
       - foundations/ros2-core-communication-and-execution.md
       - foundations/ros2-topics-and-pub-sub-patterns.md
@@ -81,6 +82,16 @@ nav:
       - navigation/localization-state-estimation-and-frame-discipline.md
       - navigation/rviz-goals-bt-navigator-and-nav2-flow.md
   - Perception:
+      - perception/camera-calibration-for-ros2.md
+      - perception/depth-cameras-for-navigation-and-mapping.md
+      - perception/laser-scan-processing-and-filtering.md
+      - perception/lidar-driver-bringup-and-frame-alignment.md
+      - perception/lidar-filter-chains-and-self-hit-removal.md
+      - perception/pointcloud-processing-for-navigation.md
+      - perception/object-detection-pipelines-in-ros2.md
+      - perception/yolo-integration-for-ros2-robots.md
+      - perception/person-tracking-for-robot-behaviors.md
+      - perception/depthai-and-oak-d-spatial-ai.md
       - perception/vision-depth-and-lidar-pipelines.md
   - Hardware:
       - hardware/ros2-hardware-integration-patterns.md

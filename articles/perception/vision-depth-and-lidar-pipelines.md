@@ -31,6 +31,14 @@ Perception is where robots start drowning in data. The question is rarely whethe
 - Keep camera and LIDAR frame mounting explicit in URDF and TF.
 - Separate navigation-facing perception from higher-level semantic perception so each can be tuned for its own failure modes.
 
+## Start Here
+
+- For camera geometry: [Camera Calibration for ROS 2](camera-calibration-for-ros2.md)
+- For depth sensing into Nav2: [Depth Cameras for Navigation and Mapping](depth-cameras-for-navigation-and-mapping.md)
+- For lidar bringup and cleanup: [LIDAR Driver Bringup and Frame Alignment](lidar-driver-bringup-and-frame-alignment.md) and [LIDAR Filter Chains and Self-Hit Removal](lidar-filter-chains-and-self-hit-removal.md)
+- For 3D obstacle feeds: [Point Cloud Processing for Navigation](pointcloud-processing-for-navigation.md)
+- For semantic perception: [Object Detection Pipelines in ROS 2](object-detection-pipelines-in-ros2.md), [YOLO Integration for ROS 2 Robots](yolo-integration-for-ros2-robots.md), [Person Tracking for Robot Behaviors](person-tracking-for-robot-behaviors.md), and [DepthAI and OAK-D Spatial AI](depthai-and-oak-d-spatial-ai.md)
+
 ## Corroborating References
 
 - [ROS 2 image_pipeline repository](https://github.com/ros-perception/image_pipeline)

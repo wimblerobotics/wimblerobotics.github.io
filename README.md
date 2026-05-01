@@ -2,6 +2,8 @@
 
 A throwaway experiment for a robotics knowledge base that could eventually sit behind a link from hbrobotics.org.
 
+The public site is intended to be a living resource. The content should improve over time through pull requests, editorial revision, and the addition of new source material.
+
 This repo is organized around short, curated knowledge articles that do three things:
 
 - point to a stronger original source
@@ -67,3 +69,16 @@ This layout is trying to balance three needs:
 3. Public-site-friendly curated content rather than raw notes
 
 If this direction is useful, the next obvious step would be to add either MkDocs or Quartz on top of the same Markdown source tree.
+
+## Contributing
+
+The expected contribution model is intentionally simple:
+
+1. Copy `ARTICLE_TEMPLATE.md` into your preferred editor.
+2. Fill it in using a public source that is worth summarizing.
+3. Add the new article under `articles/`.
+4. Submit a pull request.
+
+Contributors should expect editorial cleanup for consistency. The bar is usefulness, not raw volume.
+
+For the fuller public-facing guide, see `articles/contributing.md` in the docs tree.

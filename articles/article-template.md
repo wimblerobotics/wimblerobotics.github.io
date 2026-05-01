@@ -1,8 +1,9 @@
 # Article Template
 
-Use this template when creating a new knowledge article.
+This page is the published version of the article template.
+If you want to contribute, you can copy this into your editor and fill it in.
 
-If you are contributing new content, also read `articles/contributing.md` for workflow, review expectations, and advice on what makes an article useful.
+For the full workflow, including how to fork, clone, and submit a pull request, see [Contributing](contributing.md).
 
 ```md
 ---
@@ -39,25 +40,10 @@ One short paragraph about why this topic matters in a real robot project.
 Explain what extra depth or examples the original source provides.
 ```
 
-## Writing Guidance
+## Notes
 
-- Lead with user value, not source description.
-- Prefer summaries, mental models, and troubleshooting angles.
-- Keep the article short enough to skim.
-- Do not copy long passages from the source.
-- Reuse existing tags when possible.
+- Keep the title specific.
+- Keep the summary to one sentence.
+- Reuse existing tags where possible.
 - Add at least one `related` link if a good connection exists.
-
-## Good Candidate Sources
-
-- concise technical chapters
-- practical setup guides
-- debugging notes
-- hardware integration writeups
-- navigation and perception tuning guides
-
-## Bad Candidate Sources
-
-- content with unclear permission for public reuse
-- pages with too little technical substance to summarize
-- repetitive material that does not add a new angle to the repo
+- Prefer practical value over exhaustive coverage.
