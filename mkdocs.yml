@@ -1,6 +1,7 @@
 site_name: HB Robotics Knowledge Base
 site_description: Curated robotics knowledge articles for ROS 2 builders — from strong beginners through senior practitioners.
 site_author: HB Robotics
+site_url: https://wimblerobotics.github.io/
 
 docs_dir: articles
 
@@ -46,14 +47,62 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Foundations:
+      - foundations/ros2-core-communication-and-execution.md
+      - foundations/ros2-topics-and-pub-sub-patterns.md
+      - foundations/qos-profiles-and-compatibility.md
+      - foundations/ros2-time-duration-and-sim-time.md
+      - foundations/tf2-transforms-and-lookups.md
+      - foundations/coordinate-frames-rep-105-and-navigation.md
       - foundations/urdf-as-a-frame-translation-system.md
   - Navigation:
+      - navigation/nav2-architecture-and-tuning-guide.md
+      - navigation/nav2-servers-and-data-flow.md
+      - navigation/nav2-yaml-parameter-structure.md
+      - navigation/nav2-costmap-architecture-and-plugin-order.md
+      - navigation/nav2-global-costmap-configuration.md
+      - navigation/nav2-local-costmap-configuration.md
+      - navigation/nav2-obstacle-layer-marking-and-clearing.md
+      - navigation/nav2-inflation-layer-tuning.md
+      - navigation/nav2-voxel-layer-for-3d-obstacles.md
+      - navigation/nav2-range-sensor-layer-for-close-obstacles.md
+      - navigation/nav2-static-layer-and-map-ingestion.md
+      - navigation/nav2-keepout-zones-and-no-go-areas.md
+      - navigation/nav2-speed-restricted-zones.md
+      - navigation/nav2-lifecycle-manager-and-bond-monitoring.md
+      - navigation/nav2-rviz-tools-and-debug-views.md
+      - navigation/nav2-simple-commander-for-programmatic-navigation.md
+      - navigation/nav2-planner-selection-guide.md
+      - navigation/nav2-controller-selection-guide.md
+      - navigation/nav2-behavior-server-and-recovery-actions.md
+      - navigation/nav2-waypoint-follower-and-patrol-routes.md
+      - navigation/nav2-error-codes-and-failure-analysis.md
+      - navigation/behavior-trees-for-nav2-and-robot-autonomy.md
+      - navigation/localization-state-estimation-and-frame-discipline.md
       - navigation/rviz-goals-bt-navigator-and-nav2-flow.md
+  - Perception:
+      - perception/vision-depth-and-lidar-pipelines.md
   - Hardware:
+      - hardware/ros2-hardware-integration-patterns.md
       - hardware/odometry-calibration-for-diff-drive.md
       - hardware/serial-protocols-between-ros2-and-microcontrollers.md
   - Software:
       - software/launch-files-patterns-and-pitfalls.md
+      - software/writing-rclcpp-nodes.md
+      - software/writing-rclpy-nodes.md
+      - software/custom-ros2-interfaces.md
+      - software/component-composition-for-high-bandwidth-pipelines.md
+      - software/intra-process-zero-copy-communication.md
+      - software/ros2-services-without-deadlocks.md
+      - software/ros2-actions-for-long-running-robot-tasks.md
+      - software/executors-callback-groups-and-concurrency.md
+      - software/lifecycle-nodes-and-managed-startup.md
+      - software/parameter-handling-and-runtime-reconfiguration.md
+      - software/package-xml-cmakelists-and-python-package-structure.md
+      - software/robot-state-publisher-and-joint-state-publisher.md
+      - software/launch-event-handlers-and-ordered-startup.md
+      - software/message-filters-and-time-synchronized-sensors.md
   - DevOps:
+      - devops/simulation-testing-and-deployment-for-ros2.md
       - devops/colcon-workspace-discipline.md
+      - devops/workspace-overlays-and-package-precedence.md
   - Tags: tags.md
