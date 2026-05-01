@@ -46,6 +46,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Contributing: contributing.md
   - Foundations:
       - foundations/ros2-core-communication-and-execution.md
       - foundations/ros2-topics-and-pub-sub-patterns.md

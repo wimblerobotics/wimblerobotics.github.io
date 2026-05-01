@@ -2,11 +2,20 @@
 
 A curated collection of short, practical articles for robot builders using ROS 2 — from strong beginners through senior practitioners.
 
+This is a living site. It is meant to grow through pull requests, source review, and ongoing revision as ROS 2 practice changes and the collection becomes more useful.
+
 Each article:
 
 - points to a stronger original source
 - summarizes the technical value of that source
 - connects the topic to nearby robotics problems through tags and related links
+
+## Contributing
+
+Contributions are part of the design of this site, not an afterthought.
+The expected workflow is simple: copy the article template into your preferred editor, fill it in carefully, and submit a pull request.
+
+If you want the full workflow, a short example, and writing guidance, start with [Contributing](contributing.md).
 
 ---
 
@@ -70,3 +79,5 @@ This knowledge base is an experiment in curated, Git-backed technical documentat
 Articles are derived from public sources and summarized for practical value.
 The source repository is kept Markdown-first so it remains useful as a GitHub repo,
 an Obsidian vault, and this published site simultaneously.
+
+It is also intentionally editorial rather than encyclopedic. The goal is not to restate all documentation. The goal is to help someone building a robot understand what matters, what usually goes wrong, and what to read next.
