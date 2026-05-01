@@ -5,6 +5,10 @@
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/contributing/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/tags/</loc>
          <lastmod>2026-05-01</lastmod>
     </url>
@@ -81,7 +85,23 @@
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-costmap-architecture-and-plugin-order/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-error-codes-and-failure-analysis/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-global-costmap-configuration/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-inflation-layer-tuning/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-keepout-zones-and-no-go-areas/</loc>
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
@@ -89,7 +109,19 @@
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-local-costmap-configuration/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-obstacle-layer-marking-and-clearing/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-planner-selection-guide/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-range-sensor-layer-for-close-obstacles/</loc>
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
@@ -102,6 +134,18 @@
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-simple-commander-for-programmatic-navigation/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-speed-restricted-zones/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-static-layer-and-map-ingestion/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-voxel-layer-for-3d-obstacles/</loc>
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
