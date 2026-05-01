@@ -1,3 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://wimblerobotics.github.io/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/tags/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/colcon-workspace-discipline/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/foundations/urdf-as-a-frame-translation-system/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/odometry-calibration-for-diff-drive/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/serial-protocols-between-ros2-and-microcontrollers/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/rviz-goals-bt-navigator-and-nav2-flow/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/launch-files-patterns-and-pitfalls/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
 </urlset>
