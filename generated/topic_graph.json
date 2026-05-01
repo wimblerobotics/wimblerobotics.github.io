@@ -1,0 +1,954 @@
+{
+  "nodes": [
+    {
+      "id": "articles/devops/colcon-workspace-discipline.md",
+      "kind": "article",
+      "title": "Colcon Workspace Discipline for Faster ROS 2 Iteration"
+    },
+    {
+      "id": "articles/foundations/urdf-as-a-frame-translation-system.md",
+      "kind": "article",
+      "title": "URDF as a Frame Translation System"
+    },
+    {
+      "id": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "kind": "article",
+      "title": "Odometry Calibration for Differential Drive Robots"
+    },
+    {
+      "id": "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md",
+      "kind": "article",
+      "title": "Serial Protocols Between ROS 2 and Microcontrollers"
+    },
+    {
+      "id": "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md",
+      "kind": "article",
+      "title": "rviz2 Goals, bt_navigator, and Nav2 Flow"
+    },
+    {
+      "id": "articles/software/launch-files-patterns-and-pitfalls.md",
+      "kind": "article",
+      "title": "ROS 2 Launch Files: Patterns and Pitfalls"
+    },
+    {
+      "id": "actions",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "beginner",
+      "kind": "tag",
+      "weight": 2
+    },
+    {
+      "id": "behavior-trees",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "build",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "calibration",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "colcon",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "devops",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "differential-drive",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "encoders",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "frames",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "geometry",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "hardware",
+      "kind": "tag",
+      "weight": 2
+    },
+    {
+      "id": "launch",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "microcontrollers",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "namespaces",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "nav2",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "navigation",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "odometry",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "overlays",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "parameters",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "protocols",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "python",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "reliability",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "ros2",
+      "kind": "tag",
+      "weight": 6
+    },
+    {
+      "id": "rviz2",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "serial",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "tf",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "urdf",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "workspace",
+      "kind": "tag",
+      "weight": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "articles/devops/colcon-workspace-discipline.md",
+      "target": "build",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/colcon-workspace-discipline.md",
+      "target": "colcon",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/colcon-workspace-discipline.md",
+      "target": "devops",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/colcon-workspace-discipline.md",
+      "target": "overlays",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/colcon-workspace-discipline.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/colcon-workspace-discipline.md",
+      "target": "workspace",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/foundations/urdf-as-a-frame-translation-system.md",
+      "target": "beginner",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/foundations/urdf-as-a-frame-translation-system.md",
+      "target": "frames",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/foundations/urdf-as-a-frame-translation-system.md",
+      "target": "geometry",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/foundations/urdf-as-a-frame-translation-system.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/foundations/urdf-as-a-frame-translation-system.md",
+      "target": "tf",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/foundations/urdf-as-a-frame-translation-system.md",
+      "target": "urdf",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "target": "calibration",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "target": "differential-drive",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "target": "encoders",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "target": "hardware",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "target": "odometry",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md",
+      "target": "hardware",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md",
+      "target": "microcontrollers",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md",
+      "target": "protocols",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md",
+      "target": "reliability",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md",
+      "target": "serial",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md",
+      "target": "actions",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md",
+      "target": "behavior-trees",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md",
+      "target": "nav2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md",
+      "target": "navigation",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md",
+      "target": "rviz2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/launch-files-patterns-and-pitfalls.md",
+      "target": "beginner",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/launch-files-patterns-and-pitfalls.md",
+      "target": "launch",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/launch-files-patterns-and-pitfalls.md",
+      "target": "namespaces",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/launch-files-patterns-and-pitfalls.md",
+      "target": "parameters",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/launch-files-patterns-and-pitfalls.md",
+      "target": "python",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/launch-files-patterns-and-pitfalls.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/colcon-workspace-discipline.md",
+      "target": "articles/software/launch-files-patterns-and-pitfalls.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/devops/colcon-workspace-discipline.md",
+      "target": "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/foundations/urdf-as-a-frame-translation-system.md",
+      "target": "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/foundations/urdf-as-a-frame-translation-system.md",
+      "target": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "target": "articles/foundations/urdf-as-a-frame-translation-system.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "target": "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md",
+      "target": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md",
+      "target": "articles/software/launch-files-patterns-and-pitfalls.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md",
+      "target": "articles/foundations/urdf-as-a-frame-translation-system.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md",
+      "target": "articles/software/launch-files-patterns-and-pitfalls.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/launch-files-patterns-and-pitfalls.md",
+      "target": "articles/devops/colcon-workspace-discipline.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/launch-files-patterns-and-pitfalls.md",
+      "target": "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "actions",
+      "target": "behavior-trees",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "actions",
+      "target": "nav2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "actions",
+      "target": "navigation",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "actions",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "actions",
+      "target": "rviz2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "beginner",
+      "target": "frames",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "beginner",
+      "target": "geometry",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "beginner",
+      "target": "launch",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "beginner",
+      "target": "namespaces",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "beginner",
+      "target": "parameters",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "beginner",
+      "target": "python",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "beginner",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "beginner",
+      "target": "tf",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "beginner",
+      "target": "urdf",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "behavior-trees",
+      "target": "nav2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "behavior-trees",
+      "target": "navigation",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "behavior-trees",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "behavior-trees",
+      "target": "rviz2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "build",
+      "target": "colcon",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "build",
+      "target": "devops",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "build",
+      "target": "overlays",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "build",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "build",
+      "target": "workspace",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "calibration",
+      "target": "differential-drive",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "calibration",
+      "target": "encoders",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "calibration",
+      "target": "hardware",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "calibration",
+      "target": "odometry",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "calibration",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "colcon",
+      "target": "devops",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "colcon",
+      "target": "overlays",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "colcon",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "colcon",
+      "target": "workspace",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "devops",
+      "target": "overlays",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "devops",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "devops",
+      "target": "workspace",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "differential-drive",
+      "target": "encoders",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "differential-drive",
+      "target": "hardware",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "differential-drive",
+      "target": "odometry",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "differential-drive",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "encoders",
+      "target": "hardware",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "encoders",
+      "target": "odometry",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "encoders",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "frames",
+      "target": "geometry",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "frames",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "frames",
+      "target": "tf",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "frames",
+      "target": "urdf",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "geometry",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "geometry",
+      "target": "tf",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "geometry",
+      "target": "urdf",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "hardware",
+      "target": "microcontrollers",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "hardware",
+      "target": "odometry",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "hardware",
+      "target": "protocols",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "hardware",
+      "target": "reliability",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "hardware",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "hardware",
+      "target": "serial",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "launch",
+      "target": "namespaces",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "launch",
+      "target": "parameters",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "launch",
+      "target": "python",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "launch",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "microcontrollers",
+      "target": "protocols",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "microcontrollers",
+      "target": "reliability",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "microcontrollers",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "microcontrollers",
+      "target": "serial",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "namespaces",
+      "target": "parameters",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "namespaces",
+      "target": "python",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "namespaces",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "nav2",
+      "target": "navigation",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "nav2",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "nav2",
+      "target": "rviz2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "navigation",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "navigation",
+      "target": "rviz2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "odometry",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "overlays",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "overlays",
+      "target": "workspace",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "parameters",
+      "target": "python",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "parameters",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "protocols",
+      "target": "reliability",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "protocols",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "protocols",
+      "target": "serial",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "python",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "reliability",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "reliability",
+      "target": "serial",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "ros2",
+      "target": "rviz2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "ros2",
+      "target": "serial",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "ros2",
+      "target": "tf",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "ros2",
+      "target": "urdf",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "ros2",
+      "target": "workspace",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "tf",
+      "target": "urdf",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    }
+  ],
+  "stats": {
+    "article_count": 6,
+    "tag_count": 29,
+    "tag_pair_count": 88
+  }
+}
