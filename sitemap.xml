@@ -161,7 +161,47 @@
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/perception/camera-calibration-for-ros2/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/perception/depth-cameras-for-navigation-and-mapping/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/perception/depthai-and-oak-d-spatial-ai/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/perception/laser-scan-processing-and-filtering/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/perception/lidar-driver-bringup-and-frame-alignment/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/perception/lidar-filter-chains-and-self-hit-removal/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/perception/object-detection-pipelines-in-ros2/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/perception/person-tracking-for-robot-behaviors/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/perception/pointcloud-processing-for-navigation/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/perception/vision-depth-and-lidar-pipelines/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/perception/yolo-integration-for-ros2-robots/</loc>
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
