@@ -12,13 +12,13 @@
         <meta name="author" content="HB Robotics">
       
       
-        <link rel="canonical" href="https://wimblerobotics.github.io/software/parameter-handling-and-runtime-reconfiguration/">
+        <link rel="canonical" href="https://wimblerobotics.github.io/software/component-composition-for-high-bandwidth-pipelines/">
       
       
-        <link rel="prev" href="../lifecycle-nodes-and-managed-startup/">
+        <link rel="prev" href="../custom-ros2-interfaces/">
       
       
-        <link rel="next" href="../package-xml-cmakelists-and-python-package-structure/">
+        <link rel="next" href="../intra-process-zero-copy-communication/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Parameter Handling and Runtime Reconfiguration in ROS 2 - HB Robotics Knowledge Base</title>
+        <title>Component Composition for High-Bandwidth Pipelines - HB Robotics Knowledge Base</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#parameter-handling-and-runtime-reconfiguration-in-ros-2" class="md-skip">
+        <a href="#component-composition-for-high-bandwidth-pipelines" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Parameter Handling and Runtime Reconfiguration in ROS 2
+              Component Composition for High-Bandwidth Pipelines
             
           </span>
         </div>
@@ -1258,10 +1258,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../component-composition-for-high-bandwidth-pipelines/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Component Composition for High-Bandwidth Pipelines
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1277,6 +1304,81 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distilled-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distilled Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-guidance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical Guidance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#corroborating-references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Corroborating References
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#when-to-read-the-original-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to Read the Original Source
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1426,37 +1528,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Parameter Handling and Runtime Reconfiguration in ROS 2
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../parameter-handling-and-runtime-reconfiguration/" class="md-nav__link">
         
   
   
@@ -1472,81 +1547,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#why-this-matters" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Why This Matters
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#distilled-takeaways" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Distilled Takeaways
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#practical-guidance" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Practical Guidance
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#corroborating-references" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Corroborating References
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#when-to-read-the-original-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        When to Read the Original Source
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1943,28 +1943,35 @@
       
       
       
-        <a href="../../tags/#tag:configuration" class="md-tag">configuration</a>
+        <a href="../../tags/#tag:components" class="md-tag">components</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:launch" class="md-tag">launch</a>
+        <a href="../../tags/#tag:composition" class="md-tag">composition</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:parameters" class="md-tag">parameters</a>
+        <a href="../../tags/#tag:images" class="md-tag">images</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:reconfiguration" class="md-tag">reconfiguration</a>
+        <a href="../../tags/#tag:performance" class="md-tag">performance</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:pointcloud" class="md-tag">pointcloud</a>
       
     
       
@@ -1974,43 +1981,36 @@
         <a href="../../tags/#tag:ros2" class="md-tag">ros2</a>
       
     
-      
-      
-      
-      
-        <a href="../../tags/#tag:yaml" class="md-tag">yaml</a>
-      
-    
   </nav>
 
 
 
-<h1 id="parameter-handling-and-runtime-reconfiguration-in-ros-2">Parameter Handling and Runtime Reconfiguration in ROS 2<a class="headerlink" href="#parameter-handling-and-runtime-reconfiguration-in-ros-2" title="Permanent link">&para;</a></h1>
-<p>Source: <a href="https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/parameter-handling/SKILL.md">ros2-copilot-skills parameter handling skill</a></p>
+<h1 id="component-composition-for-high-bandwidth-pipelines">Component Composition for High-Bandwidth Pipelines<a class="headerlink" href="#component-composition-for-high-bandwidth-pipelines" title="Permanent link">&para;</a></h1>
+<p>Source: <a href="https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/component-composition/SKILL.md">ros2-copilot-skills component composition skill</a></p>
 <h2 id="why-this-matters">Why This Matters<a class="headerlink" href="#why-this-matters" title="Permanent link">&para;</a></h2>
-<p>Parameters are where ROS 2 systems reveal whether they are maintainable. Good parameter design makes a package discoverable and safe to tune. Bad parameter design creates hidden defaults, silent YAML mismatches, and runtime behavior no one can explain with confidence.</p>
+<p>As soon as a robot processes images, depth data, or large point clouds, process boundaries start costing real time. Composition exists so related nodes can share a process and avoid avoidable serialization overhead.</p>
 <h2 id="distilled-takeaways">Distilled Takeaways<a class="headerlink" href="#distilled-takeaways" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Declare parameters explicitly so invalid names, missing values, and type mistakes fail early.</li>
-<li>Use descriptors and validation callbacks when a parameter has real operating limits.</li>
-<li>YAML files are convenient, but only when the node name and namespace assumptions actually match runtime reality.</li>
-<li>Runtime parameter changes are part of the API surface. Treat them as carefully as message and service design.</li>
-<li>Dots in parameter names are string syntax, not true nested hierarchy.</li>
+<li>Composition is most valuable for high-bandwidth pipelines and tightly coupled processing chains.</li>
+<li>Component-style nodes must be authored intentionally, especially around <code>NodeOptions</code>, shared-library builds, and registration macros.</li>
+<li>Composition improves transport efficiency, but it also changes isolation, lifecycle, and observability tradeoffs.</li>
+<li>Container choice matters because executor behavior still governs callback scheduling inside the process.</li>
+<li>Composition and intra-process communication are related but not identical ideas.</li>
 </ul>
 <h2 id="practical-guidance">Practical Guidance<a class="headerlink" href="#practical-guidance" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Avoid undeclared parameters unless you are deliberately trading safety for flexibility.</li>
-<li>Validate dynamic updates before they can destabilize a controller or sensor pipeline.</li>
-<li>Keep the difference clear between startup configuration and runtime tuning.</li>
-<li>Use parameter dumping and listing tools as part of normal debugging.</li>
+<li>Start composing the parts of the graph that are bandwidth-heavy and operationally coupled.</li>
+<li>Keep the option to run a standalone executable when development or failure isolation still matters.</li>
+<li>Treat launch-time composition as architecture, not as a last-minute optimization switch.</li>
+<li>Use composition where the pipeline shape is stable enough to justify the tighter coupling.</li>
 </ul>
 <h2 id="corroborating-references">Corroborating References<a class="headerlink" href="#corroborating-references" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Using-Parameters-In-A-Class-Python.html">ROS 2 parameters tutorial</a></li>
-<li><a href="https://docs.ros.org/en/jazzy/How-To-Guides/Migrating-from-ROS1/Migrating-Parameters.html">ROS 2 YAML parameter migration guide</a></li>
+<li><a href="https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Composition.html">ROS 2 composition concepts</a></li>
+<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Intermediate/Composition.html">ROS 2 component tutorial</a></li>
 </ul>
 <h2 id="when-to-read-the-original-source">When to Read the Original Source<a class="headerlink" href="#when-to-read-the-original-source" title="Permanent link">&para;</a></h2>
-<p>Go to the original skill when you want descriptor examples, dynamic validation callbacks, parameter-event monitoring patterns, and the exact YAML pitfalls that show up in larger ROS 2 stacks.</p>
+<p>Go to the original skill when you want full component examples, launch container patterns, CLI loading commands, and the precise warnings around constructors, shared libraries, and component registration.</p>
 
 
 

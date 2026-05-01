@@ -12,13 +12,13 @@
         <meta name="author" content="HB Robotics">
       
       
-        <link rel="canonical" href="https://wimblerobotics.github.io/software/parameter-handling-and-runtime-reconfiguration/">
+        <link rel="canonical" href="https://wimblerobotics.github.io/software/launch-event-handlers-and-ordered-startup/">
       
       
-        <link rel="prev" href="../lifecycle-nodes-and-managed-startup/">
+        <link rel="prev" href="../robot-state-publisher-and-joint-state-publisher/">
       
       
-        <link rel="next" href="../package-xml-cmakelists-and-python-package-structure/">
+        <link rel="next" href="../message-filters-and-time-synchronized-sensors/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Parameter Handling and Runtime Reconfiguration in ROS 2 - HB Robotics Knowledge Base</title>
+        <title>Launch Event Handlers and Ordered Startup - HB Robotics Knowledge Base</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#parameter-handling-and-runtime-reconfiguration-in-ros-2" class="md-skip">
+        <a href="#launch-event-handlers-and-ordered-startup" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Parameter Handling and Runtime Reconfiguration in ROS 2
+              Launch Event Handlers and Ordered Startup
             
           </span>
         </div>
@@ -1426,6 +1426,90 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../parameter-handling-and-runtime-reconfiguration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parameter Handling and Runtime Reconfiguration in ROS 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../package-xml-cmakelists-and-python-package-structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    package.xml, CMakeLists.txt, and Python Package Structure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../robot-state-publisher-and-joint-state-publisher/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    robot_state_publisher and joint_state_publisher
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -1445,7 +1529,7 @@
   <span class="md-ellipsis">
     
   
-    Parameter Handling and Runtime Reconfiguration in ROS 2
+    Launch Event Handlers and Ordered Startup
   
 
     
@@ -1463,7 +1547,7 @@
   <span class="md-ellipsis">
     
   
-    Parameter Handling and Runtime Reconfiguration in ROS 2
+    Launch Event Handlers and Ordered Startup
   
 
     
@@ -1547,90 +1631,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../package-xml-cmakelists-and-python-package-structure/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    package.xml, CMakeLists.txt, and Python Package Structure
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../robot-state-publisher-and-joint-state-publisher/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    robot_state_publisher and joint_state_publisher
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../launch-event-handlers-and-ordered-startup/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Launch Event Handlers and Ordered Startup
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -1943,7 +1943,14 @@
       
       
       
-        <a href="../../tags/#tag:configuration" class="md-tag">configuration</a>
+        <a href="../../tags/#tag:cleanup" class="md-tag">cleanup</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:event-handlers" class="md-tag">event-handlers</a>
       
     
       
@@ -1957,14 +1964,7 @@
       
       
       
-        <a href="../../tags/#tag:parameters" class="md-tag">parameters</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:reconfiguration" class="md-tag">reconfiguration</a>
+        <a href="../../tags/#tag:orchestration" class="md-tag">orchestration</a>
       
     
       
@@ -1978,39 +1978,39 @@
       
       
       
-        <a href="../../tags/#tag:yaml" class="md-tag">yaml</a>
+        <a href="../../tags/#tag:startup" class="md-tag">startup</a>
       
     
   </nav>
 
 
 
-<h1 id="parameter-handling-and-runtime-reconfiguration-in-ros-2">Parameter Handling and Runtime Reconfiguration in ROS 2<a class="headerlink" href="#parameter-handling-and-runtime-reconfiguration-in-ros-2" title="Permanent link">&para;</a></h1>
-<p>Source: <a href="https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/parameter-handling/SKILL.md">ros2-copilot-skills parameter handling skill</a></p>
+<h1 id="launch-event-handlers-and-ordered-startup">Launch Event Handlers and Ordered Startup<a class="headerlink" href="#launch-event-handlers-and-ordered-startup" title="Permanent link">&para;</a></h1>
+<p>Source: <a href="https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/event-handlers/SKILL.md">ros2-copilot-skills event handlers skill</a></p>
 <h2 id="why-this-matters">Why This Matters<a class="headerlink" href="#why-this-matters" title="Permanent link">&para;</a></h2>
-<p>Parameters are where ROS 2 systems reveal whether they are maintainable. Good parameter design makes a package discoverable and safe to tune. Bad parameter design creates hidden defaults, silent YAML mismatches, and runtime behavior no one can explain with confidence.</p>
+<p>Not every ROS 2 system can be launched as a flat list of nodes. Some robots need ordered bringup, crash reactions, process cleanup, or dynamic launch decisions based on what has already happened. Launch event handlers exist for that layer of orchestration.</p>
 <h2 id="distilled-takeaways">Distilled Takeaways<a class="headerlink" href="#distilled-takeaways" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Declare parameters explicitly so invalid names, missing values, and type mistakes fail early.</li>
-<li>Use descriptors and validation callbacks when a parameter has real operating limits.</li>
-<li>YAML files are convenient, but only when the node name and namespace assumptions actually match runtime reality.</li>
-<li>Runtime parameter changes are part of the API surface. Treat them as carefully as message and service design.</li>
-<li>Dots in parameter names are string syntax, not true nested hierarchy.</li>
+<li>Event handlers let launch descriptions respond to process start, exit, shutdown, timer, and other runtime events.</li>
+<li>Ordered startup is sometimes necessary, but it should be justified and explicit rather than hidden in arbitrary sleeps.</li>
+<li>Cleanup and graceful degradation are part of launch design, not postmortem scripts.</li>
+<li><code>OpaqueFunction</code> is powerful but should be used to clarify dynamic logic, not to hide all structure in Python.</li>
+<li>Event-driven launch logic is often the right place to encode operational assumptions about the robot.</li>
 </ul>
 <h2 id="practical-guidance">Practical Guidance<a class="headerlink" href="#practical-guidance" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Avoid undeclared parameters unless you are deliberately trading safety for flexibility.</li>
-<li>Validate dynamic updates before they can destabilize a controller or sensor pipeline.</li>
-<li>Keep the difference clear between startup configuration and runtime tuning.</li>
-<li>Use parameter dumping and listing tools as part of normal debugging.</li>
+<li>Prefer explicit event chains over “sleep 5 seconds and hope.”</li>
+<li>Make restart behavior deliberate rather than accidental.</li>
+<li>Use launch orchestration to support, not replace, robust node design.</li>
+<li>Keep launch logic readable enough that operators can understand what the system will do on failure.</li>
 </ul>
 <h2 id="corroborating-references">Corroborating References<a class="headerlink" href="#corroborating-references" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Using-Parameters-In-A-Class-Python.html">ROS 2 parameters tutorial</a></li>
-<li><a href="https://docs.ros.org/en/jazzy/How-To-Guides/Migrating-from-ROS1/Migrating-Parameters.html">ROS 2 YAML parameter migration guide</a></li>
+<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Intermediate/Launch/Using-Event-Handlers.html">ROS 2 launch event handlers tutorial</a></li>
+<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Intermediate/Launch/Launch-Main.html">ROS 2 launch architecture overview</a></li>
 </ul>
 <h2 id="when-to-read-the-original-source">When to Read the Original Source<a class="headerlink" href="#when-to-read-the-original-source" title="Permanent link">&para;</a></h2>
-<p>Go to the original skill when you want descriptor examples, dynamic validation callbacks, parameter-event monitoring patterns, and the exact YAML pitfalls that show up in larger ROS 2 stacks.</p>
+<p>Go to the original skill when you want concrete <code>OnProcessStart</code>, <code>OnProcessExit</code>, <code>OnShutdown</code>, timer, restart, and ordered-startup patterns in launch Python.</p>
 
 
 

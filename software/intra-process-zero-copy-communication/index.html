@@ -12,13 +12,13 @@
         <meta name="author" content="HB Robotics">
       
       
-        <link rel="canonical" href="https://wimblerobotics.github.io/software/parameter-handling-and-runtime-reconfiguration/">
+        <link rel="canonical" href="https://wimblerobotics.github.io/software/intra-process-zero-copy-communication/">
       
       
-        <link rel="prev" href="../lifecycle-nodes-and-managed-startup/">
+        <link rel="prev" href="../component-composition-for-high-bandwidth-pipelines/">
       
       
-        <link rel="next" href="../package-xml-cmakelists-and-python-package-structure/">
+        <link rel="next" href="../ros2-services-without-deadlocks/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Parameter Handling and Runtime Reconfiguration in ROS 2 - HB Robotics Knowledge Base</title>
+        <title>Intra-Process Zero-Copy Communication in ROS 2 - HB Robotics Knowledge Base</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#parameter-handling-and-runtime-reconfiguration-in-ros-2" class="md-skip">
+        <a href="#intra-process-zero-copy-communication-in-ros-2" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Parameter Handling and Runtime Reconfiguration in ROS 2
+              Intra-Process Zero-Copy Communication in ROS 2
             
           </span>
         </div>
@@ -1286,10 +1286,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../intra-process-zero-copy-communication/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intra-Process Zero-Copy Communication in ROS 2
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1305,6 +1332,81 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distilled-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distilled Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-guidance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical Guidance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#corroborating-references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Corroborating References
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#when-to-read-the-original-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to Read the Original Source
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1426,37 +1528,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Parameter Handling and Runtime Reconfiguration in ROS 2
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../parameter-handling-and-runtime-reconfiguration/" class="md-nav__link">
         
   
   
@@ -1472,81 +1547,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#why-this-matters" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Why This Matters
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#distilled-takeaways" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Distilled Takeaways
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#practical-guidance" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Practical Guidance
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#corroborating-references" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Corroborating References
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#when-to-read-the-original-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        When to Read the Original Source
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1943,28 +1943,28 @@
       
       
       
-        <a href="../../tags/#tag:configuration" class="md-tag">configuration</a>
+        <a href="../../tags/#tag:components" class="md-tag">components</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:launch" class="md-tag">launch</a>
+        <a href="../../tags/#tag:intra-process" class="md-tag">intra-process</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:parameters" class="md-tag">parameters</a>
+        <a href="../../tags/#tag:performance" class="md-tag">performance</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:reconfiguration" class="md-tag">reconfiguration</a>
+        <a href="../../tags/#tag:rclcpp" class="md-tag">rclcpp</a>
       
     
       
@@ -1978,39 +1978,39 @@
       
       
       
-        <a href="../../tags/#tag:yaml" class="md-tag">yaml</a>
+        <a href="../../tags/#tag:zero-copy" class="md-tag">zero-copy</a>
       
     
   </nav>
 
 
 
-<h1 id="parameter-handling-and-runtime-reconfiguration-in-ros-2">Parameter Handling and Runtime Reconfiguration in ROS 2<a class="headerlink" href="#parameter-handling-and-runtime-reconfiguration-in-ros-2" title="Permanent link">&para;</a></h1>
-<p>Source: <a href="https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/parameter-handling/SKILL.md">ros2-copilot-skills parameter handling skill</a></p>
+<h1 id="intra-process-zero-copy-communication-in-ros-2">Intra-Process Zero-Copy Communication in ROS 2<a class="headerlink" href="#intra-process-zero-copy-communication-in-ros-2" title="Permanent link">&para;</a></h1>
+<p>Source: <a href="https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/intra-process-comms/SKILL.md">ros2-copilot-skills intra-process skill</a></p>
 <h2 id="why-this-matters">Why This Matters<a class="headerlink" href="#why-this-matters" title="Permanent link">&para;</a></h2>
-<p>Parameters are where ROS 2 systems reveal whether they are maintainable. Good parameter design makes a package discoverable and safe to tune. Bad parameter design creates hidden defaults, silent YAML mismatches, and runtime behavior no one can explain with confidence.</p>
+<p>The biggest performance wins in some ROS 2 systems do not come from faster algorithms. They come from avoiding unnecessary copies of large messages. Intra-process communication is the mechanism that makes that possible inside composed C++ pipelines.</p>
 <h2 id="distilled-takeaways">Distilled Takeaways<a class="headerlink" href="#distilled-takeaways" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Declare parameters explicitly so invalid names, missing values, and type mistakes fail early.</li>
-<li>Use descriptors and validation callbacks when a parameter has real operating limits.</li>
-<li>YAML files are convenient, but only when the node name and namespace assumptions actually match runtime reality.</li>
-<li>Runtime parameter changes are part of the API surface. Treat them as carefully as message and service design.</li>
-<li>Dots in parameter names are string syntax, not true nested hierarchy.</li>
+<li>Intra-process communication only helps when nodes share a process and opt in explicitly.</li>
+<li><code>UniquePtr</code> callback patterns are central to true zero-copy behavior.</li>
+<li>The benefit grows with message size. Tiny control messages rarely justify special handling.</li>
+<li>Some tooling assumptions change because intra-process traffic may not be visible to bagging or CLI inspection tools in the usual way.</li>
+<li>Python does not currently get the same intra-process advantages as C++ in Jazzy.</li>
 </ul>
 <h2 id="practical-guidance">Practical Guidance<a class="headerlink" href="#practical-guidance" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Avoid undeclared parameters unless you are deliberately trading safety for flexibility.</li>
-<li>Validate dynamic updates before they can destabilize a controller or sensor pipeline.</li>
-<li>Keep the difference clear between startup configuration and runtime tuning.</li>
-<li>Use parameter dumping and listing tools as part of normal debugging.</li>
+<li>Use zero-copy patterns in image, depth, and point-cloud chains where latency or CPU pressure matters.</li>
+<li>Verify when the system falls back to DDS so you do not assume a performance mode that is not actually active.</li>
+<li>Plan observability deliberately if bag recording or topic inspection is still required.</li>
+<li>Keep the single-publisher and ownership rules in mind when designing the pipeline.</li>
 </ul>
 <h2 id="corroborating-references">Corroborating References<a class="headerlink" href="#corroborating-references" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Using-Parameters-In-A-Class-Python.html">ROS 2 parameters tutorial</a></li>
-<li><a href="https://docs.ros.org/en/jazzy/How-To-Guides/Migrating-from-ROS1/Migrating-Parameters.html">ROS 2 YAML parameter migration guide</a></li>
+<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Demos/Intra-Process-Communication.html">ROS 2 intra-process communications demo</a></li>
+<li><a href="https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Composition.html">ROS 2 composition concepts</a></li>
 </ul>
 <h2 id="when-to-read-the-original-source">When to Read the Original Source<a class="headerlink" href="#when-to-read-the-original-source" title="Permanent link">&para;</a></h2>
-<p>Go to the original skill when you want descriptor examples, dynamic validation callbacks, parameter-event monitoring patterns, and the exact YAML pitfalls that show up in larger ROS 2 stacks.</p>
+<p>Go to the original skill when you want exact zero-copy publishing and subscription patterns, launch configuration examples, performance expectations, and fallback rules.</p>
 
 
 

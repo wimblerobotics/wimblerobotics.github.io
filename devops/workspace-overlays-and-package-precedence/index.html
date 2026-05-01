@@ -12,13 +12,13 @@
         <meta name="author" content="HB Robotics">
       
       
-        <link rel="canonical" href="https://wimblerobotics.github.io/software/parameter-handling-and-runtime-reconfiguration/">
+        <link rel="canonical" href="https://wimblerobotics.github.io/devops/workspace-overlays-and-package-precedence/">
       
       
-        <link rel="prev" href="../lifecycle-nodes-and-managed-startup/">
+        <link rel="prev" href="../colcon-workspace-discipline/">
       
       
-        <link rel="next" href="../package-xml-cmakelists-and-python-package-structure/">
+        <link rel="next" href="../../tags/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Parameter Handling and Runtime Reconfiguration in ROS 2 - HB Robotics Knowledge Base</title>
+        <title>Workspace Overlays and Package Precedence - HB Robotics Knowledge Base</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#parameter-handling-and-runtime-reconfiguration-in-ros-2" class="md-skip">
+        <a href="#workspace-overlays-and-package-precedence" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Parameter Handling and Runtime Reconfiguration in ROS 2
+              Workspace Overlays and Package Precedence
             
           </span>
         </div>
@@ -312,13 +312,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../launch-files-patterns-and-pitfalls/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../software/launch-files-patterns-and-pitfalls/" class="md-tabs__link">
           
   
   
@@ -334,11 +332,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../devops/simulation-testing-and-deployment-for-ros2/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../simulation-testing-and-deployment-for-ros2/" class="md-tabs__link">
           
   
   
@@ -1089,31 +1089,26 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   
@@ -1131,7 +1126,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1149,7 +1144,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../launch-files-patterns-and-pitfalls/" class="md-nav__link">
+      <a href="../../software/launch-files-patterns-and-pitfalls/" class="md-nav__link">
         
   
   
@@ -1177,7 +1172,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../writing-rclcpp-nodes/" class="md-nav__link">
+      <a href="../../software/writing-rclcpp-nodes/" class="md-nav__link">
         
   
   
@@ -1205,7 +1200,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../writing-rclpy-nodes/" class="md-nav__link">
+      <a href="../../software/writing-rclpy-nodes/" class="md-nav__link">
         
   
   
@@ -1233,7 +1228,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../custom-ros2-interfaces/" class="md-nav__link">
+      <a href="../../software/custom-ros2-interfaces/" class="md-nav__link">
         
   
   
@@ -1261,7 +1256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../component-composition-for-high-bandwidth-pipelines/" class="md-nav__link">
+      <a href="../../software/component-composition-for-high-bandwidth-pipelines/" class="md-nav__link">
         
   
   
@@ -1289,7 +1284,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../intra-process-zero-copy-communication/" class="md-nav__link">
+      <a href="../../software/intra-process-zero-copy-communication/" class="md-nav__link">
         
   
   
@@ -1317,7 +1312,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ros2-services-without-deadlocks/" class="md-nav__link">
+      <a href="../../software/ros2-services-without-deadlocks/" class="md-nav__link">
         
   
   
@@ -1345,7 +1340,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ros2-actions-for-long-running-robot-tasks/" class="md-nav__link">
+      <a href="../../software/ros2-actions-for-long-running-robot-tasks/" class="md-nav__link">
         
   
   
@@ -1373,7 +1368,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../executors-callback-groups-and-concurrency/" class="md-nav__link">
+      <a href="../../software/executors-callback-groups-and-concurrency/" class="md-nav__link">
         
   
   
@@ -1401,7 +1396,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../lifecycle-nodes-and-managed-startup/" class="md-nav__link">
+      <a href="../../software/lifecycle-nodes-and-managed-startup/" class="md-nav__link">
         
   
   
@@ -1409,6 +1404,266 @@
     
   
     Lifecycle Nodes and Managed Startup in ROS 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../software/parameter-handling-and-runtime-reconfiguration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parameter Handling and Runtime Reconfiguration in ROS 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../software/package-xml-cmakelists-and-python-package-structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    package.xml, CMakeLists.txt, and Python Package Structure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../software/robot-state-publisher-and-joint-state-publisher/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    robot_state_publisher and joint_state_publisher
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../software/launch-event-handlers-and-ordered-startup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Launch Event Handlers and Ordered Startup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../software/message-filters-and-time-synchronized-sensors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    message_filters and Time-Synchronized Sensors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DevOps
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    DevOps
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../simulation-testing-and-deployment-for-ros2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Simulation, Testing, and Deployment for ROS 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../colcon-workspace-discipline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Colcon Workspace Discipline for Faster ROS 2 Iteration
   
 
     
@@ -1445,7 +1700,7 @@
   <span class="md-ellipsis">
     
   
-    Parameter Handling and Runtime Reconfiguration in ROS 2
+    Workspace Overlays and Package Precedence
   
 
     
@@ -1463,7 +1718,7 @@
   <span class="md-ellipsis">
     
   
-    Parameter Handling and Runtime Reconfiguration in ROS 2
+    Workspace Overlays and Package Precedence
   
 
     
@@ -1547,261 +1802,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../package-xml-cmakelists-and-python-package-structure/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    package.xml, CMakeLists.txt, and Python Package Structure
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../robot-state-publisher-and-joint-state-publisher/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    robot_state_publisher and joint_state_publisher
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../launch-event-handlers-and-ordered-startup/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Launch Event Handlers and Ordered Startup
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../message-filters-and-time-synchronized-sensors/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    message_filters and Time-Synchronized Sensors
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
-        
-          
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DevOps
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    DevOps
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../devops/simulation-testing-and-deployment-for-ros2/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Simulation, Testing, and Deployment for ROS 2
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../devops/colcon-workspace-discipline/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Colcon Workspace Discipline for Faster ROS 2 Iteration
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../devops/workspace-overlays-and-package-precedence/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Workspace Overlays and Package Precedence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -1943,28 +1943,21 @@
       
       
       
-        <a href="../../tags/#tag:configuration" class="md-tag">configuration</a>
+        <a href="../../tags/#tag:ament_prefix_path" class="md-tag">ament_prefix_path</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:launch" class="md-tag">launch</a>
+        <a href="../../tags/#tag:colcon" class="md-tag">colcon</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:parameters" class="md-tag">parameters</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:reconfiguration" class="md-tag">reconfiguration</a>
+        <a href="../../tags/#tag:overlays" class="md-tag">overlays</a>
       
     
       
@@ -1978,39 +1971,46 @@
       
       
       
-        <a href="../../tags/#tag:yaml" class="md-tag">yaml</a>
+        <a href="../../tags/#tag:underlay" class="md-tag">underlay</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:workspaces" class="md-tag">workspaces</a>
       
     
   </nav>
 
 
 
-<h1 id="parameter-handling-and-runtime-reconfiguration-in-ros-2">Parameter Handling and Runtime Reconfiguration in ROS 2<a class="headerlink" href="#parameter-handling-and-runtime-reconfiguration-in-ros-2" title="Permanent link">&para;</a></h1>
-<p>Source: <a href="https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/parameter-handling/SKILL.md">ros2-copilot-skills parameter handling skill</a></p>
+<h1 id="workspace-overlays-and-package-precedence">Workspace Overlays and Package Precedence<a class="headerlink" href="#workspace-overlays-and-package-precedence" title="Permanent link">&para;</a></h1>
+<p>Source: <a href="https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/workspace-overlays/SKILL.md">ros2-copilot-skills workspace overlays skill</a></p>
 <h2 id="why-this-matters">Why This Matters<a class="headerlink" href="#why-this-matters" title="Permanent link">&para;</a></h2>
-<p>Parameters are where ROS 2 systems reveal whether they are maintainable. Good parameter design makes a package discoverable and safe to tune. Bad parameter design creates hidden defaults, silent YAML mismatches, and runtime behavior no one can explain with confidence.</p>
+<p>ROS 2 overlay chains are powerful and dangerous for the same reason: package precedence is real. If you do not know which workspace is winning, you cannot trust your tests, your debugging, or your deploys.</p>
 <h2 id="distilled-takeaways">Distilled Takeaways<a class="headerlink" href="#distilled-takeaways" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Declare parameters explicitly so invalid names, missing values, and type mistakes fail early.</li>
-<li>Use descriptors and validation callbacks when a parameter has real operating limits.</li>
-<li>YAML files are convenient, but only when the node name and namespace assumptions actually match runtime reality.</li>
-<li>Runtime parameter changes are part of the API surface. Treat them as carefully as message and service design.</li>
-<li>Dots in parameter names are string syntax, not true nested hierarchy.</li>
+<li>The workspace sourced last usually has the highest priority.</li>
+<li>Overlay behavior is what lets you override apt-installed packages with local development versions.</li>
+<li>Source order mistakes and stale install spaces are a major cause of “my change had no effect” confusion.</li>
+<li><code>AMENT_PREFIX_PATH</code>, <code>COLCON_PREFIX_PATH</code>, and <code>ros2 pkg prefix</code> are practical debugging tools, not trivia.</li>
+<li>Multi-workspace chains should be deliberate and documented, especially when custom forks are involved.</li>
 </ul>
 <h2 id="practical-guidance">Practical Guidance<a class="headerlink" href="#practical-guidance" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Avoid undeclared parameters unless you are deliberately trading safety for flexibility.</li>
-<li>Validate dynamic updates before they can destabilize a controller or sensor pipeline.</li>
-<li>Keep the difference clear between startup configuration and runtime tuning.</li>
-<li>Use parameter dumping and listing tools as part of normal debugging.</li>
+<li>Source underlays first and overlays later.</li>
+<li>Verify package provenance whenever behavior does not match your current code.</li>
+<li>Use clean rebuilds after major branch changes or structural edits.</li>
+<li>Avoid mixing distributions in overlay chains.</li>
 </ul>
 <h2 id="corroborating-references">Corroborating References<a class="headerlink" href="#corroborating-references" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Using-Parameters-In-A-Class-Python.html">ROS 2 parameters tutorial</a></li>
-<li><a href="https://docs.ros.org/en/jazzy/How-To-Guides/Migrating-from-ROS1/Migrating-Parameters.html">ROS 2 YAML parameter migration guide</a></li>
+<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html">ROS 2 creating a workspace tutorial</a></li>
+<li><a href="https://colcon.readthedocs.io/en/released/">colcon documentation</a></li>
 </ul>
 <h2 id="when-to-read-the-original-source">When to Read the Original Source<a class="headerlink" href="#when-to-read-the-original-source" title="Permanent link">&para;</a></h2>
-<p>Go to the original skill when you want descriptor examples, dynamic validation callbacks, parameter-event monitoring patterns, and the exact YAML pitfalls that show up in larger ROS 2 stacks.</p>
+<p>Go to the original skill when you want step-by-step overlay examples, environment-variable breakdowns, and practical verification commands for multi-layer workspaces.</p>
 
 
 

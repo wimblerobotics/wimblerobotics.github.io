@@ -12,13 +12,13 @@
         <meta name="author" content="HB Robotics">
       
       
-        <link rel="canonical" href="https://wimblerobotics.github.io/software/parameter-handling-and-runtime-reconfiguration/">
+        <link rel="canonical" href="https://wimblerobotics.github.io/foundations/tf2-transforms-and-lookups/">
       
       
-        <link rel="prev" href="../lifecycle-nodes-and-managed-startup/">
+        <link rel="prev" href="../ros2-time-duration-and-sim-time/">
       
       
-        <link rel="next" href="../package-xml-cmakelists-and-python-package-structure/">
+        <link rel="next" href="../coordinate-frames-rep-105-and-navigation/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Parameter Handling and Runtime Reconfiguration in ROS 2 - HB Robotics Knowledge Base</title>
+        <title>TF2 Transforms and Lookups in Practice - HB Robotics Knowledge Base</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#parameter-handling-and-runtime-reconfiguration-in-ros-2" class="md-skip">
+        <a href="#tf2-transforms-and-lookups-in-practice" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Parameter Handling and Runtime Reconfiguration in ROS 2
+              TF2 Transforms and Lookups in Practice
             
           </span>
         </div>
@@ -232,11 +232,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../foundations/ros2-core-communication-and-execution/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../ros2-core-communication-and-execution/" class="md-tabs__link">
           
   
   
@@ -312,13 +314,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../launch-files-patterns-and-pitfalls/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../software/launch-files-patterns-and-pitfalls/" class="md-tabs__link">
           
   
   
@@ -433,26 +433,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -470,7 +475,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -488,7 +493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/ros2-core-communication-and-execution/" class="md-nav__link">
+      <a href="../ros2-core-communication-and-execution/" class="md-nav__link">
         
   
   
@@ -516,7 +521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/ros2-topics-and-pub-sub-patterns/" class="md-nav__link">
+      <a href="../ros2-topics-and-pub-sub-patterns/" class="md-nav__link">
         
   
   
@@ -544,7 +549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/qos-profiles-and-compatibility/" class="md-nav__link">
+      <a href="../qos-profiles-and-compatibility/" class="md-nav__link">
         
   
   
@@ -572,7 +577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/ros2-time-duration-and-sim-time/" class="md-nav__link">
+      <a href="../ros2-time-duration-and-sim-time/" class="md-nav__link">
         
   
   
@@ -597,10 +602,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../foundations/tf2-transforms-and-lookups/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TF2 Transforms and Lookups in Practice
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -616,6 +648,81 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distilled-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distilled Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-guidance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical Guidance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#corroborating-references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Corroborating References
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#when-to-read-the-original-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to Read the Original Source
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -628,7 +735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/coordinate-frames-rep-105-and-navigation/" class="md-nav__link">
+      <a href="../coordinate-frames-rep-105-and-navigation/" class="md-nav__link">
         
   
   
@@ -656,7 +763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/urdf-as-a-frame-translation-system/" class="md-nav__link">
+      <a href="../urdf-as-a-frame-translation-system/" class="md-nav__link">
         
   
   
@@ -1089,31 +1196,26 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   
@@ -1131,7 +1233,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1149,7 +1251,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../launch-files-patterns-and-pitfalls/" class="md-nav__link">
+      <a href="../../software/launch-files-patterns-and-pitfalls/" class="md-nav__link">
         
   
   
@@ -1177,7 +1279,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../writing-rclcpp-nodes/" class="md-nav__link">
+      <a href="../../software/writing-rclcpp-nodes/" class="md-nav__link">
         
   
   
@@ -1205,7 +1307,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../writing-rclpy-nodes/" class="md-nav__link">
+      <a href="../../software/writing-rclpy-nodes/" class="md-nav__link">
         
   
   
@@ -1233,7 +1335,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../custom-ros2-interfaces/" class="md-nav__link">
+      <a href="../../software/custom-ros2-interfaces/" class="md-nav__link">
         
   
   
@@ -1261,7 +1363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../component-composition-for-high-bandwidth-pipelines/" class="md-nav__link">
+      <a href="../../software/component-composition-for-high-bandwidth-pipelines/" class="md-nav__link">
         
   
   
@@ -1289,7 +1391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../intra-process-zero-copy-communication/" class="md-nav__link">
+      <a href="../../software/intra-process-zero-copy-communication/" class="md-nav__link">
         
   
   
@@ -1317,7 +1419,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ros2-services-without-deadlocks/" class="md-nav__link">
+      <a href="../../software/ros2-services-without-deadlocks/" class="md-nav__link">
         
   
   
@@ -1345,7 +1447,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ros2-actions-for-long-running-robot-tasks/" class="md-nav__link">
+      <a href="../../software/ros2-actions-for-long-running-robot-tasks/" class="md-nav__link">
         
   
   
@@ -1373,7 +1475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../executors-callback-groups-and-concurrency/" class="md-nav__link">
+      <a href="../../software/executors-callback-groups-and-concurrency/" class="md-nav__link">
         
   
   
@@ -1401,7 +1503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../lifecycle-nodes-and-managed-startup/" class="md-nav__link">
+      <a href="../../software/lifecycle-nodes-and-managed-startup/" class="md-nav__link">
         
   
   
@@ -1426,37 +1528,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Parameter Handling and Runtime Reconfiguration in ROS 2
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../software/parameter-handling-and-runtime-reconfiguration/" class="md-nav__link">
         
   
   
@@ -1472,81 +1547,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#why-this-matters" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Why This Matters
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#distilled-takeaways" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Distilled Takeaways
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#practical-guidance" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Practical Guidance
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#corroborating-references" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Corroborating References
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#when-to-read-the-original-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        When to Read the Original Source
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1559,7 +1559,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../package-xml-cmakelists-and-python-package-structure/" class="md-nav__link">
+      <a href="../../software/package-xml-cmakelists-and-python-package-structure/" class="md-nav__link">
         
   
   
@@ -1587,7 +1587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../robot-state-publisher-and-joint-state-publisher/" class="md-nav__link">
+      <a href="../../software/robot-state-publisher-and-joint-state-publisher/" class="md-nav__link">
         
   
   
@@ -1615,7 +1615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../launch-event-handlers-and-ordered-startup/" class="md-nav__link">
+      <a href="../../software/launch-event-handlers-and-ordered-startup/" class="md-nav__link">
         
   
   
@@ -1643,7 +1643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../message-filters-and-time-synchronized-sensors/" class="md-nav__link">
+      <a href="../../software/message-filters-and-time-synchronized-sensors/" class="md-nav__link">
         
   
   
@@ -1943,28 +1943,14 @@
       
       
       
-        <a href="../../tags/#tag:configuration" class="md-tag">configuration</a>
+        <a href="../../tags/#tag:debugging" class="md-tag">debugging</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:launch" class="md-tag">launch</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:parameters" class="md-tag">parameters</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:reconfiguration" class="md-tag">reconfiguration</a>
+        <a href="../../tags/#tag:frames" class="md-tag">frames</a>
       
     
       
@@ -1978,39 +1964,53 @@
       
       
       
-        <a href="../../tags/#tag:yaml" class="md-tag">yaml</a>
+        <a href="../../tags/#tag:tf" class="md-tag">tf</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:tf2" class="md-tag">tf2</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:transforms" class="md-tag">transforms</a>
       
     
   </nav>
 
 
 
-<h1 id="parameter-handling-and-runtime-reconfiguration-in-ros-2">Parameter Handling and Runtime Reconfiguration in ROS 2<a class="headerlink" href="#parameter-handling-and-runtime-reconfiguration-in-ros-2" title="Permanent link">&para;</a></h1>
-<p>Source: <a href="https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/parameter-handling/SKILL.md">ros2-copilot-skills parameter handling skill</a></p>
+<h1 id="tf2-transforms-and-lookups-in-practice">TF2 Transforms and Lookups in Practice<a class="headerlink" href="#tf2-transforms-and-lookups-in-practice" title="Permanent link">&para;</a></h1>
+<p>Source: <a href="https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/tf2-transforms/SKILL.md">ros2-copilot-skills TF2 skill</a></p>
 <h2 id="why-this-matters">Why This Matters<a class="headerlink" href="#why-this-matters" title="Permanent link">&para;</a></h2>
-<p>Parameters are where ROS 2 systems reveal whether they are maintainable. Good parameter design makes a package discoverable and safe to tune. Bad parameter design creates hidden defaults, silent YAML mismatches, and runtime behavior no one can explain with confidence.</p>
+<p>TF problems can make every subsystem feel broken at once. Navigation, visualization, perception, and sensor fusion all rely on the transform tree being both semantically correct and temporally consistent.</p>
 <h2 id="distilled-takeaways">Distilled Takeaways<a class="headerlink" href="#distilled-takeaways" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Declare parameters explicitly so invalid names, missing values, and type mistakes fail early.</li>
-<li>Use descriptors and validation callbacks when a parameter has real operating limits.</li>
-<li>YAML files are convenient, but only when the node name and namespace assumptions actually match runtime reality.</li>
-<li>Runtime parameter changes are part of the API surface. Treat them as carefully as message and service design.</li>
-<li>Dots in parameter names are string syntax, not true nested hierarchy.</li>
+<li>Static transforms belong on <code>/tf_static</code>; dynamic transforms belong on <code>/tf</code>.</li>
+<li><code>Time(0)</code> often means “latest usable transform,” which is usually what you want for live lookup code.</li>
+<li>Only one node should publish a given parent-child transform.</li>
+<li>Static transforms are easy to get wrong with mount orientation and quaternion conventions.</li>
+<li>TF debugging is much faster when you use the dedicated tools instead of guessing.</li>
 </ul>
 <h2 id="practical-guidance">Practical Guidance<a class="headerlink" href="#practical-guidance" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Avoid undeclared parameters unless you are deliberately trading safety for flexibility.</li>
-<li>Validate dynamic updates before they can destabilize a controller or sensor pipeline.</li>
-<li>Keep the difference clear between startup configuration and runtime tuning.</li>
-<li>Use parameter dumping and listing tools as part of normal debugging.</li>
+<li>Use static broadcasters for fixed sensor mounts and dynamic broadcasters for pose that changes over time.</li>
+<li>Normalize quaternions and keep frame names disciplined.</li>
+<li>Inspect the TF tree early with <code>view_frames</code>, <code>tf2_echo</code>, and <code>tf2_monitor</code>.</li>
+<li>Audit time handling whenever transform lookups fail sporadically.</li>
 </ul>
 <h2 id="corroborating-references">Corroborating References<a class="headerlink" href="#corroborating-references" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Using-Parameters-In-A-Class-Python.html">ROS 2 parameters tutorial</a></li>
-<li><a href="https://docs.ros.org/en/jazzy/How-To-Guides/Migrating-from-ROS1/Migrating-Parameters.html">ROS 2 YAML parameter migration guide</a></li>
+<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Intermediate/Tf2/Tf2-Main.html">ROS 2 tf2 tutorials</a></li>
+<li><a href="https://www.ros.org/reps/rep-0105.html">REP 105 coordinate frames</a></li>
 </ul>
 <h2 id="when-to-read-the-original-source">When to Read the Original Source<a class="headerlink" href="#when-to-read-the-original-source" title="Permanent link">&para;</a></h2>
-<p>Go to the original skill when you want descriptor examples, dynamic validation callbacks, parameter-event monitoring patterns, and the exact YAML pitfalls that show up in larger ROS 2 stacks.</p>
+<p>Go to the original skill when you want static and dynamic broadcaster code, listener patterns in Python and C++, and the warning list around buffer timing, transform ownership, and <code>tf2_geometry_msgs</code> usage.</p>
 
 
 

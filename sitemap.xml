@@ -17,6 +17,14 @@
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/devops/workspace-overlays-and-package-precedence/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/foundations/coordinate-frames-rep-105-and-navigation/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/foundations/qos-profiles-and-compatibility/</loc>
          <lastmod>2026-05-01</lastmod>
     </url>
@@ -30,6 +38,10 @@
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/foundations/ros2-topics-and-pub-sub-patterns/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/foundations/tf2-transforms-and-lookups/</loc>
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
@@ -69,7 +81,23 @@
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/software/component-composition-for-high-bandwidth-pipelines/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/custom-ros2-interfaces/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/software/executors-callback-groups-and-concurrency/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/intra-process-zero-copy-communication/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/launch-event-handlers-and-ordered-startup/</loc>
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
@@ -93,11 +121,23 @@
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/software/robot-state-publisher-and-joint-state-publisher/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/software/ros2-actions-for-long-running-robot-tasks/</loc>
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/ros2-services-without-deadlocks/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/writing-rclcpp-nodes/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/writing-rclpy-nodes/</loc>
          <lastmod>2026-05-01</lastmod>
     </url>
 </urlset>
