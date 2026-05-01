@@ -73,6 +73,46 @@
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-behavior-server-and-recovery-actions/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-controller-selection-guide/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-error-codes-and-failure-analysis/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-lifecycle-manager-and-bond-monitoring/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-planner-selection-guide/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-rviz-tools-and-debug-views/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-servers-and-data-flow/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-simple-commander-for-programmatic-navigation/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-waypoint-follower-and-patrol-routes/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-yaml-parameter-structure/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/navigation/rviz-goals-bt-navigator-and-nav2-flow/</loc>
          <lastmod>2026-05-01</lastmod>
     </url>
