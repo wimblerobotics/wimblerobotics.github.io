@@ -12,31 +12,31 @@
         <meta name="author" content="HB Robotics">
       
       
-        <link rel="canonical" href="https://wimblerobotics.github.io/devops/simulation-testing-and-deployment-for-ros2/">
+        <link rel="canonical" href="https://wimblerobotics.github.io/article-template/">
       
       
-        <link rel="prev" href="../../software/message-filters-and-time-synchronized-sensors/">
+        <link rel="prev" href="../contributing/">
       
       
-        <link rel="next" href="../colcon-workspace-discipline/">
+        <link rel="next" href="../foundations/ros2-core-communication-and-execution/">
       
       
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Simulation, Testing, and Deployment for ROS 2 - HB Robotics Knowledge Base</title>
+        <title>Article Template - HB Robotics Knowledge Base</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -55,7 +55,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#simulation-testing-and-deployment-for-ros-2" class="md-skip">
+        <a href="#article-template" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="HB Robotics Knowledge Base" class="md-header__button md-logo" aria-label="HB Robotics Knowledge Base" data-md-component="logo">
+    <a href=".." title="HB Robotics Knowledge Base" class="md-header__button md-logo" aria-label="HB Robotics Knowledge Base" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Simulation, Testing, and Deployment for ROS 2
+              Article Template
             
           </span>
         </div>
@@ -215,7 +215,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href=".." class="md-tabs__link">
         
   
   
@@ -234,7 +234,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../contributing/" class="md-tabs__link">
+      <a href="../contributing/" class="md-tabs__link">
         
   
   
@@ -251,9 +251,11 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../../article-template/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
   
@@ -274,7 +276,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../foundations/ros2-core-communication-and-execution/" class="md-tabs__link">
+        <a href="../foundations/ros2-core-communication-and-execution/" class="md-tabs__link">
           
   
   
@@ -294,7 +296,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../navigation/nav2-architecture-and-tuning-guide/" class="md-tabs__link">
+        <a href="../navigation/nav2-architecture-and-tuning-guide/" class="md-tabs__link">
           
   
   
@@ -314,7 +316,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../perception/camera-calibration-for-ros2/" class="md-tabs__link">
+        <a href="../perception/camera-calibration-for-ros2/" class="md-tabs__link">
           
   
   
@@ -334,7 +336,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../hardware/ros2-hardware-integration-patterns/" class="md-tabs__link">
+        <a href="../hardware/ros2-hardware-integration-patterns/" class="md-tabs__link">
           
   
   
@@ -354,7 +356,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../software/launch-files-patterns-and-pitfalls/" class="md-tabs__link">
+        <a href="../software/launch-files-patterns-and-pitfalls/" class="md-tabs__link">
           
   
   
@@ -370,13 +372,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../devops/simulation-testing-and-deployment-for-ros2/" class="md-tabs__link">
           
   
   
@@ -394,7 +394,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../tags/" class="md-tabs__link">
+      <a href="../tags/" class="md-tabs__link">
         
   
   
@@ -429,7 +429,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="HB Robotics Knowledge Base" class="md-nav__button md-logo" aria-label="HB Robotics Knowledge Base" data-md-component="logo">
+    <a href=".." title="HB Robotics Knowledge Base" class="md-nav__button md-logo" aria-label="HB Robotics Knowledge Base" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -447,7 +447,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -474,7 +474,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contributing/" class="md-nav__link">
+      <a href="../contributing/" class="md-nav__link">
         
   
   
@@ -498,10 +498,37 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../article-template/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Article Template
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -517,6 +544,37 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -580,7 +638,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/ros2-core-communication-and-execution/" class="md-nav__link">
+      <a href="../foundations/ros2-core-communication-and-execution/" class="md-nav__link">
         
   
   
@@ -608,7 +666,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/ros2-topics-and-pub-sub-patterns/" class="md-nav__link">
+      <a href="../foundations/ros2-topics-and-pub-sub-patterns/" class="md-nav__link">
         
   
   
@@ -636,7 +694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/qos-profiles-and-compatibility/" class="md-nav__link">
+      <a href="../foundations/qos-profiles-and-compatibility/" class="md-nav__link">
         
   
   
@@ -664,7 +722,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/ros2-time-duration-and-sim-time/" class="md-nav__link">
+      <a href="../foundations/ros2-time-duration-and-sim-time/" class="md-nav__link">
         
   
   
@@ -692,7 +750,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/tf2-transforms-and-lookups/" class="md-nav__link">
+      <a href="../foundations/tf2-transforms-and-lookups/" class="md-nav__link">
         
   
   
@@ -720,7 +778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/coordinate-frames-rep-105-and-navigation/" class="md-nav__link">
+      <a href="../foundations/coordinate-frames-rep-105-and-navigation/" class="md-nav__link">
         
   
   
@@ -748,7 +806,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/urdf-as-a-frame-translation-system/" class="md-nav__link">
+      <a href="../foundations/urdf-as-a-frame-translation-system/" class="md-nav__link">
         
   
   
@@ -835,7 +893,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-architecture-and-tuning-guide/" class="md-nav__link">
+      <a href="../navigation/nav2-architecture-and-tuning-guide/" class="md-nav__link">
         
   
   
@@ -863,7 +921,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-servers-and-data-flow/" class="md-nav__link">
+      <a href="../navigation/nav2-servers-and-data-flow/" class="md-nav__link">
         
   
   
@@ -891,7 +949,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-yaml-parameter-structure/" class="md-nav__link">
+      <a href="../navigation/nav2-yaml-parameter-structure/" class="md-nav__link">
         
   
   
@@ -919,7 +977,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-costmap-architecture-and-plugin-order/" class="md-nav__link">
+      <a href="../navigation/nav2-costmap-architecture-and-plugin-order/" class="md-nav__link">
         
   
   
@@ -947,7 +1005,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-global-costmap-configuration/" class="md-nav__link">
+      <a href="../navigation/nav2-global-costmap-configuration/" class="md-nav__link">
         
   
   
@@ -975,7 +1033,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-local-costmap-configuration/" class="md-nav__link">
+      <a href="../navigation/nav2-local-costmap-configuration/" class="md-nav__link">
         
   
   
@@ -1003,7 +1061,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-obstacle-layer-marking-and-clearing/" class="md-nav__link">
+      <a href="../navigation/nav2-obstacle-layer-marking-and-clearing/" class="md-nav__link">
         
   
   
@@ -1031,7 +1089,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-inflation-layer-tuning/" class="md-nav__link">
+      <a href="../navigation/nav2-inflation-layer-tuning/" class="md-nav__link">
         
   
   
@@ -1059,7 +1117,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-voxel-layer-for-3d-obstacles/" class="md-nav__link">
+      <a href="../navigation/nav2-voxel-layer-for-3d-obstacles/" class="md-nav__link">
         
   
   
@@ -1087,7 +1145,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-range-sensor-layer-for-close-obstacles/" class="md-nav__link">
+      <a href="../navigation/nav2-range-sensor-layer-for-close-obstacles/" class="md-nav__link">
         
   
   
@@ -1115,7 +1173,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-static-layer-and-map-ingestion/" class="md-nav__link">
+      <a href="../navigation/nav2-static-layer-and-map-ingestion/" class="md-nav__link">
         
   
   
@@ -1143,7 +1201,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-keepout-zones-and-no-go-areas/" class="md-nav__link">
+      <a href="../navigation/nav2-keepout-zones-and-no-go-areas/" class="md-nav__link">
         
   
   
@@ -1171,7 +1229,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-speed-restricted-zones/" class="md-nav__link">
+      <a href="../navigation/nav2-speed-restricted-zones/" class="md-nav__link">
         
   
   
@@ -1199,7 +1257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-lifecycle-manager-and-bond-monitoring/" class="md-nav__link">
+      <a href="../navigation/nav2-lifecycle-manager-and-bond-monitoring/" class="md-nav__link">
         
   
   
@@ -1227,7 +1285,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-rviz-tools-and-debug-views/" class="md-nav__link">
+      <a href="../navigation/nav2-rviz-tools-and-debug-views/" class="md-nav__link">
         
   
   
@@ -1255,7 +1313,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-simple-commander-for-programmatic-navigation/" class="md-nav__link">
+      <a href="../navigation/nav2-simple-commander-for-programmatic-navigation/" class="md-nav__link">
         
   
   
@@ -1283,7 +1341,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-planner-selection-guide/" class="md-nav__link">
+      <a href="../navigation/nav2-planner-selection-guide/" class="md-nav__link">
         
   
   
@@ -1311,7 +1369,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-controller-selection-guide/" class="md-nav__link">
+      <a href="../navigation/nav2-controller-selection-guide/" class="md-nav__link">
         
   
   
@@ -1339,7 +1397,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-behavior-server-and-recovery-actions/" class="md-nav__link">
+      <a href="../navigation/nav2-behavior-server-and-recovery-actions/" class="md-nav__link">
         
   
   
@@ -1367,7 +1425,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-waypoint-follower-and-patrol-routes/" class="md-nav__link">
+      <a href="../navigation/nav2-waypoint-follower-and-patrol-routes/" class="md-nav__link">
         
   
   
@@ -1395,7 +1453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/nav2-error-codes-and-failure-analysis/" class="md-nav__link">
+      <a href="../navigation/nav2-error-codes-and-failure-analysis/" class="md-nav__link">
         
   
   
@@ -1423,7 +1481,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/behavior-trees-for-nav2-and-robot-autonomy/" class="md-nav__link">
+      <a href="../navigation/behavior-trees-for-nav2-and-robot-autonomy/" class="md-nav__link">
         
   
   
@@ -1451,7 +1509,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/localization-state-estimation-and-frame-discipline/" class="md-nav__link">
+      <a href="../navigation/localization-state-estimation-and-frame-discipline/" class="md-nav__link">
         
   
   
@@ -1479,7 +1537,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/rviz-goals-bt-navigator-and-nav2-flow/" class="md-nav__link">
+      <a href="../navigation/rviz-goals-bt-navigator-and-nav2-flow/" class="md-nav__link">
         
   
   
@@ -1566,7 +1624,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/camera-calibration-for-ros2/" class="md-nav__link">
+      <a href="../perception/camera-calibration-for-ros2/" class="md-nav__link">
         
   
   
@@ -1594,7 +1652,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/depth-cameras-for-navigation-and-mapping/" class="md-nav__link">
+      <a href="../perception/depth-cameras-for-navigation-and-mapping/" class="md-nav__link">
         
   
   
@@ -1622,7 +1680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/laser-scan-processing-and-filtering/" class="md-nav__link">
+      <a href="../perception/laser-scan-processing-and-filtering/" class="md-nav__link">
         
   
   
@@ -1650,7 +1708,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/lidar-driver-bringup-and-frame-alignment/" class="md-nav__link">
+      <a href="../perception/lidar-driver-bringup-and-frame-alignment/" class="md-nav__link">
         
   
   
@@ -1678,7 +1736,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/lidar-filter-chains-and-self-hit-removal/" class="md-nav__link">
+      <a href="../perception/lidar-filter-chains-and-self-hit-removal/" class="md-nav__link">
         
   
   
@@ -1706,7 +1764,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/pointcloud-processing-for-navigation/" class="md-nav__link">
+      <a href="../perception/pointcloud-processing-for-navigation/" class="md-nav__link">
         
   
   
@@ -1734,7 +1792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/object-detection-pipelines-in-ros2/" class="md-nav__link">
+      <a href="../perception/object-detection-pipelines-in-ros2/" class="md-nav__link">
         
   
   
@@ -1762,7 +1820,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/yolo-integration-for-ros2-robots/" class="md-nav__link">
+      <a href="../perception/yolo-integration-for-ros2-robots/" class="md-nav__link">
         
   
   
@@ -1790,7 +1848,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/person-tracking-for-robot-behaviors/" class="md-nav__link">
+      <a href="../perception/person-tracking-for-robot-behaviors/" class="md-nav__link">
         
   
   
@@ -1818,7 +1876,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/depthai-and-oak-d-spatial-ai/" class="md-nav__link">
+      <a href="../perception/depthai-and-oak-d-spatial-ai/" class="md-nav__link">
         
   
   
@@ -1846,7 +1904,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/vision-depth-and-lidar-pipelines/" class="md-nav__link">
+      <a href="../perception/vision-depth-and-lidar-pipelines/" class="md-nav__link">
         
   
   
@@ -1933,7 +1991,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hardware/ros2-hardware-integration-patterns/" class="md-nav__link">
+      <a href="../hardware/ros2-hardware-integration-patterns/" class="md-nav__link">
         
   
   
@@ -1961,7 +2019,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hardware/odometry-calibration-for-diff-drive/" class="md-nav__link">
+      <a href="../hardware/odometry-calibration-for-diff-drive/" class="md-nav__link">
         
   
   
@@ -1989,7 +2047,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hardware/serial-protocols-between-ros2-and-microcontrollers/" class="md-nav__link">
+      <a href="../hardware/serial-protocols-between-ros2-and-microcontrollers/" class="md-nav__link">
         
   
   
@@ -2076,7 +2134,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/launch-files-patterns-and-pitfalls/" class="md-nav__link">
+      <a href="../software/launch-files-patterns-and-pitfalls/" class="md-nav__link">
         
   
   
@@ -2104,7 +2162,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/writing-rclcpp-nodes/" class="md-nav__link">
+      <a href="../software/writing-rclcpp-nodes/" class="md-nav__link">
         
   
   
@@ -2132,7 +2190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/writing-rclpy-nodes/" class="md-nav__link">
+      <a href="../software/writing-rclpy-nodes/" class="md-nav__link">
         
   
   
@@ -2160,7 +2218,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/custom-ros2-interfaces/" class="md-nav__link">
+      <a href="../software/custom-ros2-interfaces/" class="md-nav__link">
         
   
   
@@ -2188,7 +2246,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/component-composition-for-high-bandwidth-pipelines/" class="md-nav__link">
+      <a href="../software/component-composition-for-high-bandwidth-pipelines/" class="md-nav__link">
         
   
   
@@ -2216,7 +2274,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/intra-process-zero-copy-communication/" class="md-nav__link">
+      <a href="../software/intra-process-zero-copy-communication/" class="md-nav__link">
         
   
   
@@ -2244,7 +2302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/ros2-services-without-deadlocks/" class="md-nav__link">
+      <a href="../software/ros2-services-without-deadlocks/" class="md-nav__link">
         
   
   
@@ -2272,7 +2330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/ros2-actions-for-long-running-robot-tasks/" class="md-nav__link">
+      <a href="../software/ros2-actions-for-long-running-robot-tasks/" class="md-nav__link">
         
   
   
@@ -2300,7 +2358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/executors-callback-groups-and-concurrency/" class="md-nav__link">
+      <a href="../software/executors-callback-groups-and-concurrency/" class="md-nav__link">
         
   
   
@@ -2328,7 +2386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/lifecycle-nodes-and-managed-startup/" class="md-nav__link">
+      <a href="../software/lifecycle-nodes-and-managed-startup/" class="md-nav__link">
         
   
   
@@ -2356,7 +2414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/parameter-handling-and-runtime-reconfiguration/" class="md-nav__link">
+      <a href="../software/parameter-handling-and-runtime-reconfiguration/" class="md-nav__link">
         
   
   
@@ -2384,7 +2442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/package-xml-cmakelists-and-python-package-structure/" class="md-nav__link">
+      <a href="../software/package-xml-cmakelists-and-python-package-structure/" class="md-nav__link">
         
   
   
@@ -2412,7 +2470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/robot-state-publisher-and-joint-state-publisher/" class="md-nav__link">
+      <a href="../software/robot-state-publisher-and-joint-state-publisher/" class="md-nav__link">
         
   
   
@@ -2440,7 +2498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/launch-event-handlers-and-ordered-startup/" class="md-nav__link">
+      <a href="../software/launch-event-handlers-and-ordered-startup/" class="md-nav__link">
         
   
   
@@ -2468,7 +2526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/message-filters-and-time-synchronized-sensors/" class="md-nav__link">
+      <a href="../software/message-filters-and-time-synchronized-sensors/" class="md-nav__link">
         
   
   
@@ -2500,31 +2558,26 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
             
   
   
@@ -2542,7 +2595,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2557,37 +2610,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Simulation, Testing, and Deployment for ROS 2
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../devops/simulation-testing-and-deployment-for-ros2/" class="md-nav__link">
         
   
   
@@ -2603,81 +2629,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#why-this-matters" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Why This Matters
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#distilled-takeaways" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Distilled Takeaways
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#practical-value" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Practical Value
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#corroborating-references" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Corroborating References
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#when-to-read-the-original-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        When to Read the Original Source
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2690,7 +2641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../colcon-workspace-discipline/" class="md-nav__link">
+      <a href="../devops/colcon-workspace-discipline/" class="md-nav__link">
         
   
   
@@ -2718,7 +2669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../workspace-overlays-and-package-precedence/" class="md-nav__link">
+      <a href="../devops/workspace-overlays-and-package-precedence/" class="md-nav__link">
         
   
   
@@ -2753,7 +2704,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tags/" class="md-nav__link">
+      <a href="../tags/" class="md-nav__link">
         
   
   
@@ -2800,54 +2751,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#why-this-matters" class="md-nav__link">
+  <a href="#notes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Why This Matters
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#distilled-takeaways" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Distilled Takeaways
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#practical-value" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Practical Value
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#corroborating-references" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Corroborating References
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#when-to-read-the-original-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        When to Read the Original Source
+        Notes
       
     </span>
   </a>
@@ -2869,105 +2776,59 @@
                 
                   
 
-  <nav class="md-tags" >
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:ci" class="md-tag">ci</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:devops" class="md-tag">devops</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:docker" class="md-tag">docker</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:gazebo" class="md-tag">gazebo</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:ros2" class="md-tag">ros2</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:rosbag2" class="md-tag">rosbag2</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:simulation" class="md-tag">simulation</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:systemd" class="md-tag">systemd</a>
-      
-    
-  </nav>
 
 
-
-<h1 id="simulation-testing-and-deployment-for-ros-2">Simulation, Testing, and Deployment for ROS 2<a class="headerlink" href="#simulation-testing-and-deployment-for-ros-2" title="Permanent link">&para;</a></h1>
-<p>Source: <a href="https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/docs/SKILLS-CATALOG.md">ros2-copilot-skills catalog</a></p>
-<h2 id="why-this-matters">Why This Matters<a class="headerlink" href="#why-this-matters" title="Permanent link">&para;</a></h2>
-<p>ROS 2 projects become fragile when build, simulation, and runtime practices are treated as side concerns. Reproducibility is what turns one developer's working laptop into a robot other people can test, review, and improve.</p>
-<h2 id="distilled-takeaways">Distilled Takeaways<a class="headerlink" href="#distilled-takeaways" title="Permanent link">&para;</a></h2>
+<h1 id="article-template">Article Template<a class="headerlink" href="#article-template" title="Permanent link">&para;</a></h1>
+<p>This page is the published version of the article template.
+If you want to contribute, you can copy this into your editor and fill it in.</p>
+<p>For the full workflow, including how to fork, clone, and submit a pull request, see <a href="../contributing/">Contributing</a>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>---
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>title: &quot;Short, specific title&quot;
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>summary: &quot;One-sentence summary of what the article helps the reader understand or do.&quot;
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>source_repo: &quot;owner/repo-or-source-family&quot;
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>source_path: &quot;path/inside/source/or-descriptive-location&quot;
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>source_url: &quot;https://example.com/or/repo/path&quot;
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>tags: [&quot;ros2&quot;, &quot;example-topic&quot;, &quot;hardware&quot;]
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="gu">related: [&quot;articles/somewhere/related-article.md&quot;]</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="gu">---</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="gh"># Article Title</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>Source: [<span class="nt">Descriptive source label</span>](<span class="na">https://example.com/or/repo/path</span>)
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="gu">## Why This Matters</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>One short paragraph about why this topic matters in a real robot project.
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="gu">## Distilled Takeaways</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="k">-</span><span class="w"> </span>Technical takeaway 1
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="k">-</span><span class="w"> </span>Technical takeaway 2
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="k">-</span><span class="w"> </span>Technical takeaway 3
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="k">-</span><span class="w"> </span>Common pitfall or failure mode
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="gu">## Practical Value</span>
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="k">-</span><span class="w"> </span>Checklist, design guidance, debugging value, or decision criteria
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="gu">## When to Read the Original Source</span>
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>
+<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a>Explain what extra depth or examples the original source provides.
+</code></pre></div>
+<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Simulation is most useful when it validates interfaces, timing, TF, and behavior assumptions rather than trying to cosmetically mimic reality.</li>
-<li>Containers are valuable for repeatability, but only if device access, networking, GUI forwarding, and runtime dependencies are modeled honestly.</li>
-<li>CI should at least prove that the workspace resolves dependencies, builds, and exercises the most important packages or launch paths.</li>
-<li>rosbag2 is not just for recording demos. It is one of the best tools for regression testing and offline debugging of perception and navigation behavior.</li>
-<li>Production startup should be explicit and restartable. If the robot depends on a fragile manual bringup sequence, deployment is not finished.</li>
+<li>Keep the title specific.</li>
+<li>Keep the summary to one sentence.</li>
+<li>Reuse existing tags where possible.</li>
+<li>Add at least one <code>related</code> link if a good connection exists.</li>
+<li>Prefer practical value over exhaustive coverage.</li>
 </ul>
-<h2 id="practical-value">Practical Value<a class="headerlink" href="#practical-value" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Use simulation to catch TF, topic, and launch integration problems early.</li>
-<li>Treat Dockerfiles and startup scripts as part of the robot's architecture.</li>
-<li>Record representative bag files and reuse them as test assets.</li>
-<li>Prefer boring, well-documented boot flows over clever shell rituals.</li>
-</ul>
-<h2 id="corroborating-references">Corroborating References<a class="headerlink" href="#corroborating-references" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://gazebosim.org/docs/latest/ros2_integration/">Gazebo ROS 2 integration</a></li>
-<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Intermediate/Testing/Testing-Main.html">ROS 2 testing concepts</a></li>
-<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Advanced/Recording-A-Bag-From-Your-Own-Node-CPP.html">rosbag2 documentation</a></li>
-<li><a href="https://docs.nav2.org/getting_started/index.html">Nav2 setup and tutorials</a></li>
-</ul>
-<h2 id="when-to-read-the-original-source">When to Read the Original Source<a class="headerlink" href="#when-to-read-the-original-source" title="Permanent link">&para;</a></h2>
-<p>Go to the original skills when you need concrete Docker examples, bridge setup patterns for Gazebo, CI workflow scaffolding, rosbag analysis habits, or startup approaches for unattended robots.</p>
 
 
 
 
 
 
-
-  
-  
 
 
 
@@ -3017,10 +2878,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.highlight", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.highlight", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
