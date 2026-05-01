@@ -12,13 +12,13 @@
         <meta name="author" content="HB Robotics">
       
       
-        <link rel="canonical" href="https://wimblerobotics.github.io/hardware/odometry-calibration-for-diff-drive/">
+        <link rel="canonical" href="https://wimblerobotics.github.io/software/parameter-handling-and-runtime-reconfiguration/">
       
       
-        <link rel="prev" href="../ros2-hardware-integration-patterns/">
+        <link rel="prev" href="../lifecycle-nodes-and-managed-startup/">
       
       
-        <link rel="next" href="../serial-protocols-between-ros2-and-microcontrollers/">
+        <link rel="next" href="../package-xml-cmakelists-and-python-package-structure/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Odometry Calibration for Differential Drive Robots - HB Robotics Knowledge Base</title>
+        <title>Parameter Handling and Runtime Reconfiguration in ROS 2 - HB Robotics Knowledge Base</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#odometry-calibration-for-differential-drive-robots" class="md-skip">
+        <a href="#parameter-handling-and-runtime-reconfiguration-in-ros-2" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Odometry Calibration for Differential Drive Robots
+              Parameter Handling and Runtime Reconfiguration in ROS 2
             
           </span>
         </div>
@@ -292,13 +292,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../ros2-hardware-integration-patterns/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../hardware/ros2-hardware-integration-patterns/" class="md-tabs__link">
           
   
   
@@ -314,11 +312,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../software/launch-files-patterns-and-pitfalls/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../launch-files-patterns-and-pitfalls/" class="md-tabs__link">
           
   
   
@@ -890,6 +890,149 @@
       
   
   
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hardware
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Hardware
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hardware/ros2-hardware-integration-patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ROS 2 Hardware Integration Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hardware/odometry-calibration-for-diff-drive/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Odometry Calibration for Differential Drive Robots
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hardware/serial-protocols-between-ros2-and-microcontrollers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Serial Protocols Between ROS 2 and Microcontrollers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -911,17 +1054,17 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   
   <span class="md-ellipsis">
     
   
-    Hardware
+    Software
   
 
     
@@ -932,12 +1075,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Hardware
+    Software
   
 
           </label>
@@ -950,14 +1093,126 @@
   
   
     <li class="md-nav__item">
-      <a href="../ros2-hardware-integration-patterns/" class="md-nav__link">
+      <a href="../launch-files-patterns-and-pitfalls/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    ROS 2 Hardware Integration Patterns
+    ROS 2 Launch Files: Patterns and Pitfalls
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ros2-services-without-deadlocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ROS 2 Services Without Deadlocks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ros2-actions-for-long-running-robot-tasks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ROS 2 Actions for Long-Running Robot Tasks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../executors-callback-groups-and-concurrency/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Executors, Callback Groups, and Concurrency in ROS 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lifecycle-nodes-and-managed-startup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lifecycle Nodes and Managed Startup in ROS 2
   
 
     
@@ -994,7 +1249,7 @@
   <span class="md-ellipsis">
     
   
-    Odometry Calibration for Differential Drive Robots
+    Parameter Handling and Runtime Reconfiguration in ROS 2
   
 
     
@@ -1012,7 +1267,7 @@
   <span class="md-ellipsis">
     
   
-    Odometry Calibration for Differential Drive Robots
+    Parameter Handling and Runtime Reconfiguration in ROS 2
   
 
     
@@ -1060,10 +1315,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#practical-calibration-loop" class="md-nav__link">
+  <a href="#practical-guidance" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Practical Calibration Loop
+        Practical Guidance
       
     </span>
   </a>
@@ -1071,10 +1326,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#operational-lessons" class="md-nav__link">
+  <a href="#corroborating-references" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Operational Lessons
+        Corroborating References
       
     </span>
   </a>
@@ -1108,262 +1363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../serial-protocols-between-ros2-and-microcontrollers/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Serial Protocols Between ROS 2 and Microcontrollers
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Software
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Software
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../software/launch-files-patterns-and-pitfalls/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ROS 2 Launch Files: Patterns and Pitfalls
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../software/ros2-services-without-deadlocks/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ROS 2 Services Without Deadlocks
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../software/ros2-actions-for-long-running-robot-tasks/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ROS 2 Actions for Long-Running Robot Tasks
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../software/executors-callback-groups-and-concurrency/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Executors, Callback Groups, and Concurrency in ROS 2
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../software/lifecycle-nodes-and-managed-startup/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Lifecycle Nodes and Managed Startup in ROS 2
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../software/parameter-handling-and-runtime-reconfiguration/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Parameter Handling and Runtime Reconfiguration in ROS 2
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../software/package-xml-cmakelists-and-python-package-structure/" class="md-nav__link">
+      <a href="../package-xml-cmakelists-and-python-package-structure/" class="md-nav__link">
         
   
   
@@ -1391,7 +1391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../software/message-filters-and-time-synchronized-sensors/" class="md-nav__link">
+      <a href="../message-filters-and-time-synchronized-sensors/" class="md-nav__link">
         
   
   
@@ -1610,10 +1610,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#practical-calibration-loop" class="md-nav__link">
+  <a href="#practical-guidance" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Practical Calibration Loop
+        Practical Guidance
       
     </span>
   </a>
@@ -1621,10 +1621,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#operational-lessons" class="md-nav__link">
+  <a href="#corroborating-references" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Operational Lessons
+        Corroborating References
       
     </span>
   </a>
@@ -1663,35 +1663,28 @@
       
       
       
-        <a href="../../tags/#tag:calibration" class="md-tag">calibration</a>
+        <a href="../../tags/#tag:configuration" class="md-tag">configuration</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:differential-drive" class="md-tag">differential-drive</a>
+        <a href="../../tags/#tag:launch" class="md-tag">launch</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:encoders" class="md-tag">encoders</a>
+        <a href="../../tags/#tag:parameters" class="md-tag">parameters</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:hardware" class="md-tag">hardware</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:odometry" class="md-tag">odometry</a>
+        <a href="../../tags/#tag:reconfiguration" class="md-tag">reconfiguration</a>
       
     
       
@@ -1701,45 +1694,43 @@
         <a href="../../tags/#tag:ros2" class="md-tag">ros2</a>
       
     
+      
+      
+      
+      
+        <a href="../../tags/#tag:yaml" class="md-tag">yaml</a>
+      
+    
   </nav>
 
 
 
-<h1 id="odometry-calibration-for-differential-drive-robots">Odometry Calibration for Differential Drive Robots<a class="headerlink" href="#odometry-calibration-for-differential-drive-robots" title="Permanent link">&para;</a></h1>
-<p>Source: <a href="https://github.com/wimblerobotics/Robotics_Book/blob/main/book/chapters/calibrating_odom.md">Robotics_Book odometry chapter</a></p>
+<h1 id="parameter-handling-and-runtime-reconfiguration-in-ros-2">Parameter Handling and Runtime Reconfiguration in ROS 2<a class="headerlink" href="#parameter-handling-and-runtime-reconfiguration-in-ros-2" title="Permanent link">&para;</a></h1>
+<p>Source: <a href="https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/parameter-handling/SKILL.md">ros2-copilot-skills parameter handling skill</a></p>
 <h2 id="why-this-matters">Why This Matters<a class="headerlink" href="#why-this-matters" title="Permanent link">&para;</a></h2>
-<p>Wheel odometry is one of the first places new robot builders discover that the robot's reported motion and its real motion are different things. The source chapter makes the important point plainly: sensors lie, wheels slip, and software has to work through imperfect measurements.</p>
+<p>Parameters are where ROS 2 systems reveal whether they are maintainable. Good parameter design makes a package discoverable and safe to tune. Bad parameter design creates hidden defaults, silent YAML mismatches, and runtime behavior no one can explain with confidence.</p>
 <h2 id="distilled-takeaways">Distilled Takeaways<a class="headerlink" href="#distilled-takeaways" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Good odometry depends heavily on two effective measurements: wheel diameter and distance between wheels.</li>
-<li>Those are not purely CAD values. Tire wear, tilt, wobble, and surface conditions change the effective measurements.</li>
-<li>Straight-line tests mostly expose wheel-diameter error.</li>
-<li>Spin-in-place tests mostly expose wheel-separation error.</li>
-<li>Odometry parameters used by the driver do not have to be identical to the dimensions used in the URDF.</li>
+<li>Declare parameters explicitly so invalid names, missing values, and type mistakes fail early.</li>
+<li>Use descriptors and validation callbacks when a parameter has real operating limits.</li>
+<li>YAML files are convenient, but only when the node name and namespace assumptions actually match runtime reality.</li>
+<li>Runtime parameter changes are part of the API surface. Treat them as carefully as message and service design.</li>
+<li>Dots in parameter names are string syntax, not true nested hierarchy.</li>
 </ul>
-<h2 id="practical-calibration-loop">Practical Calibration Loop<a class="headerlink" href="#practical-calibration-loop" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Mark a known start pose.</li>
-<li>Record odometry before motion.</li>
-<li>Move in a controlled way that isolates one parameter.</li>
-<li>Record odometry after motion.</li>
-<li>Measure actual motion.</li>
-<li>Adjust the configured value.</li>
-<li>Repeat until the results are consistently close, not just lucky once.</li>
-</ol>
-<p>For wheel-diameter adjustment, the core correction is:</p>
-<p><code>correction_ratio = actual_distance / odometry_distance</code></p>
-<p>Then:</p>
-<p><code>new_wheel_diameter = current_wheel_diameter * correction_ratio</code></p>
-<h2 id="operational-lessons">Operational Lessons<a class="headerlink" href="#operational-lessons" title="Permanent link">&para;</a></h2>
+<h2 id="practical-guidance">Practical Guidance<a class="headerlink" href="#practical-guidance" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Sampling rate matters. Curved motion integrated too slowly becomes wrong quickly.</li>
-<li>Linux scheduling jitter can degrade odometry if the computation loop is not regular enough.</li>
-<li>Better odometry improves mapping and navigation, even when higher-level localization will later correct drift.</li>
-<li>If odometry is far off, localization and navigation may fail before they get a chance to compensate.</li>
+<li>Avoid undeclared parameters unless you are deliberately trading safety for flexibility.</li>
+<li>Validate dynamic updates before they can destabilize a controller or sensor pipeline.</li>
+<li>Keep the difference clear between startup configuration and runtime tuning.</li>
+<li>Use parameter dumping and listing tools as part of normal debugging.</li>
+</ul>
+<h2 id="corroborating-references">Corroborating References<a class="headerlink" href="#corroborating-references" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Using-Parameters-In-A-Class-Python.html">ROS 2 parameters tutorial</a></li>
+<li><a href="https://docs.ros.org/en/jazzy/How-To-Guides/Migrating-from-ROS1/Migrating-Parameters.html">ROS 2 YAML parameter migration guide</a></li>
 </ul>
 <h2 id="when-to-read-the-original-source">When to Read the Original Source<a class="headerlink" href="#when-to-read-the-original-source" title="Permanent link">&para;</a></h2>
-<p>Go to the original chapter when you want the full hands-on procedure, example commands, measurement workflow, and explanation of why the effective values often differ from the robot's nominal measurements.</p>
+<p>Go to the original skill when you want descriptor examples, dynamic validation callbacks, parameter-event monitoring patterns, and the exact YAML pitfalls that show up in larger ROS 2 stacks.</p>
 
 
 

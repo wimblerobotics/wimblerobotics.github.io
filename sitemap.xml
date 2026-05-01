@@ -13,6 +13,26 @@
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/devops/simulation-testing-and-deployment-for-ros2/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/foundations/qos-profiles-and-compatibility/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/foundations/ros2-core-communication-and-execution/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/foundations/ros2-time-duration-and-sim-time/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/foundations/ros2-topics-and-pub-sub-patterns/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/foundations/urdf-as-a-frame-translation-system/</loc>
          <lastmod>2026-05-01</lastmod>
     </url>
@@ -21,7 +41,23 @@
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/hardware/ros2-hardware-integration-patterns/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/hardware/serial-protocols-between-ros2-and-microcontrollers/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/behavior-trees-for-nav2-and-robot-autonomy/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/localization-state-estimation-and-frame-discipline/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-architecture-and-tuning-guide/</loc>
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
@@ -29,7 +65,39 @@
          <lastmod>2026-05-01</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/perception/vision-depth-and-lidar-pipelines/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/executors-callback-groups-and-concurrency/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/software/launch-files-patterns-and-pitfalls/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/lifecycle-nodes-and-managed-startup/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/message-filters-and-time-synchronized-sensors/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/package-xml-cmakelists-and-python-package-structure/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/parameter-handling-and-runtime-reconfiguration/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/ros2-actions-for-long-running-robot-tasks/</loc>
+         <lastmod>2026-05-01</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/ros2-services-without-deadlocks/</loc>
          <lastmod>2026-05-01</lastmod>
     </url>
 </urlset>

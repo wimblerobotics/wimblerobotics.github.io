@@ -12,13 +12,13 @@
         <meta name="author" content="HB Robotics">
       
       
-        <link rel="canonical" href="https://wimblerobotics.github.io/hardware/odometry-calibration-for-diff-drive/">
+        <link rel="canonical" href="https://wimblerobotics.github.io/foundations/ros2-time-duration-and-sim-time/">
       
       
-        <link rel="prev" href="../ros2-hardware-integration-patterns/">
+        <link rel="prev" href="../qos-profiles-and-compatibility/">
       
       
-        <link rel="next" href="../serial-protocols-between-ros2-and-microcontrollers/">
+        <link rel="next" href="../urdf-as-a-frame-translation-system/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Odometry Calibration for Differential Drive Robots - HB Robotics Knowledge Base</title>
+        <title>ROS 2 Time, Duration, and Sim Time - HB Robotics Knowledge Base</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#odometry-calibration-for-differential-drive-robots" class="md-skip">
+        <a href="#ros-2-time-duration-and-sim-time" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Odometry Calibration for Differential Drive Robots
+              ROS 2 Time, Duration, and Sim Time
             
           </span>
         </div>
@@ -232,11 +232,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../foundations/ros2-core-communication-and-execution/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../ros2-core-communication-and-execution/" class="md-tabs__link">
           
   
   
@@ -292,13 +294,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../ros2-hardware-integration-patterns/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../hardware/ros2-hardware-integration-patterns/" class="md-tabs__link">
           
   
   
@@ -433,26 +433,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -470,7 +475,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -488,7 +493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/ros2-core-communication-and-execution/" class="md-nav__link">
+      <a href="../ros2-core-communication-and-execution/" class="md-nav__link">
         
   
   
@@ -516,7 +521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/ros2-topics-and-pub-sub-patterns/" class="md-nav__link">
+      <a href="../ros2-topics-and-pub-sub-patterns/" class="md-nav__link">
         
   
   
@@ -544,7 +549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/qos-profiles-and-compatibility/" class="md-nav__link">
+      <a href="../qos-profiles-and-compatibility/" class="md-nav__link">
         
   
   
@@ -569,10 +574,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../foundations/ros2-time-duration-and-sim-time/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ROS 2 Time, Duration, and Sim Time
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -588,6 +620,81 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distilled-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distilled Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-guidance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical Guidance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#corroborating-references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Corroborating References
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#when-to-read-the-original-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to Read the Original Source
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -600,7 +707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundations/urdf-as-a-frame-translation-system/" class="md-nav__link">
+      <a href="../urdf-as-a-frame-translation-system/" class="md-nav__link">
         
   
   
@@ -890,31 +997,26 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   
@@ -932,7 +1034,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -950,7 +1052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ros2-hardware-integration-patterns/" class="md-nav__link">
+      <a href="../../hardware/ros2-hardware-integration-patterns/" class="md-nav__link">
         
   
   
@@ -975,37 +1077,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Odometry Calibration for Differential Drive Robots
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../hardware/odometry-calibration-for-diff-drive/" class="md-nav__link">
         
   
   
@@ -1021,81 +1096,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#why-this-matters" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Why This Matters
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#distilled-takeaways" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Distilled Takeaways
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#practical-calibration-loop" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Practical Calibration Loop
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#operational-lessons" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Operational Lessons
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#when-to-read-the-original-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        When to Read the Original Source
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1108,7 +1108,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../serial-protocols-between-ros2-and-microcontrollers/" class="md-nav__link">
+      <a href="../../hardware/serial-protocols-between-ros2-and-microcontrollers/" class="md-nav__link">
         
   
   
@@ -1610,10 +1610,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#practical-calibration-loop" class="md-nav__link">
+  <a href="#practical-guidance" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Practical Calibration Loop
+        Practical Guidance
       
     </span>
   </a>
@@ -1621,10 +1621,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#operational-lessons" class="md-nav__link">
+  <a href="#corroborating-references" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Operational Lessons
+        Corroborating References
       
     </span>
   </a>
@@ -1663,83 +1663,74 @@
       
       
       
-        <a href="../../tags/#tag:calibration" class="md-tag">calibration</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:differential-drive" class="md-tag">differential-drive</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:encoders" class="md-tag">encoders</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:hardware" class="md-tag">hardware</a>
-      
-    
-      
-      
-      
-      
-        <a href="../../tags/#tag:odometry" class="md-tag">odometry</a>
-      
-    
-      
-      
-      
-      
         <a href="../../tags/#tag:ros2" class="md-tag">ros2</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:rosbag2" class="md-tag">rosbag2</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:sim-time" class="md-tag">sim-time</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:tf" class="md-tag">tf</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:time" class="md-tag">time</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:timers" class="md-tag">timers</a>
       
     
   </nav>
 
 
 
-<h1 id="odometry-calibration-for-differential-drive-robots">Odometry Calibration for Differential Drive Robots<a class="headerlink" href="#odometry-calibration-for-differential-drive-robots" title="Permanent link">&para;</a></h1>
-<p>Source: <a href="https://github.com/wimblerobotics/Robotics_Book/blob/main/book/chapters/calibrating_odom.md">Robotics_Book odometry chapter</a></p>
+<h1 id="ros-2-time-duration-and-sim-time">ROS 2 Time, Duration, and Sim Time<a class="headerlink" href="#ros-2-time-duration-and-sim-time" title="Permanent link">&para;</a></h1>
+<p>Source: <a href="https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/time-duration-rate/SKILL.md">ros2-copilot-skills time skill</a></p>
 <h2 id="why-this-matters">Why This Matters<a class="headerlink" href="#why-this-matters" title="Permanent link">&para;</a></h2>
-<p>Wheel odometry is one of the first places new robot builders discover that the robot's reported motion and its real motion are different things. The source chapter makes the important point plainly: sensors lie, wheels slip, and software has to work through imperfect measurements.</p>
+<p>Time bugs are some of the most frustrating ROS 2 failures because they often appear as TF errors, stale messages, impossible durations, or simulation-only breakage. The fix is usually not a special case but a consistent time model.</p>
 <h2 id="distilled-takeaways">Distilled Takeaways<a class="headerlink" href="#distilled-takeaways" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Good odometry depends heavily on two effective measurements: wheel diameter and distance between wheels.</li>
-<li>Those are not purely CAD values. Tire wear, tilt, wobble, and surface conditions change the effective measurements.</li>
-<li>Straight-line tests mostly expose wheel-diameter error.</li>
-<li>Spin-in-place tests mostly expose wheel-separation error.</li>
-<li>Odometry parameters used by the driver do not have to be identical to the dimensions used in the URDF.</li>
+<li>ROS time, system time, and steady time serve different purposes and should not be mixed casually.</li>
+<li>If you use simulation or bag playback, all relevant nodes should agree on <code>use_sim_time</code>.</li>
+<li>Message stamps should come from the ROS node clock so the rest of the graph can reason about them correctly.</li>
+<li><code>Time(0)</code> in TF lookups means “latest available,” which is often safer than demanding an exact current transform.</li>
+<li>Timers and rate-based loops are not interchangeable in callback-driven architectures.</li>
 </ul>
-<h2 id="practical-calibration-loop">Practical Calibration Loop<a class="headerlink" href="#practical-calibration-loop" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Mark a known start pose.</li>
-<li>Record odometry before motion.</li>
-<li>Move in a controlled way that isolates one parameter.</li>
-<li>Record odometry after motion.</li>
-<li>Measure actual motion.</li>
-<li>Adjust the configured value.</li>
-<li>Repeat until the results are consistently close, not just lucky once.</li>
-</ol>
-<p>For wheel-diameter adjustment, the core correction is:</p>
-<p><code>correction_ratio = actual_distance / odometry_distance</code></p>
-<p>Then:</p>
-<p><code>new_wheel_diameter = current_wheel_diameter * correction_ratio</code></p>
-<h2 id="operational-lessons">Operational Lessons<a class="headerlink" href="#operational-lessons" title="Permanent link">&para;</a></h2>
+<h2 id="practical-guidance">Practical Guidance<a class="headerlink" href="#practical-guidance" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Sampling rate matters. Curved motion integrated too slowly becomes wrong quickly.</li>
-<li>Linux scheduling jitter can degrade odometry if the computation loop is not regular enough.</li>
-<li>Better odometry improves mapping and navigation, even when higher-level localization will later correct drift.</li>
-<li>If odometry is far off, localization and navigation may fail before they get a chance to compensate.</li>
+<li>Enable sim time consistently across the session or not at all.</li>
+<li>Guard against zero time before the first <code>/clock</code> message arrives.</li>
+<li>Use timers for periodic callbacks and reserve rate sleep for dedicated loops.</li>
+<li>Audit time handling whenever TF extrapolation or stale-data warnings appear.</li>
+</ul>
+<h2 id="corroborating-references">Corroborating References<a class="headerlink" href="#corroborating-references" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://design.ros2.org/articles/clock_and_time.html">ROS 2 clock and time design notes</a></li>
+<li><a href="https://docs.ros.org/en/jazzy/Tutorials/Intermediate/Tf2/Tf2-Main.html">ROS 2 tf2 time tutorial material</a></li>
 </ul>
 <h2 id="when-to-read-the-original-source">When to Read the Original Source<a class="headerlink" href="#when-to-read-the-original-source" title="Permanent link">&para;</a></h2>
-<p>Go to the original chapter when you want the full hands-on procedure, example commands, measurement workflow, and explanation of why the effective values often differ from the robot's nominal measurements.</p>
+<p>Go to the original skill when you want concrete Python and C++ time arithmetic, timeout patterns, timer behavior notes, and the practical warnings around sim time, <code>Time(0)</code>, and callback blocking.</p>
 
 
 

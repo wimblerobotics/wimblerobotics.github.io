@@ -12,13 +12,13 @@
         <meta name="author" content="HB Robotics">
       
       
-        <link rel="canonical" href="https://wimblerobotics.github.io/hardware/odometry-calibration-for-diff-drive/">
+        <link rel="canonical" href="https://wimblerobotics.github.io/navigation/nav2-architecture-and-tuning-guide/">
       
       
-        <link rel="prev" href="../ros2-hardware-integration-patterns/">
+        <link rel="prev" href="../../foundations/urdf-as-a-frame-translation-system/">
       
       
-        <link rel="next" href="../serial-protocols-between-ros2-and-microcontrollers/">
+        <link rel="next" href="../behavior-trees-for-nav2-and-robot-autonomy/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Odometry Calibration for Differential Drive Robots - HB Robotics Knowledge Base</title>
+        <title>Nav2 Architecture and Tuning Guide - HB Robotics Knowledge Base</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#odometry-calibration-for-differential-drive-robots" class="md-skip">
+        <a href="#nav2-architecture-and-tuning-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Odometry Calibration for Differential Drive Robots
+              Nav2 Architecture and Tuning Guide
             
           </span>
         </div>
@@ -252,11 +252,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../navigation/nav2-architecture-and-tuning-guide/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
   
@@ -292,13 +294,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../ros2-hardware-integration-patterns/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../hardware/ros2-hardware-integration-patterns/" class="md-tabs__link">
           
   
   
@@ -632,26 +632,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   
@@ -669,7 +674,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -684,10 +689,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../navigation/nav2-architecture-and-tuning-guide/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nav2 Architecture and Tuning Guide
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -703,6 +735,81 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distilled-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distilled Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical Value
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#corroborating-references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Corroborating References
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#when-to-read-the-original-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to Read the Original Source
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -715,7 +822,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/behavior-trees-for-nav2-and-robot-autonomy/" class="md-nav__link">
+      <a href="../behavior-trees-for-nav2-and-robot-autonomy/" class="md-nav__link">
         
   
   
@@ -743,7 +850,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/localization-state-estimation-and-frame-discipline/" class="md-nav__link">
+      <a href="../localization-state-estimation-and-frame-discipline/" class="md-nav__link">
         
   
   
@@ -771,7 +878,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../navigation/rviz-goals-bt-navigator-and-nav2-flow/" class="md-nav__link">
+      <a href="../rviz-goals-bt-navigator-and-nav2-flow/" class="md-nav__link">
         
   
   
@@ -890,31 +997,26 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   
@@ -932,7 +1034,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -950,7 +1052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ros2-hardware-integration-patterns/" class="md-nav__link">
+      <a href="../../hardware/ros2-hardware-integration-patterns/" class="md-nav__link">
         
   
   
@@ -975,37 +1077,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Odometry Calibration for Differential Drive Robots
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../hardware/odometry-calibration-for-diff-drive/" class="md-nav__link">
         
   
   
@@ -1021,81 +1096,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#why-this-matters" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Why This Matters
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#distilled-takeaways" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Distilled Takeaways
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#practical-calibration-loop" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Practical Calibration Loop
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#operational-lessons" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Operational Lessons
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#when-to-read-the-original-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        When to Read the Original Source
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1108,7 +1108,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../serial-protocols-between-ros2-and-microcontrollers/" class="md-nav__link">
+      <a href="../../hardware/serial-protocols-between-ros2-and-microcontrollers/" class="md-nav__link">
         
   
   
@@ -1610,10 +1610,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#practical-calibration-loop" class="md-nav__link">
+  <a href="#practical-value" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Practical Calibration Loop
+        Practical Value
       
     </span>
   </a>
@@ -1621,10 +1621,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#operational-lessons" class="md-nav__link">
+  <a href="#corroborating-references" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Operational Lessons
+        Corroborating References
       
     </span>
   </a>
@@ -1663,35 +1663,49 @@
       
       
       
-        <a href="../../tags/#tag:calibration" class="md-tag">calibration</a>
+        <a href="../../tags/#tag:controllers" class="md-tag">controllers</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:differential-drive" class="md-tag">differential-drive</a>
+        <a href="../../tags/#tag:costmaps" class="md-tag">costmaps</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:encoders" class="md-tag">encoders</a>
+        <a href="../../tags/#tag:jazzy" class="md-tag">jazzy</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:hardware" class="md-tag">hardware</a>
+        <a href="../../tags/#tag:nav2" class="md-tag">nav2</a>
       
     
       
       
       
       
-        <a href="../../tags/#tag:odometry" class="md-tag">odometry</a>
+        <a href="../../tags/#tag:navigation" class="md-tag">navigation</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:planners" class="md-tag">planners</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:recovery" class="md-tag">recovery</a>
       
     
       
@@ -1705,41 +1719,34 @@
 
 
 
-<h1 id="odometry-calibration-for-differential-drive-robots">Odometry Calibration for Differential Drive Robots<a class="headerlink" href="#odometry-calibration-for-differential-drive-robots" title="Permanent link">&para;</a></h1>
-<p>Source: <a href="https://github.com/wimblerobotics/Robotics_Book/blob/main/book/chapters/calibrating_odom.md">Robotics_Book odometry chapter</a></p>
+<h1 id="nav2-architecture-and-tuning-guide">Nav2 Architecture and Tuning Guide<a class="headerlink" href="#nav2-architecture-and-tuning-guide" title="Permanent link">&para;</a></h1>
+<p>Source: <a href="https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/docs/SKILLS-CATALOG.md">ros2-copilot-skills catalog</a></p>
 <h2 id="why-this-matters">Why This Matters<a class="headerlink" href="#why-this-matters" title="Permanent link">&para;</a></h2>
-<p>Wheel odometry is one of the first places new robot builders discover that the robot's reported motion and its real motion are different things. The source chapter makes the important point plainly: sensors lie, wheels slip, and software has to work through imperfect measurements.</p>
+<p>Nav2 is easier to tune when you stop thinking of it as a single package. It is a set of lifecycle-managed servers connected by actions, TF, costmaps, and behavior trees. The most common failures come from misunderstanding which server owns which responsibility, or from tuning one layer while the real limit sits upstream or downstream.</p>
 <h2 id="distilled-takeaways">Distilled Takeaways<a class="headerlink" href="#distilled-takeaways" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Good odometry depends heavily on two effective measurements: wheel diameter and distance between wheels.</li>
-<li>Those are not purely CAD values. Tire wear, tilt, wobble, and surface conditions change the effective measurements.</li>
-<li>Straight-line tests mostly expose wheel-diameter error.</li>
-<li>Spin-in-place tests mostly expose wheel-separation error.</li>
-<li>Odometry parameters used by the driver do not have to be identical to the dimensions used in the URDF.</li>
+<li>The BT Navigator coordinates navigation, but it does not compute paths or velocities itself. It delegates to planner, controller, smoother, behavior, waypoint, and related servers.</li>
+<li>The global and local costmaps solve different problems. Tuning them as if they were the same data product leads to poor plans, oscillation, or needless obstacle inflation.</li>
+<li>Planner choice, controller choice, footprint definition, and costmap layer order interact. Good tuning is about system coherence more than isolated parameter changes.</li>
+<li>Recovery behavior is architecture, not polish. If the robot can get stuck, the navigation stack needs explicit ways to detect and respond.</li>
+<li>The cmd_vel chain matters: controller output, optional velocity smoothing, collision monitoring, and hardware enforcement must agree or the robot will feel inconsistent.</li>
 </ul>
-<h2 id="practical-calibration-loop">Practical Calibration Loop<a class="headerlink" href="#practical-calibration-loop" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Mark a known start pose.</li>
-<li>Record odometry before motion.</li>
-<li>Move in a controlled way that isolates one parameter.</li>
-<li>Record odometry after motion.</li>
-<li>Measure actual motion.</li>
-<li>Adjust the configured value.</li>
-<li>Repeat until the results are consistently close, not just lucky once.</li>
-</ol>
-<p>For wheel-diameter adjustment, the core correction is:</p>
-<p><code>correction_ratio = actual_distance / odometry_distance</code></p>
-<p>Then:</p>
-<p><code>new_wheel_diameter = current_wheel_diameter * correction_ratio</code></p>
-<h2 id="operational-lessons">Operational Lessons<a class="headerlink" href="#operational-lessons" title="Permanent link">&para;</a></h2>
+<h2 id="practical-value">Practical Value<a class="headerlink" href="#practical-value" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Sampling rate matters. Curved motion integrated too slowly becomes wrong quickly.</li>
-<li>Linux scheduling jitter can degrade odometry if the computation loop is not regular enough.</li>
-<li>Better odometry improves mapping and navigation, even when higher-level localization will later correct drift.</li>
-<li>If odometry is far off, localization and navigation may fail before they get a chance to compensate.</li>
+<li>Use this page as the first-stop orientation layer before tuning specific planners or controllers.</li>
+<li>Validate server activation and TF first, then footprint and costmaps, then planner and controller behavior, then recoveries.</li>
+<li>Pick a controller based on robot behavior, not popularity. Differential drive in cluttered spaces, ackermann-like motion, and slow indoor service robots often need different tradeoffs.</li>
+<li>Keep a clear mental split between path generation problems, path tracking problems, and safety-stop problems.</li>
+</ul>
+<h2 id="corroborating-references">Corroborating References<a class="headerlink" href="#corroborating-references" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://docs.nav2.org/concepts/index.html">Nav2 concepts overview</a></li>
+<li><a href="https://docs.nav2.org/tuning/index.html">Nav2 tuning guide</a></li>
+<li><a href="https://docs.nav2.org/configuration/index.html">Nav2 configuration guide</a></li>
+<li><a href="https://www.ros.org/reps/rep-0105.html">REP 105 frame conventions</a></li>
 </ul>
 <h2 id="when-to-read-the-original-source">When to Read the Original Source<a class="headerlink" href="#when-to-read-the-original-source" title="Permanent link">&para;</a></h2>
-<p>Go to the original chapter when you want the full hands-on procedure, example commands, measurement workflow, and explanation of why the effective values often differ from the robot's nominal measurements.</p>
+<p>Go to the original skills when you need concrete parameter structure examples for costmap layers, comparisons between MPPI, DWB, RPP, SMAC, NavFn, and recovery-related plugins, or when you are picking the first controller-planner stack for a new robot.</p>
 
 
 
