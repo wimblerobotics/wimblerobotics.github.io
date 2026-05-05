@@ -193,6 +193,10 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/hardware/calibration-workflows-for-mobile-robots/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/hardware/collision-geometry-in-urdf/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -349,6 +353,10 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/navigation/docking-and-semantic-navigation-in-nav2/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/navigation/dwb-controller-basics-and-tuning/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -394,6 +402,10 @@
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/loop-closure-what-it-fixes/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/map-lifecycle-versioning-and-field-updates/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
@@ -645,6 +657,10 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/notes/calibration-workflows/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/notes/close-range-sensing/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -665,6 +681,10 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/notes/docking-semantic-navigation/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/notes/gazebo-physics/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -677,11 +697,19 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/notes/map-lifecycle/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/notes/nav2-architecture/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/notes/outdoor-gps-navigation/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/notes/performance-debugging/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
@@ -734,6 +762,10 @@
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/perception/lidar-filter-chains-and-self-hit-removal/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/perception/multi-sensor-extrinsic-and-temporal-calibration/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
@@ -834,6 +866,10 @@
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/ros2-services-without-deadlocks/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/ros2-tracing-and-performance-analysis/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
