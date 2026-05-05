@@ -44,6 +44,10 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
+validation:
+  nav:
+    omitted_files: ignore
+
 nav:
   - Home: index.md
   - Contributing: contributing.md

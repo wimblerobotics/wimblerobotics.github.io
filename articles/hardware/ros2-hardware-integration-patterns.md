@@ -31,6 +31,13 @@ Robots fail at the hardware-software boundary more often than tutorials admit. O
 - Make watchdog and estop behavior testable.
 - Log power and transport quality as first-class telemetry, especially on mobile robots.
 
+## Start Here
+
+- Microcontrollers and device interfaces: [serial-protocols-between-ros2-and-microcontrollers.md](serial-protocols-between-ros2-and-microcontrollers.md), [micro-ros-setup.md](micro-ros-setup.md), [teensy-platformio-with-ros2.md](teensy-platformio-with-ros2.md), and [i2c-sensors-with-ros2.md](i2c-sensors-with-ros2.md)
+- Motion interfaces and safety: [motor-controller-interfaces.md](motor-controller-interfaces.md), [servo-control-patterns.md](servo-control-patterns.md), [hardware-watchdogs-and-heartbeats.md](hardware-watchdogs-and-heartbeats.md), and [emergency-stop-integration.md](emergency-stop-integration.md)
+- Power and health: [battery-monitoring-in-ros2.md](battery-monitoring-in-ros2.md), [battery-data-analysis.md](battery-data-analysis.md), and [power-management-for-mobile-robots.md](power-management-for-mobile-robots.md)
+- Robot modeling and odometry: [differential-drive-kinematics.md](differential-drive-kinematics.md), [encoder-odometry-math.md](encoder-odometry-math.md), [wheel-odometry-models.md](wheel-odometry-models.md), [collision-geometry-in-urdf.md](collision-geometry-in-urdf.md), [inertia-calculation-for-urdf.md](inertia-calculation-for-urdf.md), and [joint-types-and-limits-in-urdf.md](joint-types-and-limits-in-urdf.md)
+
 ## Corroborating References
 
 - [micro-ROS overview](https://micro.ros.org/docs/overview/)

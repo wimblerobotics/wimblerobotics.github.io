@@ -39,6 +39,12 @@ Perception is where robots start drowning in data. The question is rarely whethe
 - For 3D obstacle feeds: [Point Cloud Processing for Navigation](pointcloud-processing-for-navigation.md)
 - For semantic perception: [Object Detection Pipelines in ROS 2](object-detection-pipelines-in-ros2.md), [YOLO Integration for ROS 2 Robots](yolo-integration-for-ros2-robots.md), [Person Tracking for Robot Behaviors](person-tracking-for-robot-behaviors.md), and [DepthAI and OAK-D Spatial AI](depthai-and-oak-d-spatial-ai.md)
 
+## Additional Perception Topics
+
+- Transport and throughput: [Compressed Image Transport in ROS 2](compressed-image-transport-in-ros2.md)
+- Geometry-rich lidar processing: [Laser Scan Processing and Filtering](laser-scan-processing-and-filtering.md) and [Wall and Line Extraction from LIDAR](wall-line-extraction-from-lidar.md)
+- Inspection-style AI: [Visual Anomaly Detection for Robots](visual-anomaly-detection-for-robots.md)
+
 ## Corroborating References
 
 - [ROS 2 image_pipeline repository](https://github.com/ros-perception/image_pipeline)

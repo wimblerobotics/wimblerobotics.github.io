@@ -31,6 +31,14 @@ ROS 2 projects become fragile when build, simulation, and runtime practices are 
 - Record representative bag files and reuse them as test assets.
 - Prefer boring, well-documented boot flows over clever shell rituals.
 
+## Start Here
+
+- Build and dependency discipline: [colcon-workspace-discipline.md](colcon-workspace-discipline.md), [workspace-overlays-and-package-precedence.md](workspace-overlays-and-package-precedence.md), [rosdep-dependency-management.md](rosdep-dependency-management.md), and [cross-compilation-for-ros2.md](cross-compilation-for-ros2.md)
+- Containers and CI: [docker-for-ros2-development.md](docker-for-ros2-development.md) and [github-actions-for-ros2.md](github-actions-for-ros2.md)
+- Simulation operations: [gazebo-sim-setup-for-ros2.md](gazebo-sim-setup-for-ros2.md), [gz-ros2-bridge-basics.md](gz-ros2-bridge-basics.md), [simulated-sensors-in-gazebo.md](simulated-sensors-in-gazebo.md), [physics-tuning-in-gazebo.md](physics-tuning-in-gazebo.md), and [world-building-for-gazebo.md](world-building-for-gazebo.md)
+- Validation and replay: [ros2-testing-strategy.md](ros2-testing-strategy.md), [simulation-testing-workflows.md](simulation-testing-workflows.md), [rosbag2-recording-strategy.md](rosbag2-recording-strategy.md), [rosbag2-analysis-workflows.md](rosbag2-analysis-workflows.md), and [sim-time-management.md](sim-time-management.md)
+- Deployment hygiene: [systemd-autostart-for-robots.md](systemd-autostart-for-robots.md) and [udev-rules-for-robot-devices.md](udev-rules-for-robot-devices.md)
+
 ## Corroborating References
 
 - [Gazebo ROS 2 integration](https://gazebosim.org/docs/latest/ros2_integration/)

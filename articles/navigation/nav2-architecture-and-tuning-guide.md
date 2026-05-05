@@ -32,6 +32,14 @@ Nav2 is easier to tune when you stop thinking of it as a single package. It is a
 - Near-field control context: [Nav2 Local Costmap Configuration](nav2-local-costmap-configuration.md)
 - Policy overlays: [Nav2 Keepout Zones and No-Go Areas](nav2-keepout-zones-and-no-go-areas.md) and [Nav2 Speed-Restricted Zones](nav2-speed-restricted-zones.md)
 
+## Follow-On Topic Clusters
+
+- Localization and SLAM: [AMCL Tuning in Nav2](amcl-tuning-in-nav2.md), [SLAM Toolbox Online Mapping](slam-toolbox-online-mapping.md), [SLAM Toolbox Lifelong Mapping](slam-toolbox-lifelong-mapping.md), [Cartographer Tuning for 2D SLAM](cartographer-tuning-for-2d-slam.md), [Loop Closure: What It Fixes](loop-closure-what-it-fixes.md), and [Localization Recovery Patterns](localization-recovery-patterns.md)
+- State estimation and odometry: [EKF Sensor Fusion for Robots](ekf-sensor-fusion-for-robots.md), [UKF Sensor Fusion for Robots](ukf-sensor-fusion-for-robots.md), [IMU Integration for Mobile Robots](imu-integration-for-mobile-robots.md), [LIDAR Odometry and Local Motion Estimation](lidar-odometry-and-local-motion-estimation.md), and [Visual Odometry for Mobile Robots](visual-odometry-for-mobile-robots.md)
+- Behavior tree design: [Behavior Tree XML Fundamentals](behavior-tree-xml-fundamentals.md), [Behavior Tree Control Nodes](behavior-tree-control-nodes.md), [Behavior Tree Decorator Nodes](behavior-tree-decorator-nodes.md), [Behavior Tree Blackboard Patterns](behavior-tree-blackboard-patterns.md), and [Nav2 Behavior Tree Action Nodes](nav2-bt-action-nodes.md)
+- Mission structure and benchmarking: [Patrol Behavior Trees](patrol-behavior-trees.md), [Multi-Goal Navigation with Behavior Trees](multi-goal-navigation-with-behavior-trees.md), and [Planner Benchmarking in Nav2](planner-benchmarking-in-nav2.md)
+- Map management: [ROS 2 Map Formats and Occupancy Grids](ros2-map-formats-and-occupancy-grids.md), [Map Server Configuration](map-server-configuration.md), [Map Saver Configuration](map-saver-configuration.md), [Map Merging Strategies](map-merging-strategies.md), and [Multi-Floor Mapping Strategies](multi-floor-mapping-strategies.md)
+
 ## Practical Value
 
 - Use this page as the first-stop orientation layer before tuning specific planners or controllers.
