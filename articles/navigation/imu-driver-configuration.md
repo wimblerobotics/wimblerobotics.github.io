@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "imu-driver-config/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/imu-driver-config/SKILL.md"
 tags: ["ros2", "imu", "localization", "drivers", "hardware"]
-related: ["articles/navigation/imu-integration-for-mobile-robots.md", "articles/navigation/localization-state-estimation-and-frame-discipline.md", "articles/navigation/sensor-frame-mounting-and-extrinsics.md"]
+related: ["articles/hardware/calibration-workflows-for-mobile-robots.md", "articles/navigation/imu-integration-for-mobile-robots.md", "articles/navigation/localization-state-estimation-and-frame-discipline.md", "articles/navigation/sensor-frame-mounting-and-extrinsics.md"]
 ---
 
 # IMU Driver Configuration

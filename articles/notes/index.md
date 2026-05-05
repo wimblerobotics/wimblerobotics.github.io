@@ -70,6 +70,31 @@ The goal is to get a reader from an immediate robotics problem to useful answers
 - Start here: [Note: Robot Health and Diagnostics](robot-health.md)
 - Then branch into diagnostics aggregation, health dashboards, watchdogs, and incident review.
 
+### The Control Stack Needs Cleaner Boundaries
+
+- Start here: [Note: ros2_control Architecture](control-architecture.md)
+- Then branch into hardware interfaces, controller manager boundaries, simulator integration, and drivetrain examples.
+
+### The Team Needs Better Visualization Workflows
+
+- Start here: [Note: Visualization and Telemetry Workflows](visualization-workflows.md)
+- Then branch into RViz discipline, Foxglove workflows, rosbag analysis, and diagnostics dashboards.
+
+### Timestamps Keep Breaking The Pipeline
+
+- Start here: [Note: Timestamps and Sensor Synchronization](time-sync.md)
+- Then branch into ROS time, message_filters, multi-machine assumptions, and fusion quality.
+
+### The Robot Slows Down Only Under Real Load
+
+- Start here: [Note: Performance Debugging and Tracing](performance-debugging.md)
+- Then branch into profiling, callback latency, executor contention, and multi-machine timing assumptions.
+
+### Sensor Calibration Keeps Poisoning The Stack
+
+- Start here: [Note: Robot Calibration Workflows](calibration-workflows.md)
+- Then branch into camera intrinsics, wheel odometry calibration, IMU setup, and multi-sensor extrinsics.
+
 ## How This Part of the Site Works
 
 - Notes are short wayfinding pages.

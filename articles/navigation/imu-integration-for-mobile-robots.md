@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "imu-integration/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/imu-integration/SKILL.md"
 tags: ["ros2", "imu", "localization", "ekf", "odometry"]
-related: ["articles/navigation/imu-driver-configuration.md", "articles/navigation/localization-state-estimation-and-frame-discipline.md", "articles/navigation/multi-sensor-fusion-patterns.md"]
+related: ["articles/hardware/calibration-workflows-for-mobile-robots.md", "articles/navigation/imu-driver-configuration.md", "articles/navigation/localization-state-estimation-and-frame-discipline.md", "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md"]
 ---
 
 # IMU Integration for Mobile Robots

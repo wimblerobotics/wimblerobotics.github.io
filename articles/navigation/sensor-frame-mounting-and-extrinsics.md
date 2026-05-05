@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "sensor-frame-mounting/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/sensor-frame-mounting/SKILL.md"
 tags: ["ros2", "tf", "frames", "extrinsics", "sensors"]
-related: ["articles/navigation/localization-state-estimation-and-frame-discipline.md", "articles/foundations/urdf-as-a-frame-translation-system.md", "articles/perception/camera-calibration-for-ros2.md"]
+related: ["articles/hardware/calibration-workflows-for-mobile-robots.md", "articles/navigation/localization-state-estimation-and-frame-discipline.md", "articles/foundations/urdf-as-a-frame-translation-system.md", "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md"]
 ---
 
 # Sensor Frame Mounting and Extrinsics

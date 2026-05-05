@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "camera-calibration/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/camera-calibration/SKILL.md"
 tags: ["ros2", "perception", "camera", "calibration", "vision", "camera-info"]
-related: ["articles/perception/depth-cameras-for-navigation-and-mapping.md", "articles/perception/object-detection-pipelines-in-ros2.md", "articles/navigation/localization-state-estimation-and-frame-discipline.md"]
+related: ["articles/hardware/calibration-workflows-for-mobile-robots.md", "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md", "articles/perception/depth-cameras-for-navigation-and-mapping.md", "articles/navigation/localization-state-estimation-and-frame-discipline.md"]
 ---
 
 # Camera Calibration for ROS 2

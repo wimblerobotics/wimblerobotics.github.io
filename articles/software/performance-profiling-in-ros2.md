@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "performance-profiling/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/performance-profiling/SKILL.md"
 tags: ["ros2", "profiling", "performance", "debugging", "software"]
-related: ["articles/software/component-composition-for-high-bandwidth-pipelines.md", "articles/software/intra-process-zero-copy-communication.md", "articles/software/logging-and-diagnostics-in-ros2.md"]
+related: ["articles/software/ros2-tracing-and-performance-analysis.md", "articles/software/component-composition-for-high-bandwidth-pipelines.md", "articles/software/intra-process-zero-copy-communication.md", "articles/software/logging-and-diagnostics-in-ros2.md"]
 ---
 
 # Performance Profiling in ROS 2

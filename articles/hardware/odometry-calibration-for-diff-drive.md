@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/Robotics_Book"
 source_path: "book/chapters/calibrating_odom.md"
 source_url: "https://github.com/wimblerobotics/Robotics_Book/blob/main/book/chapters/calibrating_odom.md"
 tags: ["ros2", "odometry", "calibration", "differential-drive", "encoders", "hardware"]
-related: ["articles/foundations/urdf-as-a-frame-translation-system.md", "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md"]
+related: ["articles/hardware/calibration-workflows-for-mobile-robots.md", "articles/foundations/urdf-as-a-frame-translation-system.md", "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md"]
 ---
 
 # Odometry Calibration for Differential Drive Robots

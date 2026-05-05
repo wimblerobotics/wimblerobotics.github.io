@@ -64,6 +64,11 @@ nav:
     - notes/custom-bt-plugins.md
     - notes/robot-networking.md
     - notes/robot-health.md
+    - notes/control-architecture.md
+    - notes/visualization-workflows.md
+    - notes/time-sync.md
+    - notes/performance-debugging.md
+    - notes/calibration-workflows.md
   - Contributing: contributing.md
   - Article Template: article-template.md
   - Tag Glossary: tag-glossary.md
@@ -78,14 +83,20 @@ nav:
       - navigation/gps-rtk-and-outdoor-navigation-in-ros2.md
   - Perception:
       - perception/vision-depth-and-lidar-pipelines.md
+      - perception/multi-sensor-extrinsic-and-temporal-calibration.md
   - Hardware:
       - hardware/ros2-hardware-integration-patterns.md
+      - hardware/ros2-control-design-patterns-in-jazzy.md
+      - hardware/calibration-workflows-for-mobile-robots.md
       - hardware/ultrasonic-sensors-for-robot-safety.md
       - hardware/diff-drive-base-control-with-ros2-control-and-arduino.md
       - hardware/rtk-base-stations-for-outdoor-robots.md
   - Software:
       - software/launch-files-patterns-and-pitfalls.md
       - software/diagnostics-aggregation-and-health-dashboards.md
+      - software/ros2-tracing-and-performance-analysis.md
+      - software/foxglove-and-rviz-role-separation.md
+      - software/timestamp-discipline-and-message-synchronization.md
       - software/package-xml-cmakelists-and-python-package-structure.md
   - DevOps:
       - devops/simulation-testing-and-deployment-for-ros2.md

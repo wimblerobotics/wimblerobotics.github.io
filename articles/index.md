@@ -28,6 +28,11 @@ They arrive wanting the next useful click.
 - You need a custom tree node, not just XML edits: start at [Note: Custom Behavior Tree Plugins](notes/custom-bt-plugins.md)
 - One computer works, two do not: start at [Note: Robot Networking and Multi-Machine ROS 2](notes/robot-networking.md)
 - The robot is running, but nobody trusts its health: start at [Note: Robot Health and Diagnostics](notes/robot-health.md)
+- The control stack feels too ad hoc: start at [Note: ros2_control Architecture](notes/control-architecture.md)
+- Visualization tools are overlapping badly: start at [Note: Visualization and Telemetry Workflows](notes/visualization-workflows.md)
+- Sensor timestamps keep betraying the pipeline: start at [Note: Timestamps and Sensor Synchronization](notes/time-sync.md)
+- The robot only slows down under real load: start at [Note: Performance Debugging and Tracing](notes/performance-debugging.md)
+- Sensor calibration feels like guesswork: start at [Note: Robot Calibration Workflows](notes/calibration-workflows.md)
 
 ## Explore Notes
 
@@ -69,11 +74,15 @@ Sensors, actuators, microcontrollers, serial interfaces, and odometry.
 
 Start with [ROS 2 Hardware Integration Patterns](hardware/ros2-hardware-integration-patterns.md), then [Serial Protocols Between ROS 2 and Microcontrollers](hardware/serial-protocols-between-ros2-and-microcontrollers.md) and [Odometry Calibration for Diff-Drive](hardware/odometry-calibration-for-diff-drive.md).
 
+Calibration-heavy robots should also jump to [Calibration Workflows for Mobile Robots](hardware/calibration-workflows-for-mobile-robots.md).
+
 ### [Software](software/launch-files-patterns-and-pitfalls.md)
 
 ROS 2 software architecture: launch files, nodes, parameters, and lifecycle.
 
 Start with [Writing rclpy Nodes in ROS 2](software/writing-rclpy-nodes.md), [Writing rclcpp Nodes in ROS 2](software/writing-rclcpp-nodes.md), and [Launch Files: Patterns and Pitfalls](software/launch-files-patterns-and-pitfalls.md).
+
+When the system is slow in ways logs cannot explain, continue with [ros2_tracing and Performance Analysis](software/ros2-tracing-and-performance-analysis.md).
 
 ### [DevOps](devops/simulation-testing-and-deployment-for-ros2.md)
 

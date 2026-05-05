@@ -1,10 +1,10 @@
 # Topic Graph Report
 
-- Articles scanned: 181
-- Tags discovered: 273
-- Tag co-occurrence edges: 1292
-- Related-link edges: 572
-- Articles with no inbound related links: 6
+- Articles scanned: 187
+- Tags discovered: 276
+- Tag co-occurrence edges: 1337
+- Related-link edges: 605
+- Articles with no inbound related links: 5
 - Articles with no outbound related links: 0
 - Fully orphaned articles: 0
 - Unresolved related links: 0
@@ -12,28 +12,27 @@
 ## Strongest Tag Pairs
 
 - `nav2` <-> `ros2`: 75 shared article(s)
-- `hardware` <-> `ros2`: 24 shared article(s)
+- `hardware` <-> `ros2`: 26 shared article(s)
 - `behavior-trees` <-> `ros2`: 22 shared article(s)
 - `navigation` <-> `ros2`: 22 shared article(s)
 - `devops` <-> `ros2`: 20 shared article(s)
 - `behavior-trees` <-> `nav2`: 19 shared article(s)
+- `debugging` <-> `ros2`: 17 shared article(s)
 - `costmaps` <-> `nav2`: 16 shared article(s)
 - `costmaps` <-> `ros2`: 16 shared article(s)
+- `perception` <-> `ros2`: 16 shared article(s)
 - `localization` <-> `ros2`: 15 shared article(s)
-- `perception` <-> `ros2`: 15 shared article(s)
-- `debugging` <-> `ros2`: 14 shared article(s)
-- `nav2` <-> `navigation`: 14 shared article(s)
+- `controller` <-> `ros2`: 14 shared article(s)
 
 ## Related Link Health
 
 ### Articles with no inbound related links
 
-- `articles/devops/ros2-multi-machine-networking-and-discovery.md`
-- `articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md`
+- `articles/hardware/ros2-control-design-patterns-in-jazzy.md`
 - `articles/hardware/rtk-base-stations-for-outdoor-robots.md`
 - `articles/hardware/ultrasonic-sensors-for-robot-safety.md`
 - `articles/navigation/behavior-tree-plugin-walkthrough.md`
-- `articles/software/diagnostics-aggregation-and-health-dashboards.md`
+- `articles/software/foxglove-and-rviz-role-separation.md`
 
 ### Articles with no outbound related links
 
@@ -85,6 +84,7 @@
 - `articles/foundations/xacro-macros-for-robot-models.md`: ros2, xacro, urdf, robot-model, foundations
 - `articles/hardware/battery-data-analysis.md`: ros2, battery, telemetry, power, hardware
 - `articles/hardware/battery-monitoring-in-ros2.md`: ros2, battery, power, diagnostics, hardware
+- `articles/hardware/calibration-workflows-for-mobile-robots.md`: ros2, calibration, camera, imu, odometry, extrinsics, hardware
 - `articles/hardware/collision-geometry-in-urdf.md`: ros2, urdf, collision, robot-model, hardware
 - `articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md`: ros2, ros2_control, arduino, diff-drive, hardware, microcontrollers
 - `articles/hardware/differential-drive-kinematics.md`: ros2, differential-drive, kinematics, odometry, hardware
@@ -99,6 +99,7 @@
 - `articles/hardware/motor-controller-interfaces.md`: ros2, motors, controller, hardware, actuators
 - `articles/hardware/odometry-calibration-for-diff-drive.md`: ros2, odometry, calibration, differential-drive, encoders, hardware
 - `articles/hardware/power-management-for-mobile-robots.md`: ros2, power, battery, hardware, operations
+- `articles/hardware/ros2-control-design-patterns-in-jazzy.md`: ros2, ros2_control, hardware, controller, jazzy, architecture
 - `articles/hardware/ros2-hardware-integration-patterns.md`: ros2, hardware, microcontrollers, serial, watchdog, battery, teensy, udev
 - `articles/hardware/rtk-base-stations-for-outdoor-robots.md`: ros2, gps, rtk, gnss, outdoor-navigation, hardware
 - `articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md`: ros2, serial, microcontrollers, protocols, hardware, reliability
@@ -203,6 +204,7 @@
 - `articles/perception/laser-scan-processing-and-filtering.md`: ros2, perception, lidar, laserscan, filtering, navigation
 - `articles/perception/lidar-driver-bringup-and-frame-alignment.md`: ros2, perception, lidar, drivers, tf, frames, bringup
 - `articles/perception/lidar-filter-chains-and-self-hit-removal.md`: ros2, perception, lidar, laser-filters, navigation, debugging
+- `articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md`: ros2, calibration, extrinsics, camera, imu, timing, perception
 - `articles/perception/object-detection-pipelines-in-ros2.md`: ros2, perception, vision, object-detection, depth-camera, behavior-trees
 - `articles/perception/person-tracking-for-robot-behaviors.md`: ros2, perception, person-tracking, vision, behavior-trees, autonomy
 - `articles/perception/pointcloud-processing-for-navigation.md`: ros2, perception, pointcloud, pcl, navigation, depth-camera
@@ -215,6 +217,7 @@
 - `articles/software/custom-rviz-overlays.md`: ros2, rviz, visualization, ui, software
 - `articles/software/diagnostics-aggregation-and-health-dashboards.md`: ros2, diagnostics, monitoring, debugging, software
 - `articles/software/executors-callback-groups-and-concurrency.md`: ros2, executors, callbacks, concurrency, threads, rclpy
+- `articles/software/foxglove-and-rviz-role-separation.md`: ros2, foxglove, rviz, visualization, debugging, telemetry
 - `articles/software/intra-process-zero-copy-communication.md`: ros2, intra-process, zero-copy, performance, components, rclcpp
 - `articles/software/launch-event-handlers-and-ordered-startup.md`: ros2, launch, event-handlers, startup, orchestration, cleanup
 - `articles/software/launch-files-patterns-and-pitfalls.md`: ros2, launch, python, namespaces, parameters, beginner
@@ -227,6 +230,8 @@
 - `articles/software/robot-state-publisher-and-joint-state-publisher.md`: ros2, robot_state_publisher, joint_state_publisher, urdf, tf, xacro
 - `articles/software/ros2-actions-for-long-running-robot-tasks.md`: ros2, actions, navigation, feedback, cancellation, autonomy
 - `articles/software/ros2-services-without-deadlocks.md`: ros2, services, clients, servers, executors, deadlocks
+- `articles/software/ros2-tracing-and-performance-analysis.md`: ros2, tracing, performance, debugging, instrumentation, software
 - `articles/software/rviz2-configuration-discipline.md`: ros2, rviz, visualization, tooling, software
+- `articles/software/timestamp-discipline-and-message-synchronization.md`: ros2, timestamps, synchronization, message-filters, multi-machine, debugging
 - `articles/software/writing-rclcpp-nodes.md`: ros2, rclcpp, cpp, nodes, components, software
 - `articles/software/writing-rclpy-nodes.md`: ros2, rclpy, python, nodes, software, beginner

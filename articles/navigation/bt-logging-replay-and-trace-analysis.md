@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "bt-logging-and-replay/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/bt-logging-and-replay/SKILL.md"
 tags: ["ros2", "nav2", "behavior-trees", "debugging", "logging"]
-related: ["articles/navigation/groot2-for-nav2-behavior-trees.md", "articles/navigation/behavior-trees-for-nav2-and-robot-autonomy.md", "articles/navigation/nav2-error-codes-and-failure-analysis.md"]
+related: ["articles/navigation/groot2-for-nav2-behavior-trees.md", "articles/navigation/behavior-trees-for-nav2-and-robot-autonomy.md", "articles/navigation/nav2-error-codes-and-failure-analysis.md", "articles/software/ros2-tracing-and-performance-analysis.md"]
 ---
 
 # BT Logging, Replay, and Trace Analysis

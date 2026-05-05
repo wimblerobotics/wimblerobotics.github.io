@@ -7,6 +7,7 @@ It shows the same robotics knowledge slice rendered in two different site styles
 
 - [Digital-Garden Slice](digital-garden-slice.md): looser exploration, backlink-style movement, and note-cluster discovery.
 - [Traditional Docs Slice](traditional-docs-slice.md): stronger hierarchy, curated entry points, and a clearer learning path.
+- [Quartz Before and After](quartz-before-and-after.md): the same content slice shown in current HB Robotics style versus a Quartz-style note experience.
 - [URL and Section Structure Demo](url-and-section-structure-demo.md): current public shape versus a more deliberately curated section and slug scheme.
 
 ## How To Use These Demos

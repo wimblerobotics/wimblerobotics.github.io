@@ -6,7 +6,7 @@
 
 1. Test whether the current Markdown and frontmatter layout maps cleanly into Quartz.
 2. Evaluate backlink visibility, graph browsing, and note discovery.
-3. Decide whether to keep implementing the digital-garden feel in MkDocs or move to Quartz for stronger backlink and graph-native behavior.
+3. Revisit whether Quartz is worth a migration after the MkDocs note-first experience has had more time in real use.
 
 ### Obsidian Workflow
 
@@ -14,24 +14,13 @@
 2. Check whether tags and related links are enough to make exploration useful.
 3. Decide whether maintainers should use Obsidian for editorial work while keeping Git as the canonical store.
 
-## Source Expansion Track
-
-1. Identify more public GitHub repos, blog posts, and robotics writeups that are strong candidates for summarization.
-2. Define a repeatable intake process for email archives and other private-source material.
-3. Add explicit provenance and permission tracking if email-derived content becomes a real workstream.
-
 ## Backlog Beyond the Current 158 Skills
 
-1. `ros2_control` for drivetrain, arm, and hardware-interface design patterns in Jazzy.
-2. Foxglove and RViz role separation for telemetry, debugging, and operator workflows.
-3. Calibration workflows for cameras, IMUs, wheel radii, and multi-sensor extrinsics.
-4. Timestamp discipline, clock drift, and message synchronization strategies for robots with multiple computers or MCUs.
-5. `ros2_tracing` and deeper performance instrumentation for callback latency and executor contention.
-6. Navigation with elevators, docking, and semantically constrained indoor environments.
-7. Map lifecycle practices: field updates, versioning, annotation, and environment-change handling.
-8. Human-robot interaction basics for status reporting, prompts, teleoperation handoff, and safe autonomy interruption.
-9. Security and remote access basics for internet-connected ROS 2 robots.
-10. Data products for external review: test reports, bag-based regressions, and reproducible issue packages.
+1. Navigation with elevators, docking, and semantically constrained indoor environments.
+2. Map lifecycle practices: field updates, versioning, annotation, and environment-change handling.
+3. Human-robot interaction basics for status reporting, prompts, teleoperation handoff, and safe autonomy interruption.
+4. Security and remote access basics for internet-connected ROS 2 robots.
+5. Data products for external review: test reports, bag-based regressions, and reproducible issue packages.
 
 ## Structural Decisions Still Open
 

@@ -181,6 +181,11 @@
       "title": "Battery Monitoring in ROS 2"
     },
     {
+      "id": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "kind": "article",
+      "title": "Calibration Workflows for Mobile Robots"
+    },
+    {
       "id": "articles/hardware/collision-geometry-in-urdf.md",
       "kind": "article",
       "title": "Collision Geometry in URDF"
@@ -249,6 +254,11 @@
       "id": "articles/hardware/power-management-for-mobile-robots.md",
       "kind": "article",
       "title": "Power Management for Mobile Robots"
+    },
+    {
+      "id": "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
+      "kind": "article",
+      "title": "ros2_control Design Patterns in Jazzy"
     },
     {
       "id": "articles/hardware/ros2-hardware-integration-patterns.md",
@@ -771,6 +781,11 @@
       "title": "LIDAR Filter Chains and Self-Hit Removal"
     },
     {
+      "id": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "kind": "article",
+      "title": "Multi-Sensor Extrinsic and Temporal Calibration"
+    },
+    {
       "id": "articles/perception/object-detection-pipelines-in-ros2.md",
       "kind": "article",
       "title": "Object Detection Pipelines in ROS 2"
@@ -829,6 +844,11 @@
       "id": "articles/software/executors-callback-groups-and-concurrency.md",
       "kind": "article",
       "title": "Executors, Callback Groups, and Concurrency in ROS 2"
+    },
+    {
+      "id": "articles/software/foxglove-and-rviz-role-separation.md",
+      "kind": "article",
+      "title": "Foxglove and RViz Role Separation"
     },
     {
       "id": "articles/software/intra-process-zero-copy-communication.md",
@@ -891,9 +911,19 @@
       "title": "ROS 2 Services Without Deadlocks"
     },
     {
+      "id": "articles/software/ros2-tracing-and-performance-analysis.md",
+      "kind": "article",
+      "title": "ros2_tracing and Performance Analysis"
+    },
+    {
       "id": "articles/software/rviz2-configuration-discipline.md",
       "kind": "article",
       "title": "RViz2 Configuration Discipline"
+    },
+    {
+      "id": "articles/software/timestamp-discipline-and-message-synchronization.md",
+      "kind": "article",
+      "title": "Timestamp Discipline and Message Synchronization"
     },
     {
       "id": "articles/software/writing-rclcpp-nodes.md",
@@ -968,7 +998,7 @@
     {
       "id": "architecture",
       "kind": "tag",
-      "weight": 2
+      "weight": 3
     },
     {
       "id": "arduino",
@@ -1048,7 +1078,7 @@
     {
       "id": "calibration",
       "kind": "tag",
-      "weight": 2
+      "weight": 4
     },
     {
       "id": "callbacks",
@@ -1058,7 +1088,7 @@
     {
       "id": "camera",
       "kind": "tag",
-      "weight": 1
+      "weight": 3
     },
     {
       "id": "camera-info",
@@ -1168,7 +1198,7 @@
     {
       "id": "controller",
       "kind": "tag",
-      "weight": 13
+      "weight": 14
     },
     {
       "id": "controller-tuning",
@@ -1218,7 +1248,7 @@
     {
       "id": "debugging",
       "kind": "tag",
-      "weight": 14
+      "weight": 17
     },
     {
       "id": "decorators",
@@ -1343,7 +1373,7 @@
     {
       "id": "extrinsics",
       "kind": "tag",
-      "weight": 1
+      "weight": 3
     },
     {
       "id": "feedback",
@@ -1369,6 +1399,11 @@
       "id": "foundations",
       "kind": "tag",
       "weight": 5
+    },
+    {
+      "id": "foxglove",
+      "kind": "tag",
+      "weight": 1
     },
     {
       "id": "frames",
@@ -1438,7 +1473,7 @@
     {
       "id": "hardware",
       "kind": "tag",
-      "weight": 24
+      "weight": 26
     },
     {
       "id": "heading-alignment",
@@ -1473,7 +1508,7 @@
     {
       "id": "imu",
       "kind": "tag",
-      "weight": 3
+      "weight": 5
     },
     {
       "id": "inertia",
@@ -1482,6 +1517,11 @@
     },
     {
       "id": "inspection",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "instrumentation",
       "kind": "tag",
       "weight": 1
     },
@@ -1503,7 +1543,7 @@
     {
       "id": "jazzy",
       "kind": "tag",
-      "weight": 13
+      "weight": 14
     },
     {
       "id": "joint_state_publisher",
@@ -1623,7 +1663,7 @@
     {
       "id": "message-filters",
       "kind": "tag",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "messages",
@@ -1673,7 +1713,7 @@
     {
       "id": "multi-machine",
       "kind": "tag",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "multi-robot",
@@ -1733,7 +1773,7 @@
     {
       "id": "odometry",
       "kind": "tag",
-      "weight": 9
+      "weight": 10
     },
     {
       "id": "operations",
@@ -1783,12 +1823,12 @@
     {
       "id": "perception",
       "kind": "tag",
-      "weight": 15
+      "weight": 16
     },
     {
       "id": "performance",
       "kind": "tag",
-      "weight": 4
+      "weight": 5
     },
     {
       "id": "person-tracking",
@@ -1928,12 +1968,12 @@
     {
       "id": "ros2",
       "kind": "tag",
-      "weight": 181
+      "weight": 187
     },
     {
       "id": "ros2_control",
       "kind": "tag",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "rosbag2",
@@ -1963,7 +2003,7 @@
     {
       "id": "rviz",
       "kind": "tag",
-      "weight": 5
+      "weight": 6
     },
     {
       "id": "safety",
@@ -2033,7 +2073,7 @@
     {
       "id": "software",
       "kind": "tag",
-      "weight": 7
+      "weight": 8
     },
     {
       "id": "spatial-ai",
@@ -2063,7 +2103,7 @@
     {
       "id": "synchronization",
       "kind": "tag",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "systemd",
@@ -2078,7 +2118,7 @@
     {
       "id": "telemetry",
       "kind": "tag",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "teleop",
@@ -2123,12 +2163,12 @@
     {
       "id": "timestamps",
       "kind": "tag",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "timing",
       "kind": "tag",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "tooling",
@@ -2139,6 +2179,11 @@
       "id": "topics",
       "kind": "tag",
       "weight": 3
+    },
+    {
+      "id": "tracing",
+      "kind": "tag",
+      "weight": 1
     },
     {
       "id": "transforms",
@@ -2203,7 +2248,7 @@
     {
       "id": "visualization",
       "kind": "tag",
-      "weight": 3
+      "weight": 4
     },
     {
       "id": "wait",
@@ -3258,6 +3303,41 @@
       "kind": "article-tag"
     },
     {
+      "source": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "target": "calibration",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "target": "camera",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "target": "extrinsics",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "target": "hardware",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "target": "imu",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "target": "odometry",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
       "source": "articles/hardware/collision-geometry-in-urdf.md",
       "target": "collision",
       "kind": "article-tag"
@@ -3615,6 +3695,36 @@
     {
       "source": "articles/hardware/power-management-for-mobile-robots.md",
       "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
+      "target": "architecture",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
+      "target": "controller",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
+      "target": "hardware",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
+      "target": "jazzy",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
+      "target": "ros2_control",
       "kind": "article-tag"
     },
     {
@@ -6448,6 +6558,41 @@
       "kind": "article-tag"
     },
     {
+      "source": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "target": "calibration",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "target": "camera",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "target": "extrinsics",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "target": "imu",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "target": "perception",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "target": "timing",
+      "kind": "article-tag"
+    },
+    {
       "source": "articles/perception/object-detection-pipelines-in-ros2.md",
       "target": "behavior-trees",
       "kind": "article-tag"
@@ -6790,6 +6935,36 @@
     {
       "source": "articles/software/executors-callback-groups-and-concurrency.md",
       "target": "threads",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/foxglove-and-rviz-role-separation.md",
+      "target": "debugging",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/foxglove-and-rviz-role-separation.md",
+      "target": "foxglove",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/foxglove-and-rviz-role-separation.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/foxglove-and-rviz-role-separation.md",
+      "target": "rviz",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/foxglove-and-rviz-role-separation.md",
+      "target": "telemetry",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/foxglove-and-rviz-role-separation.md",
+      "target": "visualization",
       "kind": "article-tag"
     },
     {
@@ -7143,6 +7318,36 @@
       "kind": "article-tag"
     },
     {
+      "source": "articles/software/ros2-tracing-and-performance-analysis.md",
+      "target": "debugging",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/ros2-tracing-and-performance-analysis.md",
+      "target": "instrumentation",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/ros2-tracing-and-performance-analysis.md",
+      "target": "performance",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/ros2-tracing-and-performance-analysis.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/ros2-tracing-and-performance-analysis.md",
+      "target": "software",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/ros2-tracing-and-performance-analysis.md",
+      "target": "tracing",
+      "kind": "article-tag"
+    },
+    {
       "source": "articles/software/rviz2-configuration-discipline.md",
       "target": "ros2",
       "kind": "article-tag"
@@ -7165,6 +7370,36 @@
     {
       "source": "articles/software/rviz2-configuration-discipline.md",
       "target": "visualization",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/timestamp-discipline-and-message-synchronization.md",
+      "target": "debugging",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/timestamp-discipline-and-message-synchronization.md",
+      "target": "message-filters",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/timestamp-discipline-and-message-synchronization.md",
+      "target": "multi-machine",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/timestamp-discipline-and-message-synchronization.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/timestamp-discipline-and-message-synchronization.md",
+      "target": "synchronization",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/timestamp-discipline-and-message-synchronization.md",
+      "target": "timestamps",
       "kind": "article-tag"
     },
     {
@@ -7798,6 +8033,31 @@
       "kind": "article-link"
     },
     {
+      "source": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "target": "articles/perception/camera-calibration-for-ros2.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "target": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "target": "articles/navigation/imu-driver-configuration.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "target": "articles/navigation/sensor-frame-mounting-and-extrinsics.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "target": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "kind": "article-link"
+    },
+    {
       "source": "articles/hardware/collision-geometry-in-urdf.md",
       "target": "articles/foundations/urdf-fundamentals.md",
       "kind": "article-link"
@@ -7984,6 +8244,11 @@
     },
     {
       "source": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "target": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/odometry-calibration-for-diff-drive.md",
       "target": "articles/foundations/urdf-as-a-frame-translation-system.md",
       "kind": "article-link"
     },
@@ -8005,6 +8270,26 @@
     {
       "source": "articles/hardware/power-management-for-mobile-robots.md",
       "target": "articles/hardware/emergency-stop-integration.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
+      "target": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
+      "target": "articles/hardware/hardware-abstraction-layers-in-ros2.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
+      "target": "articles/hardware/motor-controller-interfaces.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
+      "target": "articles/devops/gazebo-sim-setup-for-ros2.md",
       "kind": "article-link"
     },
     {
@@ -8308,6 +8593,11 @@
       "kind": "article-link"
     },
     {
+      "source": "articles/navigation/bt-logging-replay-and-trace-analysis.md",
+      "target": "articles/software/ros2-tracing-and-performance-analysis.md",
+      "kind": "article-link"
+    },
+    {
       "source": "articles/navigation/bt-subtrees-for-reusable-autonomy.md",
       "target": "articles/navigation/behavior-trees-for-nav2-and-robot-autonomy.md",
       "kind": "article-link"
@@ -8509,6 +8799,11 @@
     },
     {
       "source": "articles/navigation/imu-driver-configuration.md",
+      "target": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/imu-driver-configuration.md",
       "target": "articles/navigation/imu-integration-for-mobile-robots.md",
       "kind": "article-link"
     },
@@ -8524,6 +8819,11 @@
     },
     {
       "source": "articles/navigation/imu-integration-for-mobile-robots.md",
+      "target": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/imu-integration-for-mobile-robots.md",
       "target": "articles/navigation/imu-driver-configuration.md",
       "kind": "article-link"
     },
@@ -8534,7 +8834,7 @@
     },
     {
       "source": "articles/navigation/imu-integration-for-mobile-robots.md",
-      "target": "articles/navigation/multi-sensor-fusion-patterns.md",
+      "target": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
       "kind": "article-link"
     },
     {
@@ -9329,6 +9629,11 @@
     },
     {
       "source": "articles/navigation/sensor-frame-mounting-and-extrinsics.md",
+      "target": "articles/hardware/calibration-workflows-for-mobile-robots.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/sensor-frame-mounting-and-extrinsics.md",
       "target": "articles/navigation/localization-state-estimation-and-frame-discipline.md",
       "kind": "article-link"
     },
@@ -9339,7 +9644,7 @@
     },
     {
       "source": "articles/navigation/sensor-frame-mounting-and-extrinsics.md",
-      "target": "articles/perception/camera-calibration-for-ros2.md",
+      "target": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
       "kind": "article-link"
     },
     {
@@ -9554,12 +9859,17 @@
     },
     {
       "source": "articles/perception/camera-calibration-for-ros2.md",
-      "target": "articles/perception/depth-cameras-for-navigation-and-mapping.md",
+      "target": "articles/hardware/calibration-workflows-for-mobile-robots.md",
       "kind": "article-link"
     },
     {
       "source": "articles/perception/camera-calibration-for-ros2.md",
-      "target": "articles/perception/object-detection-pipelines-in-ros2.md",
+      "target": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/perception/camera-calibration-for-ros2.md",
+      "target": "articles/perception/depth-cameras-for-navigation-and-mapping.md",
       "kind": "article-link"
     },
     {
@@ -9655,6 +9965,31 @@
     {
       "source": "articles/perception/lidar-filter-chains-and-self-hit-removal.md",
       "target": "articles/navigation/nav2-obstacle-layer-marking-and-clearing.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "target": "articles/perception/camera-calibration-for-ros2.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "target": "articles/navigation/sensor-frame-mounting-and-extrinsics.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "target": "articles/navigation/imu-integration-for-mobile-robots.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "target": "articles/software/timestamp-discipline-and-message-synchronization.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/perception/multi-sensor-extrinsic-and-temporal-calibration.md",
+      "target": "articles/navigation/multi-sensor-fusion-patterns.md",
       "kind": "article-link"
     },
     {
@@ -9858,6 +10193,26 @@
       "kind": "article-link"
     },
     {
+      "source": "articles/software/foxglove-and-rviz-role-separation.md",
+      "target": "articles/software/rviz2-configuration-discipline.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/foxglove-and-rviz-role-separation.md",
+      "target": "articles/software/diagnostics-aggregation-and-health-dashboards.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/foxglove-and-rviz-role-separation.md",
+      "target": "articles/devops/rosbag2-analysis-workflows.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/foxglove-and-rviz-role-separation.md",
+      "target": "articles/software/logging-and-diagnostics-in-ros2.md",
+      "kind": "article-link"
+    },
+    {
       "source": "articles/software/intra-process-zero-copy-communication.md",
       "target": "articles/software/component-composition-for-high-bandwidth-pipelines.md",
       "kind": "article-link"
@@ -9984,6 +10339,11 @@
     },
     {
       "source": "articles/software/performance-profiling-in-ros2.md",
+      "target": "articles/software/ros2-tracing-and-performance-analysis.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/performance-profiling-in-ros2.md",
       "target": "articles/software/component-composition-for-high-bandwidth-pipelines.md",
       "kind": "article-link"
     },
@@ -10043,6 +10403,26 @@
       "kind": "article-link"
     },
     {
+      "source": "articles/software/ros2-tracing-and-performance-analysis.md",
+      "target": "articles/software/performance-profiling-in-ros2.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/ros2-tracing-and-performance-analysis.md",
+      "target": "articles/software/timestamp-discipline-and-message-synchronization.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/ros2-tracing-and-performance-analysis.md",
+      "target": "articles/software/diagnostics-aggregation-and-health-dashboards.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/ros2-tracing-and-performance-analysis.md",
+      "target": "articles/navigation/bt-logging-replay-and-trace-analysis.md",
+      "kind": "article-link"
+    },
+    {
       "source": "articles/software/rviz2-configuration-discipline.md",
       "target": "articles/navigation/nav2-rviz-tools-and-debug-views.md",
       "kind": "article-link"
@@ -10055,6 +10435,26 @@
     {
       "source": "articles/software/rviz2-configuration-discipline.md",
       "target": "articles/software/launch-files-patterns-and-pitfalls.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/timestamp-discipline-and-message-synchronization.md",
+      "target": "articles/foundations/ros2-time-duration-and-sim-time.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/timestamp-discipline-and-message-synchronization.md",
+      "target": "articles/software/message-filters-and-time-synchronized-sensors.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/timestamp-discipline-and-message-synchronization.md",
+      "target": "articles/devops/ros2-multi-machine-networking-and-discovery.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/timestamp-discipline-and-message-synchronization.md",
+      "target": "articles/navigation/multi-sensor-fusion-patterns.md",
       "kind": "article-link"
     },
     {
@@ -10521,6 +10921,12 @@
     },
     {
       "source": "architecture",
+      "target": "controller",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "architecture",
       "target": "drivers",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -10534,6 +10940,12 @@
     {
       "source": "architecture",
       "target": "hardware",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "architecture",
+      "target": "jazzy",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -10553,7 +10965,13 @@
       "source": "architecture",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 3
+    },
+    {
+      "source": "architecture",
+      "target": "ros2_control",
+      "kind": "tag-cooccurrence",
+      "weight": 1
     },
     {
       "source": "architecture",
@@ -11477,7 +11895,7 @@
       "source": "calibration",
       "target": "camera",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 3
     },
     {
       "source": "calibration",
@@ -11499,27 +11917,45 @@
     },
     {
       "source": "calibration",
+      "target": "extrinsics",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "calibration",
       "target": "hardware",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "source": "calibration",
+      "target": "imu",
+      "kind": "tag-cooccurrence",
+      "weight": 2
     },
     {
       "source": "calibration",
       "target": "odometry",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "calibration",
       "target": "perception",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "calibration",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "calibration",
+      "target": "timing",
+      "kind": "tag-cooccurrence",
+      "weight": 1
     },
     {
       "source": "calibration",
@@ -11565,13 +12001,43 @@
     },
     {
       "source": "camera",
-      "target": "perception",
+      "target": "extrinsics",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "camera",
+      "target": "hardware",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
     {
       "source": "camera",
+      "target": "imu",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "camera",
+      "target": "odometry",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "camera",
+      "target": "perception",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "camera",
       "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 3
+    },
+    {
+      "source": "camera",
+      "target": "timing",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -12215,7 +12681,7 @@
       "source": "controller",
       "target": "hardware",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "controller",
@@ -12227,7 +12693,7 @@
       "source": "controller",
       "target": "jazzy",
       "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "controller",
@@ -12299,7 +12765,13 @@
       "source": "controller",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 13
+      "weight": 14
+    },
+    {
+      "source": "controller",
+      "target": "ros2_control",
+      "kind": "tag-cooccurrence",
+      "weight": 1
     },
     {
       "source": "controller",
@@ -12729,6 +13201,12 @@
     },
     {
       "source": "debugging",
+      "target": "foxglove",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "debugging",
       "target": "frames",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -12736,6 +13214,12 @@
     {
       "source": "debugging",
       "target": "groot2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "debugging",
+      "target": "instrumentation",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -12759,6 +13243,12 @@
     },
     {
       "source": "debugging",
+      "target": "message-filters",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "debugging",
       "target": "monitoring",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -12773,7 +13263,7 @@
       "source": "debugging",
       "target": "multi-machine",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "debugging",
@@ -12803,7 +13293,7 @@
       "source": "debugging",
       "target": "performance",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "debugging",
@@ -12839,7 +13329,7 @@
       "source": "debugging",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 14
+      "weight": 17
     },
     {
       "source": "debugging",
@@ -12851,13 +13341,25 @@
       "source": "debugging",
       "target": "rviz",
       "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "debugging",
       "target": "software",
       "kind": "tag-cooccurrence",
-      "weight": 3
+      "weight": 4
+    },
+    {
+      "source": "debugging",
+      "target": "synchronization",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "debugging",
+      "target": "telemetry",
+      "kind": "tag-cooccurrence",
+      "weight": 1
     },
     {
       "source": "debugging",
@@ -12873,7 +13375,19 @@
     },
     {
       "source": "debugging",
+      "target": "timestamps",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "debugging",
       "target": "topics",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "debugging",
+      "target": "tracing",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -12887,7 +13401,7 @@
       "source": "debugging",
       "target": "visualization",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "decorators",
@@ -13761,9 +14275,33 @@
     },
     {
       "source": "extrinsics",
-      "target": "ros2",
+      "target": "hardware",
       "kind": "tag-cooccurrence",
       "weight": 1
+    },
+    {
+      "source": "extrinsics",
+      "target": "imu",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "extrinsics",
+      "target": "odometry",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "extrinsics",
+      "target": "perception",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "extrinsics",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 3
     },
     {
       "source": "extrinsics",
@@ -13774,6 +14312,12 @@
     {
       "source": "extrinsics",
       "target": "tf",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "extrinsics",
+      "target": "timing",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -13900,6 +14444,30 @@
     {
       "source": "foundations",
       "target": "xacro",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "foxglove",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "foxglove",
+      "target": "rviz",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "foxglove",
+      "target": "telemetry",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "foxglove",
+      "target": "visualization",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -14327,11 +14895,17 @@
       "source": "hardware",
       "target": "imu",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "hardware",
       "target": "inertia",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "hardware",
+      "target": "jazzy",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -14387,7 +14961,7 @@
       "source": "hardware",
       "target": "odometry",
       "kind": "tag-cooccurrence",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "hardware",
@@ -14441,13 +15015,13 @@
       "source": "hardware",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 24
+      "weight": 26
     },
     {
       "source": "hardware",
       "target": "ros2_control",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "hardware",
@@ -14651,7 +15225,13 @@
       "source": "imu",
       "target": "odometry",
       "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 3
+    },
+    {
+      "source": "imu",
+      "target": "perception",
+      "kind": "tag-cooccurrence",
+      "weight": 1
     },
     {
       "source": "imu",
@@ -14663,11 +15243,17 @@
       "source": "imu",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 3
+      "weight": 5
     },
     {
       "source": "imu",
       "target": "tf",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "imu",
+      "target": "timing",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -14710,6 +15296,30 @@
     {
       "source": "inspection",
       "target": "waypoints",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "instrumentation",
+      "target": "performance",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "instrumentation",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "instrumentation",
+      "target": "software",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "instrumentation",
+      "target": "tracing",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -14831,7 +15441,13 @@
       "source": "jazzy",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 13
+      "weight": 14
+    },
+    {
+      "source": "jazzy",
+      "target": "ros2_control",
+      "kind": "tag-cooccurrence",
+      "weight": 1
     },
     {
       "source": "jazzy",
@@ -15603,6 +16219,12 @@
     },
     {
       "source": "message-filters",
+      "target": "multi-machine",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "message-filters",
       "target": "perception",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -15611,7 +16233,7 @@
       "source": "message-filters",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "message-filters",
@@ -15623,13 +16245,13 @@
       "source": "message-filters",
       "target": "synchronization",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "message-filters",
       "target": "timestamps",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "messages",
@@ -15832,6 +16454,18 @@
     {
       "source": "multi-machine",
       "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "multi-machine",
+      "target": "synchronization",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "multi-machine",
+      "target": "timestamps",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -16331,7 +16965,7 @@
       "source": "odometry",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 9
+      "weight": 10
     },
     {
       "source": "odometry",
@@ -16523,7 +17157,7 @@
       "source": "perception",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 15
+      "weight": 16
     },
     {
       "source": "perception",
@@ -16552,6 +17186,12 @@
     {
       "source": "perception",
       "target": "timestamps",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "perception",
+      "target": "timing",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -16589,17 +17229,23 @@
       "source": "performance",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "performance",
       "target": "software",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "performance",
       "target": "timing",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "performance",
+      "target": "tracing",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -17081,7 +17727,7 @@
       "source": "ros2",
       "target": "ros2_control",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "ros2",
@@ -17117,7 +17763,7 @@
       "source": "ros2",
       "target": "rviz",
       "kind": "tag-cooccurrence",
-      "weight": 5
+      "weight": 6
     },
     {
       "source": "ros2",
@@ -17201,7 +17847,7 @@
       "source": "ros2",
       "target": "software",
       "kind": "tag-cooccurrence",
-      "weight": 7
+      "weight": 8
     },
     {
       "source": "ros2",
@@ -17237,7 +17883,7 @@
       "source": "ros2",
       "target": "synchronization",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "ros2",
@@ -17255,7 +17901,7 @@
       "source": "ros2",
       "target": "telemetry",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "ros2",
@@ -17309,13 +17955,13 @@
       "source": "ros2",
       "target": "timestamps",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "ros2",
       "target": "timing",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "ros2",
@@ -17328,6 +17974,12 @@
       "target": "topics",
       "kind": "tag-cooccurrence",
       "weight": 3
+    },
+    {
+      "source": "ros2",
+      "target": "tracing",
+      "kind": "tag-cooccurrence",
+      "weight": 1
     },
     {
       "source": "ros2",
@@ -17405,7 +18057,7 @@
       "source": "ros2",
       "target": "visualization",
       "kind": "tag-cooccurrence",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "ros2",
@@ -17529,6 +18181,12 @@
     },
     {
       "source": "rviz",
+      "target": "telemetry",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "rviz",
       "target": "tooling",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -17543,7 +18201,7 @@
       "source": "rviz",
       "target": "visualization",
       "kind": "tag-cooccurrence",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "safety",
@@ -17715,6 +18373,12 @@
     },
     {
       "source": "software",
+      "target": "tracing",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "software",
       "target": "ui",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -17735,7 +18399,7 @@
       "source": "synchronization",
       "target": "timestamps",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "teensy",
@@ -17746,6 +18410,12 @@
     {
       "source": "teensy",
       "target": "watchdog",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "telemetry",
+      "target": "visualization",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -17841,23 +18511,22 @@
     }
   ],
   "stats": {
-    "article_count": 181,
-    "tag_count": 273,
-    "tag_pair_count": 1292,
-    "article_link_count": 572,
-    "zero_inbound_article_count": 6,
+    "article_count": 187,
+    "tag_count": 276,
+    "tag_pair_count": 1337,
+    "article_link_count": 605,
+    "zero_inbound_article_count": 5,
     "zero_outbound_article_count": 0,
     "fully_orphaned_article_count": 0,
     "unresolved_related_link_count": 0
   },
   "link_health": {
     "zero_inbound_articles": [
-      "articles/devops/ros2-multi-machine-networking-and-discovery.md",
-      "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
       "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
       "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
       "articles/navigation/behavior-tree-plugin-walkthrough.md",
-      "articles/software/diagnostics-aggregation-and-health-dashboards.md"
+      "articles/software/foxglove-and-rviz-role-separation.md"
     ],
     "zero_outbound_articles": [],
     "fully_orphaned_articles": [],
