@@ -253,6 +253,10 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/hardware/ultrasonic-sensors-for-robot-safety/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/hardware/urdf-and-gazebo-plugins/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -278,6 +282,10 @@
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/behavior-tree-decorator-nodes/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/behavior-tree-plugin-walkthrough/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
@@ -617,7 +625,15 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/notes/close-range-sensing/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/notes/controller-choice/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/notes/custom-bt-plugins/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
