@@ -249,6 +249,10 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/hardware/ros2-control-design-patterns-in-jazzy/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/hardware/ros2-hardware-integration-patterns/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -645,6 +649,10 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/notes/control-architecture/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/notes/controller-choice/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -685,7 +693,15 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/notes/time-sync/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/notes/urdf-frames/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/notes/visualization-workflows/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
@@ -769,6 +785,10 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/software/foxglove-and-rviz-role-separation/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/software/intra-process-zero-copy-communication/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -818,6 +838,10 @@
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/rviz2-configuration-discipline/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/timestamp-discipline-and-message-synchronization/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
