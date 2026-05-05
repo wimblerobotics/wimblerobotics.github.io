@@ -5,7 +5,7 @@ source_repo: "slgrobotics/robots_bringup"
 source_path: "README.md, Docs/Sensors, Docs/Dragger"
 source_url: "https://github.com/slgrobotics/robots_bringup"
 tags: ["ros2", "gps", "rtk", "outdoor-navigation", "robot_localization", "nav2"]
-related: ["articles/navigation/localization-state-estimation-and-frame-discipline.md", "articles/navigation/ekf-sensor-fusion-for-robots.md", "articles/navigation/multi-sensor-fusion-patterns.md", "articles/hardware/odometry-calibration-for-diff-drive.md"]
+related: ["articles/hardware/rtk-base-stations-for-outdoor-robots.md", "articles/navigation/localization-state-estimation-and-frame-discipline.md", "articles/navigation/ekf-sensor-fusion-for-robots.md", "articles/navigation/multi-sensor-fusion-patterns.md"]
 ---
 
 # GPS, RTK, and Outdoor Navigation in ROS 2

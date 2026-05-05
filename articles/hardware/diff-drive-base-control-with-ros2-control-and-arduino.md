@@ -5,7 +5,7 @@ source_repo: "slgrobotics/diffdrive_arduino"
 source_path: "README.md, robot_hardware.xml, include/diffdrive_arduino"
 source_url: "https://github.com/slgrobotics/diffdrive_arduino"
 tags: ["ros2", "ros2_control", "arduino", "diff-drive", "hardware", "microcontrollers"]
-related: ["articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md", "articles/hardware/odometry-calibration-for-diff-drive.md", "articles/hardware/encoder-odometry-math.md", "articles/hardware/ros2-hardware-integration-patterns.md"]
+related: ["articles/hardware/ros2-control-design-patterns-in-jazzy.md", "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md", "articles/hardware/odometry-calibration-for-diff-drive.md", "articles/hardware/encoder-odometry-math.md"]
 ---
 
 # Diff-Drive Base Control with ros2_control and Arduino

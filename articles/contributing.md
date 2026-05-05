@@ -1,9 +1,9 @@
 # Contributing
 
-This site is intended to be a living robotics knowledge base, not a finished book.
+This site is intended to be a living canonical robotics knowledge base, not a finished book.
 The goal is to keep adding short, technically useful articles that help people solve an immediate problem and then discover the next concepts they should understand.
 
-The proposed contribution flow is sensible: copy the article template into your preferred editor, fill it in carefully, and submit the result as a pull request.
+The contribution flow is intentionally simple: copy the article template into your preferred editor, fill it in carefully, and submit the result as a pull request.
 That keeps contribution lightweight while still making the content easy to review and rewrite for consistency when needed.
 
 Useful links:
@@ -12,6 +12,7 @@ Useful links:
 - Controlled tag glossary: [Tag Glossary](tag-glossary.md)
 - Site home page: [Home](index.md)
 - GitHub repository: [wimblerobotics/wimblerobotics.github.io](https://github.com/wimblerobotics/wimblerobotics.github.io)
+- Root repository contribution guide: [CONTRIBUTING.md](https://github.com/wimblerobotics/wimblerobotics.github.io/blob/main/CONTRIBUTING.md)
 - Template file in the repo: [ARTICLE_TEMPLATE.md](https://github.com/wimblerobotics/wimblerobotics.github.io/blob/main/ARTICLE_TEMPLATE.md)
 
 ## Contribution Workflow

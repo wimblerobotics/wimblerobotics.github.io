@@ -1,5 +1,5 @@
 site_name: HB Robotics Knowledge Base
-site_description: Curated robotics knowledge articles for ROS 2 builders — from strong beginners through senior practitioners.
+site_description: Canonical robotics and ROS 2 knowledge base with practical articles on navigation, perception, hardware integration, debugging, and deployment.
 site_author: HB Robotics
 site_url: https://wimblerobotics.github.io/
 
@@ -69,6 +69,8 @@ nav:
     - notes/time-sync.md
     - notes/performance-debugging.md
     - notes/calibration-workflows.md
+    - notes/docking-semantic-navigation.md
+    - notes/map-lifecycle.md
   - Contributing: contributing.md
   - Article Template: article-template.md
   - Tag Glossary: tag-glossary.md
@@ -79,8 +81,10 @@ nav:
       - navigation/nav2-architecture-and-tuning-guide.md
       - navigation/behavior-trees-for-nav2-and-robot-autonomy.md
       - navigation/behavior-tree-plugin-walkthrough.md
+      - navigation/docking-and-semantic-navigation-in-nav2.md
       - navigation/localization-state-estimation-and-frame-discipline.md
       - navigation/gps-rtk-and-outdoor-navigation-in-ros2.md
+      - navigation/map-lifecycle-versioning-and-field-updates.md
   - Perception:
       - perception/vision-depth-and-lidar-pipelines.md
       - perception/multi-sensor-extrinsic-and-temporal-calibration.md

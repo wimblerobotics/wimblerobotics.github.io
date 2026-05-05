@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "mapping-best-practices/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/mapping-best-practices/SKILL.md"
 tags: ["ros2", "mapping", "slam", "workflow", "nav2"]
-related: ["articles/navigation/slam-toolbox-online-mapping.md", "articles/navigation/loop-closure-what-it-fixes.md", "articles/navigation/map-saver-configuration.md"]
+related: ["articles/navigation/map-lifecycle-versioning-and-field-updates.md", "articles/navigation/slam-toolbox-online-mapping.md", "articles/navigation/loop-closure-what-it-fixes.md", "articles/navigation/map-saver-configuration.md"]
 ---
 
 # Mapping Best Practices for Mobile Robots

@@ -1,9 +1,9 @@
 # Source Note: Robotics_Book
 
 - Source repo: https://github.com/wimblerobotics/Robotics_Book
-- Local source used for this experiment: `/home/ros/Robotics_Book`
+- Local source used for this knowledge base: `/home/ros/Robotics_Book`
 - Repository theme: book-style ROS 2 learning material with chapters, examples, and practical notes
-- Editorial use in this experiment: summarize the practical lessons and point readers back to the original repo and chapter files
+- Editorial use in this knowledge base: summarize the practical lessons and point readers back to the original repo and chapter files
 
 ## Articles Derived Here
 
@@ -20,7 +20,7 @@
 
 ## Notes
 
-The most useful material in the local checkout for this experiment came from substantive chapters rather than the short chapter stubs. The strongest themes were:
+The most useful material in the local checkout for this knowledge base came from substantive chapters rather than the short chapter stubs. The strongest themes were:
 
 - URDF as frame-management infrastructure, not just robot geometry
 - the XML tree structure of URDF itself: links, joints, and the robot root

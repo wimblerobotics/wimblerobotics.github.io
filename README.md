@@ -1,14 +1,25 @@
-# knowledge_try1
+# HB Robotics Knowledge Base
 
-A throwaway experiment for a robotics knowledge base that could eventually sit behind a link from hbrobotics.org.
+The HB Robotics Knowledge Base is a canonical public reference for practical robotics and ROS 2 work.
 
-The public site is intended to be a living resource. The content should improve over time through pull requests, editorial revision, and the addition of new source material.
+Public site: https://wimblerobotics.github.io/
+
+This repository is the canonical source for the published site. The content is intended to improve continuously through pull requests, editorial revision, and the addition of strong public source material.
 
 This repo is organized around short, curated knowledge articles that do three things:
 
 - point to a stronger original source
 - summarize the technical value of that source
 - connect the topic to nearby robotics problems through tags and related links
+
+## Repository Role
+
+- Canonical content store for the published site
+- GitHub-friendly editorial workspace for contributors and maintainers
+- Search-indexable public resource for robotics and ROS 2 problem solving
+- Source-backed knowledge base rather than a generic docs dump
+
+The exact current article count is tracked in `generated/topic_graph.md` after each regeneration.
 
 ## Layout
 
@@ -60,15 +71,35 @@ This scans article frontmatter and produces:
 
 The current graph is tag-based rather than NLP-based. That keeps it deterministic and easy to curate.
 
+For stricter validation, run:
+
+```bash
+python3 scripts/build_topic_graph.py --fail-on-unresolved-related
+```
+
+## Publishing And Discovery
+
+The current public stack is MkDocs Material deployed to GitHub Pages.
+
+Discovery-oriented artifacts in the repo and site include:
+
+- explicit `site_url` for sitemap generation
+- root-level GitHub contribution guidance
+- `articles/robots.txt` for crawler hints
+- `articles/llms.txt` for AI and assistant-oriented crawling
+- generated topic-graph artifacts for current structure and article count
+
+If search-console or webmaster verification is needed later, the required verification tokens can be added without changing the content model.
+
 ## Why This Structure
 
-This layout is trying to balance three needs:
+This layout balances three needs:
 
 1. Git-friendly contribution through pull requests
 2. Obsidian-friendly backlink and graph exploration
 3. Public-site-friendly curated content rather than raw notes
 
-If this direction is useful, the next obvious step would be to add either MkDocs or Quartz on top of the same Markdown source tree.
+The current site layer is MkDocs Material. Quartz remains a future evaluation path, not the active publishing platform.
 
 ## Contributing
 
@@ -81,4 +112,4 @@ The expected contribution model is intentionally simple:
 
 Contributors should expect editorial cleanup for consistency. The bar is usefulness, not raw volume.
 
-For the fuller public-facing guide, see `articles/contributing.md` in the docs tree.
+For the fuller public-facing guide, see `articles/contributing.md` in the docs tree or the root `CONTRIBUTING.md`.

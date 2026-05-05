@@ -1,13 +1,13 @@
 # Source Note: slgrobotics
 
 - Source profile: https://github.com/slgrobotics
-- Strong public repos inspected for this experiment:
+- Strong public repos inspected for this knowledge base:
   - `robots_bringup`
   - `articubot_one`
   - `diffdrive_arduino`
   - `Esp32_RTK_BaseStation`
 - Repository theme: practical ROS 2 Jazzy robot bringup notes, multi-robot sample code, diff-drive hardware integration, and outdoor GPS/RTK operating patterns
-- Editorial use in this experiment: mine the repos for field-tested setup assumptions, hardware/software boundary patterns, and outdoor-navigation operational lessons that complement official ROS and Nav2 docs
+- Editorial use in this knowledge base: mine the repos for field-tested setup assumptions, hardware/software boundary patterns, and outdoor-navigation operational lessons that complement official ROS and Nav2 docs
 
 ## Articles Derived Here
 

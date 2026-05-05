@@ -7,7 +7,7 @@
   - `ros-controls/ros2_controllers` diff-drive docs
   - `ethz-asl/kalibr`
 - Repository theme: system introspection for callback-level performance work, plus practical calibration workflows that tie sensor geometry and timing back to reliable robot behavior
-- Editorial use in this experiment: fill two thin but high-value gaps between existing leaf articles on profiling, camera calibration, IMU integration, and wheel odometry
+- Editorial use in this knowledge base: fill two thin but high-value gaps between existing leaf articles on profiling, camera calibration, IMU integration, and wheel odometry
 
 ## Articles Derived Here
 

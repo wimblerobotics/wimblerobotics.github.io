@@ -1,0 +1,45 @@
+# HB Robotics Knowledge Base
+
+> Canonical public knowledge base for practical robotics and ROS 2 problem solving.
+
+Primary site: https://wimblerobotics.github.io/
+Repository: https://github.com/wimblerobotics/wimblerobotics.github.io
+
+## What This Site Is
+
+This site is a curated, source-backed robotics knowledge base focused on practical ROS 2 work.
+It is designed to help readers solve concrete robot problems, then branch into nearby topics worth learning next.
+
+## High-Value Entry Points
+
+- Home: https://wimblerobotics.github.io/
+- Solve a Problem: https://wimblerobotics.github.io/notes/
+- Nav2 Architecture: https://wimblerobotics.github.io/notes/nav2-architecture/
+- Robot Networking: https://wimblerobotics.github.io/notes/robot-networking/
+- Robot Health: https://wimblerobotics.github.io/notes/robot-health/
+- Robot Calibration Workflows: https://wimblerobotics.github.io/notes/calibration-workflows/
+- Performance Debugging and Tracing: https://wimblerobotics.github.io/notes/performance-debugging/
+- Docking and Semantic Navigation: https://wimblerobotics.github.io/notes/docking-semantic-navigation/
+- Map Lifecycle and Field Updates: https://wimblerobotics.github.io/notes/map-lifecycle/
+
+## Core Topic Hubs
+
+- Foundations: https://wimblerobotics.github.io/foundations/ros2-core-communication-and-execution/
+- Navigation: https://wimblerobotics.github.io/navigation/nav2-architecture-and-tuning-guide/
+- Perception: https://wimblerobotics.github.io/perception/vision-depth-and-lidar-pipelines/
+- Hardware: https://wimblerobotics.github.io/hardware/ros2-hardware-integration-patterns/
+- Software: https://wimblerobotics.github.io/software/launch-files-patterns-and-pitfalls/
+- DevOps: https://wimblerobotics.github.io/devops/simulation-testing-and-deployment-for-ros2/
+
+## Editorial Model
+
+- Articles point to stronger original sources.
+- Articles summarize the practical technical value of those sources.
+- Articles cross-link through tags and explicit related links.
+- Notes under `/notes/` act as short routing pages from problem to likely answer.
+
+## Provenance And Quality
+
+- This repository is the canonical source for the published site.
+- Every article includes source provenance in frontmatter.
+- Generated structure summaries live in `generated/topic_graph.json` and `generated/topic_graph.md` in the repository.

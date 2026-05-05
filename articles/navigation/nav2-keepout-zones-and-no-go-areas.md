@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "keepout-zones/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/keepout-zones/SKILL.md"
 tags: ["ros2", "nav2", "navigation", "costmaps", "safety", "jazzy"]
-related: ["articles/navigation/nav2-global-costmap-configuration.md", "articles/navigation/nav2-speed-restricted-zones.md", "articles/navigation/nav2-static-layer-and-map-ingestion.md"]
+related: ["articles/navigation/docking-and-semantic-navigation-in-nav2.md", "articles/navigation/nav2-global-costmap-configuration.md", "articles/navigation/nav2-speed-restricted-zones.md", "articles/navigation/nav2-static-layer-and-map-ingestion.md"]
 ---
 
 # Nav2 Keepout Zones and No-Go Areas

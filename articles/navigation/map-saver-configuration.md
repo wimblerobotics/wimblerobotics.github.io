@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "map-saver-config/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/map-saver-config/SKILL.md"
 tags: ["ros2", "maps", "mapping", "map-saver", "nav2"]
-related: ["articles/navigation/map-server-configuration.md", "articles/navigation/ros2-map-formats-and-occupancy-grids.md", "articles/navigation/mapping-best-practices-for-mobile-robots.md"]
+related: ["articles/navigation/map-lifecycle-versioning-and-field-updates.md", "articles/navigation/map-server-configuration.md", "articles/navigation/ros2-map-formats-and-occupancy-grids.md", "articles/navigation/mapping-best-practices-for-mobile-robots.md"]
 ---
 
 # Map Saver Configuration

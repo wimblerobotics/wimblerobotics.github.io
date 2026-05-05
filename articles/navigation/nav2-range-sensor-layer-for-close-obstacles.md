@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "range-sensor-layer/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/range-sensor-layer/SKILL.md"
 tags: ["ros2", "nav2", "navigation", "costmaps", "sensors", "jazzy"]
-related: ["articles/navigation/nav2-local-costmap-configuration.md", "articles/navigation/nav2-voxel-layer-for-3d-obstacles.md", "articles/hardware/ros2-hardware-integration-patterns.md"]
+related: ["articles/hardware/ultrasonic-sensors-for-robot-safety.md", "articles/navigation/nav2-local-costmap-configuration.md", "articles/navigation/nav2-voxel-layer-for-3d-obstacles.md", "articles/hardware/ros2-hardware-integration-patterns.md"]
 ---
 
 # Nav2 Range Sensor Layer for Close Obstacles

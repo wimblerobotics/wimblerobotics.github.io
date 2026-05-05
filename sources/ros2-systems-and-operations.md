@@ -5,7 +5,7 @@
   - `ros/diagnostics`
   - `slgrobotics/robots_bringup`
 - Repository theme: official and field-tested material about ROS 2 discovery boundaries, distributed-system assumptions, and operator-visible robot health
-- Editorial use in this experiment: create practical ops-focused pages that bridge the gap between package docs and what robot maintainers need when systems span multiple machines and failure states
+- Editorial use in this knowledge base: create practical ops-focused pages that bridge the gap between package docs and what robot maintainers need when systems span multiple machines and failure states
 
 ## Articles Derived Here
 

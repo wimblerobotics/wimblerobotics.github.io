@@ -1,6 +1,6 @@
 # HB Robotics Knowledge Base
 
-A curated collection of short, practical articles for robot builders using ROS 2 — from strong beginners through senior practitioners.
+A canonical collection of short, practical articles for robot builders using ROS 2, from strong beginners through senior practitioners.
 
 This is a living site. It is meant to grow through pull requests, source review, and ongoing revision as ROS 2 practice changes and the collection becomes more useful.
 
@@ -33,6 +33,8 @@ They arrive wanting the next useful click.
 - Sensor timestamps keep betraying the pipeline: start at [Note: Timestamps and Sensor Synchronization](notes/time-sync.md)
 - The robot only slows down under real load: start at [Note: Performance Debugging and Tracing](notes/performance-debugging.md)
 - Sensor calibration feels like guesswork: start at [Note: Robot Calibration Workflows](notes/calibration-workflows.md)
+- Docking and indoor policy constraints are becoming autonomy problems: start at [Note: Docking and Semantic Navigation](notes/docking-semantic-navigation.md)
+- The map keeps changing after deployment: start at [Note: Map Lifecycle and Field Updates](notes/map-lifecycle.md)
 
 ## Explore Notes
 
@@ -100,7 +102,7 @@ See the [Tags](tags.md) index to find articles by topic.
 
 ## About This Site
 
-This knowledge base is an experiment in curated, Git-backed technical documentation.
+This knowledge base is the canonical public HB Robotics reference for curated, Git-backed technical documentation.
 Articles are derived from public sources and summarized for practical value.
 The source repository is kept Markdown-first so it remains useful as a GitHub repo,
 an Obsidian vault, and this published site simultaneously.

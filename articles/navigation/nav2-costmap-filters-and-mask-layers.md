@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "costmap-filters/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/costmap-filters/SKILL.md"
 tags: ["ros2", "nav2", "costmaps", "filters", "keepout", "speed-limits"]
-related: ["articles/navigation/nav2-keepout-zones-and-no-go-areas.md", "articles/navigation/nav2-speed-restricted-zones.md", "articles/navigation/nav2-costmap-architecture-and-plugin-order.md"]
+related: ["articles/navigation/docking-and-semantic-navigation-in-nav2.md", "articles/navigation/nav2-keepout-zones-and-no-go-areas.md", "articles/navigation/nav2-speed-restricted-zones.md", "articles/navigation/nav2-costmap-architecture-and-plugin-order.md"]
 ---
 
 # Nav2 Costmap Filters and Mask Layers

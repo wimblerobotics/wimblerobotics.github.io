@@ -18,8 +18,16 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install docs dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install mkdocs mkdocs-material
+
       - name: Regenerate topic graph
         run: python3 scripts/build_topic_graph.py --fail-on-unresolved-related
+
+      - name: Build site
+        run: python3 -m mkdocs build
 
       - name: Verify generated files are up to date
         run: git diff --exit-code -- generated/topic_graph.json generated/topic_graph.md

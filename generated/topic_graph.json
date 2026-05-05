@@ -381,6 +381,11 @@
       "title": "Custom Nav2 BT Plugins and Configuration"
     },
     {
+      "id": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
+      "kind": "article",
+      "title": "Docking and Semantic Navigation in Nav2"
+    },
+    {
       "id": "articles/navigation/dwb-controller-basics-and-tuning.md",
       "kind": "article",
       "title": "DWB Controller Basics and Tuning"
@@ -439,6 +444,11 @@
       "id": "articles/navigation/loop-closure-what-it-fixes.md",
       "kind": "article",
       "title": "Loop Closure: What It Fixes"
+    },
+    {
+      "id": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
+      "kind": "article",
+      "title": "Map Lifecycle, Versioning, and Field Updates"
     },
     {
       "id": "articles/navigation/map-merging-strategies.md",
@@ -1208,7 +1218,7 @@
     {
       "id": "costmaps",
       "kind": "tag",
-      "weight": 16
+      "weight": 17
     },
     {
       "id": "cpp",
@@ -1314,6 +1324,11 @@
       "id": "docker",
       "kind": "tag",
       "weight": 2
+    },
+    {
+      "id": "docking",
+      "kind": "tag",
+      "weight": 1
     },
     {
       "id": "drivers",
@@ -1638,7 +1653,7 @@
     {
       "id": "map-server",
       "kind": "tag",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "mapping",
@@ -1648,7 +1663,7 @@
     {
       "id": "maps",
       "kind": "tag",
-      "weight": 6
+      "weight": 7
     },
     {
       "id": "math",
@@ -1728,7 +1743,7 @@
     {
       "id": "nav2",
       "kind": "tag",
-      "weight": 75
+      "weight": 77
     },
     {
       "id": "navfn",
@@ -1738,7 +1753,7 @@
     {
       "id": "navigation",
       "kind": "tag",
-      "weight": 22
+      "weight": 23
     },
     {
       "id": "networking",
@@ -1778,7 +1793,7 @@
     {
       "id": "operations",
       "kind": "tag",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "orchestration",
@@ -1968,7 +1983,7 @@
     {
       "id": "ros2",
       "kind": "tag",
-      "weight": 187
+      "weight": 189
     },
     {
       "id": "ros2_control",
@@ -2009,6 +2024,11 @@
       "id": "safety",
       "kind": "tag",
       "weight": 8
+    },
+    {
+      "id": "semantics",
+      "kind": "tag",
+      "weight": 1
     },
     {
       "id": "sensor-fusion",
@@ -2058,7 +2078,7 @@
     {
       "id": "slam",
       "kind": "tag",
-      "weight": 6
+      "weight": 7
     },
     {
       "id": "slam-toolbox",
@@ -4373,6 +4393,36 @@
       "kind": "article-tag"
     },
     {
+      "source": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
+      "target": "costmaps",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
+      "target": "docking",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
+      "target": "nav2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
+      "target": "navigation",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
+      "target": "semantics",
+      "kind": "article-tag"
+    },
+    {
       "source": "articles/navigation/dwb-controller-basics-and-tuning.md",
       "target": "controller",
       "kind": "article-tag"
@@ -4689,6 +4739,36 @@
     },
     {
       "source": "articles/navigation/loop-closure-what-it-fixes.md",
+      "target": "slam",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
+      "target": "map-server",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
+      "target": "maps",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
+      "target": "nav2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
+      "target": "operations",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
       "target": "slam",
       "kind": "article-tag"
     },
@@ -8074,6 +8154,11 @@
     },
     {
       "source": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "target": "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
       "target": "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md",
       "kind": "article-link"
     },
@@ -8085,11 +8170,6 @@
     {
       "source": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
       "target": "articles/hardware/encoder-odometry-math.md",
-      "kind": "article-link"
-    },
-    {
-      "source": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
-      "target": "articles/hardware/ros2-hardware-integration-patterns.md",
       "kind": "article-link"
     },
     {
@@ -8135,6 +8215,11 @@
     {
       "source": "articles/hardware/encoder-odometry-math.md",
       "target": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/hardware-abstraction-layers-in-ros2.md",
+      "target": "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
       "kind": "article-link"
     },
     {
@@ -8689,6 +8774,11 @@
     },
     {
       "source": "articles/navigation/custom-nav2-bt-plugins-and-configuration.md",
+      "target": "articles/navigation/behavior-tree-plugin-walkthrough.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/custom-nav2-bt-plugins-and-configuration.md",
       "target": "articles/navigation/writing-custom-nav2-behavior-plugins.md",
       "kind": "article-link"
     },
@@ -8700,6 +8790,31 @@
     {
       "source": "articles/navigation/custom-nav2-bt-plugins-and-configuration.md",
       "target": "articles/navigation/behavior-tree-xml-fundamentals.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
+      "target": "articles/navigation/nav2-costmap-filters-and-mask-layers.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
+      "target": "articles/navigation/behavior-trees-for-nav2-and-robot-autonomy.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
+      "target": "articles/navigation/nav2-keepout-zones-and-no-go-areas.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
+      "target": "articles/navigation/nav2-speed-restricted-zones.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
+      "target": "articles/navigation/localization-state-estimation-and-frame-discipline.md",
       "kind": "article-link"
     },
     {
@@ -8749,6 +8864,11 @@
     },
     {
       "source": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
+      "target": "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
       "target": "articles/navigation/localization-state-estimation-and-frame-discipline.md",
       "kind": "article-link"
     },
@@ -8760,11 +8880,6 @@
     {
       "source": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
       "target": "articles/navigation/multi-sensor-fusion-patterns.md",
-      "kind": "article-link"
-    },
-    {
-      "source": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
-      "target": "articles/hardware/odometry-calibration-for-diff-drive.md",
       "kind": "article-link"
     },
     {
@@ -8903,6 +9018,31 @@
       "kind": "article-link"
     },
     {
+      "source": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
+      "target": "articles/navigation/map-server-configuration.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
+      "target": "articles/navigation/map-saver-configuration.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
+      "target": "articles/navigation/slam-toolbox-lifelong-mapping.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
+      "target": "articles/navigation/slam-toolbox-online-mapping.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
+      "target": "articles/navigation/mapping-best-practices-for-mobile-robots.md",
+      "kind": "article-link"
+    },
+    {
       "source": "articles/navigation/map-merging-strategies.md",
       "target": "articles/navigation/ros2-map-formats-and-occupancy-grids.md",
       "kind": "article-link"
@@ -8915,6 +9055,11 @@
     {
       "source": "articles/navigation/map-merging-strategies.md",
       "target": "articles/navigation/mapping-best-practices-for-mobile-robots.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/map-saver-configuration.md",
+      "target": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
       "kind": "article-link"
     },
     {
@@ -8934,6 +9079,11 @@
     },
     {
       "source": "articles/navigation/map-server-configuration.md",
+      "target": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/map-server-configuration.md",
       "target": "articles/navigation/map-saver-configuration.md",
       "kind": "article-link"
     },
@@ -8945,6 +9095,11 @@
     {
       "source": "articles/navigation/map-server-configuration.md",
       "target": "articles/navigation/ros2-map-formats-and-occupancy-grids.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/mapping-best-practices-for-mobile-robots.md",
+      "target": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
       "kind": "article-link"
     },
     {
@@ -9209,6 +9364,11 @@
     },
     {
       "source": "articles/navigation/nav2-costmap-filters-and-mask-layers.md",
+      "target": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/nav2-costmap-filters-and-mask-layers.md",
       "target": "articles/navigation/nav2-keepout-zones-and-no-go-areas.md",
       "kind": "article-link"
     },
@@ -9280,6 +9440,11 @@
     {
       "source": "articles/navigation/nav2-inflation-layer-tuning.md",
       "target": "articles/navigation/nav2-local-costmap-configuration.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/nav2-keepout-zones-and-no-go-areas.md",
+      "target": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
       "kind": "article-link"
     },
     {
@@ -9364,6 +9529,11 @@
     },
     {
       "source": "articles/navigation/nav2-range-sensor-layer-for-close-obstacles.md",
+      "target": "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/nav2-range-sensor-layer-for-close-obstacles.md",
       "target": "articles/navigation/nav2-local-costmap-configuration.md",
       "kind": "article-link"
     },
@@ -9420,6 +9590,11 @@
     {
       "source": "articles/navigation/nav2-simple-commander-for-programmatic-navigation.md",
       "target": "articles/navigation/behavior-trees-for-nav2-and-robot-autonomy.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/nav2-speed-restricted-zones.md",
+      "target": "articles/navigation/docking-and-semantic-navigation-in-nav2.md",
       "kind": "article-link"
     },
     {
@@ -9649,6 +9824,11 @@
     },
     {
       "source": "articles/navigation/slam-toolbox-lifelong-mapping.md",
+      "target": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/slam-toolbox-lifelong-mapping.md",
       "target": "articles/navigation/slam-toolbox-online-mapping.md",
       "kind": "article-link"
     },
@@ -9660,6 +9840,11 @@
     {
       "source": "articles/navigation/slam-toolbox-lifelong-mapping.md",
       "target": "articles/navigation/loop-closure-what-it-fixes.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/slam-toolbox-online-mapping.md",
+      "target": "articles/navigation/map-lifecycle-versioning-and-field-updates.md",
       "kind": "article-link"
     },
     {
@@ -10420,6 +10605,11 @@
     {
       "source": "articles/software/ros2-tracing-and-performance-analysis.md",
       "target": "articles/navigation/bt-logging-replay-and-trace-analysis.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/rviz2-configuration-discipline.md",
+      "target": "articles/software/foxglove-and-rviz-role-separation.md",
       "kind": "article-link"
     },
     {
@@ -12853,6 +13043,12 @@
     },
     {
       "source": "costmaps",
+      "target": "docking",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "costmaps",
       "target": "filters",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -12903,13 +13099,13 @@
       "source": "costmaps",
       "target": "nav2",
       "kind": "tag-cooccurrence",
-      "weight": 16
+      "weight": 17
     },
     {
       "source": "costmaps",
       "target": "navigation",
       "kind": "tag-cooccurrence",
-      "weight": 11
+      "weight": 12
     },
     {
       "source": "costmaps",
@@ -12945,7 +13141,7 @@
       "source": "costmaps",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 16
+      "weight": 17
     },
     {
       "source": "costmaps",
@@ -12958,6 +13154,12 @@
       "target": "safety",
       "kind": "tag-cooccurrence",
       "weight": 2
+    },
+    {
+      "source": "costmaps",
+      "target": "semantics",
+      "kind": "tag-cooccurrence",
+      "weight": 1
     },
     {
       "source": "costmaps",
@@ -13916,6 +14118,30 @@
     {
       "source": "docker",
       "target": "systemd",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "docking",
+      "target": "nav2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "docking",
+      "target": "navigation",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "docking",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "docking",
+      "target": "semantics",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -16053,17 +16279,29 @@
       "source": "map-server",
       "target": "maps",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "map-server",
       "target": "nav2",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "map-server",
+      "target": "operations",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
     {
       "source": "map-server",
       "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "map-server",
+      "target": "slam",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -16161,7 +16399,7 @@
       "source": "maps",
       "target": "nav2",
       "kind": "tag-cooccurrence",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "maps",
@@ -16177,15 +16415,21 @@
     },
     {
       "source": "maps",
+      "target": "operations",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "maps",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 6
+      "weight": 7
     },
     {
       "source": "maps",
       "target": "slam",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "maps",
@@ -16503,7 +16747,7 @@
       "source": "nav2",
       "target": "navigation",
       "kind": "tag-cooccurrence",
-      "weight": 14
+      "weight": 15
     },
     {
       "source": "nav2",
@@ -16514,6 +16758,12 @@
     {
       "source": "nav2",
       "target": "occupancy-grid",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "nav2",
+      "target": "operations",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -16605,7 +16855,7 @@
       "source": "nav2",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 75
+      "weight": 77
     },
     {
       "source": "nav2",
@@ -16639,6 +16889,12 @@
     },
     {
       "source": "nav2",
+      "target": "semantics",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "nav2",
       "target": "sensors",
       "kind": "tag-cooccurrence",
       "weight": 2
@@ -16659,7 +16915,7 @@
       "source": "nav2",
       "target": "slam",
       "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "nav2",
@@ -16827,7 +17083,7 @@
       "source": "navigation",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 22
+      "weight": 23
     },
     {
       "source": "navigation",
@@ -16840,6 +17096,12 @@
       "target": "safety",
       "kind": "tag-cooccurrence",
       "weight": 2
+    },
+    {
+      "source": "navigation",
+      "target": "semantics",
+      "kind": "tag-cooccurrence",
+      "weight": 1
     },
     {
       "source": "navigation",
@@ -17006,6 +17268,12 @@
     {
       "source": "operations",
       "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "operations",
+      "target": "slam",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -17773,6 +18041,12 @@
     },
     {
       "source": "ros2",
+      "target": "semantics",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "ros2",
       "target": "sensor-fusion",
       "kind": "tag-cooccurrence",
       "weight": 3
@@ -17829,7 +18103,7 @@
       "source": "ros2",
       "target": "slam",
       "kind": "tag-cooccurrence",
-      "weight": 6
+      "weight": 7
     },
     {
       "source": "ros2",
@@ -18511,23 +18785,17 @@
     }
   ],
   "stats": {
-    "article_count": 187,
-    "tag_count": 276,
-    "tag_pair_count": 1337,
-    "article_link_count": 605,
-    "zero_inbound_article_count": 5,
+    "article_count": 189,
+    "tag_count": 278,
+    "tag_pair_count": 1351,
+    "article_link_count": 627,
+    "zero_inbound_article_count": 0,
     "zero_outbound_article_count": 0,
     "fully_orphaned_article_count": 0,
     "unresolved_related_link_count": 0
   },
   "link_health": {
-    "zero_inbound_articles": [
-      "articles/hardware/ros2-control-design-patterns-in-jazzy.md",
-      "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
-      "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
-      "articles/navigation/behavior-tree-plugin-walkthrough.md",
-      "articles/software/foxglove-and-rviz-role-separation.md"
-    ],
+    "zero_inbound_articles": [],
     "zero_outbound_articles": [],
     "fully_orphaned_articles": [],
     "unresolved_related_links": []

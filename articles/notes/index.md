@@ -95,6 +95,16 @@ The goal is to get a reader from an immediate robotics problem to useful answers
 - Start here: [Note: Robot Calibration Workflows](calibration-workflows.md)
 - Then branch into camera intrinsics, wheel odometry calibration, IMU setup, and multi-sensor extrinsics.
 
+### Docking And Indoor Policy Are Becoming Navigation Problems
+
+- Start here: [Note: Docking and Semantic Navigation](docking-semantic-navigation.md)
+- Then branch into docking, keepout zones, speed limits, and map-anchored policy.
+
+### The Map Keeps Changing After Deployment
+
+- Start here: [Note: Map Lifecycle and Field Updates](map-lifecycle.md)
+- Then branch into map server behavior, map saving, lifelong mapping, and rollout discipline.
+
 ## How This Part of the Site Works
 
 - Notes are short wayfinding pages.

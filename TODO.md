@@ -16,18 +16,21 @@
 
 ## Backlog Beyond the Current 158 Skills
 
-1. Navigation with elevators, docking, and semantically constrained indoor environments.
-2. Map lifecycle practices: field updates, versioning, annotation, and environment-change handling.
-3. Human-robot interaction basics for status reporting, prompts, teleoperation handoff, and safe autonomy interruption.
-4. Security and remote access basics for internet-connected ROS 2 robots.
-5. Data products for external review: test reports, bag-based regressions, and reproducible issue packages.
+1. Human-robot interaction basics for status reporting, prompts, teleoperation handoff, and safe autonomy interruption.
+2. Security and remote access basics for internet-connected ROS 2 robots.
+3. Data products for external review: test reports, bag-based regressions, and reproducible issue packages.
+
+## Canonical Operations Track
+
+1. Add Google Search Console and Bing Webmaster verification once site-owner credentials are available.
+2. Consider richer social preview assets and metadata overrides for high-value landing pages.
+3. Periodically review topic-graph zero-inbound pages and add related-link coverage before they drift out of the problem-first flow.
 
 ## Structural Decisions Still Open
 
 1. Whether to keep one article type or add separate patterns for tutorials, troubleshooting pages, and design notes.
 2. Whether to keep `generated/` checked into Git or rebuild it in CI.
 3. Whether tags alone are enough or whether a controlled taxonomy document should become mandatory.
-4. Whether this repo should stay an experiment or become the actual canonical knowledge base.
 
 ## Stretch Ideas
 

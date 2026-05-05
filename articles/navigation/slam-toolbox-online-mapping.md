@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "slam-toolbox-online/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/slam-toolbox-online/SKILL.md"
 tags: ["ros2", "slam", "slam-toolbox", "mapping", "nav2"]
-related: ["articles/navigation/slam-toolbox-lifelong-mapping.md", "articles/navigation/map-saver-configuration.md", "articles/navigation/mapping-best-practices-for-mobile-robots.md"]
+related: ["articles/navigation/map-lifecycle-versioning-and-field-updates.md", "articles/navigation/slam-toolbox-lifelong-mapping.md", "articles/navigation/map-saver-configuration.md", "articles/navigation/mapping-best-practices-for-mobile-robots.md"]
 ---
 
 # SLAM Toolbox Online Mapping

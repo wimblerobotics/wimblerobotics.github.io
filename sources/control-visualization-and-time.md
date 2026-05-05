@@ -6,7 +6,7 @@
   - `ros2/ros2_documentation` design notes
   - `message_filters` docs
 - Repository theme: practical sources for robot control architecture, developer/operator visualization workflows, and stamped-data discipline
-- Editorial use in this experiment: expand beyond the original 158 skills with public sources that cover real workflow gaps for robot builders
+- Editorial use in this knowledge base: expand beyond the original 158 skills with public sources that cover real workflow gaps for robot builders
 
 ## Articles Derived Here
 

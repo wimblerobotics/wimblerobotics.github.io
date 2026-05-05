@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "hardware-abstraction-layer/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/hardware-abstraction-layer/SKILL.md"
 tags: ["ros2", "hardware", "abstraction", "drivers", "architecture"]
-related: ["articles/hardware/motor-controller-interfaces.md", "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md", "articles/hardware/micro-ros-setup.md"]
+related: ["articles/hardware/ros2-control-design-patterns-in-jazzy.md", "articles/hardware/motor-controller-interfaces.md", "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md", "articles/hardware/micro-ros-setup.md"]
 ---
 
 # Hardware Abstraction Layers in ROS 2

@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "rviz2-config/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/rviz2-config/SKILL.md"
 tags: ["ros2", "rviz", "visualization", "tooling", "software"]
-related: ["articles/navigation/nav2-rviz-tools-and-debug-views.md", "articles/software/custom-rviz-overlays.md", "articles/software/launch-files-patterns-and-pitfalls.md"]
+related: ["articles/software/foxglove-and-rviz-role-separation.md", "articles/navigation/nav2-rviz-tools-and-debug-views.md", "articles/software/custom-rviz-overlays.md", "articles/software/launch-files-patterns-and-pitfalls.md"]
 ---
 
 # RViz2 Configuration Discipline

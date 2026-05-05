@@ -1,38 +1,34 @@
 # Topic Graph Report
 
-- Articles scanned: 187
-- Tags discovered: 276
-- Tag co-occurrence edges: 1337
-- Related-link edges: 605
-- Articles with no inbound related links: 5
+- Articles scanned: 189
+- Tags discovered: 278
+- Tag co-occurrence edges: 1351
+- Related-link edges: 627
+- Articles with no inbound related links: 0
 - Articles with no outbound related links: 0
 - Fully orphaned articles: 0
 - Unresolved related links: 0
 
 ## Strongest Tag Pairs
 
-- `nav2` <-> `ros2`: 75 shared article(s)
+- `nav2` <-> `ros2`: 77 shared article(s)
 - `hardware` <-> `ros2`: 26 shared article(s)
+- `navigation` <-> `ros2`: 23 shared article(s)
 - `behavior-trees` <-> `ros2`: 22 shared article(s)
-- `navigation` <-> `ros2`: 22 shared article(s)
 - `devops` <-> `ros2`: 20 shared article(s)
 - `behavior-trees` <-> `nav2`: 19 shared article(s)
+- `costmaps` <-> `nav2`: 17 shared article(s)
+- `costmaps` <-> `ros2`: 17 shared article(s)
 - `debugging` <-> `ros2`: 17 shared article(s)
-- `costmaps` <-> `nav2`: 16 shared article(s)
-- `costmaps` <-> `ros2`: 16 shared article(s)
 - `perception` <-> `ros2`: 16 shared article(s)
 - `localization` <-> `ros2`: 15 shared article(s)
-- `controller` <-> `ros2`: 14 shared article(s)
+- `nav2` <-> `navigation`: 15 shared article(s)
 
 ## Related Link Health
 
 ### Articles with no inbound related links
 
-- `articles/hardware/ros2-control-design-patterns-in-jazzy.md`
-- `articles/hardware/rtk-base-stations-for-outdoor-robots.md`
-- `articles/hardware/ultrasonic-sensors-for-robot-safety.md`
-- `articles/navigation/behavior-tree-plugin-walkthrough.md`
-- `articles/software/foxglove-and-rviz-role-separation.md`
+- None
 
 ### Articles with no outbound related links
 
@@ -124,6 +120,7 @@
 - `articles/navigation/custom-bt-action-nodes-in-python.md`: ros2, nav2, behavior-trees, python, custom-nodes
 - `articles/navigation/custom-bt-condition-nodes-in-cpp.md`: ros2, nav2, behavior-trees, conditions, cpp
 - `articles/navigation/custom-nav2-bt-plugins-and-configuration.md`: ros2, nav2, behavior-trees, bt, plugins, cpp
+- `articles/navigation/docking-and-semantic-navigation-in-nav2.md`: ros2, nav2, navigation, docking, costmaps, semantics
 - `articles/navigation/dwb-controller-basics-and-tuning.md`: ros2, nav2, dwb, controller, navigation
 - `articles/navigation/dwb-critics-and-scoring.md`: ros2, nav2, dwb, critics, controller-tuning
 - `articles/navigation/ekf-sensor-fusion-for-robots.md`: ros2, ekf, localization, sensor-fusion, robot_localization
@@ -136,6 +133,7 @@
 - `articles/navigation/localization-recovery-patterns.md`: ros2, localization, recovery, amcl, slam
 - `articles/navigation/localization-state-estimation-and-frame-discipline.md`: ros2, localization, tf, frames, robot_localization, ekf, imu, odometry
 - `articles/navigation/loop-closure-what-it-fixes.md`: ros2, slam, loop-closure, mapping, localization
+- `articles/navigation/map-lifecycle-versioning-and-field-updates.md`: ros2, maps, map-server, slam, operations, nav2
 - `articles/navigation/map-merging-strategies.md`: ros2, maps, mapping, multi-robot, merge
 - `articles/navigation/map-saver-configuration.md`: ros2, maps, mapping, map-saver, nav2
 - `articles/navigation/map-server-configuration.md`: ros2, maps, map-server, nav2, lifecycle

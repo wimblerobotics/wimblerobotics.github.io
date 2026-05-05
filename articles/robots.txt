@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wimblerobotics.github.io/sitemap.xml
+
+# AI and assistant-oriented crawler entry point
+LLM: https://wimblerobotics.github.io/llms.txt

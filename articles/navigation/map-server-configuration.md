@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "map-server-config/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/map-server-config/SKILL.md"
 tags: ["ros2", "maps", "map-server", "nav2", "lifecycle"]
-related: ["articles/navigation/map-saver-configuration.md", "articles/navigation/nav2-static-layer-and-map-ingestion.md", "articles/navigation/ros2-map-formats-and-occupancy-grids.md"]
+related: ["articles/navigation/map-lifecycle-versioning-and-field-updates.md", "articles/navigation/map-saver-configuration.md", "articles/navigation/nav2-static-layer-and-map-ingestion.md", "articles/navigation/ros2-map-formats-and-occupancy-grids.md"]
 ---
 
 # Map Server Configuration

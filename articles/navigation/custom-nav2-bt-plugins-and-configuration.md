@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/Robotics_Book"
 source_path: "book/chapters/creating_a_custom_behavior.md"
 source_url: "https://github.com/wimblerobotics/Robotics_Book/blob/main/book/chapters/creating_a_custom_behavior.md"
 tags: ["ros2", "nav2", "behavior-trees", "bt", "plugins", "cpp"]
-related: ["articles/navigation/writing-custom-nav2-behavior-plugins.md", "articles/navigation/custom-bt-action-nodes-in-cpp.md", "articles/navigation/behavior-tree-xml-fundamentals.md"]
+related: ["articles/navigation/behavior-tree-plugin-walkthrough.md", "articles/navigation/writing-custom-nav2-behavior-plugins.md", "articles/navigation/custom-bt-action-nodes-in-cpp.md", "articles/navigation/behavior-tree-xml-fundamentals.md"]
 ---
 
 # Custom Nav2 BT Plugins and Configuration

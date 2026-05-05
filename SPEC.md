@@ -2,9 +2,9 @@
 
 ## Purpose
 
-Create a robotics knowledge base that can be linked from hbrobotics.org and that helps readers find practical answers, design guidance, and debugging direction across a wide range of robotics topics.
+Maintain a canonical robotics knowledge base that can be linked from hbrobotics.org and that helps readers find practical answers, design guidance, and debugging direction across a wide range of robotics topics.
 
-The repo is the canonical source of truth. A published site may later be layered on top of it.
+The repo is the canonical source of truth. The published site is already layered on top of it and should continue to be treated as the public delivery surface for the same content model.
 
 ## Target Audience
 
@@ -108,52 +108,33 @@ An article is acceptable when it:
 - sophisticated NLP-based knowledge extraction
 - exposing private-source material without a clear review and permission policy
 
-## Publishing Options To Evaluate
+## Current Publishing Stack
 
-### Option A: GitHub-only for now
+### Canonical Public Site
 
-Pros:
+- MkDocs Material on GitHub Pages is the current canonical publishing path.
+- The repo stays Markdown-first so GitHub, editors, AI tools, and the published site all share the same source material.
+- `site_url` and generated sitemap support search-engine discovery.
+- `robots.txt` and `llms.txt` at the site root support crawler and assistant discovery.
 
-- lowest complexity
-- easy PR workflow
-- no site-generation decisions yet
+### Discovery And Reference Goals
 
-Cons:
+- The site should be easily findable when users search for practical robotics and ROS 2 problem-solving terms.
+- GitHub should present the repo as an actively maintained canonical reference, not a side experiment.
+- The public site should reward deep linking into specific problem pages, not only home-page visits.
+- The content should remain highly linkable because individual pages solve narrow, real robot problems.
 
-- weak browse experience for nontechnical readers
-- limited graph and backlink UX
+## Future Publishing Evaluation
 
-### Option B: MkDocs Material
+### Quartz Or Similar Digital Garden
 
-Pros:
+Quartz remains worth evaluating later for stronger backlink and graph-native browsing, but it is not the current publishing platform.
 
-- strong documentation UX
-- straightforward navigation and search
-- easy GitHub Pages deployment
+## Success Criteria For The Canonical Knowledge Base
 
-Cons:
-
-- less native graph-oriented browsing
-- more docs-site than knowledge-garden feel
-
-### Option C: Quartz or similar digital garden
-
-Pros:
-
-- backlink and graph-friendly
-- closer to Obsidian-style exploration
-- good fit for cross-linked notes
-
-Cons:
-
-- may require more opinionated content modeling
-- PR and docs-site conventions may need more adaptation
-
-## Success Criteria For This Experiment
-
-The experiment is successful if it demonstrates that:
+The knowledge base is successful if it demonstrates that:
 
 - source material can be turned into useful short articles quickly
 - Git-based review remains practical
 - the tagging and related-link structure is useful enough to navigate
-- a future site layer can be added without rewriting the content model
+- the current public site remains discoverable, maintainable, and worth linking to as a robotics resource

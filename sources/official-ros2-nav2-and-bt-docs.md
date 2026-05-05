@@ -7,7 +7,7 @@
   - https://www.behaviortree.dev/docs/intro/
   - https://micro.ros.org/docs/overview/
   - https://gazebosim.org/docs/latest/ros2_integration/
-- Editorial use in this experiment: verify terminology, frame conventions, lifecycle behavior, architecture claims, and version-sensitive guidance for Jazzy-focused articles derived from `ros2-copilot-skills`
+- Editorial use in this knowledge base: verify terminology, frame conventions, lifecycle behavior, architecture claims, and version-sensitive guidance for Jazzy-focused articles derived from `ros2-copilot-skills`
 
 ## Articles Derived Here
 

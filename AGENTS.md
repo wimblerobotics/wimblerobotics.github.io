@@ -2,7 +2,7 @@
 
 ## Mission
 
-This repository is a Git-backed robotics knowledge base experiment intended to support robot builders from strong beginners through senior ROS 2 practitioners.
+This repository is a Git-backed canonical robotics knowledge base intended to support robot builders from strong beginners through senior ROS 2 practitioners.
 
 The main job in this repo is to turn useful source material into short, curated Markdown articles that:
 
@@ -48,4 +48,4 @@ When adding or revising articles:
 
 ## Near-Term Direction
 
-Follow [SPEC.md](SPEC.md) for the intended product shape and [TODO.md](TODO.md) for the incremental roadmap, including exploration of MkDocs, Quartz, and related publishing options.
+Follow [SPEC.md](SPEC.md) for the current product shape and [TODO.md](TODO.md) for the incremental roadmap, including future evaluation of Quartz and related publishing options.
