@@ -2,270 +2,690 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://wimblerobotics.github.io/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/article-template/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/contributing/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/tags/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/devops/colcon-workspace-discipline/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/cross-compilation-for-ros2/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/docker-for-ros2-development/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/gazebo-sim-setup-for-ros2/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/github-actions-for-ros2/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/gz-ros2-bridge-basics/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/physics-tuning-in-gazebo/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/ros2-testing-strategy/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/rosbag2-analysis-workflows/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/rosbag2-recording-strategy/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/rosdep-dependency-management/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/sim-time-management/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/simulated-sensors-in-gazebo/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/devops/simulation-testing-and-deployment-for-ros2/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/simulation-testing-workflows/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/systemd-autostart-for-robots/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/udev-rules-for-robot-devices/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/devops/workspace-overlays-and-package-precedence/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/devops/world-building-for-gazebo/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/foundations/coordinate-frames-rep-105-and-navigation/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/foundations/qos-profiles-and-compatibility/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/foundations/ros2-core-communication-and-execution/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/foundations/ros2-time-duration-and-sim-time/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/foundations/ros2-topics-and-pub-sub-patterns/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/foundations/tf2-transforms-and-lookups/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/foundations/urdf-as-a-frame-translation-system/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/foundations/urdf-fundamentals/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/foundations/xacro-macros-for-robot-models/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/battery-data-analysis/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/battery-monitoring-in-ros2/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/collision-geometry-in-urdf/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/differential-drive-kinematics/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/emergency-stop-integration/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/encoder-odometry-math/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/hardware-abstraction-layers-in-ros2/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/hardware-watchdogs-and-heartbeats/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/i2c-sensors-with-ros2/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/inertia-calculation-for-urdf/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/joint-types-and-limits-in-urdf/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/micro-ros-setup/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/motor-controller-interfaces/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/hardware/odometry-calibration-for-diff-drive/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/power-management-for-mobile-robots/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/hardware/ros2-hardware-integration-patterns/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/hardware/serial-protocols-between-ros2-and-microcontrollers/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/servo-control-patterns/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/teensy-platformio-with-ros2/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/urdf-and-gazebo-plugins/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/wheel-odometry-models/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/amcl-tuning-in-nav2/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/assisted-teleop-for-shared-control/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/behavior-tree-blackboard-patterns/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/behavior-tree-control-nodes/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/behavior-tree-decorator-nodes/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/behavior-tree-xml-fundamentals/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/behavior-trees-for-nav2-and-robot-autonomy/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/bt-logging-replay-and-trace-analysis/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/bt-subtrees-for-reusable-autonomy/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/cartographer-tuning-for-2d-slam/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/collision-monitor-and-safety-polygons/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/custom-bt-action-nodes-in-cpp/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/custom-bt-action-nodes-in-python/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/custom-bt-condition-nodes-in-cpp/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/dwb-controller-basics-and-tuning/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/dwb-critics-and-scoring/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/ekf-sensor-fusion-for-robots/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/graceful-controller-for-smooth-approach/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/groot2-for-nav2-behavior-trees/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/imu-driver-configuration/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/imu-integration-for-mobile-robots/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/lidar-odometry-and-local-motion-estimation/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/localization-recovery-patterns/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/localization-state-estimation-and-frame-discipline/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/loop-closure-what-it-fixes/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/map-merging-strategies/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/map-saver-configuration/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/map-server-configuration/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/mapping-best-practices-for-mobile-robots/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/mppi-controller-basics-and-tuning/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/mppi-critics-explained/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/mppi-trajectory-visualization-and-debugging/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/multi-floor-mapping-strategies/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/multi-goal-navigation-with-behavior-trees/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/multi-sensor-fusion-patterns/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-architecture-and-tuning-guide/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-backup-behavior/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-behavior-server-and-recovery-actions/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-bt-action-nodes/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-bt-condition-nodes/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-controller-frequency-and-timing/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-controller-selection-guide/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-costmap-architecture-and-plugin-order/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-costmap-filters-and-mask-layers/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/nav2-denoise-layer-for-noisy-depth-sensors/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-error-codes-and-failure-analysis/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-global-costmap-configuration/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-inflation-layer-tuning/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-keepout-zones-and-no-go-areas/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-lifecycle-manager-and-bond-monitoring/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-local-costmap-configuration/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-obstacle-layer-marking-and-clearing/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-planner-selection-guide/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-range-sensor-layer-for-close-obstacles/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-rviz-tools-and-debug-views/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-servers-and-data-flow/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-simple-commander-for-programmatic-navigation/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-speed-restricted-zones/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-static-layer-and-map-ingestion/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-voxel-layer-for-3d-obstacles/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-waypoint-follower-and-patrol-routes/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/nav2-yaml-parameter-structure/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/navfn-planner-basics-and-when-to-use-it/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/path-tracking-metrics-that-actually-matter/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/patrol-behavior-trees/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/planner-benchmarking-in-nav2/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/recovery-behavior-trees-in-nav2/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/regulated-pure-pursuit-controller/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/ros2-map-formats-and-occupancy-grids/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/rotation-shim-controller/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/rviz-goals-bt-navigator-and-nav2-flow/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/sensor-frame-mounting-and-extrinsics/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/slam-toolbox-lifelong-mapping/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/slam-toolbox-online-mapping/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/smac-lattice-planner/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/smac-planner-2d/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/smac-planner-hybrid-a-star/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/spin-behavior/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/theta-star-planner/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/ukf-sensor-fusion-for-robots/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/velocity-smoother-for-cmd-vel/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/visual-odometry-for-mobile-robots/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/wait-behavior/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/writing-custom-nav2-behavior-plugins/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/writing-custom-nav2-controller-plugins/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/writing-custom-nav2-planner-plugins/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/perception/camera-calibration-for-ros2/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/perception/compressed-image-transport-in-ros2/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/perception/depth-cameras-for-navigation-and-mapping/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/perception/depthai-and-oak-d-spatial-ai/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/perception/laser-scan-processing-and-filtering/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/perception/lidar-driver-bringup-and-frame-alignment/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/perception/lidar-filter-chains-and-self-hit-removal/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/perception/object-detection-pipelines-in-ros2/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/perception/person-tracking-for-robot-behaviors/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/perception/pointcloud-processing-for-navigation/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/perception/vision-depth-and-lidar-pipelines/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/perception/visual-anomaly-detection-for-robots/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/perception/wall-line-extraction-from-lidar/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/perception/yolo-integration-for-ros2-robots/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/component-composition-for-high-bandwidth-pipelines/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/custom-ros2-interfaces/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/custom-rviz-overlays/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/executors-callback-groups-and-concurrency/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/intra-process-zero-copy-communication/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/launch-event-handlers-and-ordered-startup/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/launch-files-patterns-and-pitfalls/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/lifecycle-nodes-and-managed-startup/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/logging-and-diagnostics-in-ros2/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/message-filters-and-time-synchronized-sensors/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/package-xml-cmakelists-and-python-package-structure/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/parameter-handling-and-runtime-reconfiguration/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/performance-profiling-in-ros2/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/robot-state-publisher-and-joint-state-publisher/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/ros2-actions-for-long-running-robot-tasks/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/ros2-services-without-deadlocks/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/rviz2-configuration-discipline/</loc>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/writing-rclcpp-nodes/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/writing-rclpy-nodes/</loc>
-         <lastmod>2026-05-01</lastmod>
+         <lastmod>2026-05-05</lastmod>
     </url>
 </urlset>
