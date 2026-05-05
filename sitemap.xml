@@ -13,6 +13,10 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/tag-glossary/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/tags/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -93,6 +97,10 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/foundations/behavior-tree-ticks-status-and-control-flow/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/foundations/coordinate-frames-rep-105-and-navigation/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -122,6 +130,10 @@
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/foundations/urdf-fundamentals/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/foundations/urdf-links-joints-and-the-robot-tree/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
@@ -266,6 +278,10 @@
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/custom-bt-condition-nodes-in-cpp/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/custom-nav2-bt-plugins-and-configuration/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
