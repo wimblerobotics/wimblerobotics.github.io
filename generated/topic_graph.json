@@ -36,6 +36,11 @@
       "title": "GZ ROS 2 Bridge Basics"
     },
     {
+      "id": "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
+      "kind": "article",
+      "title": "Jazzy Desktop and SBC Setup for Robots"
+    },
+    {
       "id": "articles/devops/physics-tuning-in-gazebo.md",
       "kind": "article",
       "title": "Physics Tuning in Gazebo"
@@ -176,6 +181,11 @@
       "title": "Collision Geometry in URDF"
     },
     {
+      "id": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "kind": "article",
+      "title": "Diff-Drive Base Control with ros2_control and Arduino"
+    },
+    {
       "id": "articles/hardware/differential-drive-kinematics.md",
       "kind": "article",
       "title": "Differential Drive Kinematics"
@@ -239,6 +249,11 @@
       "id": "articles/hardware/ros2-hardware-integration-patterns.md",
       "kind": "article",
       "title": "ROS 2 Hardware Integration Patterns"
+    },
+    {
+      "id": "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
+      "kind": "article",
+      "title": "RTK Base Stations for Outdoor Robots"
     },
     {
       "id": "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md",
@@ -354,6 +369,11 @@
       "id": "articles/navigation/ekf-sensor-fusion-for-robots.md",
       "kind": "article",
       "title": "EKF Sensor Fusion for Robots"
+    },
+    {
+      "id": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
+      "kind": "article",
+      "title": "GPS, RTK, and Outdoor Navigation in ROS 2"
     },
     {
       "id": "articles/navigation/graceful-controller-for-smooth-approach.md",
@@ -931,6 +951,11 @@
       "weight": 2
     },
     {
+      "id": "arduino",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
       "id": "autonomy",
       "kind": "tag",
       "weight": 10
@@ -988,7 +1013,7 @@
     {
       "id": "bringup",
       "kind": "tag",
-      "weight": 3
+      "weight": 4
     },
     {
       "id": "bt",
@@ -1223,12 +1248,17 @@
     {
       "id": "devops",
       "kind": "tag",
-      "weight": 18
+      "weight": 19
     },
     {
       "id": "diagnostics",
       "kind": "tag",
       "weight": 2
+    },
+    {
+      "id": "diff-drive",
+      "kind": "tag",
+      "weight": 1
     },
     {
       "id": "differential-drive",
@@ -1351,9 +1381,19 @@
       "weight": 3
     },
     {
+      "id": "gnss",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
       "id": "goal-approach",
       "kind": "tag",
       "weight": 1
+    },
+    {
+      "id": "gps",
+      "kind": "tag",
+      "weight": 2
     },
     {
       "id": "gpu",
@@ -1383,7 +1423,7 @@
     {
       "id": "hardware",
       "kind": "tag",
-      "weight": 21
+      "weight": 23
     },
     {
       "id": "heading-alignment",
@@ -1448,7 +1488,7 @@
     {
       "id": "jazzy",
       "kind": "tag",
-      "weight": 12
+      "weight": 13
     },
     {
       "id": "joint_state_publisher",
@@ -1588,7 +1628,7 @@
     {
       "id": "microcontrollers",
       "kind": "tag",
-      "weight": 2
+      "weight": 3
     },
     {
       "id": "motors",
@@ -1623,7 +1663,7 @@
     {
       "id": "nav2",
       "kind": "tag",
-      "weight": 73
+      "weight": 74
     },
     {
       "id": "navfn",
@@ -1674,6 +1714,11 @@
       "id": "orchestration",
       "kind": "tag",
       "weight": 1
+    },
+    {
+      "id": "outdoor-navigation",
+      "kind": "tag",
+      "weight": 2
     },
     {
       "id": "overlays",
@@ -1796,6 +1841,11 @@
       "weight": 3
     },
     {
+      "id": "raspberry-pi",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
       "id": "rclcpp",
       "kind": "tag",
       "weight": 2
@@ -1843,7 +1893,7 @@
     {
       "id": "robot_localization",
       "kind": "tag",
-      "weight": 3
+      "weight": 4
     },
     {
       "id": "robot_state_publisher",
@@ -1853,7 +1903,12 @@
     {
       "id": "ros2",
       "kind": "tag",
-      "weight": 173
+      "weight": 177
+    },
+    {
+      "id": "ros2_control",
+      "kind": "tag",
+      "weight": 1
     },
     {
       "id": "rosbag2",
@@ -1874,6 +1929,11 @@
       "id": "rpp",
       "kind": "tag",
       "weight": 1
+    },
+    {
+      "id": "rtk",
+      "kind": "tag",
+      "weight": 2
     },
     {
       "id": "rviz",
@@ -2069,6 +2129,11 @@
       "id": "tuning",
       "kind": "tag",
       "weight": 3
+    },
+    {
+      "id": "ubuntu",
+      "kind": "tag",
+      "weight": 1
     },
     {
       "id": "udev",
@@ -2360,6 +2425,36 @@
     {
       "source": "articles/devops/gz-ros2-bridge-basics.md",
       "target": "simulation",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
+      "target": "bringup",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
+      "target": "devops",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
+      "target": "jazzy",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
+      "target": "raspberry-pi",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
+      "target": "ubuntu",
       "kind": "article-tag"
     },
     {
@@ -3133,6 +3228,36 @@
       "kind": "article-tag"
     },
     {
+      "source": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "target": "arduino",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "target": "diff-drive",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "target": "hardware",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "target": "microcontrollers",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "target": "ros2_control",
+      "kind": "article-tag"
+    },
+    {
       "source": "articles/hardware/differential-drive-kinematics.md",
       "target": "differential-drive",
       "kind": "article-tag"
@@ -3475,6 +3600,36 @@
     {
       "source": "articles/hardware/ros2-hardware-integration-patterns.md",
       "target": "watchdog",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
+      "target": "gnss",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
+      "target": "gps",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
+      "target": "hardware",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
+      "target": "outdoor-navigation",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
+      "target": "rtk",
       "kind": "article-tag"
     },
     {
@@ -4065,6 +4220,36 @@
     {
       "source": "articles/navigation/ekf-sensor-fusion-for-robots.md",
       "target": "sensor-fusion",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
+      "target": "gps",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
+      "target": "nav2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
+      "target": "outdoor-navigation",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
+      "target": "robot_localization",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
+      "target": "rtk",
       "kind": "article-tag"
     },
     {
@@ -7003,6 +7188,26 @@
       "kind": "article-link"
     },
     {
+      "source": "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
+      "target": "articles/devops/bootstrapping-a-jazzy-workspace.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
+      "target": "articles/devops/rosdep-dependency-management.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
+      "target": "articles/devops/systemd-autostart-for-robots.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
+      "target": "articles/devops/gazebo-sim-setup-for-ros2.md",
+      "kind": "article-link"
+    },
+    {
       "source": "articles/devops/physics-tuning-in-gazebo.md",
       "target": "articles/devops/gazebo-sim-setup-for-ros2.md",
       "kind": "article-link"
@@ -7448,6 +7653,26 @@
       "kind": "article-link"
     },
     {
+      "source": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "target": "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "target": "articles/hardware/odometry-calibration-for-diff-drive.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "target": "articles/hardware/encoder-odometry-math.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "target": "articles/hardware/ros2-hardware-integration-patterns.md",
+      "kind": "article-link"
+    },
+    {
       "source": "articles/hardware/differential-drive-kinematics.md",
       "target": "articles/hardware/encoder-odometry-math.md",
       "kind": "article-link"
@@ -7650,6 +7875,21 @@
     {
       "source": "articles/hardware/ros2-hardware-integration-patterns.md",
       "target": "articles/hardware/hardware-watchdogs-and-heartbeats.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
+      "target": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
+      "target": "articles/navigation/localization-state-estimation-and-frame-discipline.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
+      "target": "articles/hardware/power-management-for-mobile-robots.md",
       "kind": "article-link"
     },
     {
@@ -8015,6 +8255,26 @@
     {
       "source": "articles/navigation/ekf-sensor-fusion-for-robots.md",
       "target": "articles/navigation/localization-state-estimation-and-frame-discipline.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
+      "target": "articles/navigation/localization-state-estimation-and-frame-discipline.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
+      "target": "articles/navigation/ekf-sensor-fusion-for-robots.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
+      "target": "articles/navigation/multi-sensor-fusion-patterns.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
+      "target": "articles/hardware/odometry-calibration-for-diff-drive.md",
       "kind": "article-link"
     },
     {
@@ -10088,6 +10348,36 @@
       "weight": 1
     },
     {
+      "source": "arduino",
+      "target": "diff-drive",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "arduino",
+      "target": "hardware",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "arduino",
+      "target": "microcontrollers",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "arduino",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "arduino",
+      "target": "ros2_control",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
       "source": "autonomy",
       "target": "basicnavigator",
       "kind": "tag-cooccurrence",
@@ -10761,6 +11051,12 @@
     },
     {
       "source": "bringup",
+      "target": "devops",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "bringup",
       "target": "drivers",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -10774,6 +11070,12 @@
     {
       "source": "bringup",
       "target": "hardware",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "bringup",
+      "target": "jazzy",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -10803,6 +11105,12 @@
     },
     {
       "source": "bringup",
+      "target": "raspberry-pi",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "bringup",
       "target": "reliability",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -10811,7 +11119,7 @@
       "source": "bringup",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "bringup",
@@ -10822,6 +11130,12 @@
     {
       "source": "bringup",
       "target": "tf",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "bringup",
+      "target": "ubuntu",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -12641,7 +12955,7 @@
       "source": "devops",
       "target": "jazzy",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "devops",
@@ -12669,6 +12983,12 @@
     },
     {
       "source": "devops",
+      "target": "raspberry-pi",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "devops",
       "target": "recording",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -12677,7 +12997,7 @@
       "source": "devops",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 18
+      "weight": 19
     },
     {
       "source": "devops",
@@ -12729,6 +13049,12 @@
     },
     {
       "source": "devops",
+      "target": "ubuntu",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "devops",
       "target": "udev",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -12772,6 +13098,30 @@
     {
       "source": "diagnostics",
       "target": "software",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "diff-drive",
+      "target": "hardware",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "diff-drive",
+      "target": "microcontrollers",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "diff-drive",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "diff-drive",
+      "target": "ros2_control",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -13580,6 +13930,36 @@
       "weight": 1
     },
     {
+      "source": "gnss",
+      "target": "gps",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "gnss",
+      "target": "hardware",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "gnss",
+      "target": "outdoor-navigation",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "gnss",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "gnss",
+      "target": "rtk",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
       "source": "goal-approach",
       "target": "graceful",
       "kind": "tag-cooccurrence",
@@ -13596,6 +13976,42 @@
       "target": "ros2",
       "kind": "tag-cooccurrence",
       "weight": 1
+    },
+    {
+      "source": "gps",
+      "target": "hardware",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "gps",
+      "target": "nav2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "gps",
+      "target": "outdoor-navigation",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "gps",
+      "target": "robot_localization",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "gps",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "gps",
+      "target": "rtk",
+      "kind": "tag-cooccurrence",
+      "weight": 2
     },
     {
       "source": "gpu",
@@ -13733,7 +14149,7 @@
       "source": "hardware",
       "target": "microcontrollers",
       "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "hardware",
@@ -13756,6 +14172,12 @@
     {
       "source": "hardware",
       "target": "operations",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "hardware",
+      "target": "outdoor-navigation",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -13793,7 +14215,19 @@
       "source": "hardware",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 21
+      "weight": 23
+    },
+    {
+      "source": "hardware",
+      "target": "ros2_control",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "hardware",
+      "target": "rtk",
+      "kind": "tag-cooccurrence",
+      "weight": 1
     },
     {
       "source": "hardware",
@@ -14151,6 +14585,12 @@
     },
     {
       "source": "jazzy",
+      "target": "raspberry-pi",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "jazzy",
       "target": "recovery",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -14159,7 +14599,7 @@
       "source": "jazzy",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 12
+      "weight": 13
     },
     {
       "source": "jazzy",
@@ -14176,6 +14616,12 @@
     {
       "source": "jazzy",
       "target": "tuning",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "jazzy",
+      "target": "ubuntu",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -15017,7 +15463,13 @@
       "source": "microcontrollers",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 3
+    },
+    {
+      "source": "microcontrollers",
+      "target": "ros2_control",
+      "kind": "tag-cooccurrence",
+      "weight": 1
     },
     {
       "source": "microcontrollers",
@@ -15159,6 +15611,12 @@
     },
     {
       "source": "nav2",
+      "target": "outdoor-navigation",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "nav2",
       "target": "parameters",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -15237,9 +15695,15 @@
     },
     {
       "source": "nav2",
+      "target": "robot_localization",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "nav2",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 73
+      "weight": 74
     },
     {
       "source": "nav2",
@@ -15250,6 +15714,12 @@
     {
       "source": "nav2",
       "target": "rpp",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "nav2",
+      "target": "rtk",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -15654,6 +16124,24 @@
       "target": "startup",
       "kind": "tag-cooccurrence",
       "weight": 1
+    },
+    {
+      "source": "outdoor-navigation",
+      "target": "robot_localization",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "outdoor-navigation",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "outdoor-navigation",
+      "target": "rtk",
+      "kind": "tag-cooccurrence",
+      "weight": 2
     },
     {
       "source": "overlays",
@@ -16106,6 +16594,18 @@
       "weight": 3
     },
     {
+      "source": "raspberry-pi",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "raspberry-pi",
+      "target": "ubuntu",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
       "source": "rclcpp",
       "target": "ros2",
       "kind": "tag-cooccurrence",
@@ -16259,7 +16759,13 @@
       "source": "robot_localization",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 3
+      "weight": 4
+    },
+    {
+      "source": "robot_localization",
+      "target": "rtk",
+      "kind": "tag-cooccurrence",
+      "weight": 1
     },
     {
       "source": "robot_localization",
@@ -16305,6 +16811,12 @@
     },
     {
       "source": "ros2",
+      "target": "ros2_control",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "ros2",
       "target": "rosbag2",
       "kind": "tag-cooccurrence",
       "weight": 4
@@ -16326,6 +16838,12 @@
       "target": "rpp",
       "kind": "tag-cooccurrence",
       "weight": 1
+    },
+    {
+      "source": "ros2",
+      "target": "rtk",
+      "kind": "tag-cooccurrence",
+      "weight": 2
     },
     {
       "source": "ros2",
@@ -16560,6 +17078,12 @@
       "target": "tuning",
       "kind": "tag-cooccurrence",
       "weight": 3
+    },
+    {
+      "source": "ros2",
+      "target": "ubuntu",
+      "kind": "tag-cooccurrence",
+      "weight": 1
     },
     {
       "source": "ros2",
@@ -17049,17 +17573,21 @@
     }
   ],
   "stats": {
-    "article_count": 173,
-    "tag_count": 263,
-    "tag_pair_count": 1240,
-    "article_link_count": 541,
-    "zero_inbound_article_count": 0,
+    "article_count": 177,
+    "tag_count": 272,
+    "tag_pair_count": 1284,
+    "article_link_count": 556,
+    "zero_inbound_article_count": 3,
     "zero_outbound_article_count": 0,
     "fully_orphaned_article_count": 0,
     "unresolved_related_link_count": 0
   },
   "link_health": {
-    "zero_inbound_articles": [],
+    "zero_inbound_articles": [
+      "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
+      "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
+      "articles/hardware/rtk-base-stations-for-outdoor-robots.md"
+    ],
     "zero_outbound_articles": [],
     "fully_orphaned_articles": [],
     "unresolved_related_links": []

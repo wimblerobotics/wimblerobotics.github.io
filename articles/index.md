@@ -21,6 +21,9 @@ They arrive wanting the next useful click.
 - URDF, TF, and frames feel muddled: start at [Note: URDF and Frames](notes/urdf-frames.md)
 - Simulation feels fake or unstable: start at [Note: Gazebo Physics and Simulation Truth](notes/gazebo-physics.md)
 - Workspace or install behavior is weird: start at [Note: Workspace Bootstrap and Build Hygiene](notes/workspace-bootstrap.md)
+- Desktop and robot bringup do not line up: start at [Note: Jazzy Bringup Across Desktop and SBC](notes/jazzy-bringup.md)
+- Outdoor robot behavior is globally wrong: start at [Note: Outdoor GPS and RTK Navigation](notes/outdoor-gps-navigation.md)
+- The drivetrain stack feels brittle: start at [Note: Diff-Drive Base Control](notes/diff-drive-base-control.md)
 
 ## Explore Notes
 

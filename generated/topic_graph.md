@@ -1,34 +1,36 @@
 # Topic Graph Report
 
-- Articles scanned: 173
-- Tags discovered: 263
-- Tag co-occurrence edges: 1240
-- Related-link edges: 541
-- Articles with no inbound related links: 0
+- Articles scanned: 177
+- Tags discovered: 272
+- Tag co-occurrence edges: 1284
+- Related-link edges: 556
+- Articles with no inbound related links: 3
 - Articles with no outbound related links: 0
 - Fully orphaned articles: 0
 - Unresolved related links: 0
 
 ## Strongest Tag Pairs
 
-- `nav2` <-> `ros2`: 73 shared article(s)
+- `nav2` <-> `ros2`: 74 shared article(s)
+- `hardware` <-> `ros2`: 23 shared article(s)
 - `navigation` <-> `ros2`: 22 shared article(s)
 - `behavior-trees` <-> `ros2`: 21 shared article(s)
-- `hardware` <-> `ros2`: 21 shared article(s)
+- `devops` <-> `ros2`: 19 shared article(s)
 - `behavior-trees` <-> `nav2`: 18 shared article(s)
-- `devops` <-> `ros2`: 18 shared article(s)
 - `costmaps` <-> `nav2`: 16 shared article(s)
 - `costmaps` <-> `ros2`: 16 shared article(s)
 - `localization` <-> `ros2`: 15 shared article(s)
 - `perception` <-> `ros2`: 15 shared article(s)
 - `nav2` <-> `navigation`: 14 shared article(s)
-- `debugging` <-> `ros2`: 12 shared article(s)
+- `jazzy` <-> `ros2`: 13 shared article(s)
 
 ## Related Link Health
 
 ### Articles with no inbound related links
 
-- None
+- `articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md`
+- `articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md`
+- `articles/hardware/rtk-base-stations-for-outdoor-robots.md`
 
 ### Articles with no outbound related links
 
@@ -51,6 +53,7 @@
 - `articles/devops/gazebo-sim-setup-for-ros2.md`: ros2, gazebo, simulation, gz-sim, devops
 - `articles/devops/github-actions-for-ros2.md`: ros2, github-actions, ci, devops, testing
 - `articles/devops/gz-ros2-bridge-basics.md`: ros2, gazebo, bridge, simulation, gz
+- `articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md`: ros2, jazzy, raspberry-pi, bringup, ubuntu, devops
 - `articles/devops/physics-tuning-in-gazebo.md`: ros2, gazebo, simulation, physics, devops
 - `articles/devops/ros2-testing-strategy.md`: ros2, testing, qa, integration, devops
 - `articles/devops/rosbag2-analysis-workflows.md`: ros2, rosbag2, analysis, debugging, devops
@@ -79,6 +82,7 @@
 - `articles/hardware/battery-data-analysis.md`: ros2, battery, telemetry, power, hardware
 - `articles/hardware/battery-monitoring-in-ros2.md`: ros2, battery, power, diagnostics, hardware
 - `articles/hardware/collision-geometry-in-urdf.md`: ros2, urdf, collision, robot-model, hardware
+- `articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md`: ros2, ros2_control, arduino, diff-drive, hardware, microcontrollers
 - `articles/hardware/differential-drive-kinematics.md`: ros2, differential-drive, kinematics, odometry, hardware
 - `articles/hardware/emergency-stop-integration.md`: ros2, safety, e-stop, hardware, control
 - `articles/hardware/encoder-odometry-math.md`: ros2, encoders, odometry, math, hardware
@@ -92,6 +96,7 @@
 - `articles/hardware/odometry-calibration-for-diff-drive.md`: ros2, odometry, calibration, differential-drive, encoders, hardware
 - `articles/hardware/power-management-for-mobile-robots.md`: ros2, power, battery, hardware, operations
 - `articles/hardware/ros2-hardware-integration-patterns.md`: ros2, hardware, microcontrollers, serial, watchdog, battery, teensy, udev
+- `articles/hardware/rtk-base-stations-for-outdoor-robots.md`: ros2, gps, rtk, gnss, outdoor-navigation, hardware
 - `articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md`: ros2, serial, microcontrollers, protocols, hardware, reliability
 - `articles/hardware/servo-control-patterns.md`: ros2, servos, actuation, hardware, control
 - `articles/hardware/teensy-platformio-with-ros2.md`: ros2, teensy, platformio, embedded, hardware
@@ -115,6 +120,7 @@
 - `articles/navigation/dwb-controller-basics-and-tuning.md`: ros2, nav2, dwb, controller, navigation
 - `articles/navigation/dwb-critics-and-scoring.md`: ros2, nav2, dwb, critics, controller-tuning
 - `articles/navigation/ekf-sensor-fusion-for-robots.md`: ros2, ekf, localization, sensor-fusion, robot_localization
+- `articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md`: ros2, gps, rtk, outdoor-navigation, robot_localization, nav2
 - `articles/navigation/graceful-controller-for-smooth-approach.md`: ros2, nav2, controller, graceful, goal-approach
 - `articles/navigation/groot2-for-nav2-behavior-trees.md`: ros2, nav2, behavior-trees, groot2, debugging
 - `articles/navigation/imu-driver-configuration.md`: ros2, imu, localization, drivers, hardware

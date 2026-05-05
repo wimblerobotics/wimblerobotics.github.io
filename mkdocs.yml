@@ -57,6 +57,9 @@ nav:
     - notes/localization-recovery.md
     - notes/gazebo-physics.md
     - notes/workspace-bootstrap.md
+    - notes/jazzy-bringup.md
+    - notes/outdoor-gps-navigation.md
+    - notes/diff-drive-base-control.md
   - Contributing: contributing.md
   - Article Template: article-template.md
   - Tag Glossary: tag-glossary.md
@@ -67,14 +70,18 @@ nav:
       - navigation/nav2-architecture-and-tuning-guide.md
       - navigation/behavior-trees-for-nav2-and-robot-autonomy.md
       - navigation/localization-state-estimation-and-frame-discipline.md
+      - navigation/gps-rtk-and-outdoor-navigation-in-ros2.md
   - Perception:
       - perception/vision-depth-and-lidar-pipelines.md
   - Hardware:
       - hardware/ros2-hardware-integration-patterns.md
+      - hardware/diff-drive-base-control-with-ros2-control-and-arduino.md
+      - hardware/rtk-base-stations-for-outdoor-robots.md
   - Software:
       - software/launch-files-patterns-and-pitfalls.md
       - software/package-xml-cmakelists-and-python-package-structure.md
   - DevOps:
       - devops/simulation-testing-and-deployment-for-ros2.md
       - devops/colcon-workspace-discipline.md
+      - devops/jazzy-desktop-and-sbc-setup-for-robots.md
   - Tags: tags.md

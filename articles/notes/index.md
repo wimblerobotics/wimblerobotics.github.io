@@ -35,6 +35,21 @@ The goal is to get a reader from an immediate robotics problem to useful answers
 - Start here: [Note: Workspace Bootstrap and Build Hygiene](workspace-bootstrap.md)
 - Then branch into overlays, rosdep, package structure, and startup discipline.
 
+### Desktop and Robot Bringup Keep Diverging
+
+- Start here: [Note: Jazzy Bringup Across Desktop and SBC](jazzy-bringup.md)
+- Then branch into ROS installation, Raspberry Pi setup, device access, and boot discipline.
+
+### Outdoor Navigation Falls Apart
+
+- Start here: [Note: Outdoor GPS and RTK Navigation](outdoor-gps-navigation.md)
+- Then branch into GNSS fusion, IMU integration, odometry quality, and RTK operations.
+
+### Base Control Feels Fragile
+
+- Start here: [Note: Diff-Drive Base Control](diff-drive-base-control.md)
+- Then branch into ros2_control, serial protocols, odometry math, and watchdog design.
+
 ## How This Part of the Site Works
 
 - Notes are short wayfinding pages.
