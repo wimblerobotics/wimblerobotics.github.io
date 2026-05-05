@@ -65,6 +65,10 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/devops/jazzy-desktop-and-sbc-setup-for-robots/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/devops/physics-tuning-in-gazebo/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -177,6 +181,10 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/hardware/diff-drive-base-control-with-ros2-control-and-arduino/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/hardware/differential-drive-kinematics/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -226,6 +234,10 @@
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/hardware/ros2-hardware-integration-patterns/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/hardware/rtk-base-stations-for-outdoor-robots/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
@@ -318,6 +330,10 @@
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/navigation/ekf-sensor-fusion-for-robots/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/navigation/gps-rtk-and-outdoor-navigation-in-ros2/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
@@ -605,7 +621,15 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/notes/diff-drive-base-control/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/notes/gazebo-physics/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/notes/jazzy-bringup/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
@@ -614,6 +638,10 @@
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/notes/nav2-architecture/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/notes/outdoor-gps-navigation/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
