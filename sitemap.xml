@@ -73,6 +73,10 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/devops/ros2-multi-machine-networking-and-discovery/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/devops/ros2-testing-strategy/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -661,6 +665,14 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/notes/robot-health/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/notes/robot-networking/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/notes/urdf-frames/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -734,6 +746,10 @@
     </url>
     <url>
          <loc>https://wimblerobotics.github.io/software/custom-rviz-overlays/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/software/diagnostics-aggregation-and-health-dashboards/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
