@@ -12,7 +12,7 @@
         <meta name="author" content="HB Robotics">
       
       
-        <link rel="canonical" href="https://wimblerobotics.github.io/demos/site-direction-demos/">
+        <link rel="canonical" href="https://wimblerobotics.github.io/demos/quartz-after-style-slice/">
       
       
       
@@ -25,7 +25,7 @@
     
     
       
-        <title>Site Direction Demos - HB Robotics Knowledge Base</title>
+        <title>Demo: After (Quartz-Style Slice) - HB Robotics Knowledge Base</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#site-direction-demos" class="md-skip">
+        <a href="#demo-after-quartz-style-slice" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Site Direction Demos
+              Demo: After (Quartz-Style Slice)
             
           </span>
         </div>
@@ -1990,10 +1990,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-to-compare" class="md-nav__link">
+  <a href="#explorer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What To Compare
+        Explorer
       
     </span>
   </a>
@@ -2001,10 +2001,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-use-these-demos" class="md-nav__link">
+  <a href="#note" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How To Use These Demos
+        Note
       
     </span>
   </a>
@@ -2028,22 +2028,81 @@
 
 
 
-<h1 id="site-direction-demos">Site Direction Demos<a class="headerlink" href="#site-direction-demos" title="Permanent link">&para;</a></h1>
-<p>This section is a small product demo rather than a permanent article section.
-It shows the same robotics knowledge slice rendered in two different site styles, plus a separate comparison of current URLs versus a cleaner public structure.</p>
-<h2 id="what-to-compare">What To Compare<a class="headerlink" href="#what-to-compare" title="Permanent link">&para;</a></h2>
+<h1 id="demo-after-quartz-style-slice">Demo: After (Quartz-Style Slice)<a class="headerlink" href="#demo-after-quartz-style-slice" title="Permanent link">&para;</a></h1>
+<p>This is a mock of how the same topic might feel in Quartz.
+It is not a real Quartz render.
+It is a content-and-layout demo of the experience Quartz tends to encourage.</p>
+<hr />
+<h2 id="explorer">Explorer<a class="headerlink" href="#explorer" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../digital-garden-slice/">Digital-Garden Slice</a>: looser exploration, backlink-style movement, and note-cluster discovery.</li>
-<li><a href="../traditional-docs-slice/">Traditional Docs Slice</a>: stronger hierarchy, curated entry points, and a clearer learning path.</li>
-<li><a href="../quartz-before-and-after/">Quartz Before and After</a>: the same content slice shown in current HB Robotics style versus a Quartz-style note experience.</li>
-<li><a href="../url-and-section-structure-demo/">URL and Section Structure Demo</a>: current public shape versus a more deliberately curated section and slug scheme.</li>
+<li>Notes</li>
+<li>Navigation<ul>
+<li>Outdoor GPS and RTK Navigation</li>
+<li>Localization, State Estimation, and Frame Discipline</li>
+<li>EKF Sensor Fusion for Robots</li>
+<li>Multi-Sensor Fusion Patterns</li>
 </ul>
-<h2 id="how-to-use-these-demos">How To Use These Demos<a class="headerlink" href="#how-to-use-these-demos" title="Permanent link">&para;</a></h2>
+</li>
+<li>Hardware<ul>
+<li>RTK Base Stations for Outdoor Robots</li>
+<li>Odometry Calibration for Diff-Drive</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="note">Note<a class="headerlink" href="#note" title="Permanent link">&para;</a></h2>
+<h1 id="outdoor-gps-and-rtk-navigation">Outdoor GPS and RTK Navigation<a class="headerlink" href="#outdoor-gps-and-rtk-navigation" title="Permanent link">&para;</a></h1>
+<p>Aliases: GPS Navigation, Outdoor GNSS Navigation</p>
+<p>Tags: <code>ros2</code>, <code>gps</code>, <code>rtk</code>, <code>outdoor-navigation</code>, <code>robot_localization</code>, <code>nav2</code></p>
+<p>Outdoor robots do not get indoor navigation for free with a GPS plugged in.
+Once you depend on GNSS, you inherit satellite visibility, correction quality, antenna placement, frame discipline, and network availability as part of your navigation system.</p>
+<h2 id="linked-notes">Linked Notes<a class="headerlink" href="#linked-notes" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Open the digital-garden and traditional-docs pages side by side.</li>
-<li>Ask which one better matches how you want a reader to arrive, orient, and continue.</li>
-<li>Then use the URL demo page to decide whether you want to keep the current article paths or invest in a cleaner public information architecture.</li>
+<li><a href="../../navigation/localization-state-estimation-and-frame-discipline/">Localization, State Estimation, and Frame Discipline</a></li>
+<li><a href="../../navigation/ekf-sensor-fusion-for-robots/">EKF Sensor Fusion for Robots</a></li>
+<li><a href="../../navigation/multi-sensor-fusion-patterns/">Multi-Sensor Fusion Patterns</a></li>
+<li><a href="../../hardware/rtk-base-stations-for-outdoor-robots/">RTK Base Stations for Outdoor Robots</a></li>
+<li><a href="../../devops/ros2-multi-machine-networking-and-discovery/">ROS 2 Multi-Machine Networking and Discovery</a></li>
 </ul>
+<h2 id="backlinks">Backlinks<a class="headerlink" href="#backlinks" title="Permanent link">&para;</a></h2>
+<p>This note is referenced by pages like:</p>
+<ul>
+<li><a href="../../notes/outdoor-gps-navigation/">Note: Outdoor GPS and RTK Navigation</a></li>
+<li><a href="../../devops/jazzy-desktop-and-sbc-setup-for-robots/">Jazzy Desktop and SBC Setup for Robots</a></li>
+<li><a href="../../devops/ros2-multi-machine-networking-and-discovery/">ROS 2 Multi-Machine Networking and Discovery</a></li>
+</ul>
+<h2 id="local-graph-view">Local Graph View<a class="headerlink" href="#local-graph-view" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Outdoor GPS and RTK Navigation
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>|- Localization, State Estimation, and Frame Discipline
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>|  |- EKF Sensor Fusion for Robots
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>|  |- Multi-Sensor Fusion Patterns
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>|- RTK Base Stations for Outdoor Robots
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>|- ROS 2 Multi-Machine Networking and Discovery
+</code></pre></div>
+<h2 id="trails-you-might-follow">Trails You Might Follow<a class="headerlink" href="#trails-you-might-follow" title="Permanent link">&para;</a></h2>
+<ul>
+<li>outdoor navigation -&gt; GNSS fusion -&gt; frame discipline -&gt; IMU integration</li>
+<li>outdoor navigation -&gt; RTK infrastructure -&gt; multi-machine networking -&gt; robot health</li>
+<li>outdoor navigation -&gt; odometry quality -&gt; diff-drive calibration -&gt; controller tuning</li>
+</ul>
+<hr />
+<h2 id="why-this-feels-like-quartz">Why This Feels Like Quartz<a class="headerlink" href="#why-this-feels-like-quartz" title="Permanent link">&para;</a></h2>
+<ul>
+<li>The page reads more like a note than a routing layer.</li>
+<li>Metadata, backlinks, and graph context are part of the page itself.</li>
+<li>The reader is encouraged to wander laterally through the note network.</li>
+<li>Cross-cutting relationships become more visible without extra editorial prose.</li>
+</ul>
+<h2 id="product-traits">Product Traits<a class="headerlink" href="#product-traits" title="Permanent link">&para;</a></h2>
+<ul>
+<li>stronger networked-thought feel</li>
+<li>more visible backlinks and graph-like context</li>
+<li>easier serendipitous discovery</li>
+<li>weaker emphasis on one curated next step</li>
+</ul>
+<h2 id="risk">Risk<a class="headerlink" href="#risk" title="Permanent link">&para;</a></h2>
+<p>This style can make the site feel richer, but also noisier.
+For readers who arrive with a single robot problem and want the next useful answer immediately, the extra note context may help or may just slow them down.</p>
 
 
 

@@ -12,7 +12,7 @@
         <meta name="author" content="HB Robotics">
       
       
-        <link rel="canonical" href="https://wimblerobotics.github.io/demos/site-direction-demos/">
+        <link rel="canonical" href="https://wimblerobotics.github.io/demos/quartz-before-current-slice/">
       
       
       
@@ -25,7 +25,7 @@
     
     
       
-        <title>Site Direction Demos - HB Robotics Knowledge Base</title>
+        <title>Demo: Before (Current Site Slice) - HB Robotics Knowledge Base</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#site-direction-demos" class="md-skip">
+        <a href="#demo-before-current-site-slice" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Site Direction Demos
+              Demo: Before (Current Site Slice)
             
           </span>
         </div>
@@ -1990,21 +1990,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-to-compare" class="md-nav__link">
+  <a href="#solve-a-problem" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What To Compare
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-use-these-demos" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        How To Use These Demos
+        Solve a Problem
       
     </span>
   </a>
@@ -2028,22 +2017,46 @@
 
 
 
-<h1 id="site-direction-demos">Site Direction Demos<a class="headerlink" href="#site-direction-demos" title="Permanent link">&para;</a></h1>
-<p>This section is a small product demo rather than a permanent article section.
-It shows the same robotics knowledge slice rendered in two different site styles, plus a separate comparison of current URLs versus a cleaner public structure.</p>
-<h2 id="what-to-compare">What To Compare<a class="headerlink" href="#what-to-compare" title="Permanent link">&para;</a></h2>
+<h1 id="demo-before-current-site-slice">Demo: Before (Current Site Slice)<a class="headerlink" href="#demo-before-current-site-slice" title="Permanent link">&para;</a></h1>
+<p>This is a mock of how the current site presents a problem-first note.
+The emphasis is on getting a reader to the likely next answer quickly.</p>
+<hr />
+<h2 id="solve-a-problem">Solve a Problem<a class="headerlink" href="#solve-a-problem" title="Permanent link">&para;</a></h2>
+<h1 id="note-outdoor-gps-and-rtk-navigation">Note: Outdoor GPS and RTK Navigation<a class="headerlink" href="#note-outdoor-gps-and-rtk-navigation" title="Permanent link">&para;</a></h1>
+<p>You are probably here because the robot works indoors or in simulation, but field behavior is unstable, globally inaccurate, or much harder to reason about once GNSS enters the loop.</p>
+<h2 id="likely-first-answer">Likely First Answer<a class="headerlink" href="#likely-first-answer" title="Permanent link">&para;</a></h2>
+<p>Start with <a href="../../navigation/gps-rtk-and-outdoor-navigation-in-ros2/">GPS, RTK, and Outdoor Navigation in ROS 2</a>.</p>
+<h2 id="if-the-real-problem-is">If the Real Problem Is...<a class="headerlink" href="#if-the-real-problem-is" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../digital-garden-slice/">Digital-Garden Slice</a>: looser exploration, backlink-style movement, and note-cluster discovery.</li>
-<li><a href="../traditional-docs-slice/">Traditional Docs Slice</a>: stronger hierarchy, curated entry points, and a clearer learning path.</li>
-<li><a href="../quartz-before-and-after/">Quartz Before and After</a>: the same content slice shown in current HB Robotics style versus a Quartz-style note experience.</li>
-<li><a href="../url-and-section-structure-demo/">URL and Section Structure Demo</a>: current public shape versus a more deliberately curated section and slug scheme.</li>
+<li>weak state estimation architecture: <a href="../../navigation/localization-state-estimation-and-frame-discipline/">Localization, State Estimation, and Frame Discipline</a></li>
+<li>poor sensor fusion setup: <a href="../../navigation/ekf-sensor-fusion-for-robots/">EKF Sensor Fusion for Robots</a></li>
+<li>multiple sensors disagreeing: <a href="../../navigation/multi-sensor-fusion-patterns/">Multi-Sensor Fusion Patterns</a></li>
+<li>RTK correction infrastructure: <a href="../../hardware/rtk-base-stations-for-outdoor-robots/">RTK Base Stations for Outdoor Robots</a></li>
 </ul>
-<h2 id="how-to-use-these-demos">How To Use These Demos<a class="headerlink" href="#how-to-use-these-demos" title="Permanent link">&para;</a></h2>
+<h2 id="shiny-objects-nearby">Shiny Objects Nearby<a class="headerlink" href="#shiny-objects-nearby" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Open the digital-garden and traditional-docs pages side by side.</li>
-<li>Ask which one better matches how you want a reader to arrive, orient, and continue.</li>
-<li>Then use the URL demo page to decide whether you want to keep the current article paths or invest in a cleaner public information architecture.</li>
+<li><a href="../../navigation/imu-integration-for-mobile-robots/">IMU Integration for Mobile Robots</a></li>
+<li><a href="../../navigation/visual-odometry-for-mobile-robots/">Visual Odometry for Mobile Robots</a></li>
+<li><a href="../../hardware/odometry-calibration-for-diff-drive/">Odometry Calibration for Diff-Drive</a></li>
 </ul>
+<hr />
+<h2 id="why-this-feels-like-the-current-site">Why This Feels Like The Current Site<a class="headerlink" href="#why-this-feels-like-the-current-site" title="Permanent link">&para;</a></h2>
+<ul>
+<li>The reader arrives through a problem statement.</li>
+<li>The page gives a single most likely next click.</li>
+<li>Related links are hand-curated and grouped by purpose.</li>
+<li>The page acts like a short routing layer rather than a long note.</li>
+</ul>
+<h2 id="product-traits">Product Traits<a class="headerlink" href="#product-traits" title="Permanent link">&para;</a></h2>
+<ul>
+<li>strong editorial control</li>
+<li>fewer moving parts on the page</li>
+<li>easier onboarding for problem-driven readers</li>
+<li>weaker sense of the broader note network</li>
+</ul>
+<h2 id="risk">Risk<a class="headerlink" href="#risk" title="Permanent link">&para;</a></h2>
+<p>This style is efficient, but it can hide how richly connected the underlying knowledge base is.
+Readers mostly see the path you chose for them rather than the larger graph of related material.</p>
 
 
 
