@@ -24,6 +24,8 @@ They arrive wanting the next useful click.
 - Desktop and robot bringup do not line up: start at [Note: Jazzy Bringup Across Desktop and SBC](notes/jazzy-bringup.md)
 - Outdoor robot behavior is globally wrong: start at [Note: Outdoor GPS and RTK Navigation](notes/outdoor-gps-navigation.md)
 - The drivetrain stack feels brittle: start at [Note: Diff-Drive Base Control](notes/diff-drive-base-control.md)
+- The robot still misses close obstacles: start at [Note: Close-Range Sensing and Ultrasonic Safety](notes/close-range-sensing.md)
+- You need a custom tree node, not just XML edits: start at [Note: Custom Behavior Tree Plugins](notes/custom-bt-plugins.md)
 
 ## Explore Notes
 

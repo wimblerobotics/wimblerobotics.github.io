@@ -13,7 +13,9 @@
 - `articles/foundations/behavior-tree-ticks-status-and-control-flow.md`
 - `articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md`
 - `articles/navigation/custom-nav2-bt-plugins-and-configuration.md`
+- `articles/navigation/behavior-tree-plugin-walkthrough.md`
 - `articles/hardware/odometry-calibration-for-diff-drive.md`
+- `articles/hardware/ultrasonic-sensors-for-robot-safety.md`
 - `articles/devops/bootstrapping-a-jazzy-workspace.md`
 
 ## Notes
@@ -28,3 +30,4 @@ The most useful material in the local checkout for this experiment came from sub
 - custom Nav2 behavior-tree extension through plugin libraries and XML wiring
 - wheel odometry calibration as a practical, iterative measurement process
 - reproducible Jazzy workspace bootstrap assumptions for book-style code examples
+- ultrasonic sensor timing, interrupt handling, and close-range safety use

@@ -50,6 +50,16 @@ The goal is to get a reader from an immediate robotics problem to useful answers
 - Start here: [Note: Diff-Drive Base Control](diff-drive-base-control.md)
 - Then branch into ros2_control, serial protocols, odometry math, and watchdog design.
 
+### Close-Range Sensing Still Misses Obstacles
+
+- Start here: [Note: Close-Range Sensing and Ultrasonic Safety](close-range-sensing.md)
+- Then branch into ultrasonic timing, MCU reporting, emergency stop logic, and Nav2 range-layer integration.
+
+### I Need a Custom Behavior Tree Node
+
+- Start here: [Note: Custom Behavior Tree Plugins](custom-bt-plugins.md)
+- Then branch into ports, plugin registration, XML wiring, and Nav2 integration choices.
+
 ## How This Part of the Site Works
 
 - Notes are short wayfinding pages.

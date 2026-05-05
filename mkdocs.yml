@@ -60,6 +60,8 @@ nav:
     - notes/jazzy-bringup.md
     - notes/outdoor-gps-navigation.md
     - notes/diff-drive-base-control.md
+    - notes/close-range-sensing.md
+    - notes/custom-bt-plugins.md
   - Contributing: contributing.md
   - Article Template: article-template.md
   - Tag Glossary: tag-glossary.md
@@ -69,12 +71,14 @@ nav:
   - Navigation:
       - navigation/nav2-architecture-and-tuning-guide.md
       - navigation/behavior-trees-for-nav2-and-robot-autonomy.md
+      - navigation/behavior-tree-plugin-walkthrough.md
       - navigation/localization-state-estimation-and-frame-discipline.md
       - navigation/gps-rtk-and-outdoor-navigation-in-ros2.md
   - Perception:
       - perception/vision-depth-and-lidar-pipelines.md
   - Hardware:
       - hardware/ros2-hardware-integration-patterns.md
+      - hardware/ultrasonic-sensors-for-robot-safety.md
       - hardware/diff-drive-base-control-with-ros2-control-and-arduino.md
       - hardware/rtk-base-stations-for-outdoor-robots.md
   - Software:

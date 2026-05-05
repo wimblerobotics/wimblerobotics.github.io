@@ -1,22 +1,22 @@
 # Topic Graph Report
 
-- Articles scanned: 177
-- Tags discovered: 272
-- Tag co-occurrence edges: 1284
-- Related-link edges: 556
-- Articles with no inbound related links: 3
+- Articles scanned: 179
+- Tags discovered: 274
+- Tag co-occurrence edges: 1296
+- Related-link edges: 564
+- Articles with no inbound related links: 5
 - Articles with no outbound related links: 0
 - Fully orphaned articles: 0
 - Unresolved related links: 0
 
 ## Strongest Tag Pairs
 
-- `nav2` <-> `ros2`: 74 shared article(s)
-- `hardware` <-> `ros2`: 23 shared article(s)
+- `nav2` <-> `ros2`: 75 shared article(s)
+- `hardware` <-> `ros2`: 24 shared article(s)
+- `behavior-trees` <-> `ros2`: 22 shared article(s)
 - `navigation` <-> `ros2`: 22 shared article(s)
-- `behavior-trees` <-> `ros2`: 21 shared article(s)
+- `behavior-trees` <-> `nav2`: 19 shared article(s)
 - `devops` <-> `ros2`: 19 shared article(s)
-- `behavior-trees` <-> `nav2`: 18 shared article(s)
 - `costmaps` <-> `nav2`: 16 shared article(s)
 - `costmaps` <-> `ros2`: 16 shared article(s)
 - `localization` <-> `ros2`: 15 shared article(s)
@@ -31,6 +31,8 @@
 - `articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md`
 - `articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md`
 - `articles/hardware/rtk-base-stations-for-outdoor-robots.md`
+- `articles/hardware/ultrasonic-sensors-for-robot-safety.md`
+- `articles/navigation/behavior-tree-plugin-walkthrough.md`
 
 ### Articles with no outbound related links
 
@@ -100,6 +102,7 @@
 - `articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md`: ros2, serial, microcontrollers, protocols, hardware, reliability
 - `articles/hardware/servo-control-patterns.md`: ros2, servos, actuation, hardware, control
 - `articles/hardware/teensy-platformio-with-ros2.md`: ros2, teensy, platformio, embedded, hardware
+- `articles/hardware/ultrasonic-sensors-for-robot-safety.md`: ros2, ultrasonic, range-sensors, hardware, safety, microcontrollers
 - `articles/hardware/urdf-and-gazebo-plugins.md`: ros2, urdf, gazebo, simulation, plugins
 - `articles/hardware/wheel-odometry-models.md`: ros2, odometry, wheels, localization, hardware
 - `articles/navigation/amcl-tuning-in-nav2.md`: ros2, nav2, amcl, localization, tuning
@@ -107,6 +110,7 @@
 - `articles/navigation/behavior-tree-blackboard-patterns.md`: ros2, behavior-trees, bt, blackboard, nav2
 - `articles/navigation/behavior-tree-control-nodes.md`: ros2, behavior-trees, bt, nav2, control-flow
 - `articles/navigation/behavior-tree-decorator-nodes.md`: ros2, behavior-trees, bt, nav2, decorators
+- `articles/navigation/behavior-tree-plugin-walkthrough.md`: ros2, nav2, behavior-trees, plugins, cpp, btcpp
 - `articles/navigation/behavior-tree-xml-fundamentals.md`: ros2, behavior-trees, bt, xml, nav2
 - `articles/navigation/behavior-trees-for-nav2-and-robot-autonomy.md`: ros2, nav2, behavior-trees, autonomy, btcpp, groot2
 - `articles/navigation/bt-logging-replay-and-trace-analysis.md`: ros2, nav2, behavior-trees, debugging, logging

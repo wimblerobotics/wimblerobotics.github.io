@@ -2,9 +2,7 @@
 
 ## Near-Term Work
 
-1. Continue the `Robotics_Book` pass from the strongest remaining source material that is not already covered by existing articles.
-2. Review the current tag vocabulary and normalize the remaining singular/plural or near-synonym cases now that `articles/tag-glossary.md` exists as the controlled reference.
-3. Add a lightweight CI check that regenerates `generated/topic_graph.*` and fails if a new article introduces unresolved `related` links.
+1. Review the current tag vocabulary and normalize the remaining singular/plural or near-synonym cases now that `articles/tag-glossary.md` exists as the controlled reference.
 
 ## Site Exploration Track
 
@@ -12,8 +10,7 @@
 
 1. Test whether the current Markdown and frontmatter layout maps cleanly into Quartz.
 2. Evaluate backlink visibility, graph browsing, and note discovery.
-3. Extend the new note-style public paths beyond the initial slice if the digital-garden direction feels right in practice.
-4. Decide whether to keep implementing the digital-garden feel in MkDocs or move to Quartz for stronger backlink and graph-native behavior.
+3. Decide whether to keep implementing the digital-garden feel in MkDocs or move to Quartz for stronger backlink and graph-native behavior.
 
 ### Obsidian Workflow
 

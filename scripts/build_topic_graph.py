@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 import ast
 import json
+import sys
 from collections import Counter
 from pathlib import Path
 
@@ -206,6 +208,14 @@ def write_markdown_report(articles: list[dict[str, object]], graph: dict[str, ob
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--fail-on-unresolved-related",
+        action="store_true",
+        help="Exit non-zero if any related links point at missing articles.",
+    )
+    args = parser.parse_args()
+
     GENERATED_DIR.mkdir(parents=True, exist_ok=True)
     articles = collect_articles()
     graph = build_graph(articles)
@@ -215,6 +225,12 @@ def main() -> None:
     )
     write_markdown_report(articles, graph)
     print(f"Scanned {len(articles)} article(s). Wrote generated/topic_graph.json and generated/topic_graph.md")
+    if args.fail_on_unresolved_related and graph["stats"]["unresolved_related_link_count"]:
+        print(
+            f"Found {graph['stats']['unresolved_related_link_count']} unresolved related link(s).",
+            file=sys.stderr,
+        )
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

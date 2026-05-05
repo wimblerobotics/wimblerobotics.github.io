@@ -1,0 +1,25 @@
+name: Topic Graph
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-topic-graph:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Regenerate topic graph
+        run: python3 scripts/build_topic_graph.py --fail-on-unresolved-related
+
+      - name: Verify generated files are up to date
+        run: git diff --exit-code -- generated/topic_graph.json generated/topic_graph.md

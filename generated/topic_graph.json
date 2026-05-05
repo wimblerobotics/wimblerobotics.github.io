@@ -271,6 +271,11 @@
       "title": "Teensy and PlatformIO with ROS 2"
     },
     {
+      "id": "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
+      "kind": "article",
+      "title": "Ultrasonic Sensors for Robot Safety"
+    },
+    {
       "id": "articles/hardware/urdf-and-gazebo-plugins.md",
       "kind": "article",
       "title": "URDF and Gazebo Plugins"
@@ -304,6 +309,11 @@
       "id": "articles/navigation/behavior-tree-decorator-nodes.md",
       "kind": "article",
       "title": "Behavior Tree Decorator Nodes"
+    },
+    {
+      "id": "articles/navigation/behavior-tree-plugin-walkthrough.md",
+      "kind": "article",
+      "title": "Behavior Tree Plugin Walkthrough"
     },
     {
       "id": "articles/navigation/behavior-tree-xml-fundamentals.md",
@@ -988,7 +998,7 @@
     {
       "id": "behavior-trees",
       "kind": "tag",
-      "weight": 21
+      "weight": 22
     },
     {
       "id": "benchmarking",
@@ -1023,7 +1033,7 @@
     {
       "id": "btcpp",
       "kind": "tag",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "build",
@@ -1173,7 +1183,7 @@
     {
       "id": "cpp",
       "kind": "tag",
-      "weight": 4
+      "weight": 5
     },
     {
       "id": "critics",
@@ -1423,7 +1433,7 @@
     {
       "id": "hardware",
       "kind": "tag",
-      "weight": 23
+      "weight": 24
     },
     {
       "id": "heading-alignment",
@@ -1628,7 +1638,7 @@
     {
       "id": "microcontrollers",
       "kind": "tag",
-      "weight": 3
+      "weight": 4
     },
     {
       "id": "motors",
@@ -1663,7 +1673,7 @@
     {
       "id": "nav2",
       "kind": "tag",
-      "weight": 74
+      "weight": 75
     },
     {
       "id": "navfn",
@@ -1793,7 +1803,7 @@
     {
       "id": "plugins",
       "kind": "tag",
-      "weight": 5
+      "weight": 6
     },
     {
       "id": "pointcloud",
@@ -1839,6 +1849,11 @@
       "id": "qos",
       "kind": "tag",
       "weight": 3
+    },
+    {
+      "id": "range-sensors",
+      "kind": "tag",
+      "weight": 1
     },
     {
       "id": "raspberry-pi",
@@ -1903,7 +1918,7 @@
     {
       "id": "ros2",
       "kind": "tag",
-      "weight": 177
+      "weight": 179
     },
     {
       "id": "ros2_control",
@@ -1948,7 +1963,7 @@
     {
       "id": "safety",
       "kind": "tag",
-      "weight": 7
+      "weight": 8
     },
     {
       "id": "sensor-fusion",
@@ -2147,6 +2162,11 @@
     },
     {
       "id": "ukf",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "ultrasonic",
       "kind": "tag",
       "weight": 1
     },
@@ -3713,6 +3733,36 @@
       "kind": "article-tag"
     },
     {
+      "source": "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
+      "target": "hardware",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
+      "target": "microcontrollers",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
+      "target": "range-sensors",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
+      "target": "safety",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
+      "target": "ultrasonic",
+      "kind": "article-tag"
+    },
+    {
       "source": "articles/hardware/urdf-and-gazebo-plugins.md",
       "target": "gazebo",
       "kind": "article-tag"
@@ -3884,6 +3934,36 @@
     },
     {
       "source": "articles/navigation/behavior-tree-decorator-nodes.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/behavior-tree-plugin-walkthrough.md",
+      "target": "behavior-trees",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/behavior-tree-plugin-walkthrough.md",
+      "target": "btcpp",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/behavior-tree-plugin-walkthrough.md",
+      "target": "cpp",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/behavior-tree-plugin-walkthrough.md",
+      "target": "nav2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/behavior-tree-plugin-walkthrough.md",
+      "target": "plugins",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/navigation/behavior-tree-plugin-walkthrough.md",
       "target": "ros2",
       "kind": "article-tag"
     },
@@ -7933,6 +8013,26 @@
       "kind": "article-link"
     },
     {
+      "source": "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
+      "target": "articles/navigation/nav2-range-sensor-layer-for-close-obstacles.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
+      "target": "articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
+      "target": "articles/hardware/hardware-watchdogs-and-heartbeats.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
+      "target": "articles/hardware/emergency-stop-integration.md",
+      "kind": "article-link"
+    },
+    {
       "source": "articles/hardware/urdf-and-gazebo-plugins.md",
       "target": "articles/devops/gazebo-sim-setup-for-ros2.md",
       "kind": "article-link"
@@ -8035,6 +8135,26 @@
     {
       "source": "articles/navigation/behavior-tree-decorator-nodes.md",
       "target": "articles/navigation/recovery-behavior-trees-in-nav2.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/behavior-tree-plugin-walkthrough.md",
+      "target": "articles/navigation/custom-bt-action-nodes-in-cpp.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/behavior-tree-plugin-walkthrough.md",
+      "target": "articles/navigation/custom-nav2-bt-plugins-and-configuration.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/behavior-tree-plugin-walkthrough.md",
+      "target": "articles/navigation/behavior-tree-xml-fundamentals.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/navigation/behavior-tree-plugin-walkthrough.md",
+      "target": "articles/foundations/behavior-tree-ticks-status-and-control-flow.md",
       "kind": "article-link"
     },
     {
@@ -10795,7 +10915,7 @@
       "source": "behavior-trees",
       "target": "btcpp",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "behavior-trees",
@@ -10813,7 +10933,7 @@
       "source": "behavior-trees",
       "target": "cpp",
       "kind": "tag-cooccurrence",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "behavior-trees",
@@ -10867,7 +10987,7 @@
       "source": "behavior-trees",
       "target": "nav2",
       "kind": "tag-cooccurrence",
-      "weight": 18
+      "weight": 19
     },
     {
       "source": "behavior-trees",
@@ -10903,7 +11023,7 @@
       "source": "behavior-trees",
       "target": "plugins",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "behavior-trees",
@@ -10921,7 +11041,7 @@
       "source": "behavior-trees",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 21
+      "weight": 22
     },
     {
       "source": "behavior-trees",
@@ -11189,6 +11309,12 @@
     },
     {
       "source": "btcpp",
+      "target": "cpp",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "btcpp",
       "target": "groot2",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -11197,13 +11323,19 @@
       "source": "btcpp",
       "target": "nav2",
       "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "btcpp",
+      "target": "plugins",
+      "kind": "tag-cooccurrence",
       "weight": 1
     },
     {
       "source": "btcpp",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "build",
@@ -12373,7 +12505,7 @@
       "source": "cpp",
       "target": "nav2",
       "kind": "tag-cooccurrence",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "cpp",
@@ -12385,7 +12517,7 @@
       "source": "cpp",
       "target": "plugins",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "cpp",
@@ -12397,7 +12529,7 @@
       "source": "cpp",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "cpp",
@@ -14149,7 +14281,7 @@
       "source": "hardware",
       "target": "microcontrollers",
       "kind": "tag-cooccurrence",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "hardware",
@@ -14201,6 +14333,12 @@
     },
     {
       "source": "hardware",
+      "target": "range-sensors",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "hardware",
       "target": "reliability",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -14215,7 +14353,7 @@
       "source": "hardware",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 23
+      "weight": 24
     },
     {
       "source": "hardware",
@@ -14233,7 +14371,7 @@
       "source": "hardware",
       "target": "safety",
       "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "hardware",
@@ -14280,6 +14418,12 @@
     {
       "source": "hardware",
       "target": "udev",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "hardware",
+      "target": "ultrasonic",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -15455,6 +15599,12 @@
     },
     {
       "source": "microcontrollers",
+      "target": "range-sensors",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "microcontrollers",
       "target": "reliability",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -15463,11 +15613,17 @@
       "source": "microcontrollers",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "microcontrollers",
       "target": "ros2_control",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "microcontrollers",
+      "target": "safety",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -15486,6 +15642,12 @@
     {
       "source": "microcontrollers",
       "target": "udev",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "microcontrollers",
+      "target": "ultrasonic",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -15661,7 +15823,7 @@
       "source": "nav2",
       "target": "plugins",
       "kind": "tag-cooccurrence",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "nav2",
@@ -15703,7 +15865,7 @@
       "source": "nav2",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 74
+      "weight": 75
     },
     {
       "source": "nav2",
@@ -16441,7 +16603,7 @@
       "source": "plugins",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 5
+      "weight": 6
     },
     {
       "source": "plugins",
@@ -16592,6 +16754,24 @@
       "target": "topics",
       "kind": "tag-cooccurrence",
       "weight": 3
+    },
+    {
+      "source": "range-sensors",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "range-sensors",
+      "target": "safety",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "range-sensors",
+      "target": "ultrasonic",
+      "kind": "tag-cooccurrence",
+      "weight": 1
     },
     {
       "source": "raspberry-pi",
@@ -16861,7 +17041,7 @@
       "source": "ros2",
       "target": "safety",
       "kind": "tag-cooccurrence",
-      "weight": 7
+      "weight": 8
     },
     {
       "source": "ros2",
@@ -17105,6 +17285,12 @@
     },
     {
       "source": "ros2",
+      "target": "ultrasonic",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "ros2",
       "target": "underlay",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -17298,6 +17484,12 @@
     {
       "source": "safety",
       "target": "teleop",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "safety",
+      "target": "ultrasonic",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -17573,11 +17765,11 @@
     }
   ],
   "stats": {
-    "article_count": 177,
-    "tag_count": 272,
-    "tag_pair_count": 1284,
-    "article_link_count": 556,
-    "zero_inbound_article_count": 3,
+    "article_count": 179,
+    "tag_count": 274,
+    "tag_pair_count": 1296,
+    "article_link_count": 564,
+    "zero_inbound_article_count": 5,
     "zero_outbound_article_count": 0,
     "fully_orphaned_article_count": 0,
     "unresolved_related_link_count": 0
@@ -17586,7 +17778,9 @@
     "zero_inbound_articles": [
       "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
       "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
-      "articles/hardware/rtk-base-stations-for-outdoor-robots.md"
+      "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
+      "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
+      "articles/navigation/behavior-tree-plugin-walkthrough.md"
     ],
     "zero_outbound_articles": [],
     "fully_orphaned_articles": [],
