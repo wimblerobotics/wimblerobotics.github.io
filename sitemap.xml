@@ -597,6 +597,34 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://wimblerobotics.github.io/notes/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/notes/controller-choice/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/notes/gazebo-physics/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/notes/localization-recovery/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/notes/nav2-architecture/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/notes/urdf-frames/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://wimblerobotics.github.io/notes/workspace-bootstrap/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://wimblerobotics.github.io/perception/camera-calibration-for-ros2/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
