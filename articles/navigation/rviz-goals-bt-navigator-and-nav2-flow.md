@@ -4,7 +4,7 @@ summary: "What actually happens after you click a Nav2 goal in rviz2, from actio
 source_repo: "wimblerobotics/Robotics_Book"
 source_path: "book/chapters/navigating_with_rviz.md"
 source_url: "https://github.com/wimblerobotics/Robotics_Book/blob/main/book/chapters/navigating_with_rviz.md"
-tags: ["ros2", "nav2", "rviz2", "behavior-trees", "actions", "navigation"]
+tags: ["ros2", "nav2", "rviz", "behavior-trees", "actions", "navigation"]
 related: ["articles/foundations/urdf-as-a-frame-translation-system.md", "articles/software/launch-files-patterns-and-pitfalls.md"]
 ---
 

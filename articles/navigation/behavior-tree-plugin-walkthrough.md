@@ -4,7 +4,7 @@ summary: "A concrete walkthrough for turning a simple C++ class into a loadable 
 source_repo: "wimblerobotics/Robotics_Book"
 source_path: "book/chapters/creating_a_custom_behavior.md and custom_behaviors/src/blink_light.cpp"
 source_url: "https://github.com/wimblerobotics/Robotics_Book/blob/main/book/chapters/creating_a_custom_behavior.md"
-tags: ["ros2", "nav2", "behavior-trees", "plugins", "cpp", "btcpp"]
+tags: ["ros2", "nav2", "behavior-trees", "plugins", "cpp", "bt"]
 related: ["articles/navigation/custom-bt-action-nodes-in-cpp.md", "articles/navigation/custom-nav2-bt-plugins-and-configuration.md", "articles/navigation/behavior-tree-xml-fundamentals.md", "articles/foundations/behavior-tree-ticks-status-and-control-flow.md"]
 ---
 

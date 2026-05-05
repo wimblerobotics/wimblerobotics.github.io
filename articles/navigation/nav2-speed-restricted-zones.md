@@ -4,7 +4,7 @@ summary: "How to define map regions that cap robot speed, when percentage-based 
 source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "speed-restricted-zones/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/speed-restricted-zones/SKILL.md"
-tags: ["ros2", "nav2", "navigation", "costmaps", "safety", "controllers", "jazzy"]
+tags: ["ros2", "nav2", "navigation", "costmaps", "safety", "controller", "jazzy"]
 related: ["articles/navigation/nav2-keepout-zones-and-no-go-areas.md", "articles/navigation/nav2-controller-selection-guide.md", "articles/navigation/nav2-global-costmap-configuration.md"]
 ---
 

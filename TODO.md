@@ -1,9 +1,5 @@
 # Remaining Roadmap
 
-## Near-Term Work
-
-1. Review the current tag vocabulary and normalize the remaining singular/plural or near-synonym cases now that `articles/tag-glossary.md` exists as the controlled reference.
-
 ## Site Exploration Track
 
 ### Quartz or Similar Digital Garden
@@ -27,17 +23,15 @@
 ## Backlog Beyond the Current 158 Skills
 
 1. `ros2_control` for drivetrain, arm, and hardware-interface design patterns in Jazzy.
-2. DDS discovery, multicast, and multi-machine debugging for real robot networks.
-3. Foxglove and RViz role separation for telemetry, debugging, and operator workflows.
-4. Diagnostics aggregation, health dashboards, and failure triage patterns.
-5. Calibration workflows for cameras, IMUs, wheel radii, and multi-sensor extrinsics.
-6. Timestamp discipline, clock drift, and message synchronization strategies for robots with multiple computers or MCUs.
-7. `ros2_tracing` and deeper performance instrumentation for callback latency and executor contention.
-8. Navigation with elevators, docking, and semantically constrained indoor environments.
-9. Map lifecycle practices: field updates, versioning, annotation, and environment-change handling.
-10. Human-robot interaction basics for status reporting, prompts, teleoperation handoff, and safe autonomy interruption.
-11. Security and remote access basics for internet-connected ROS 2 robots.
-12. Data products for external review: test reports, bag-based regressions, and reproducible issue packages.
+2. Foxglove and RViz role separation for telemetry, debugging, and operator workflows.
+3. Calibration workflows for cameras, IMUs, wheel radii, and multi-sensor extrinsics.
+4. Timestamp discipline, clock drift, and message synchronization strategies for robots with multiple computers or MCUs.
+5. `ros2_tracing` and deeper performance instrumentation for callback latency and executor contention.
+6. Navigation with elevators, docking, and semantically constrained indoor environments.
+7. Map lifecycle practices: field updates, versioning, annotation, and environment-change handling.
+8. Human-robot interaction basics for status reporting, prompts, teleoperation handoff, and safe autonomy interruption.
+9. Security and remote access basics for internet-connected ROS 2 robots.
+10. Data products for external review: test reports, bag-based regressions, and reproducible issue packages.
 
 ## Structural Decisions Still Open
 

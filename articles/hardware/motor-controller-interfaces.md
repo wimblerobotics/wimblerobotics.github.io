@@ -4,7 +4,7 @@ summary: "How to design the boundary between ROS 2 and a motor controller so mot
 source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "motor-controller-interface/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/motor-controller-interface/SKILL.md"
-tags: ["ros2", "motors", "controllers", "hardware", "actuators"]
+tags: ["ros2", "motors", "controller", "hardware", "actuators"]
 related: ["articles/hardware/hardware-abstraction-layers-in-ros2.md", "articles/hardware/emergency-stop-integration.md", "articles/hardware/hardware-watchdogs-and-heartbeats.md"]
 ---
 

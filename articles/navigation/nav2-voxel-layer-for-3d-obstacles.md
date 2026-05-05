@@ -4,7 +4,7 @@ summary: "When to use the voxel layer instead of a plain obstacle layer, how 3D 
 source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "voxel-layer/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/voxel-layer/SKILL.md"
-tags: ["ros2", "nav2", "navigation", "costmaps", "depth", "pointclouds", "jazzy"]
+tags: ["ros2", "nav2", "navigation", "costmaps", "depth", "pointcloud", "jazzy"]
 related: ["articles/navigation/nav2-local-costmap-configuration.md", "articles/navigation/nav2-obstacle-layer-marking-and-clearing.md", "articles/perception/vision-depth-and-lidar-pipelines.md"]
 ---
 

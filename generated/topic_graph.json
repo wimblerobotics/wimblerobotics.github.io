@@ -46,6 +46,11 @@
       "title": "Physics Tuning in Gazebo"
     },
     {
+      "id": "articles/devops/ros2-multi-machine-networking-and-discovery.md",
+      "kind": "article",
+      "title": "ROS 2 Multi-Machine Networking and Discovery"
+    },
+    {
       "id": "articles/devops/ros2-testing-strategy.md",
       "kind": "article",
       "title": "ROS 2 Testing Strategy"
@@ -816,6 +821,11 @@
       "title": "Custom RViz Overlays"
     },
     {
+      "id": "articles/software/diagnostics-aggregation-and-health-dashboards.md",
+      "kind": "article",
+      "title": "Diagnostics Aggregation and Health Dashboards"
+    },
+    {
       "id": "articles/software/executors-callback-groups-and-concurrency.md",
       "kind": "article",
       "title": "Executors, Callback Groups, and Concurrency in ROS 2"
@@ -1028,12 +1038,7 @@
     {
       "id": "bt",
       "kind": "tag",
-      "weight": 7
-    },
-    {
-      "id": "btcpp",
-      "kind": "tag",
-      "weight": 2
+      "weight": 9
     },
     {
       "id": "build",
@@ -1163,17 +1168,12 @@
     {
       "id": "controller",
       "kind": "tag",
-      "weight": 10
+      "weight": 13
     },
     {
       "id": "controller-tuning",
       "kind": "tag",
       "weight": 2
-    },
-    {
-      "id": "controllers",
-      "kind": "tag",
-      "weight": 3
     },
     {
       "id": "costmaps",
@@ -1206,6 +1206,11 @@
       "weight": 3
     },
     {
+      "id": "dds",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
       "id": "deadlocks",
       "kind": "tag",
       "weight": 1
@@ -1213,7 +1218,7 @@
     {
       "id": "debugging",
       "kind": "tag",
-      "weight": 12
+      "weight": 14
     },
     {
       "id": "decorators",
@@ -1258,12 +1263,12 @@
     {
       "id": "devops",
       "kind": "tag",
-      "weight": 19
+      "weight": 20
     },
     {
       "id": "diagnostics",
       "kind": "tag",
-      "weight": 2
+      "weight": 3
     },
     {
       "id": "diff-drive",
@@ -1641,6 +1646,11 @@
       "weight": 4
     },
     {
+      "id": "monitoring",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
       "id": "motors",
       "kind": "tag",
       "weight": 1
@@ -1657,6 +1667,11 @@
     },
     {
       "id": "multi-goal",
+      "kind": "tag",
+      "weight": 1
+    },
+    {
+      "id": "multi-machine",
       "kind": "tag",
       "weight": 1
     },
@@ -1684,6 +1699,11 @@
       "id": "navigation",
       "kind": "tag",
       "weight": 22
+    },
+    {
+      "id": "networking",
+      "kind": "tag",
+      "weight": 1
     },
     {
       "id": "nodes",
@@ -1783,12 +1803,7 @@
     {
       "id": "planner",
       "kind": "tag",
-      "weight": 8
-    },
-    {
-      "id": "planners",
-      "kind": "tag",
-      "weight": 1
+      "weight": 9
     },
     {
       "id": "planning",
@@ -1808,12 +1823,7 @@
     {
       "id": "pointcloud",
       "kind": "tag",
-      "weight": 4
-    },
-    {
-      "id": "pointclouds",
-      "kind": "tag",
-      "weight": 1
+      "weight": 5
     },
     {
       "id": "power",
@@ -1918,7 +1928,7 @@
     {
       "id": "ros2",
       "kind": "tag",
-      "weight": 179
+      "weight": 181
     },
     {
       "id": "ros2_control",
@@ -1953,12 +1963,7 @@
     {
       "id": "rviz",
       "kind": "tag",
-      "weight": 3
-    },
-    {
-      "id": "rviz2",
-      "kind": "tag",
-      "weight": 2
+      "weight": 5
     },
     {
       "id": "safety",
@@ -2028,7 +2033,7 @@
     {
       "id": "software",
       "kind": "tag",
-      "weight": 6
+      "weight": 7
     },
     {
       "id": "spatial-ai",
@@ -2500,6 +2505,36 @@
     {
       "source": "articles/devops/physics-tuning-in-gazebo.md",
       "target": "simulation",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/ros2-multi-machine-networking-and-discovery.md",
+      "target": "dds",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/ros2-multi-machine-networking-and-discovery.md",
+      "target": "debugging",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/ros2-multi-machine-networking-and-discovery.md",
+      "target": "devops",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/ros2-multi-machine-networking-and-discovery.md",
+      "target": "multi-machine",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/ros2-multi-machine-networking-and-discovery.md",
+      "target": "networking",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/devops/ros2-multi-machine-networking-and-discovery.md",
+      "target": "ros2",
       "kind": "article-tag"
     },
     {
@@ -3509,7 +3544,7 @@
     },
     {
       "source": "articles/hardware/motor-controller-interfaces.md",
-      "target": "controllers",
+      "target": "controller",
       "kind": "article-tag"
     },
     {
@@ -3944,7 +3979,7 @@
     },
     {
       "source": "articles/navigation/behavior-tree-plugin-walkthrough.md",
-      "target": "btcpp",
+      "target": "bt",
       "kind": "article-tag"
     },
     {
@@ -4004,7 +4039,7 @@
     },
     {
       "source": "articles/navigation/behavior-trees-for-nav2-and-robot-autonomy.md",
-      "target": "btcpp",
+      "target": "bt",
       "kind": "article-tag"
     },
     {
@@ -4799,7 +4834,7 @@
     },
     {
       "source": "articles/navigation/nav2-architecture-and-tuning-guide.md",
-      "target": "controllers",
+      "target": "controller",
       "kind": "article-tag"
     },
     {
@@ -4824,7 +4859,7 @@
     },
     {
       "source": "articles/navigation/nav2-architecture-and-tuning-guide.md",
-      "target": "planners",
+      "target": "planner",
       "kind": "article-tag"
     },
     {
@@ -5369,7 +5404,7 @@
     },
     {
       "source": "articles/navigation/nav2-rviz-tools-and-debug-views.md",
-      "target": "rviz2",
+      "target": "rviz",
       "kind": "article-tag"
     },
     {
@@ -5439,7 +5474,7 @@
     },
     {
       "source": "articles/navigation/nav2-speed-restricted-zones.md",
-      "target": "controllers",
+      "target": "controller",
       "kind": "article-tag"
     },
     {
@@ -5529,7 +5564,7 @@
     },
     {
       "source": "articles/navigation/nav2-voxel-layer-for-3d-obstacles.md",
-      "target": "pointclouds",
+      "target": "pointcloud",
       "kind": "article-tag"
     },
     {
@@ -5824,7 +5859,7 @@
     },
     {
       "source": "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md",
-      "target": "rviz2",
+      "target": "rviz",
       "kind": "article-tag"
     },
     {
@@ -6703,6 +6738,31 @@
       "kind": "article-tag"
     },
     {
+      "source": "articles/software/diagnostics-aggregation-and-health-dashboards.md",
+      "target": "debugging",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/diagnostics-aggregation-and-health-dashboards.md",
+      "target": "diagnostics",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/diagnostics-aggregation-and-health-dashboards.md",
+      "target": "monitoring",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/diagnostics-aggregation-and-health-dashboards.md",
+      "target": "ros2",
+      "kind": "article-tag"
+    },
+    {
+      "source": "articles/software/diagnostics-aggregation-and-health-dashboards.md",
+      "target": "software",
+      "kind": "article-tag"
+    },
+    {
       "source": "articles/software/executors-callback-groups-and-concurrency.md",
       "target": "callbacks",
       "kind": "article-tag"
@@ -7300,6 +7360,26 @@
     {
       "source": "articles/devops/physics-tuning-in-gazebo.md",
       "target": "articles/hardware/inertia-calculation-for-urdf.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/devops/ros2-multi-machine-networking-and-discovery.md",
+      "target": "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/devops/ros2-multi-machine-networking-and-discovery.md",
+      "target": "articles/devops/systemd-autostart-for-robots.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/devops/ros2-multi-machine-networking-and-discovery.md",
+      "target": "articles/navigation/gps-rtk-and-outdoor-navigation-in-ros2.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/devops/ros2-multi-machine-networking-and-discovery.md",
+      "target": "articles/software/logging-and-diagnostics-in-ros2.md",
       "kind": "article-link"
     },
     {
@@ -9743,6 +9823,26 @@
       "kind": "article-link"
     },
     {
+      "source": "articles/software/diagnostics-aggregation-and-health-dashboards.md",
+      "target": "articles/software/logging-and-diagnostics-in-ros2.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/diagnostics-aggregation-and-health-dashboards.md",
+      "target": "articles/hardware/hardware-watchdogs-and-heartbeats.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/diagnostics-aggregation-and-health-dashboards.md",
+      "target": "articles/hardware/battery-monitoring-in-ros2.md",
+      "kind": "article-link"
+    },
+    {
+      "source": "articles/software/diagnostics-aggregation-and-health-dashboards.md",
+      "target": "articles/devops/rosbag2-analysis-workflows.md",
+      "kind": "article-link"
+    },
+    {
       "source": "articles/software/executors-callback-groups-and-concurrency.md",
       "target": "articles/software/ros2-services-without-deadlocks.md",
       "kind": "article-link"
@@ -10145,7 +10245,7 @@
     },
     {
       "source": "actions",
-      "target": "rviz2",
+      "target": "rviz",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -10187,7 +10287,7 @@
     },
     {
       "source": "actuators",
-      "target": "controllers",
+      "target": "controller",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -10513,13 +10613,7 @@
       "source": "autonomy",
       "target": "bt",
       "kind": "tag-cooccurrence",
-      "weight": 1
-    },
-    {
-      "source": "autonomy",
-      "target": "btcpp",
-      "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "autonomy",
@@ -10909,13 +11003,7 @@
       "source": "behavior-trees",
       "target": "bt",
       "kind": "tag-cooccurrence",
-      "weight": 7
-    },
-    {
-      "source": "behavior-trees",
-      "target": "btcpp",
-      "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 9
     },
     {
       "source": "behavior-trees",
@@ -11045,7 +11133,7 @@
     },
     {
       "source": "behavior-trees",
-      "target": "rviz2",
+      "target": "rviz",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -11269,7 +11357,7 @@
       "source": "bt",
       "target": "cpp",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "bt",
@@ -11285,57 +11373,33 @@
     },
     {
       "source": "bt",
-      "target": "nav2",
-      "kind": "tag-cooccurrence",
-      "weight": 6
-    },
-    {
-      "source": "bt",
-      "target": "plugins",
+      "target": "groot2",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
     {
       "source": "bt",
+      "target": "nav2",
+      "kind": "tag-cooccurrence",
+      "weight": 8
+    },
+    {
+      "source": "bt",
+      "target": "plugins",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "bt",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 7
+      "weight": 9
     },
     {
       "source": "bt",
       "target": "xml",
       "kind": "tag-cooccurrence",
       "weight": 1
-    },
-    {
-      "source": "btcpp",
-      "target": "cpp",
-      "kind": "tag-cooccurrence",
-      "weight": 1
-    },
-    {
-      "source": "btcpp",
-      "target": "groot2",
-      "kind": "tag-cooccurrence",
-      "weight": 1
-    },
-    {
-      "source": "btcpp",
-      "target": "nav2",
-      "kind": "tag-cooccurrence",
-      "weight": 2
-    },
-    {
-      "source": "btcpp",
-      "target": "plugins",
-      "kind": "tag-cooccurrence",
-      "weight": 1
-    },
-    {
-      "source": "btcpp",
-      "target": "ros2",
-      "kind": "tag-cooccurrence",
-      "weight": 2
     },
     {
       "source": "build",
@@ -12115,7 +12179,7 @@
       "source": "controller",
       "target": "costmaps",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 3
     },
     {
       "source": "controller",
@@ -12149,13 +12213,31 @@
     },
     {
       "source": "controller",
+      "target": "hardware",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "controller",
       "target": "heading-alignment",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
     {
       "source": "controller",
+      "target": "jazzy",
+      "kind": "tag-cooccurrence",
+      "weight": 2
+    },
+    {
+      "source": "controller",
       "target": "metrics",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "controller",
+      "target": "motors",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -12169,13 +12251,13 @@
       "source": "controller",
       "target": "nav2",
       "kind": "tag-cooccurrence",
-      "weight": 10
+      "weight": 12
     },
     {
       "source": "controller",
       "target": "navigation",
       "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "controller",
@@ -12193,11 +12275,17 @@
       "source": "controller",
       "target": "planner",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "controller",
       "target": "plugins",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "controller",
+      "target": "recovery",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -12211,7 +12299,7 @@
       "source": "controller",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 10
+      "weight": 13
     },
     {
       "source": "controller",
@@ -12222,6 +12310,12 @@
     {
       "source": "controller",
       "target": "rpp",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "controller",
+      "target": "safety",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -12266,66 +12360,6 @@
       "target": "ros2",
       "kind": "tag-cooccurrence",
       "weight": 2
-    },
-    {
-      "source": "controllers",
-      "target": "costmaps",
-      "kind": "tag-cooccurrence",
-      "weight": 2
-    },
-    {
-      "source": "controllers",
-      "target": "hardware",
-      "kind": "tag-cooccurrence",
-      "weight": 1
-    },
-    {
-      "source": "controllers",
-      "target": "jazzy",
-      "kind": "tag-cooccurrence",
-      "weight": 2
-    },
-    {
-      "source": "controllers",
-      "target": "motors",
-      "kind": "tag-cooccurrence",
-      "weight": 1
-    },
-    {
-      "source": "controllers",
-      "target": "nav2",
-      "kind": "tag-cooccurrence",
-      "weight": 2
-    },
-    {
-      "source": "controllers",
-      "target": "navigation",
-      "kind": "tag-cooccurrence",
-      "weight": 2
-    },
-    {
-      "source": "controllers",
-      "target": "planners",
-      "kind": "tag-cooccurrence",
-      "weight": 1
-    },
-    {
-      "source": "controllers",
-      "target": "recovery",
-      "kind": "tag-cooccurrence",
-      "weight": 1
-    },
-    {
-      "source": "controllers",
-      "target": "ros2",
-      "kind": "tag-cooccurrence",
-      "weight": 3
-    },
-    {
-      "source": "controllers",
-      "target": "safety",
-      "kind": "tag-cooccurrence",
-      "weight": 1
     },
     {
       "source": "costmaps",
@@ -12421,17 +12455,11 @@
       "source": "costmaps",
       "target": "planner",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "costmaps",
-      "target": "planners",
-      "kind": "tag-cooccurrence",
-      "weight": 1
-    },
-    {
-      "source": "costmaps",
-      "target": "pointclouds",
+      "target": "pointcloud",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -12449,7 +12477,7 @@
     },
     {
       "source": "costmaps",
-      "target": "rviz2",
+      "target": "rviz",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -12622,6 +12650,36 @@
       "weight": 3
     },
     {
+      "source": "dds",
+      "target": "debugging",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "dds",
+      "target": "devops",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "dds",
+      "target": "multi-machine",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "dds",
+      "target": "networking",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "dds",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
       "source": "deadlocks",
       "target": "executors",
       "kind": "tag-cooccurrence",
@@ -12649,13 +12707,13 @@
       "source": "debugging",
       "target": "devops",
       "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "debugging",
       "target": "diagnostics",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "debugging",
@@ -12701,7 +12759,19 @@
     },
     {
       "source": "debugging",
+      "target": "monitoring",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "debugging",
       "target": "mppi",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "debugging",
+      "target": "multi-machine",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -12714,6 +12784,12 @@
     {
       "source": "debugging",
       "target": "navigation",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "debugging",
+      "target": "networking",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -12763,7 +12839,7 @@
       "source": "debugging",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 12
+      "weight": 14
     },
     {
       "source": "debugging",
@@ -12775,19 +12851,13 @@
       "source": "debugging",
       "target": "rviz",
       "kind": "tag-cooccurrence",
-      "weight": 1
-    },
-    {
-      "source": "debugging",
-      "target": "rviz2",
-      "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "debugging",
       "target": "software",
       "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "debugging",
@@ -12893,7 +12963,7 @@
     },
     {
       "source": "depth",
-      "target": "pointclouds",
+      "target": "pointcloud",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -13097,6 +13167,18 @@
     },
     {
       "source": "devops",
+      "target": "multi-machine",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "devops",
+      "target": "networking",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "devops",
       "target": "overlays",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -13129,7 +13211,7 @@
       "source": "devops",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 19
+      "weight": 20
     },
     {
       "source": "devops",
@@ -13217,6 +13299,12 @@
     },
     {
       "source": "diagnostics",
+      "target": "monitoring",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "diagnostics",
       "target": "power",
       "kind": "tag-cooccurrence",
       "weight": 1
@@ -13225,13 +13313,13 @@
       "source": "diagnostics",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "diagnostics",
       "target": "software",
       "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "diff-drive",
@@ -14717,13 +14805,13 @@
     },
     {
       "source": "jazzy",
-      "target": "planners",
+      "target": "planner",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
     {
       "source": "jazzy",
-      "target": "pointclouds",
+      "target": "pointcloud",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -15658,6 +15746,18 @@
       "weight": 1
     },
     {
+      "source": "monitoring",
+      "target": "ros2",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "monitoring",
+      "target": "software",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
       "source": "motors",
       "target": "ros2",
       "kind": "tag-cooccurrence",
@@ -15720,6 +15820,18 @@
     {
       "source": "multi-goal",
       "target": "waypoints",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "multi-machine",
+      "target": "networking",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "multi-machine",
+      "target": "ros2",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -15805,13 +15917,7 @@
       "source": "nav2",
       "target": "planner",
       "kind": "tag-cooccurrence",
-      "weight": 8
-    },
-    {
-      "source": "nav2",
-      "target": "planners",
-      "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 9
     },
     {
       "source": "nav2",
@@ -15827,7 +15933,7 @@
     },
     {
       "source": "nav2",
-      "target": "pointclouds",
+      "target": "pointcloud",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -15889,13 +15995,7 @@
       "source": "nav2",
       "target": "rviz",
       "kind": "tag-cooccurrence",
-      "weight": 1
-    },
-    {
-      "source": "nav2",
-      "target": "rviz2",
-      "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "nav2",
@@ -16067,7 +16167,7 @@
     },
     {
       "source": "navigation",
-      "target": "planners",
+      "target": "planner",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -16075,13 +16175,7 @@
       "source": "navigation",
       "target": "pointcloud",
       "kind": "tag-cooccurrence",
-      "weight": 3
-    },
-    {
-      "source": "navigation",
-      "target": "pointclouds",
-      "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 4
     },
     {
       "source": "navigation",
@@ -16103,7 +16197,7 @@
     },
     {
       "source": "navigation",
-      "target": "rviz2",
+      "target": "rviz",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -16134,6 +16228,12 @@
     {
       "source": "navigation",
       "target": "vision",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "networking",
+      "target": "ros2",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -16541,9 +16641,15 @@
     },
     {
       "source": "planner",
+      "target": "recovery",
+      "kind": "tag-cooccurrence",
+      "weight": 1
+    },
+    {
+      "source": "planner",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 8
+      "weight": 9
     },
     {
       "source": "planner",
@@ -16562,18 +16668,6 @@
       "target": "theta-star",
       "kind": "tag-cooccurrence",
       "weight": 2
-    },
-    {
-      "source": "planners",
-      "target": "recovery",
-      "kind": "tag-cooccurrence",
-      "weight": 1
-    },
-    {
-      "source": "planners",
-      "target": "ros2",
-      "kind": "tag-cooccurrence",
-      "weight": 1
     },
     {
       "source": "planning",
@@ -16621,17 +16715,11 @@
       "source": "pointcloud",
       "target": "ros2",
       "kind": "tag-cooccurrence",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "pointcloud",
       "target": "vision",
-      "kind": "tag-cooccurrence",
-      "weight": 1
-    },
-    {
-      "source": "pointclouds",
-      "target": "ros2",
       "kind": "tag-cooccurrence",
       "weight": 1
     },
@@ -17029,13 +17117,7 @@
       "source": "ros2",
       "target": "rviz",
       "kind": "tag-cooccurrence",
-      "weight": 3
-    },
-    {
-      "source": "ros2",
-      "target": "rviz2",
-      "kind": "tag-cooccurrence",
-      "weight": 2
+      "weight": 5
     },
     {
       "source": "ros2",
@@ -17119,7 +17201,7 @@
       "source": "ros2",
       "target": "software",
       "kind": "tag-cooccurrence",
-      "weight": 6
+      "weight": 7
     },
     {
       "source": "ros2",
@@ -17461,13 +17543,7 @@
       "source": "rviz",
       "target": "visualization",
       "kind": "tag-cooccurrence",
-      "weight": 2
-    },
-    {
-      "source": "rviz2",
-      "target": "visualization",
-      "kind": "tag-cooccurrence",
-      "weight": 1
+      "weight": 3
     },
     {
       "source": "safety",
@@ -17765,22 +17841,23 @@
     }
   ],
   "stats": {
-    "article_count": 179,
-    "tag_count": 274,
-    "tag_pair_count": 1296,
-    "article_link_count": 564,
-    "zero_inbound_article_count": 5,
+    "article_count": 181,
+    "tag_count": 273,
+    "tag_pair_count": 1292,
+    "article_link_count": 572,
+    "zero_inbound_article_count": 6,
     "zero_outbound_article_count": 0,
     "fully_orphaned_article_count": 0,
     "unresolved_related_link_count": 0
   },
   "link_health": {
     "zero_inbound_articles": [
-      "articles/devops/jazzy-desktop-and-sbc-setup-for-robots.md",
+      "articles/devops/ros2-multi-machine-networking-and-discovery.md",
       "articles/hardware/diff-drive-base-control-with-ros2-control-and-arduino.md",
       "articles/hardware/rtk-base-stations-for-outdoor-robots.md",
       "articles/hardware/ultrasonic-sensors-for-robot-safety.md",
-      "articles/navigation/behavior-tree-plugin-walkthrough.md"
+      "articles/navigation/behavior-tree-plugin-walkthrough.md",
+      "articles/software/diagnostics-aggregation-and-health-dashboards.md"
     ],
     "zero_outbound_articles": [],
     "fully_orphaned_articles": [],

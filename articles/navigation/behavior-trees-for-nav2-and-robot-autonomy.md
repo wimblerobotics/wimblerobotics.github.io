@@ -4,7 +4,7 @@ summary: "How Nav2 uses BehaviorTree.CPP, what XML structure and blackboard flow
 source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "multiple skills: bt-xml-fundamentals, bt-control-nodes, bt-decorator-nodes, bt-blackboard-patterns, bt-action-nodes-nav2, patrol-behavior-tree"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/docs/SKILLS-CATALOG.md"
-tags: ["ros2", "nav2", "behavior-trees", "autonomy", "btcpp", "groot2"]
+tags: ["ros2", "nav2", "behavior-trees", "autonomy", "bt", "groot2"]
 related: ["articles/navigation/nav2-architecture-and-tuning-guide.md", "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md", "articles/foundations/ros2-core-communication-and-execution.md", "articles/foundations/behavior-tree-ticks-status-and-control-flow.md", "articles/navigation/custom-nav2-bt-plugins-and-configuration.md", "articles/navigation/behavior-tree-blackboard-patterns.md", "articles/navigation/patrol-behavior-trees.md", "articles/navigation/nav2-bt-action-nodes.md"]
 ---
 

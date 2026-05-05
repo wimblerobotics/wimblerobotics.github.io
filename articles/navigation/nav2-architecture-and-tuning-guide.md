@@ -4,7 +4,7 @@ summary: "A system-level guide to how Nav2 servers, costmaps, planners, controll
 source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "multiple skills: nav2-architecture-overview, nav2-params-structure, costmap-architecture, controller-comparison, planner-comparison, behavior-server"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/docs/SKILLS-CATALOG.md"
-tags: ["ros2", "nav2", "navigation", "costmaps", "planners", "controllers", "recovery", "jazzy"]
+tags: ["ros2", "nav2", "navigation", "costmaps", "planner", "controller", "recovery", "jazzy"]
 related: ["articles/navigation/nav2-costmap-architecture-and-plugin-order.md", "articles/navigation/behavior-trees-for-nav2-and-robot-autonomy.md", "articles/navigation/localization-state-estimation-and-frame-discipline.md"]
 ---
 

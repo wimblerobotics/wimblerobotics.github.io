@@ -60,6 +60,16 @@ The goal is to get a reader from an immediate robotics problem to useful answers
 - Start here: [Note: Custom Behavior Tree Plugins](custom-bt-plugins.md)
 - Then branch into ports, plugin registration, XML wiring, and Nav2 integration choices.
 
+### ROS 2 Breaks When I Move To Two Machines
+
+- Start here: [Note: Robot Networking and Multi-Machine ROS 2](robot-networking.md)
+- Then branch into DDS domain boundaries, Wi-Fi assumptions, VPN setup, and desktop-to-robot discovery.
+
+### The Robot Runs But Health Is Opaque
+
+- Start here: [Note: Robot Health and Diagnostics](robot-health.md)
+- Then branch into diagnostics aggregation, health dashboards, watchdogs, and incident review.
+
 ## How This Part of the Site Works
 
 - Notes are short wayfinding pages.

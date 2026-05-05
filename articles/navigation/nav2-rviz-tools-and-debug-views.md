@@ -4,7 +4,7 @@ summary: "How to use RViz as a serious Nav2 debugging surface: initial pose, goa
 source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "nav2-rviz-tools/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/nav2-rviz-tools/SKILL.md"
-tags: ["ros2", "nav2", "rviz2", "debugging", "costmaps", "visualization"]
+tags: ["ros2", "nav2", "rviz", "debugging", "costmaps", "visualization"]
 related: ["articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md", "articles/navigation/nav2-servers-and-data-flow.md", "articles/navigation/nav2-error-codes-and-failure-analysis.md"]
 ---
 

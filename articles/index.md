@@ -26,6 +26,8 @@ They arrive wanting the next useful click.
 - The drivetrain stack feels brittle: start at [Note: Diff-Drive Base Control](notes/diff-drive-base-control.md)
 - The robot still misses close obstacles: start at [Note: Close-Range Sensing and Ultrasonic Safety](notes/close-range-sensing.md)
 - You need a custom tree node, not just XML edits: start at [Note: Custom Behavior Tree Plugins](notes/custom-bt-plugins.md)
+- One computer works, two do not: start at [Note: Robot Networking and Multi-Machine ROS 2](notes/robot-networking.md)
+- The robot is running, but nobody trusts its health: start at [Note: Robot Health and Diagnostics](notes/robot-health.md)
 
 ## Explore Notes
 

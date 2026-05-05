@@ -62,6 +62,8 @@ nav:
     - notes/diff-drive-base-control.md
     - notes/close-range-sensing.md
     - notes/custom-bt-plugins.md
+    - notes/robot-networking.md
+    - notes/robot-health.md
   - Contributing: contributing.md
   - Article Template: article-template.md
   - Tag Glossary: tag-glossary.md
@@ -83,9 +85,11 @@ nav:
       - hardware/rtk-base-stations-for-outdoor-robots.md
   - Software:
       - software/launch-files-patterns-and-pitfalls.md
+      - software/diagnostics-aggregation-and-health-dashboards.md
       - software/package-xml-cmakelists-and-python-package-structure.md
   - DevOps:
       - devops/simulation-testing-and-deployment-for-ros2.md
       - devops/colcon-workspace-discipline.md
       - devops/jazzy-desktop-and-sbc-setup-for-robots.md
+      - devops/ros2-multi-machine-networking-and-discovery.md
   - Tags: tags.md

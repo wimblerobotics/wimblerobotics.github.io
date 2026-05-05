@@ -67,11 +67,15 @@ The goal is to keep tags consistent enough that the site remains explorable as i
 - `testing`
 - `debugging`
 - `diagnostics`
+- `monitoring`
 - `performance`
 - `rosbag2`
 - `docker`
 - `systemd`
 - `gazebo`
+- `networking`
+- `dds`
+- `multi-machine`
 
 ## Preferred Choices for Common Near-Duplicates
 
@@ -80,6 +84,7 @@ The goal is to keep tags consistent enough that the site remains explorable as i
 - Prefer `controller` over `controllers`.
 - Prefer `workspace` over `workspaces` unless the article is specifically about multiple workspace layers.
 - Prefer `behavior-trees` for general topic tagging and add `bt` only when the article is specifically about BT implementation details.
+- Prefer `bt` over `btcpp` when the topic is BehaviorTree.CPP implementation detail rather than a broader autonomy introduction.
 
 ## When To Add a New Tag
 
