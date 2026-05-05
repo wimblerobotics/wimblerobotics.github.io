@@ -1,0 +1,42 @@
+# Solve a Problem
+
+This is the problem-first front door for the site.
+The goal is to get a reader from an immediate robotics problem to useful answers, then outward into nearby ideas worth understanding next.
+
+## Common Starting Points
+
+### Navigation Feels Opaque
+
+- Start here: [Note: Nav2 Architecture](nav2-architecture.md)
+- Then branch into planners, controllers, costmaps, behavior trees, or recovery.
+
+### The Robot Moves Badly
+
+- Start here: [Note: Choosing a Nav2 Controller](controller-choice.md)
+- Then branch into path-tracking metrics, planner choice, or motion smoothing.
+
+### Localization Is Unstable
+
+- Start here: [Note: Localization Recovery](localization-recovery.md)
+- Then branch into AMCL, sensor fusion, frame discipline, or mapping.
+
+### URDF and TF Are Confusing
+
+- Start here: [Note: URDF and Frames](urdf-frames.md)
+- Then branch into `robot_state_publisher`, xacro, extrinsics, or base frame conventions.
+
+### Simulation Is Misleading or Brittle
+
+- Start here: [Note: Gazebo Physics and Simulation Truth](gazebo-physics.md)
+- Then branch into world building, simulated sensors, and ROS/Gazebo bridging.
+
+### The Workspace Itself Keeps Biting You
+
+- Start here: [Note: Workspace Bootstrap and Build Hygiene](workspace-bootstrap.md)
+- Then branch into overlays, rosdep, package structure, and startup discipline.
+
+## How This Part of the Site Works
+
+- Notes are short wayfinding pages.
+- They are meant to reduce clicks from problem to likely answer.
+- They also surface nearby learning opportunities, not just the narrow fix.

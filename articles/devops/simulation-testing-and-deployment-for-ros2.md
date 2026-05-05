@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "multiple skills: docker-ros2, github-actions-ros2, gz-sim-setup, gz-ros2-bridge, simulation-testing, rosbag2-analysis, systemd-autostart"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/docs/SKILLS-CATALOG.md"
 tags: ["ros2", "devops", "simulation", "docker", "gazebo", "ci", "rosbag2", "systemd"]
-related: ["articles/devops/colcon-workspace-discipline.md", "articles/software/launch-files-patterns-and-pitfalls.md", "articles/navigation/nav2-architecture-and-tuning-guide.md"]
+related: ["articles/devops/colcon-workspace-discipline.md", "articles/software/launch-files-patterns-and-pitfalls.md", "articles/navigation/nav2-architecture-and-tuning-guide.md", "articles/devops/sim-time-management.md", "articles/devops/physics-tuning-in-gazebo.md", "articles/devops/gazebo-sim-setup-for-ros2.md"]
 ---
 
 # Simulation, Testing, and Deployment for ROS 2

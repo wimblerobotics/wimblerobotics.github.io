@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "urdf-fundamentals/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/urdf-fundamentals/SKILL.md"
 tags: ["ros2", "urdf", "robot-model", "tf", "foundations"]
-related: ["articles/foundations/urdf-as-a-frame-translation-system.md", "articles/foundations/xacro-macros-for-robot-models.md", "articles/hardware/joint-types-and-limits-in-urdf.md"]
+related: ["articles/foundations/urdf-as-a-frame-translation-system.md", "articles/foundations/xacro-macros-for-robot-models.md", "articles/hardware/joint-types-and-limits-in-urdf.md", "articles/foundations/urdf-links-joints-and-the-robot-tree.md", "articles/foundations/base-link-base-footprint-and-fixed-frame-choices.md", "articles/software/robot-state-publisher-and-joint-state-publisher.md"]
 ---
 
 # URDF Fundamentals
@@ -29,6 +29,12 @@ URDF is the structural description that many other ROS 2 tools quietly depend on
 - Validate the model in RViz and TF before depending on it elsewhere.
 - Keep frames, joint names, and dimensions consistent across code and hardware.
 - Treat the robot model as maintained infrastructure, not a one-time file.
+
+## Start Here
+
+- For the structural XML model of links, joints, and the robot root: [URDF Links, Joints, and the Robot Tree](urdf-links-joints-and-the-robot-tree.md)
+- For frame-centric reasoning: [URDF as a Frame Translation System](urdf-as-a-frame-translation-system.md)
+- For reuse and modularity: [Xacro Macros for Robot Models](xacro-macros-for-robot-models.md)
 
 ## Corroborating References
 

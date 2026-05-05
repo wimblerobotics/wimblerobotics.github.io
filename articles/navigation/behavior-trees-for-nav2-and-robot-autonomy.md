@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "multiple skills: bt-xml-fundamentals, bt-control-nodes, bt-decorator-nodes, bt-blackboard-patterns, bt-action-nodes-nav2, patrol-behavior-tree"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/docs/SKILLS-CATALOG.md"
 tags: ["ros2", "nav2", "behavior-trees", "autonomy", "btcpp", "groot2"]
-related: ["articles/navigation/nav2-architecture-and-tuning-guide.md", "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md", "articles/foundations/ros2-core-communication-and-execution.md"]
+related: ["articles/navigation/nav2-architecture-and-tuning-guide.md", "articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md", "articles/foundations/ros2-core-communication-and-execution.md", "articles/foundations/behavior-tree-ticks-status-and-control-flow.md", "articles/navigation/custom-nav2-bt-plugins-and-configuration.md", "articles/navigation/behavior-tree-blackboard-patterns.md", "articles/navigation/patrol-behavior-trees.md", "articles/navigation/nav2-bt-action-nodes.md"]
 ---
 
 # Behavior Trees for Nav2 and Robot Autonomy
@@ -30,6 +30,12 @@ Behavior trees are where many ROS 2 robots stop being demos and start becoming s
 - Treat recovery logic as a first-class subtree, not as a last-minute appendage.
 - Keep application-level autonomy decisions above the lower-level navigation action nodes.
 - Use Groot2 and trace logging early, before the tree becomes too large to reason about by inspection.
+
+## Start Here
+
+- For BT execution semantics: [Behavior Tree Ticks, Status, and Control Flow](../foundations/behavior-tree-ticks-status-and-control-flow.md)
+- For Nav2 leaf-node structure: [Nav2 Behavior Tree Action Nodes](nav2-bt-action-nodes.md), [Behavior Tree Control Nodes](behavior-tree-control-nodes.md), and [Behavior Tree Decorator Nodes](behavior-tree-decorator-nodes.md)
+- For extending the tree with your own code: [Custom Nav2 BT Plugins and Configuration](custom-nav2-bt-plugins-and-configuration.md), [Custom BT Action Nodes in C++](custom-bt-action-nodes-in-cpp.md), and [Custom BT Action Nodes in Python](custom-bt-action-nodes-in-python.md)
 
 ## Corroborating References
 

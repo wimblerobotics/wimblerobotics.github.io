@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "multiple skills: depth-camera-pipeline, lidar-driver-config, lidar-filtering, pointcloud-processing, object-detection-pipeline, yolo-ros2-integration"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/docs/SKILLS-CATALOG.md"
 tags: ["ros2", "perception", "lidar", "depth-camera", "pointcloud", "vision", "navigation"]
-related: ["articles/navigation/nav2-architecture-and-tuning-guide.md", "articles/navigation/localization-state-estimation-and-frame-discipline.md", "articles/hardware/ros2-hardware-integration-patterns.md"]
+related: ["articles/navigation/nav2-architecture-and-tuning-guide.md", "articles/navigation/localization-state-estimation-and-frame-discipline.md", "articles/hardware/ros2-hardware-integration-patterns.md", "articles/perception/compressed-image-transport-in-ros2.md", "articles/perception/visual-anomaly-detection-for-robots.md", "articles/perception/wall-line-extraction-from-lidar.md"]
 ---
 
 # Vision, Depth, and LIDAR Pipelines for ROS 2 Robots

@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "bt-condition-nodes-nav2/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/bt-condition-nodes-nav2/SKILL.md"
 tags: ["ros2", "nav2", "behavior-trees", "conditions", "autonomy"]
-related: ["articles/navigation/behavior-trees-for-nav2-and-robot-autonomy.md", "articles/navigation/bt-subtrees-for-reusable-autonomy.md", "articles/navigation/recovery-behavior-trees-in-nav2.md"]
+related: ["articles/navigation/behavior-trees-for-nav2-and-robot-autonomy.md", "articles/navigation/bt-subtrees-for-reusable-autonomy.md", "articles/navigation/recovery-behavior-trees-in-nav2.md", "articles/navigation/custom-bt-condition-nodes-in-cpp.md"]
 ---
 
 # Nav2 BT Condition Nodes

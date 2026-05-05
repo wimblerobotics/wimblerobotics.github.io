@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "multiple skills: coordinate-frames-and-tf, ekf-sensor-fusion, ukf-sensor-fusion, encoder-odometry-math, wheel-odometry-model, amcl-tuning"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/docs/SKILLS-CATALOG.md"
 tags: ["ros2", "localization", "tf", "frames", "robot_localization", "ekf", "imu", "odometry"]
-related: ["articles/foundations/urdf-as-a-frame-translation-system.md", "articles/navigation/nav2-architecture-and-tuning-guide.md", "articles/hardware/odometry-calibration-for-diff-drive.md"]
+related: ["articles/foundations/urdf-as-a-frame-translation-system.md", "articles/navigation/nav2-architecture-and-tuning-guide.md", "articles/hardware/odometry-calibration-for-diff-drive.md", "articles/navigation/amcl-tuning-in-nav2.md"]
 ---
 
 # Localization, State Estimation, and Frame Discipline

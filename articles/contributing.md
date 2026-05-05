@@ -9,6 +9,7 @@ That keeps contribution lightweight while still making the content easy to revie
 Useful links:
 
 - Published template: [Article Template](article-template.md)
+- Controlled tag glossary: [Tag Glossary](tag-glossary.md)
 - Site home page: [Home](index.md)
 - GitHub repository: [wimblerobotics/wimblerobotics.github.io](https://github.com/wimblerobotics/wimblerobotics.github.io)
 - Template file in the repo: [ARTICLE_TEMPLATE.md](https://github.com/wimblerobotics/wimblerobotics.github.io/blob/main/ARTICLE_TEMPLATE.md)
@@ -19,9 +20,10 @@ Useful links:
 2. Pick a public source that is worth summarizing.
 3. Create a new article in the most appropriate folder under `articles/`.
 4. Fill in the frontmatter completely: title, summary, source provenance, tags, and related links.
-5. Write the article in the site style: concise, practical, and oriented around what helps a robot builder make progress.
-6. If the source family is new, add a note in `sources/` describing the source and how it is being used.
-7. Submit a pull request.
+5. Reuse canonical tags from the published [Tag Glossary](tag-glossary.md) instead of inventing near-duplicates.
+6. Write the article in the site style: concise, practical, and oriented around what helps a robot builder make progress.
+7. If the source family is new, add a note in `sources/` describing the source and how it is being used.
+8. Submit a pull request.
 
 ## Two Ways To Contribute
 
@@ -67,12 +69,14 @@ If you are not sure which folder to use, start with the closest match and mentio
 ## What Files Contributors Usually Need
 
 - The article template: [Article Template](article-template.md)
+- The controlled tag glossary: [Tag Glossary](tag-glossary.md)
 - The contribution guide: [Contributing](contributing.md)
 - Existing articles to imitate for tone and structure: start from [Home](index.md)
 
 If you are cloning the repo, the corresponding paths are:
 
 - `ARTICLE_TEMPLATE.md`
+- `articles/tag-glossary.md`
 - `articles/contributing.md`
 - `articles/`
 - `sources/`

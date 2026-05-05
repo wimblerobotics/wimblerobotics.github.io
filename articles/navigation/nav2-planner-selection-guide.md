@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "planner-comparison/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/planner-comparison/SKILL.md"
 tags: ["ros2", "nav2", "planner", "navfn", "smac", "theta-star"]
-related: ["articles/navigation/nav2-controller-selection-guide.md", "articles/navigation/nav2-architecture-and-tuning-guide.md", "articles/navigation/nav2-yaml-parameter-structure.md"]
+related: ["articles/navigation/nav2-controller-selection-guide.md", "articles/navigation/nav2-architecture-and-tuning-guide.md", "articles/navigation/nav2-yaml-parameter-structure.md", "articles/navigation/writing-custom-nav2-planner-plugins.md"]
 ---
 
 # Nav2 Planner Selection Guide

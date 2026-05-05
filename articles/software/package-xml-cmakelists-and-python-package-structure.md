@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "package-xml-cmake/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/package-xml-cmake/SKILL.md"
 tags: ["ros2", "package.xml", "cmake", "ament", "python", "build"]
-related: ["articles/devops/colcon-workspace-discipline.md", "articles/software/launch-files-patterns-and-pitfalls.md", "articles/software/parameter-handling-and-runtime-reconfiguration.md"]
+related: ["articles/devops/colcon-workspace-discipline.md", "articles/software/launch-files-patterns-and-pitfalls.md", "articles/software/parameter-handling-and-runtime-reconfiguration.md", "articles/software/custom-ros2-interfaces.md", "articles/devops/bootstrapping-a-jazzy-workspace.md"]
 ---
 
 # package.xml, CMakeLists.txt, and Python Package Structure

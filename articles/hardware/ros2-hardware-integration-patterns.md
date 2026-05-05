@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "multiple skills: teensy-platformio, serial-communication-protocol, hardware-watchdog, motor-controller-interface, battery-monitoring, udev-rules"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/docs/SKILLS-CATALOG.md"
 tags: ["ros2", "hardware", "microcontrollers", "serial", "watchdog", "battery", "teensy", "udev"]
-related: ["articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md", "articles/hardware/odometry-calibration-for-diff-drive.md", "articles/foundations/ros2-core-communication-and-execution.md"]
+related: ["articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md", "articles/hardware/odometry-calibration-for-diff-drive.md", "articles/foundations/ros2-core-communication-and-execution.md", "articles/hardware/i2c-sensors-with-ros2.md", "articles/hardware/motor-controller-interfaces.md", "articles/hardware/hardware-watchdogs-and-heartbeats.md"]
 ---
 
 # ROS 2 Hardware Integration Patterns

@@ -1,29 +1,219 @@
 # Topic Graph Report
 
-- Articles scanned: 6
-- Tags discovered: 29
-- Tag co-occurrence edges: 88
+- Articles scanned: 173
+- Tags discovered: 263
+- Tag co-occurrence edges: 1240
+- Related-link edges: 541
+- Articles with no inbound related links: 0
+- Articles with no outbound related links: 0
+- Fully orphaned articles: 0
+- Unresolved related links: 0
 
 ## Strongest Tag Pairs
 
-- `beginner` <-> `ros2`: 2 shared article(s)
-- `hardware` <-> `ros2`: 2 shared article(s)
-- `actions` <-> `behavior-trees`: 1 shared article(s)
-- `actions` <-> `nav2`: 1 shared article(s)
-- `actions` <-> `navigation`: 1 shared article(s)
-- `actions` <-> `ros2`: 1 shared article(s)
-- `actions` <-> `rviz2`: 1 shared article(s)
-- `beginner` <-> `frames`: 1 shared article(s)
-- `beginner` <-> `geometry`: 1 shared article(s)
-- `beginner` <-> `launch`: 1 shared article(s)
-- `beginner` <-> `namespaces`: 1 shared article(s)
-- `beginner` <-> `parameters`: 1 shared article(s)
+- `nav2` <-> `ros2`: 73 shared article(s)
+- `navigation` <-> `ros2`: 22 shared article(s)
+- `behavior-trees` <-> `ros2`: 21 shared article(s)
+- `hardware` <-> `ros2`: 21 shared article(s)
+- `behavior-trees` <-> `nav2`: 18 shared article(s)
+- `devops` <-> `ros2`: 18 shared article(s)
+- `costmaps` <-> `nav2`: 16 shared article(s)
+- `costmaps` <-> `ros2`: 16 shared article(s)
+- `localization` <-> `ros2`: 15 shared article(s)
+- `perception` <-> `ros2`: 15 shared article(s)
+- `nav2` <-> `navigation`: 14 shared article(s)
+- `debugging` <-> `ros2`: 12 shared article(s)
+
+## Related Link Health
+
+### Articles with no inbound related links
+
+- None
+
+### Articles with no outbound related links
+
+- None
+
+### Fully orphaned articles
+
+- None
+
+### Unresolved Related Links
+
+- None
 
 ## Articles
 
+- `articles/devops/bootstrapping-a-jazzy-workspace.md`: ros2, jazzy, workspace, colcon, devops
 - `articles/devops/colcon-workspace-discipline.md`: ros2, colcon, workspace, build, overlays, devops
+- `articles/devops/cross-compilation-for-ros2.md`: ros2, cross-compilation, build, deployment, devops
+- `articles/devops/docker-for-ros2-development.md`: ros2, docker, containers, devops, development
+- `articles/devops/gazebo-sim-setup-for-ros2.md`: ros2, gazebo, simulation, gz-sim, devops
+- `articles/devops/github-actions-for-ros2.md`: ros2, github-actions, ci, devops, testing
+- `articles/devops/gz-ros2-bridge-basics.md`: ros2, gazebo, bridge, simulation, gz
+- `articles/devops/physics-tuning-in-gazebo.md`: ros2, gazebo, simulation, physics, devops
+- `articles/devops/ros2-testing-strategy.md`: ros2, testing, qa, integration, devops
+- `articles/devops/rosbag2-analysis-workflows.md`: ros2, rosbag2, analysis, debugging, devops
+- `articles/devops/rosbag2-recording-strategy.md`: ros2, rosbag2, recording, debugging, devops
+- `articles/devops/rosdep-dependency-management.md`: ros2, rosdep, dependencies, devops, build
+- `articles/devops/sim-time-management.md`: ros2, simulation, time, clock, devops
+- `articles/devops/simulated-sensors-in-gazebo.md`: ros2, gazebo, simulation, sensors, devops
+- `articles/devops/simulation-testing-and-deployment-for-ros2.md`: ros2, devops, simulation, docker, gazebo, ci, rosbag2, systemd
+- `articles/devops/simulation-testing-workflows.md`: ros2, simulation, testing, qa, devops
+- `articles/devops/systemd-autostart-for-robots.md`: ros2, systemd, deployment, startup, devops
+- `articles/devops/udev-rules-for-robot-devices.md`: ros2, udev, linux, devices, devops
+- `articles/devops/workspace-overlays-and-package-precedence.md`: ros2, overlays, workspaces, underlay, ament_prefix_path, colcon
+- `articles/devops/world-building-for-gazebo.md`: ros2, gazebo, simulation, worlds, devops
+- `articles/foundations/base-link-base-footprint-and-fixed-frame-choices.md`: ros2, urdf, tf, frames, foundations
+- `articles/foundations/behavior-tree-ticks-status-and-control-flow.md`: ros2, behavior-trees, bt, autonomy, foundations
+- `articles/foundations/coordinate-frames-rep-105-and-navigation.md`: ros2, frames, rep105, tf, navigation, localization
+- `articles/foundations/qos-profiles-and-compatibility.md`: ros2, qos, topics, reliability, durability, debugging
+- `articles/foundations/ros2-core-communication-and-execution.md`: ros2, architecture, topics, services, actions, qos, executors, lifecycle, beginner
+- `articles/foundations/ros2-time-duration-and-sim-time.md`: ros2, time, sim-time, tf, timers, rosbag2
+- `articles/foundations/ros2-topics-and-pub-sub-patterns.md`: ros2, topics, pub-sub, messages, qos, beginner
+- `articles/foundations/tf2-transforms-and-lookups.md`: ros2, tf2, transforms, frames, tf, debugging
 - `articles/foundations/urdf-as-a-frame-translation-system.md`: ros2, urdf, tf, frames, geometry, beginner
+- `articles/foundations/urdf-fundamentals.md`: ros2, urdf, robot-model, tf, foundations
+- `articles/foundations/urdf-links-joints-and-the-robot-tree.md`: ros2, urdf, robot-model, foundations, joints
+- `articles/foundations/xacro-macros-for-robot-models.md`: ros2, xacro, urdf, robot-model, foundations
+- `articles/hardware/battery-data-analysis.md`: ros2, battery, telemetry, power, hardware
+- `articles/hardware/battery-monitoring-in-ros2.md`: ros2, battery, power, diagnostics, hardware
+- `articles/hardware/collision-geometry-in-urdf.md`: ros2, urdf, collision, robot-model, hardware
+- `articles/hardware/differential-drive-kinematics.md`: ros2, differential-drive, kinematics, odometry, hardware
+- `articles/hardware/emergency-stop-integration.md`: ros2, safety, e-stop, hardware, control
+- `articles/hardware/encoder-odometry-math.md`: ros2, encoders, odometry, math, hardware
+- `articles/hardware/hardware-abstraction-layers-in-ros2.md`: ros2, hardware, abstraction, drivers, architecture
+- `articles/hardware/hardware-watchdogs-and-heartbeats.md`: ros2, hardware, watchdog, safety, heartbeats
+- `articles/hardware/i2c-sensors-with-ros2.md`: ros2, i2c, sensors, hardware, embedded
+- `articles/hardware/inertia-calculation-for-urdf.md`: ros2, urdf, inertia, simulation, hardware
+- `articles/hardware/joint-types-and-limits-in-urdf.md`: ros2, urdf, joints, limits, robot-model
+- `articles/hardware/micro-ros-setup.md`: ros2, micro-ros, embedded, hardware, firmware
+- `articles/hardware/motor-controller-interfaces.md`: ros2, motors, controllers, hardware, actuators
 - `articles/hardware/odometry-calibration-for-diff-drive.md`: ros2, odometry, calibration, differential-drive, encoders, hardware
+- `articles/hardware/power-management-for-mobile-robots.md`: ros2, power, battery, hardware, operations
+- `articles/hardware/ros2-hardware-integration-patterns.md`: ros2, hardware, microcontrollers, serial, watchdog, battery, teensy, udev
 - `articles/hardware/serial-protocols-between-ros2-and-microcontrollers.md`: ros2, serial, microcontrollers, protocols, hardware, reliability
+- `articles/hardware/servo-control-patterns.md`: ros2, servos, actuation, hardware, control
+- `articles/hardware/teensy-platformio-with-ros2.md`: ros2, teensy, platformio, embedded, hardware
+- `articles/hardware/urdf-and-gazebo-plugins.md`: ros2, urdf, gazebo, simulation, plugins
+- `articles/hardware/wheel-odometry-models.md`: ros2, odometry, wheels, localization, hardware
+- `articles/navigation/amcl-tuning-in-nav2.md`: ros2, nav2, amcl, localization, tuning
+- `articles/navigation/assisted-teleop-for-shared-control.md`: ros2, nav2, teleop, shared-control, safety
+- `articles/navigation/behavior-tree-blackboard-patterns.md`: ros2, behavior-trees, bt, blackboard, nav2
+- `articles/navigation/behavior-tree-control-nodes.md`: ros2, behavior-trees, bt, nav2, control-flow
+- `articles/navigation/behavior-tree-decorator-nodes.md`: ros2, behavior-trees, bt, nav2, decorators
+- `articles/navigation/behavior-tree-xml-fundamentals.md`: ros2, behavior-trees, bt, xml, nav2
+- `articles/navigation/behavior-trees-for-nav2-and-robot-autonomy.md`: ros2, nav2, behavior-trees, autonomy, btcpp, groot2
+- `articles/navigation/bt-logging-replay-and-trace-analysis.md`: ros2, nav2, behavior-trees, debugging, logging
+- `articles/navigation/bt-subtrees-for-reusable-autonomy.md`: ros2, nav2, behavior-trees, subtrees, autonomy
+- `articles/navigation/cartographer-tuning-for-2d-slam.md`: ros2, slam, cartographer, mapping, localization
+- `articles/navigation/collision-monitor-and-safety-polygons.md`: ros2, nav2, collision-monitor, safety, sensors
+- `articles/navigation/custom-bt-action-nodes-in-cpp.md`: ros2, nav2, behavior-trees, cpp, custom-nodes
+- `articles/navigation/custom-bt-action-nodes-in-python.md`: ros2, nav2, behavior-trees, python, custom-nodes
+- `articles/navigation/custom-bt-condition-nodes-in-cpp.md`: ros2, nav2, behavior-trees, conditions, cpp
+- `articles/navigation/custom-nav2-bt-plugins-and-configuration.md`: ros2, nav2, behavior-trees, bt, plugins, cpp
+- `articles/navigation/dwb-controller-basics-and-tuning.md`: ros2, nav2, dwb, controller, navigation
+- `articles/navigation/dwb-critics-and-scoring.md`: ros2, nav2, dwb, critics, controller-tuning
+- `articles/navigation/ekf-sensor-fusion-for-robots.md`: ros2, ekf, localization, sensor-fusion, robot_localization
+- `articles/navigation/graceful-controller-for-smooth-approach.md`: ros2, nav2, controller, graceful, goal-approach
+- `articles/navigation/groot2-for-nav2-behavior-trees.md`: ros2, nav2, behavior-trees, groot2, debugging
+- `articles/navigation/imu-driver-configuration.md`: ros2, imu, localization, drivers, hardware
+- `articles/navigation/imu-integration-for-mobile-robots.md`: ros2, imu, localization, ekf, odometry
+- `articles/navigation/lidar-odometry-and-local-motion-estimation.md`: ros2, localization, lidar, odometry, mapping
+- `articles/navigation/localization-recovery-patterns.md`: ros2, localization, recovery, amcl, slam
+- `articles/navigation/localization-state-estimation-and-frame-discipline.md`: ros2, localization, tf, frames, robot_localization, ekf, imu, odometry
+- `articles/navigation/loop-closure-what-it-fixes.md`: ros2, slam, loop-closure, mapping, localization
+- `articles/navigation/map-merging-strategies.md`: ros2, maps, mapping, multi-robot, merge
+- `articles/navigation/map-saver-configuration.md`: ros2, maps, mapping, map-saver, nav2
+- `articles/navigation/map-server-configuration.md`: ros2, maps, map-server, nav2, lifecycle
+- `articles/navigation/mapping-best-practices-for-mobile-robots.md`: ros2, mapping, slam, workflow, nav2
+- `articles/navigation/mppi-controller-basics-and-tuning.md`: ros2, nav2, mppi, controller, navigation
+- `articles/navigation/mppi-critics-explained.md`: ros2, nav2, mppi, critics, controller-tuning
+- `articles/navigation/mppi-trajectory-visualization-and-debugging.md`: ros2, nav2, mppi, debugging, rviz
+- `articles/navigation/multi-floor-mapping-strategies.md`: ros2, mapping, multi-floor, localization, navigation
+- `articles/navigation/multi-goal-navigation-with-behavior-trees.md`: ros2, nav2, behavior-trees, waypoints, multi-goal
+- `articles/navigation/multi-sensor-fusion-patterns.md`: ros2, localization, sensor-fusion, ekf, odometry
+- `articles/navigation/nav2-architecture-and-tuning-guide.md`: ros2, nav2, navigation, costmaps, planners, controllers, recovery, jazzy
+- `articles/navigation/nav2-backup-behavior.md`: ros2, nav2, recovery, behavior-server, safety
+- `articles/navigation/nav2-behavior-server-and-recovery-actions.md`: ros2, nav2, behavior-server, recovery, spin, backup
+- `articles/navigation/nav2-bt-action-nodes.md`: ros2, nav2, behavior-trees, bt, actions
+- `articles/navigation/nav2-bt-condition-nodes.md`: ros2, nav2, behavior-trees, conditions, autonomy
+- `articles/navigation/nav2-controller-frequency-and-timing.md`: ros2, nav2, controller, timing, performance
+- `articles/navigation/nav2-controller-selection-guide.md`: ros2, nav2, controller, mppi, dwb, rpp
+- `articles/navigation/nav2-costmap-architecture-and-plugin-order.md`: ros2, nav2, navigation, costmaps, jazzy
+- `articles/navigation/nav2-costmap-filters-and-mask-layers.md`: ros2, nav2, costmaps, filters, keepout, speed-limits
+- `articles/navigation/nav2-denoise-layer-for-noisy-depth-sensors.md`: ros2, nav2, costmaps, depth-camera, noise-filtering
+- `articles/navigation/nav2-error-codes-and-failure-analysis.md`: ros2, nav2, debugging, errors, recovery, analysis
+- `articles/navigation/nav2-global-costmap-configuration.md`: ros2, nav2, navigation, costmaps, global-planning, jazzy
+- `articles/navigation/nav2-inflation-layer-tuning.md`: ros2, nav2, navigation, costmaps, tuning, jazzy
+- `articles/navigation/nav2-keepout-zones-and-no-go-areas.md`: ros2, nav2, navigation, costmaps, safety, jazzy
+- `articles/navigation/nav2-lifecycle-manager-and-bond-monitoring.md`: ros2, nav2, lifecycle, bond, bringup, reliability
+- `articles/navigation/nav2-local-costmap-configuration.md`: ros2, nav2, navigation, costmaps, local-planning, jazzy
+- `articles/navigation/nav2-obstacle-layer-marking-and-clearing.md`: ros2, nav2, navigation, costmaps, lidar, jazzy
+- `articles/navigation/nav2-planner-selection-guide.md`: ros2, nav2, planner, navfn, smac, theta-star
+- `articles/navigation/nav2-range-sensor-layer-for-close-obstacles.md`: ros2, nav2, navigation, costmaps, sensors, jazzy
+- `articles/navigation/nav2-rviz-tools-and-debug-views.md`: ros2, nav2, rviz2, debugging, costmaps, visualization
+- `articles/navigation/nav2-servers-and-data-flow.md`: ros2, nav2, servers, costmaps, planner, controller
+- `articles/navigation/nav2-simple-commander-for-programmatic-navigation.md`: ros2, nav2, python, basicnavigator, actions, autonomy
+- `articles/navigation/nav2-speed-restricted-zones.md`: ros2, nav2, navigation, costmaps, safety, controllers, jazzy
+- `articles/navigation/nav2-static-layer-and-map-ingestion.md`: ros2, nav2, navigation, maps, costmaps, jazzy
+- `articles/navigation/nav2-voxel-layer-for-3d-obstacles.md`: ros2, nav2, navigation, costmaps, depth, pointclouds, jazzy
+- `articles/navigation/nav2-waypoint-follower-and-patrol-routes.md`: ros2, nav2, waypoints, patrol, inspection, autonomy
+- `articles/navigation/nav2-yaml-parameter-structure.md`: ros2, nav2, yaml, parameters, costmaps, launch
+- `articles/navigation/navfn-planner-basics-and-when-to-use-it.md`: ros2, nav2, planner, navfn, global-planning
+- `articles/navigation/path-tracking-metrics-that-actually-matter.md`: ros2, nav2, controller, metrics, evaluation
+- `articles/navigation/patrol-behavior-trees.md`: ros2, behavior-trees, patrol, nav2, autonomy
+- `articles/navigation/planner-benchmarking-in-nav2.md`: ros2, nav2, planning, benchmarking, tuning
+- `articles/navigation/recovery-behavior-trees-in-nav2.md`: ros2, nav2, behavior-trees, recovery, autonomy
+- `articles/navigation/regulated-pure-pursuit-controller.md`: ros2, nav2, controller, regulated-pure-pursuit, path-following
+- `articles/navigation/ros2-map-formats-and-occupancy-grids.md`: ros2, maps, occupancy-grid, mapping, nav2
+- `articles/navigation/rotation-shim-controller.md`: ros2, nav2, controller, rotation-shim, heading-alignment
 - `articles/navigation/rviz-goals-bt-navigator-and-nav2-flow.md`: ros2, nav2, rviz2, behavior-trees, actions, navigation
+- `articles/navigation/sensor-frame-mounting-and-extrinsics.md`: ros2, tf, frames, extrinsics, sensors
+- `articles/navigation/slam-toolbox-lifelong-mapping.md`: ros2, slam, slam-toolbox, lifelong-mapping, maps
+- `articles/navigation/slam-toolbox-online-mapping.md`: ros2, slam, slam-toolbox, mapping, nav2
+- `articles/navigation/smac-lattice-planner.md`: ros2, nav2, planner, smac, lattice
+- `articles/navigation/smac-planner-2d.md`: ros2, nav2, planner, smac, 2d
+- `articles/navigation/smac-planner-hybrid-a-star.md`: ros2, nav2, planner, hybrid-a-star, smac
+- `articles/navigation/spin-behavior.md`: ros2, nav2, recovery, spin, behavior-server
+- `articles/navigation/theta-star-planner.md`: ros2, nav2, planner, theta-star, global-planning
+- `articles/navigation/ukf-sensor-fusion-for-robots.md`: ros2, ukf, localization, sensor-fusion, robot_localization
+- `articles/navigation/velocity-smoother-for-cmd-vel.md`: ros2, nav2, cmd_vel, velocity-smoother, control
+- `articles/navigation/visual-odometry-for-mobile-robots.md`: ros2, localization, visual-odometry, vision, odometry
+- `articles/navigation/wait-behavior.md`: ros2, nav2, behavior-server, wait, recovery
+- `articles/navigation/writing-custom-nav2-behavior-plugins.md`: ros2, nav2, plugins, behavior-server, customization
+- `articles/navigation/writing-custom-nav2-controller-plugins.md`: ros2, nav2, controller, plugins, customization
+- `articles/navigation/writing-custom-nav2-planner-plugins.md`: ros2, nav2, planner, plugins, customization
+- `articles/perception/camera-calibration-for-ros2.md`: ros2, perception, camera, calibration, vision, camera-info
+- `articles/perception/compressed-image-transport-in-ros2.md`: ros2, vision, image-transport, compression, perception
+- `articles/perception/depth-cameras-for-navigation-and-mapping.md`: ros2, perception, depth-camera, pointcloud, laserscan, navigation
+- `articles/perception/depthai-and-oak-d-spatial-ai.md`: ros2, perception, depthai, oak-d, spatial-ai, depth-camera
+- `articles/perception/laser-scan-processing-and-filtering.md`: ros2, perception, lidar, laserscan, filtering, navigation
+- `articles/perception/lidar-driver-bringup-and-frame-alignment.md`: ros2, perception, lidar, drivers, tf, frames, bringup
+- `articles/perception/lidar-filter-chains-and-self-hit-removal.md`: ros2, perception, lidar, laser-filters, navigation, debugging
+- `articles/perception/object-detection-pipelines-in-ros2.md`: ros2, perception, vision, object-detection, depth-camera, behavior-trees
+- `articles/perception/person-tracking-for-robot-behaviors.md`: ros2, perception, person-tracking, vision, behavior-trees, autonomy
+- `articles/perception/pointcloud-processing-for-navigation.md`: ros2, perception, pointcloud, pcl, navigation, depth-camera
+- `articles/perception/vision-depth-and-lidar-pipelines.md`: ros2, perception, lidar, depth-camera, pointcloud, vision, navigation
+- `articles/perception/visual-anomaly-detection-for-robots.md`: ros2, vision, anomaly-detection, perception, ai
+- `articles/perception/wall-line-extraction-from-lidar.md`: ros2, lidar, perception, geometry, mapping
+- `articles/perception/yolo-integration-for-ros2-robots.md`: ros2, perception, yolo, vision, gpu, object-detection
+- `articles/software/component-composition-for-high-bandwidth-pipelines.md`: ros2, composition, components, performance, images, pointcloud
+- `articles/software/custom-ros2-interfaces.md`: ros2, messages, services, actions, interfaces, api
+- `articles/software/custom-rviz-overlays.md`: ros2, rviz, visualization, ui, software
+- `articles/software/executors-callback-groups-and-concurrency.md`: ros2, executors, callbacks, concurrency, threads, rclpy
+- `articles/software/intra-process-zero-copy-communication.md`: ros2, intra-process, zero-copy, performance, components, rclcpp
+- `articles/software/launch-event-handlers-and-ordered-startup.md`: ros2, launch, event-handlers, startup, orchestration, cleanup
 - `articles/software/launch-files-patterns-and-pitfalls.md`: ros2, launch, python, namespaces, parameters, beginner
+- `articles/software/lifecycle-nodes-and-managed-startup.md`: ros2, lifecycle, startup, bringup, nav2, hardware
+- `articles/software/logging-and-diagnostics-in-ros2.md`: ros2, logging, diagnostics, debugging, software
+- `articles/software/message-filters-and-time-synchronized-sensors.md`: ros2, message-filters, synchronization, sensors, timestamps, perception
+- `articles/software/package-xml-cmakelists-and-python-package-structure.md`: ros2, package.xml, cmake, ament, python, build
+- `articles/software/parameter-handling-and-runtime-reconfiguration.md`: ros2, parameters, yaml, configuration, reconfiguration, launch
+- `articles/software/performance-profiling-in-ros2.md`: ros2, profiling, performance, debugging, software
+- `articles/software/robot-state-publisher-and-joint-state-publisher.md`: ros2, robot_state_publisher, joint_state_publisher, urdf, tf, xacro
+- `articles/software/ros2-actions-for-long-running-robot-tasks.md`: ros2, actions, navigation, feedback, cancellation, autonomy
+- `articles/software/ros2-services-without-deadlocks.md`: ros2, services, clients, servers, executors, deadlocks
+- `articles/software/rviz2-configuration-discipline.md`: ros2, rviz, visualization, tooling, software
+- `articles/software/writing-rclcpp-nodes.md`: ros2, rclcpp, cpp, nodes, components, software
+- `articles/software/writing-rclpy-nodes.md`: ros2, rclpy, python, nodes, software, beginner

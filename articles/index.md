@@ -10,6 +10,23 @@ Each article:
 - summarizes the technical value of that source
 - connects the topic to nearby robotics problems through tags and related links
 
+## Start With the Problem You Have
+
+Most readers do not arrive wanting a chapter.
+They arrive wanting the next useful click.
+
+- Robot plans but drives badly: start at [Note: Choosing a Nav2 Controller](notes/controller-choice.md)
+- Robot gets lost or jumps pose: start at [Note: Localization Recovery](notes/localization-recovery.md)
+- Nav2 feels like a black box: start at [Note: Nav2 Architecture](notes/nav2-architecture.md)
+- URDF, TF, and frames feel muddled: start at [Note: URDF and Frames](notes/urdf-frames.md)
+- Simulation feels fake or unstable: start at [Note: Gazebo Physics and Simulation Truth](notes/gazebo-physics.md)
+- Workspace or install behavior is weird: start at [Note: Workspace Bootstrap and Build Hygiene](notes/workspace-bootstrap.md)
+
+## Explore Notes
+
+If you want the site to behave more like a digital garden than a manual, start with [Solve a Problem](notes/index.md).
+Those note pages are designed to get from a concrete robotics problem to likely answers, then outward into background and adjacent topics worth learning next.
+
 ## Contributing
 
 Contributions are part of the design of this site, not an afterthought.
@@ -19,7 +36,7 @@ If you want the full workflow, a short example, and writing guidance, start with
 
 ---
 
-## Browse by Section
+## Topic Hubs
 
 ### [Foundations](foundations/ros2-core-communication-and-execution.md)
 
@@ -55,15 +72,7 @@ Start with [Writing rclpy Nodes in ROS 2](software/writing-rclpy-nodes.md), [Wri
 
 Workspace management, colcon builds, overlays, and CI practices.
 
-Start with [Simulation, Testing, and Deployment for ROS 2](devops/simulation-testing-and-deployment-for-ros2.md), [Colcon Workspace Discipline for Faster ROS 2 Iteration](devops/colcon-workspace-discipline.md), and [Workspace Overlays and Package Precedence](devops/workspace-overlays-and-package-precedence.md).
-
----
-
-## Suggested Learning Paths
-
-- New to ROS 2 robot software: [ROS 2 Core Communication and Execution](foundations/ros2-core-communication-and-execution.md) → [ROS 2 Launch Files: Patterns and Pitfalls](software/launch-files-patterns-and-pitfalls.md) → [URDF as a Frame Translation System](foundations/urdf-as-a-frame-translation-system.md)
-- Building your first mobile robot: [ROS 2 Hardware Integration Patterns](hardware/ros2-hardware-integration-patterns.md) → [Localization, State Estimation, and Frame Discipline](navigation/localization-state-estimation-and-frame-discipline.md) → [Nav2 Architecture and Tuning Guide](navigation/nav2-architecture-and-tuning-guide.md)
-- Working on autonomy: [Behavior Trees for Nav2 and Robot Autonomy](navigation/behavior-trees-for-nav2-and-robot-autonomy.md) → [RViz Goals, BT Navigator, and the Nav2 Flow](navigation/rviz-goals-bt-navigator-and-nav2-flow.md)
+Start with [Simulation, Testing, and Deployment for ROS 2](devops/simulation-testing-and-deployment-for-ros2.md), [Colcon Workspace Discipline for Faster ROS 2 Iteration](devops/colcon-workspace-discipline.md), and [Bootstrapping a Jazzy Workspace](devops/bootstrapping-a-jazzy-workspace.md).
 
 ---
 

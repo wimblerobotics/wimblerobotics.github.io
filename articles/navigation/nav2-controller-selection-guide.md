@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "controller-comparison/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/controller-comparison/SKILL.md"
 tags: ["ros2", "nav2", "controller", "mppi", "dwb", "rpp"]
-related: ["articles/navigation/nav2-planner-selection-guide.md", "articles/navigation/nav2-architecture-and-tuning-guide.md", "articles/navigation/nav2-behavior-server-and-recovery-actions.md"]
+related: ["articles/navigation/nav2-planner-selection-guide.md", "articles/navigation/nav2-architecture-and-tuning-guide.md", "articles/navigation/nav2-behavior-server-and-recovery-actions.md", "articles/navigation/graceful-controller-for-smooth-approach.md", "articles/navigation/writing-custom-nav2-controller-plugins.md"]
 ---
 
 # Nav2 Controller Selection Guide

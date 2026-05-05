@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import ast
 import json
-from collections import Counter, defaultdict
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -64,6 +64,10 @@ def build_graph(articles: list[dict[str, object]]) -> dict[str, object]:
     tag_pairs: Counter[tuple[str, str]] = Counter()
     article_to_tag_edges: list[dict[str, object]] = []
     article_links: list[dict[str, object]] = []
+    article_paths = {str(article["path"]) for article in articles}
+    inbound_related_counts: Counter[str] = Counter()
+    outbound_related_counts: Counter[str] = Counter()
+    unresolved_related_links: list[dict[str, str]] = []
 
     for article in articles:
         article_path = article["path"]
@@ -80,6 +84,13 @@ def build_graph(articles: list[dict[str, object]]) -> dict[str, object]:
             article_links.append(
                 {"source": article_path, "target": related, "kind": "article-link"}
             )
+            outbound_related_counts[str(article_path)] += 1
+            if related in article_paths:
+                inbound_related_counts[str(related)] += 1
+            else:
+                unresolved_related_links.append(
+                    {"source": str(article_path), "target": str(related)}
+                )
 
     tag_nodes = [
         {"id": tag, "kind": "tag", "weight": count}
@@ -94,6 +105,18 @@ def build_graph(articles: list[dict[str, object]]) -> dict[str, object]:
         for (left, right), weight in sorted(tag_pairs.items())
     ]
 
+    zero_inbound_articles = sorted(
+        path for path in article_paths if inbound_related_counts[path] == 0
+    )
+    zero_outbound_articles = sorted(
+        path for path in article_paths if outbound_related_counts[path] == 0
+    )
+    fully_orphaned_articles = sorted(
+        path
+        for path in article_paths
+        if inbound_related_counts[path] == 0 and outbound_related_counts[path] == 0
+    )
+
     return {
         "nodes": article_nodes + tag_nodes,
         "edges": article_to_tag_edges + article_links + tag_edges,
@@ -101,6 +124,17 @@ def build_graph(articles: list[dict[str, object]]) -> dict[str, object]:
             "article_count": len(articles),
             "tag_count": len(tag_nodes),
             "tag_pair_count": len(tag_edges),
+            "article_link_count": len(article_links),
+            "zero_inbound_article_count": len(zero_inbound_articles),
+            "zero_outbound_article_count": len(zero_outbound_articles),
+            "fully_orphaned_article_count": len(fully_orphaned_articles),
+            "unresolved_related_link_count": len(unresolved_related_links),
+        },
+        "link_health": {
+            "zero_inbound_articles": zero_inbound_articles,
+            "zero_outbound_articles": zero_outbound_articles,
+            "fully_orphaned_articles": fully_orphaned_articles,
+            "unresolved_related_links": unresolved_related_links,
         },
     }
 
@@ -120,6 +154,11 @@ def write_markdown_report(articles: list[dict[str, object]], graph: dict[str, ob
         f"- Articles scanned: {graph['stats']['article_count']}",
         f"- Tags discovered: {graph['stats']['tag_count']}",
         f"- Tag co-occurrence edges: {graph['stats']['tag_pair_count']}",
+        f"- Related-link edges: {graph['stats']['article_link_count']}",
+        f"- Articles with no inbound related links: {graph['stats']['zero_inbound_article_count']}",
+        f"- Articles with no outbound related links: {graph['stats']['zero_outbound_article_count']}",
+        f"- Fully orphaned articles: {graph['stats']['fully_orphaned_article_count']}",
+        f"- Unresolved related links: {graph['stats']['unresolved_related_link_count']}",
         "",
         "## Strongest Tag Pairs",
         "",
@@ -132,6 +171,31 @@ def write_markdown_report(articles: list[dict[str, object]], graph: dict[str, ob
             )
     else:
         lines.append("- No tag co-occurrence pairs found")
+
+    link_health = graph["link_health"]
+    lines.extend(["", "## Related Link Health", ""])
+
+    for heading, items in (
+        ("Articles with no inbound related links", link_health["zero_inbound_articles"]),
+        ("Articles with no outbound related links", link_health["zero_outbound_articles"]),
+        ("Fully orphaned articles", link_health["fully_orphaned_articles"]),
+    ):
+        lines.append(f"### {heading}")
+        lines.append("")
+        if items:
+            for item in items:
+                lines.append(f"- `{item}`")
+        else:
+            lines.append("- None")
+        lines.append("")
+
+    lines.append("### Unresolved Related Links")
+    lines.append("")
+    if link_health["unresolved_related_links"]:
+        for edge in link_health["unresolved_related_links"]:
+            lines.append(f"- `{edge['source']}` -> `{edge['target']}`")
+    else:
+        lines.append("- None")
 
     lines.extend(["", "## Articles", ""])
     for article in articles:

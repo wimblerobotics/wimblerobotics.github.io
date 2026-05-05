@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "costmap-architecture/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/costmap-architecture/SKILL.md"
 tags: ["ros2", "nav2", "navigation", "costmaps", "jazzy"]
-related: ["articles/navigation/nav2-global-costmap-configuration.md", "articles/navigation/nav2-local-costmap-configuration.md", "articles/navigation/nav2-inflation-layer-tuning.md"]
+related: ["articles/navigation/nav2-global-costmap-configuration.md", "articles/navigation/nav2-local-costmap-configuration.md", "articles/navigation/nav2-inflation-layer-tuning.md", "articles/navigation/nav2-costmap-filters-and-mask-layers.md", "articles/navigation/nav2-denoise-layer-for-noisy-depth-sensors.md", "articles/navigation/nav2-range-sensor-layer-for-close-obstacles.md"]
 ---
 
 # Nav2 Costmap Architecture and Plugin Order

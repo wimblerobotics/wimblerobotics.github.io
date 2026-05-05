@@ -5,7 +5,7 @@ source_repo: "wimblerobotics/ros2-copilot-skills"
 source_path: "behavior-server/SKILL.md"
 source_url: "https://github.com/wimblerobotics/ros2-copilot-skills/blob/main/behavior-server/SKILL.md"
 tags: ["ros2", "nav2", "behavior-server", "recovery", "spin", "backup"]
-related: ["articles/navigation/behavior-trees-for-nav2-and-robot-autonomy.md", "articles/navigation/nav2-error-codes-and-failure-analysis.md", "articles/navigation/nav2-controller-selection-guide.md"]
+related: ["articles/navigation/behavior-trees-for-nav2-and-robot-autonomy.md", "articles/navigation/nav2-error-codes-and-failure-analysis.md", "articles/navigation/nav2-controller-selection-guide.md", "articles/navigation/assisted-teleop-for-shared-control.md"]
 ---
 
 # Nav2 Behavior Server and Recovery Actions
