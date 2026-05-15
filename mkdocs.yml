@@ -45,9 +45,11 @@ markdown_extensions:
 
 extra_css:
   - css/feedback.css
+  - css/feedback-admin.css
 
 extra_javascript:
   - js/feedback.js
+  - js/feedback-admin.js
 
 validation:
   nav:
