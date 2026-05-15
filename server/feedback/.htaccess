@@ -1,0 +1,17 @@
+# CORS for wimblerobotics.github.io → wimblerobotics.com/feedback/
+# Apache handles these headers before PHP runs, which fixes preflight failures
+# on shared hosting where OPTIONS requests never reach PHP.
+
+<IfModule mod_headers.c>
+    Header always set Access-Control-Allow-Origin  "https://wimblerobotics.github.io"
+    Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS"
+    Header always set Access-Control-Allow-Headers "Content-Type, X-Admin-Token"
+    Header always set Access-Control-Max-Age       "86400"
+</IfModule>
+
+# Return 204 for OPTIONS preflight without invoking PHP
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_METHOD} ^OPTIONS$
+    RewriteRule ^ - [R=204,L]
+</IfModule>
