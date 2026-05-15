@@ -38,13 +38,17 @@
   function saveToken(v) { if (v) { localStorage.setItem(TOKEN_KEY, v); } else { localStorage.removeItem(TOKEN_KEY); } }
 
   async function fetchSummary() {
-    var res = await fetch(ENDPOINT);
+    var res = await fetch(ENDPOINT, { headers: { 'X-Admin-Token': getToken() } });
+    if (res.status === 403) { throw new Error('auth'); }
     if (!res.ok) { throw new Error('Summary API ' + res.status); }
     return res.json();
   }
 
   async function fetchCorrections(articleUrl) {
-    var res = await fetch(ENDPOINT + '?corrections=1&url=' + encodeURIComponent(articleUrl));
+    var res = await fetch(
+      ENDPOINT + '?corrections=1&url=' + encodeURIComponent(articleUrl),
+      { headers: { 'X-Admin-Token': getToken() } }
+    );
     if (!res.ok) { return []; }
     return res.json();
   }
@@ -431,7 +435,26 @@
       renderPage(rows, zeroUrls);
 
     } catch (e) {
-      root.innerHTML = '<div class="fba-error"><strong>Error loading data:</strong><br>' + esc(e.message) + '</div>';
+      if (e.message === 'auth') {
+        root.innerHTML = '<div class="fba-error"><strong>Admin token required.</strong><br>Enter your admin token in the field above and click Save, then reload the page.</div>';
+        root.insertAdjacentHTML('afterbegin',
+          '<div class="fba-pat-row">'
+          + '<label class="fba-pat-label" for="fba-pat">Admin Token</label>'
+          + '<input id="fba-pat" class="fba-pat-input" type="password" autocomplete="off"'
+          + ' placeholder="Admin token" value="' + esc(getToken()) + '">'
+          + '<button class="fba-btn fba-btn-save" id="fba-pat-save">Save &amp; Reload</button>'
+          + '</div>'
+        );
+        var saveBtn = root.querySelector('#fba-pat-save');
+        if (saveBtn) {
+          saveBtn.addEventListener('click', function () {
+            saveToken(root.querySelector('#fba-pat').value.trim());
+            init();
+          });
+        }
+      } else {
+        root.innerHTML = '<div class="fba-error"><strong>Error loading data:</strong><br>' + esc(e.message) + '</div>';
+      }
     }
   }
 

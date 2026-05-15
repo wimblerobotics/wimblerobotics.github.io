@@ -50,6 +50,13 @@ try {
 
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 
+    $token = $_SERVER['HTTP_X_ADMIN_TOKEN'] ?? '';
+    if (!hash_equals(ADMIN_TOKEN, $token)) {
+        http_response_code(403);
+        echo json_encode(['error' => 'Forbidden']);
+        exit;
+    }
+
     if (isset($_GET['corrections'])) {
         // Return individual correction bodies for one article
         $url = trim($_GET['url'] ?? '');
