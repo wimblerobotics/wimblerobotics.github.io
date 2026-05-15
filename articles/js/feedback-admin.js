@@ -206,8 +206,7 @@
       .sort(function (a, b) { return attScore(b.entry) - attScore(a.entry); });
 
     root.innerHTML =
-      '<h1 class="fba-title">Feedback Dashboard</h1>'
-      + '<div class="fba-pat-row">'
+      '<div class="fba-pat-row">'
       + '<label class="fba-pat-label" for="fba-pat">GitHub PAT</label>'
       + '<input id="fba-pat" class="fba-pat-input" type="password" autocomplete="off"'
       + ' placeholder="Fine-grained token — Issues: Read &amp; Write" value="' + esc(getPat()) + '">'

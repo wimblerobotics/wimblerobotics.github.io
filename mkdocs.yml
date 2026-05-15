@@ -43,6 +43,11 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
+extra:
+  analytics:
+    provider: google
+    property: G-YC5MLCJRWC
+
 extra_css:
   - css/feedback.css
   - css/feedback-admin.css
