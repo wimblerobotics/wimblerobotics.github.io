@@ -9,6 +9,8 @@ on:
 jobs:
   validate-topic-graph:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push auto-commit on main
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -29,5 +31,20 @@ jobs:
       - name: Build site
         run: python3 -m mkdocs build
 
-      - name: Verify generated files are up to date
+      # On push to main: auto-commit regenerated files so maintainers never
+      # have to run the script manually after merging new articles.
+      # Commits from GITHUB_TOKEN do not re-trigger workflows (no loop).
+      - name: Auto-commit updated graph (main only)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add generated/topic_graph.json generated/topic_graph.md
+          git diff --cached --quiet || git commit -m "chore: auto-regenerate topic graph [skip ci]"
+          git push
+
+      # On pull requests: fail if the contributor forgot to run the script,
+      # keeping the PR diff reviewable and intentional.
+      - name: Verify generated files are up to date (PRs only)
+        if: github.event_name == 'pull_request'
         run: git diff --exit-code -- generated/topic_graph.json generated/topic_graph.md
