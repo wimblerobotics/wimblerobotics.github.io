@@ -1,0 +1,200 @@
+/* feedback.css — article feedback bar and correction modal
+ * Uses MkDocs Material CSS custom properties for automatic light/dark theming.
+ */
+
+/* ── feedback bar ─────────────────────────────────────────────── */
+
+.fb-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  margin-top: 2.5rem;
+  padding: 0.875rem 1rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 0.78rem;
+}
+
+.fb-label {
+  color: var(--md-default-fg-color--light);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.fb-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+/* ── shared button base ──────────────────────────────────────── */
+
+.fb-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.3rem;
+  background: transparent;
+  color: var(--md-default-fg-color--light);
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-family: inherit;
+  line-height: 1.4;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+  white-space: nowrap;
+}
+
+.fb-btn:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+
+/* per-button hover colors */
+.fb-correct:hover {
+  border-color: #43a047;
+  color: #43a047;
+  background: rgba(67, 160, 71, 0.08);
+}
+
+.fb-fix:hover {
+  border-color: #fb8c00;
+  color: #fb8c00;
+  background: rgba(251, 140, 0, 0.08);
+}
+
+.fb-useful:hover {
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color);
+  background: rgba(var(--md-primary-fg-color--rgb, 63, 81, 181), 0.08);
+}
+
+.fb-notuseful:hover {
+  border-color: var(--md-default-fg-color--light);
+  color: var(--md-default-fg-color);
+  background: rgba(0, 0, 0, 0.06);
+}
+
+/* ── modal overlay ───────────────────────────────────────────── */
+
+.fb-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  padding: 1rem;
+}
+
+.fb-modal {
+  background: var(--md-default-bg-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  width: min(92vw, 500px);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+}
+
+.fb-modal-title {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color);
+}
+
+.fb-modal-sub {
+  margin: 0 0 0.875rem;
+  font-size: 0.82rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.fb-textarea {
+  width: 100%;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.3rem;
+  background: var(--md-code-bg-color);
+  color: var(--md-default-fg-color);
+  font-size: 0.82rem;
+  font-family: inherit;
+  resize: vertical;
+  box-sizing: border-box;
+  transition: border-color 0.15s;
+}
+
+.fb-textarea:focus {
+  outline: none;
+  border-color: var(--md-accent-fg-color);
+}
+
+.fb-modal-hint {
+  margin: 0.6rem 0 0;
+  font-size: 0.73rem;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.5;
+}
+
+.fb-modal-hint kbd {
+  display: inline-block;
+  padding: 0.1em 0.35em;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2em;
+  font-size: 0.9em;
+  font-family: var(--md-code-font-family, monospace);
+}
+
+.fb-modal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* modal action buttons */
+.fb-cancel {
+  background: transparent;
+}
+
+.fb-edit {
+  border-color: var(--md-default-fg-color--light);
+}
+
+.fb-edit:hover {
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color);
+  background: transparent;
+}
+
+.fb-submit {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border-color: var(--md-primary-fg-color);
+  font-weight: 500;
+}
+
+.fb-submit:hover {
+  background: var(--md-accent-fg-color) !important;
+  border-color: var(--md-accent-fg-color) !important;
+  color: white !important;
+}
+
+/* ── responsive ──────────────────────────────────────────────── */
+
+@media (max-width: 480px) {
+  .fb-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fb-modal-actions {
+    flex-direction: column-reverse;
+  }
+
+  .fb-modal-actions .fb-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

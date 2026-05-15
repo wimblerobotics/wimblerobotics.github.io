@@ -43,6 +43,12 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
+extra_css:
+  - css/feedback.css
+
+extra_javascript:
+  - js/feedback.js
+
 validation:
   nav:
     omitted_files: ignore
