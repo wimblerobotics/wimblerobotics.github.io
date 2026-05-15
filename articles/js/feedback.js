@@ -88,7 +88,7 @@
       '  <div class="fb-modal-actions">',
       '    <button class="fb-btn fb-cancel">Cancel</button>',
       eu ? ('    <button class="fb-btn fb-edit">Edit file on GitHub ↗</button>') : '',
-      '    <button class="fb-btn fb-submit">Submit issue ↗</button>',
+      '    <button class="fb-btn fb-submit">Submit</button>',
       '  </div>',
       '</div>',
     ].join('\n');
