@@ -1,12 +1,12 @@
 # Topic Graph Report
 
-- Articles scanned: 189
+- Articles scanned: 190
 - Tags discovered: 278
 - Tag co-occurrence edges: 1351
 - Related-link edges: 627
-- Articles with no inbound related links: 0
-- Articles with no outbound related links: 0
-- Fully orphaned articles: 0
+- Articles with no inbound related links: 1
+- Articles with no outbound related links: 1
+- Fully orphaned articles: 1
 - Unresolved related links: 0
 
 ## Strongest Tag Pairs
@@ -28,15 +28,15 @@
 
 ### Articles with no inbound related links
 
-- None
+- `articles/admin/feedback.md`
 
 ### Articles with no outbound related links
 
-- None
+- `articles/admin/feedback.md`
 
 ### Fully orphaned articles
 
-- None
+- `articles/admin/feedback.md`
 
 ### Unresolved Related Links
 
@@ -44,6 +44,7 @@
 
 ## Articles
 
+- `articles/admin/feedback.md`: 
 - `articles/devops/bootstrapping-a-jazzy-workspace.md`: ros2, jazzy, workspace, colcon, devops
 - `articles/devops/colcon-workspace-discipline.md`: ros2, colcon, workspace, build, overlays, devops
 - `articles/devops/cross-compilation-for-ros2.md`: ros2, cross-compilation, build, deployment, devops

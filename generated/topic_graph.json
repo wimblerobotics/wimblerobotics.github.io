@@ -1,6 +1,11 @@
 {
   "nodes": [
     {
+      "id": "articles/admin/feedback.md",
+      "kind": "article",
+      "title": "Feedback Dashboard"
+    },
+    {
       "id": "articles/devops/bootstrapping-a-jazzy-workspace.md",
       "kind": "article",
       "title": "Bootstrapping a Jazzy Workspace"
@@ -18785,19 +18790,25 @@
     }
   ],
   "stats": {
-    "article_count": 189,
+    "article_count": 190,
     "tag_count": 278,
     "tag_pair_count": 1351,
     "article_link_count": 627,
-    "zero_inbound_article_count": 0,
-    "zero_outbound_article_count": 0,
-    "fully_orphaned_article_count": 0,
+    "zero_inbound_article_count": 1,
+    "zero_outbound_article_count": 1,
+    "fully_orphaned_article_count": 1,
     "unresolved_related_link_count": 0
   },
   "link_health": {
-    "zero_inbound_articles": [],
-    "zero_outbound_articles": [],
-    "fully_orphaned_articles": [],
+    "zero_inbound_articles": [
+      "articles/admin/feedback.md"
+    ],
+    "zero_outbound_articles": [
+      "articles/admin/feedback.md"
+    ],
+    "fully_orphaned_articles": [
+      "articles/admin/feedback.md"
+    ],
     "unresolved_related_links": []
   }
 }
