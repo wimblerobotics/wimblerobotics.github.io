@@ -15,10 +15,11 @@
 (function () {
   'use strict';
 
-  var ADMIN_ID  = 'fb-admin-root';
-  var ENDPOINT  = 'https://wimblerobotics.com/feedback/summary.php';
-  var SITE      = 'https://wimblerobotics.github.io/';
-  var TOKEN_KEY = 'fb_admin_token';
+  var ADMIN_ID    = 'fb-admin-root';
+  var ENDPOINT    = 'https://wimblerobotics.com/feedback/summary.php';
+  var SITE        = 'https://wimblerobotics.github.io/';
+  var GITHUB_REPO = 'https://github.com/wimblerobotics/wimblerobotics.github.io';
+  var TOKEN_KEY   = 'fb_admin_token';
 
   var root = document.getElementById(ADMIN_ID);
   if (!root) { return; }   // not the admin page — exit immediately
@@ -190,8 +191,19 @@
                 return;
               }
               listEl.innerHTML = corrections.map(function (c) {
-                var d = c.created_at ? ' <small>(' + c.created_at.split(' ')[0] + ')</small>' : '';
-                return '<li>' + esc(c.body || '(no description)') + d + '</li>';
+                var d = c.created_at ? '<span class="fba-fix-date">' + c.created_at.split(' ')[0] + '</span>' : '';
+                return '<li class="fba-fix-item">'
+                  + '<div class="fba-fix-body">' + esc(c.body || '(no description)') + '</div>'
+                  + d
+                  + '<div class="fba-fix-actions">'
+                  + '<button class="fba-btn fba-btn-convert"'
+                  + ' data-id="' + esc(String(c.id)) + '"'
+                  + ' data-url="' + esc(articleUrl) + '"'
+                  + ' data-body="' + esc(c.body || '') + '">Convert to Issue ↗</button>'
+                  + '<button class="fba-btn fba-btn-del-corr"'
+                  + ' data-id="' + esc(String(c.id)) + '">🗑 Delete</button>'
+                  + '</div>'
+                  + '</li>';
               }).join('');
             })
             .catch(function () {
@@ -211,6 +223,22 @@
           return;
         }
         showReset(row.article_url, total);
+      }
+
+      var convertBtn = e.target.closest('.fba-btn-convert');
+      if (convertBtn) {
+        showCorrectionModal(
+          convertBtn.dataset.id,
+          convertBtn.dataset.url,
+          convertBtn.dataset.body
+        );
+        return;
+      }
+
+      var delCorrBtn = e.target.closest('.fba-btn-del-corr');
+      if (delCorrBtn) {
+        deleteCorrectionOnly(delCorrBtn.dataset.id);
+        return;
       }
     });
   }
@@ -269,6 +297,112 @@
         btn.disabled = false;
       });
     });
+  }
+
+  /* ── convert correction to GitHub issue ──────────────────────── */
+
+  function showCorrectionModal(corrId, articleUrl, bodyText) {
+    var articleSlug = slug(articleUrl);
+    var filePath    = articleSlug !== '/' ? 'articles/' + articleSlug + '.md' : null;
+    var editUrl     = filePath ? (GITHUB_REPO + '/edit/main/' + filePath) : null;
+
+    var overlay = document.createElement('div');
+    overlay.className = 'fb-overlay';
+    overlay.innerHTML = [
+      '<div class="fb-modal fba-convert-modal">',
+      '<h3 class="fb-modal-title">Convert Correction to GitHub Issue</h3>',
+      '<p class="fb-modal-sub">Article: <strong>' + esc(articleSlug) + '</strong></p>',
+      '<label class="fba-modal-label" for="fba-conv-title">Issue title</label>',
+      '<input class="fba-modal-input" id="fba-conv-title" type="text" value="' + esc('Correction: ' + articleSlug) + '">',
+      '<label class="fba-modal-label" for="fba-conv-body">Issue body (edit as needed)</label>',
+      '<textarea class="fb-textarea" id="fba-conv-body" rows="6">' + esc(bodyText) + '</textarea>',
+      '<label class="fba-modal-check">',
+      '<input type="checkbox" id="fba-conv-delete" checked>',
+      ' Delete correction from database after opening</label>',
+      '<div class="fb-modal-actions">',
+      '<button class="fb-btn fb-cancel" id="fba-conv-cancel">Cancel</button>',
+      editUrl ? '<button class="fb-btn fb-edit" id="fba-conv-edit">Edit file on GitHub \u2197</button>' : '',
+      '<button class="fb-btn fb-submit" id="fba-conv-issue">Open as GitHub Issue \u2197</button>',
+      '</div>',
+      '<div id="fba-conv-status" class="fba-modal-status"></div>',
+      '</div>',
+    ].join('\n');
+
+    document.body.appendChild(overlay);
+
+    var titleInput = overlay.querySelector('#fba-conv-title');
+    var bodyArea   = overlay.querySelector('#fba-conv-body');
+    var delCheck   = overlay.querySelector('#fba-conv-delete');
+    var statusEl   = overlay.querySelector('#fba-conv-status');
+
+    function close() { if (document.body.contains(overlay)) { document.body.removeChild(overlay); } }
+
+    function maybeDelete(cb) {
+      if (!delCheck.checked) { cb(true); return; }
+      if (!getToken()) {
+        statusEl.textContent = 'No admin token saved — correction NOT deleted from database.';
+        delCheck.checked = false;
+        cb(true);
+        return;
+      }
+      fetch(ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'X-Admin-Token': getToken() },
+        body: JSON.stringify({ action: 'delete_correction', id: corrId })
+      })
+      .then(function (r) { return r.json(); })
+      .then(function (data) { if (data.ok) { cb(true); } else { cb(false, data.error || 'unknown'); } })
+      .catch(function (err) { cb(false, err.message); });
+    }
+
+    function openIssue() {
+      var title     = titleInput.value.trim() || ('Correction: ' + articleSlug);
+      var issueBody = bodyArea.value.trim();
+      var issueUrl  = GITHUB_REPO + '/issues/new?title=' + encodeURIComponent(title)
+                    + '&body=' + encodeURIComponent(issueBody);
+      window.open(issueUrl, '_blank', 'noopener,noreferrer');
+      maybeDelete(function (ok, err) {
+        if (!ok) { statusEl.textContent = 'Delete failed: ' + esc(err); return; }
+        close(); init();
+      });
+    }
+
+    overlay.querySelector('#fba-conv-cancel').addEventListener('click', close);
+    overlay.querySelector('#fba-conv-issue').addEventListener('click', openIssue);
+    if (editUrl) {
+      overlay.querySelector('#fba-conv-edit').addEventListener('click', function () {
+        window.open(editUrl, '_blank', 'noopener,noreferrer');
+        maybeDelete(function (ok, err) {
+          if (!ok) { statusEl.textContent = 'Delete failed: ' + esc(err); return; }
+          close(); init();
+        });
+      });
+    }
+    overlay.addEventListener('click', function (e) { if (e.target === overlay) { close(); } });
+    document.addEventListener('keydown', function escH(e) {
+      if (e.key === 'Escape') { close(); document.removeEventListener('keydown', escH); }
+    });
+  }
+
+  /* ── delete single correction ─────────────────────────────────── */
+
+  function deleteCorrectionOnly(corrId) {
+    if (!getToken()) {
+      alert('Enter and save an admin token first — needed to delete entries.');
+      return;
+    }
+    if (!confirm('Delete this correction? This cannot be undone.')) { return; }
+    fetch(ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Admin-Token': getToken() },
+      body: JSON.stringify({ action: 'delete_correction', id: corrId })
+    })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      if (data.ok) { init(); }
+      else { alert('Delete error: ' + (data.error || 'unknown')); }
+    })
+    .catch(function (err) { alert('Request failed: ' + err.message); });
   }
 
   /* ── init ─────────────────────────────────────────────────────── */

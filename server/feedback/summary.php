@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
             exit;
         }
         $stmt = $pdo->prepare(
-            "SELECT body, created_at
+            "SELECT id, body, created_at
                FROM feedback
               WHERE article_url = ?
                 AND feedback_type = 'correction'
@@ -122,6 +122,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
         $stmt = $pdo->prepare('DELETE FROM feedback WHERE article_url = ?');
         $stmt->execute([$article_url]);
+        echo json_encode(['ok' => true, 'deleted' => $stmt->rowCount()]);
+
+    } elseif ($action === 'delete_correction') {
+        $id = isset($input['id']) ? (int)$input['id'] : 0;
+        if ($id <= 0) {
+            http_response_code(422);
+            echo json_encode(['error' => 'Missing or invalid id']);
+            exit;
+        }
+        $stmt = $pdo->prepare("DELETE FROM feedback WHERE id = ? AND feedback_type = 'correction'");
+        $stmt->execute([$id]);
         echo json_encode(['ok' => true, 'deleted' => $stmt->rowCount()]);
 
     } elseif ($action === 'reset_all') {

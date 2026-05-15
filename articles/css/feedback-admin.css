@@ -292,12 +292,99 @@ details.fba-section[open] > summary.fba-section-h::before {
 
 .fba-fix-list {
   margin: 0;
-  padding: 0 0 0 1rem;
+  padding: 0;
   font-size: 0.78rem;
-  list-style: disc;
+  list-style: none;
 }
 
-.fba-fix-list li { margin-bottom: 0.25rem; }
+.fba-fix-item {
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.fba-fix-item:last-child { border-bottom: none; }
+
+.fba-fix-body {
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-bottom: 0.2rem;
+}
+
+.fba-fix-date {
+  display: block;
+  font-size: 0.71rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.35rem;
+}
+
+.fba-fix-actions {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-top: 0.3rem;
+}
+
+.fba-btn-convert {
+  font-size: 0.72rem;
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color);
+}
+
+.fba-btn-convert:hover {
+  background: rgba(63, 81, 181, 0.1);
+}
+
+.fba-btn-del-corr {
+  font-size: 0.72rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.fba-btn-del-corr:hover {
+  border-color: #e53935;
+  color: #e53935;
+  background: rgba(229, 57, 53, 0.08);
+}
+
+/* convert-to-issue modal */
+.fba-convert-modal {
+  max-width: 540px !important;
+  width: min(90vw, 540px) !important;
+}
+
+.fba-modal-label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin: 0.75rem 0 0.25rem;
+  color: var(--md-default-fg-color);
+}
+
+.fba-modal-input {
+  width: 100%;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.3rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font-size: 0.82rem;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.fba-modal-input:focus {
+  outline: none;
+  border-color: var(--md-accent-fg-color);
+}
+
+.fba-modal-check {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  margin: 0.75rem 0 0;
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+}
 
 .fba-fix-list a {
   color: var(--md-primary-fg-color);
