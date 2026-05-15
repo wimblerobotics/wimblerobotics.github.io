@@ -198,3 +198,27 @@
     justify-content: center;
   }
 }
+
+/* ── toast notification ──────────────────────────────────────── */
+
+.fb-toast {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--md-default-fg-color);
+  color: var(--md-default-bg-color);
+  padding: 0.55rem 1.1rem;
+  border-radius: 0.3rem;
+  font-size: 0.82rem;
+  font-family: inherit;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  z-index: 20000;
+  pointer-events: none;
+  animation: fb-toast-in 0.18s ease;
+}
+
+@keyframes fb-toast-in {
+  from { opacity: 0; transform: translateX(-50%) translateY(0.5rem); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}

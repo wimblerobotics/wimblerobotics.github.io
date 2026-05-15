@@ -1,20 +1,19 @@
 /* feedback.js — article feedback buttons for HB Robotics Knowledge Base
  *
  * Injects a feedback bar at the bottom of every article with four actions:
- *   - Correct        → opens a pre-filled GitHub issue (verified-correct label)
- *   - Needs fix      → shows a modal, then opens a pre-filled GitHub issue
- *   - Useful         → opens a pre-filled GitHub issue (useful label)
- *   - Not useful     → opens a pre-filled GitHub issue (needs-improvement label)
+ *   - Correct      → POSTs feedback to the Bluehost endpoint
+ *   - Needs fix    → shows a modal, then POSTs correction text to the endpoint
+ *   - Useful       → POSTs feedback to the Bluehost endpoint
+ *   - Not useful   → POSTs feedback to the Bluehost endpoint
  *
- * The "Needs correction" issue path is the closest a static site can get to
- * generating a pull request; a maintainer reviews the issue and opens the PR.
+ * The correction modal also offers a direct "Edit file on GitHub" link
+ * for readers who want to open a pull request.
  */
 (function () {
   'use strict';
 
-  var REPO      = 'https://github.com/wimblerobotics/wimblerobotics.github.io';
-  var ISSUES    = REPO + '/issues/new';
-  var EDIT_BASE = REPO + '/edit/main/articles/';
+  var SUBMIT_URL = 'https://wimblerobotics.com/feedback/submit.php';
+  var EDIT_BASE  = 'https://github.com/wimblerobotics/wimblerobotics.github.io/edit/main/articles/';
 
   /* ── helpers ─────────────────────────────────────────────────── */
 
@@ -24,13 +23,24 @@
     return d.innerHTML;
   }
 
-  function issueUrl(title, body, labels) {
-    var p = new URLSearchParams({ title: title, body: body, labels: labels });
-    return ISSUES + '?' + p.toString();
-  }
-
   function openTab(url) {
     window.open(url, '_blank', 'noopener,noreferrer');
+  }
+
+  function postFeedback(type, body, info) {
+    fetch(SUBMIT_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ article_url: info.url, feedback_type: type, body: body || null })
+    }).catch(function () { /* silently ignore network errors */ });
+  }
+
+  function showToast(msg) {
+    var t = document.createElement('div');
+    t.className = 'fb-toast';
+    t.textContent = msg;
+    document.body.appendChild(t);
+    setTimeout(function () { if (document.body.contains(t)) { document.body.removeChild(t); } }, 3000);
   }
 
   /* Derive the source file path from the current URL, e.g.
@@ -72,9 +82,8 @@
       '    aria-label="Correction description">',
       '  </textarea>',
       '  <p class="fb-modal-hint">',
-      '    Submitting will open a GitHub issue. A maintainer will review it',
-      '    and open a pull request if a code change is needed.',
-      '    Press <kbd>Ctrl+Enter</kbd> to submit.',
+      '    Your correction is recorded anonymously.',
+      '    Press <kbd>Ctrl+Enter</kbd> to submit, or use "Edit file" to open a pull request.',
       '  </p>',
       '  <div class="fb-modal-actions">',
       '    <button class="fb-btn fb-cancel">Cancel</button>',
@@ -97,10 +106,9 @@
     function close() { document.body.removeChild(overlay); }
 
     function submit() {
-      var desc = textarea.value.trim() || '(no description provided)';
-      var t = 'Correction needed: ' + info.title;
-      var b = '**Article:** ' + info.url + '\n\n**Description:**\n' + desc;
-      openTab(issueUrl(t, b, 'correction,needs-review'));
+      var desc = textarea.value.trim() || null;
+      postFeedback('correction', desc, info);
+      showToast('Thank you — correction noted!');
       close();
     }
 
@@ -146,9 +154,8 @@
     ].join('\n');
 
     bar.querySelector('[data-action="correct"]').addEventListener('click', function () {
-      var t = 'Feedback: Correct – ' + info.title;
-      var b = '**Article:** ' + info.url + '\n\n**Feedback:** This article appears correct and accurate.';
-      openTab(issueUrl(t, b, 'feedback,verified-correct'));
+      postFeedback('correct', null, info);
+      showToast('Thanks for the feedback!');
     });
 
     bar.querySelector('[data-action="fix"]').addEventListener('click', function () {
@@ -156,15 +163,13 @@
     });
 
     bar.querySelector('[data-action="useful"]').addEventListener('click', function () {
-      var t = 'Feedback: Useful – ' + info.title;
-      var b = '**Article:** ' + info.url + '\n\n**Feedback:** This article is useful.';
-      openTab(issueUrl(t, b, 'feedback,useful'));
+      postFeedback('useful', null, info);
+      showToast('Thanks for the feedback!');
     });
 
     bar.querySelector('[data-action="notuseful"]').addEventListener('click', function () {
-      var t = 'Feedback: Needs improvement – ' + info.title;
-      var b = '**Article:** ' + info.url + '\n\n**Feedback:** This article is not very useful and could be improved.';
-      openTab(issueUrl(t, b, 'feedback,needs-improvement'));
+      postFeedback('not-useful', null, info);
+      showToast('Thanks for the feedback!');
     });
 
     return bar;
