@@ -33,7 +33,7 @@ Teensy boards are common in hobby and semi-professional robot builds because the
 ## Corroborating References
 
 - [PlatformIO documentation](https://docs.platformio.org/)
-- [micro-ROS documentation](https://micro.ros.org/)
+- [micro-ROS documentation](https://micro.vulcanexus.org/)
 
 ## When to Read the Original Source
 

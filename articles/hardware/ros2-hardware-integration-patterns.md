@@ -40,7 +40,7 @@ Robots fail at the hardware-software boundary more often than tutorials admit. O
 
 ## Corroborating References
 
-- [micro-ROS overview](https://micro.ros.org/docs/overview/)
+- [micro-ROS overview](https://micro.vulcanexus.org/docs/overview/)
 - [PlatformIO documentation](https://docs.platformio.org/)
 - [ROS 2 diagnostics stack repository](https://github.com/ros/diagnostics)
 

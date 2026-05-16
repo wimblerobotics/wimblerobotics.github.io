@@ -32,8 +32,8 @@ micro-ROS gives embedded devices a path into the ROS 2 ecosystem, but it changes
 
 ## Corroborating References
 
-- [micro-ROS documentation](https://micro.ros.org/)
-- [micro-ROS tutorials](https://micro.ros.org/docs/tutorials/core/first_application_rtos/freertos/)
+- [micro-ROS documentation](https://micro.vulcanexus.org/)
+- [micro-ROS tutorials](https://micro.vulcanexus.org/docs/tutorials/core/first_application_rtos/freertos/)
 
 ## When to Read the Original Source
 

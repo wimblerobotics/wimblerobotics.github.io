@@ -32,7 +32,7 @@ I2C is common for small sensors, but it is easy to underestimate the operational
 
 ## Corroborating References
 
-- [micro-ROS documentation](https://micro.ros.org/)
+- [micro-ROS documentation](https://micro.vulcanexus.org/)
 - [ROS 2 hardware interface concepts](https://control.ros.org/)
 
 ## When to Read the Original Source
